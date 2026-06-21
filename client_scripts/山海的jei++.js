@@ -1,4 +1,5 @@
 (function() {
+var DShanhaiItemTooltipAPI = Java.loadClass('com.dishanhai.gt_shanhai.api.DShanhaiItemTooltipAPI');
 Java.loadClass('com.dishanhai.gt_shanhai.test.WidthTest').run()
 var c = ShanhaiText.styled('测试', 'ultimate');
   console.log('styled result: ' + c);
@@ -164,42 +165,36 @@ e.addAdvanced('dishanhai:wzcz2', function(item, advanced, text) {
 });
 })
 
-ItemEvents.tooltip(function(e) {
-    e.addAdvanced('dishanhai:big_tear', function(item, advanced, text) {
-        if (e.shift) {
-            addLore(text, [
-                { text: '蓝星文明技术资料存档', style: 'water' },
-                { text: '编号：■■■ / 解密序列：■■■■ / 超宇宙统一理论验证后解锁', bodyStyle: 'silver' },
-                { text: '警告：请再次确定解锁条件，否则将遭遇攻性防壁自动反击', style: 'crimson' },
-                { text: '---- 解锁成功 · 空想模式已浸入宇宙常数 ----', style: 'nature' },
-                { text: '---- 空想冲击危害关闭 · 权限已给定 ----', style: 'magic' },
-                { text: '' },
-                { text: '方舟储备的重元素富足，方舟成功将大撕裂对冲至反宇宙。', bodyStyle: 'silver' },
-                { text: '大反冲的时代来临了。正宇宙以更快的速度坍缩……', bodyStyle: 'silver' },
-                { text: '一个物资极度集中的天国将在宇宙中心生成。', bodyStyle: 'silver' },
-                { text: '' },
-                { text: '> 超宇宙统一理论验证完成 <', bodyStyle: 'silver' },
-                { text: '> 全体系超速进化 <', bodyStyle: 'silver' },
-                { text: '> 模式五准备完毕 <', bodyStyle: 'silver' },
-                { text: '> 空想模式启动 · 浸入宇宙常数 <', bodyStyle: 'silver' },
-                { text: '> 蓝星统合体已现世 <', bodyStyle: 'silver' },
-                { text: '' },
-                { text: '最终，您凌驾于所有文明之上，', style: 'golden' },
-                { text: '塑造属于自己的……', style: 'golden' },
-                { text: '' },
-                { text: '【蓝星乌托邦】', style: 'golden' },
-                { text: '' },
-                { text: '[最高指挥官■■无名] · 终焉记录', bodyStyle: 'silver' }
-            ]);
-        } else {
-            text.add('§8§o「蓝星乌托邦」—— 大反冲后的理想乡');
-            text.add('§f§c空想时代的终极产物，宇宙坍缩的中心，万物归一的天国。');
-            text.add('§c“当你凝视它时，你看见的并非天堂，而是文明所能抵达的极限。”');
-            text.add('§6§l—— [蓝星统合体·协议] · 统御记录');
-            text.add('§8§o§l§n按住 SHIFT 查看完整档案§r');
-        }
-    });
-});
+DShanhaiItemTooltipAPI.registerShiftLines('dishanhai:big_tear', [
+    '{water}蓝星文明技术资料存档{/}',
+    '{body_silver}编号：■■■ / 解密序列：■■■■ / 超宇宙统一理论验证后解锁{/}',
+    '{crimson}警告：请再次确定解锁条件，否则将遭遇攻性防壁自动反击{/}',
+    '{nature}---- 解锁成功 · 空想模式已浸入宇宙常数 ----{/}',
+    '{magic}---- 空想冲击危害关闭 · 权限已给定 ----{/}',
+    '',
+    '{body_silver}方舟储备的重元素富足，方舟成功将大撕裂对冲至反宇宙。{/}',
+    '{body_silver}大反冲的时代来临了。正宇宙以更快的速度坍缩……{/}',
+    '{body_silver}一个物资极度集中的天国将在宇宙中心生成。{/}',
+    '',
+    '{body_silver}> 超宇宙统一理论验证完成 <{/}',
+    '{body_silver}> 全体系超速进化 <{/}',
+    '{body_silver}> 模式五准备完毕 <{/}',
+    '{body_silver}> 空想模式启动 · 浸入宇宙常数 <{/}',
+    '{body_silver}> 蓝星统合体已现世 <{/}',
+    '',
+    '{golden}最终，您凌驾于所有文明之上，{/}',
+    '{golden}塑造属于自己的……{/}',
+    '',
+    '{golden}【蓝星乌托邦】{/}',
+    '',
+    '{body_silver}[最高指挥官■■无名] · 终焉记录{/}'
+], [
+    '§8§o「蓝星乌托邦」—— 大反冲后的理想乡',
+    '§f§c空想时代的终极产物，宇宙坍缩的中心，万物归一的天国。',
+    '§c“当你凝视它时，你看见的并非天堂，而是文明所能抵达的极限。”',
+    '§6§l—— [蓝星统合体·协议] · 统御记录',
+    '§8§o§l§n按住 SHIFT 查看完整档案§r'
+]);
 
 DShanhaiItemTooltipAPI.registerShiftLines('dishanhai:time_reversal_protocol', [
     '{ultimateRainbow}蓝星文明技术资料存档{/}',
