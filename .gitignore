@@ -11,17 +11,54 @@ server_scripts/ores.js
 server_scripts/tag.js
 server_scripts/无线懒狗版2.js
 server_scripts/超级AE包.js
-server_scripts/[server_scripts]*
+server_scripts/[server_scripts]/**
 client_scripts/key.js
 client_scripts/tips.js
-client_scripts/[client_scripts]*
+client_scripts/[client_scripts]/**
 startup_scripts/block.js
 startup_scripts/item.js
 startup_scripts/key.js
 startup_scripts/ores.js
 startup_scripts/tips.js
-startup_scripts/[startup_scripts]*
+startup_scripts/[startup_scripts]/**
 
 # 自动生成的资源文件
 assets/kubejs/
 sync.bat
+
+# 其他mod资源（非山海）
+assets/ad_astra/
+assets/ad_astra_rocketed/
+assets/ae2/
+assets/assembly_line_distorter/
+assets/forge/
+assets/ftb*/
+assets/gtceu/
+assets/laserio/
+assets/mae2/
+assets/shrink/
+assets/sodium/
+assets/thetornproductionline/
+assets/usclb/
+assets/kubejs/
+
+# 自动生成/工具文件
+README.txt
+.idea/
+data/
+config/
+*.backup
+*.backup2
+sync.bat
+server_scripts/[server_scripts]dgy.js
+server_scripts/[server_scripts]产线撕裂.js
+server_scripts/[server_scripts]产线爆破.js
+client_scripts/[client_scripts]dgy.js
+startup_scripts/[startup_scripts]dgy.js
+startup_scripts/[startup_scripts]产线撕裂.js
+server_scripts/\[server_scripts\]dgy.js
+server_scripts/\[server_scripts\]产线撕裂.js
+server_scripts/\[server_scripts\]产线爆破.js
+startup_scripts/\[startup_scripts\]dgy.js
+startup_scripts/\[startup_scripts\]产线撕裂.js
+client_scripts/\[client_scripts\]dgy.js
