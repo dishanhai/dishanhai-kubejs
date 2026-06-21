@@ -1,0 +1,11 @@
+{
+    "music_disc.gtl": {
+        "category": "record",
+        "sounds": [
+            {
+                "name": "dishanhai:gtl_music",
+                "stream": true
+            }
+        ]
+    }
+}
