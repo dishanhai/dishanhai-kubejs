@@ -1,5 +1,51 @@
 (function() {
 StartupEvents.modifyCreativeTab("expatternprovider:tab_main", e => {
+    var ForgeRegistries = Java.loadClass('net.minecraftforge.registries.ForgeRegistries');
+    var FlowingFluid = Java.loadClass('net.minecraft.world.level.material.FlowingFluid');
+
+    function shanhai$getSourceFluidId(fluid) {
+        try {
+            if (FlowingFluid.class.isInstance(fluid)) {
+                var source = fluid.getSource();
+                var sourceId = ForgeRegistries.FLUIDS.getKey(source);
+                if (sourceId != null) return String(sourceId);
+            }
+        } catch (ignored) {}
+        var id = ForgeRegistries.FLUIDS.getKey(fluid);
+        return id != null ? String(id) : '';
+    }
+
+    function shanhai$buildGtceuAllFluidSDA() {
+        var seen = {};
+        var entries = [];
+        var keys = ForgeRegistries.FLUIDS.getKeys().iterator();
+        while (keys.hasNext()) {
+            var key = keys.next();
+            var rawId = String(key);
+            if (rawId.indexOf('gtceu:') !== 0) continue;
+            if (/^gtceu:flowing_/.test(rawId)) continue;
+            var fluid = ForgeRegistries.FLUIDS.getValue(key);
+            if (fluid == null) continue;
+            var id = shanhai$getSourceFluidId(fluid);
+            if (!id || id.indexOf('gtceu:') !== 0 || seen[id]) continue;
+            seen[id] = true;
+            entries.push('1x expatternprovider:infinity_cell@' + id);
+        }
+        entries.sort();
+        return DShanhaiNBTAPI.buildSDAFromList(
+            entries,
+            'GTCEu全流体无限阵列-去流动版',
+            ['§7临时重输出：仅保留GTCEu源流体', '§7已封杀 flowing_* 流体ID', '§7流体种类: §e' + entries.length],
+            []
+        );
+    }
+
+    try {
+        e.add(Item.of('gt_shanhai:super_disk_array', shanhai$buildGtceuAllFluidSDA()));
+    } catch (err) {
+        console.error('[山海SDA] GTCEu全流体无限阵列生成失败: ' + err);
+    }
+
     // 无限流体
     const Inf_Fluid = [
         //无限流体

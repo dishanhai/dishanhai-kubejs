@@ -1197,6 +1197,7 @@ e.create('dishanhai:time_reversal_protocol')
             "{bodySilver}并行宇宙的理论，在它面前不过是跳板。{/}",
             "{aurora}线程倍率: ×16{/}"
         ]);
+
     // 超越
         e.create('dishanhai:thread_shard_4')
         .displayName('&$magic-世线残片·超越')
@@ -2368,18 +2369,20 @@ DShanhaiItemTooltipAPI.register('dishanhai:neutronium_coin', [
     '{bodySilver}用于终极交易——据说连重力都能买通{/}',
 ])
 
+e.create('dishanhai:neutron_coin')
+  .displayName('宇宙中子GT币')
+  .texture('dishanhai_item:item/neutron_coin')
+DShanhaiItemTooltipAPI.register('dishanhai:neutron_coin', [
+    '{golden}宇宙中子GT币{/}',
+])
+
 e.create('dishanhai:infinite_coin')
   .displayName('无尽GT币')
   .texture('dishanhai_item:item/infinite_coin')
 
-e.create('dishanhai:quantum_coin')
-  .displayName('量子币')
-  .texture('dishanhai_item:item/quantum_coin')
-DShanhaiItemTooltipAPI.register('dishanhai:quantum_coin', [
-    '{golden}量子币{/}',
-    '{bodySilver}由量子态构成，文字无法描述其内核{/}',
-])
-
+e.create('dishanhai:coin_secondary')
+  .displayName('虚无GT币')
+  .texture('dishanhai_item:item/coin_secondary')
 
 
 e.create('dishanhai:stupid_coin')
@@ -2746,20 +2749,12 @@ global.__shanhai_item_tags__ = {
 };
 
 // 无限单元格模板（供 NBT 构建使用）
-function _infinityCell(innerId, type) {
-    var itemType = type || 'i';
-    if (innerId === 'gtceu:stellar_energy_rocket_fuel' || innerId === 'gtceu:hydrogen' || innerId === 'gtceu:helium') itemType = 'f';
-    return ',"tag":{"record":{"#c":"ae2:' + itemType + '","id":"' + innerId + '"}}';
-}
-
+// Java 侧 DShanhaiNBTAPI.getTag 已自动查 Forge 注册表判断 fluid/item，无需 KJS 手动注册
 // 注册 NBT 到 Java 侧（供 DShanhaiPackRegistry.buildNBT 查询）
 try {
     for (var _nbtKey in global.__shanhai_item_tags__) {
         DShanhaiNBTAPI.put(_nbtKey, global.__shanhai_item_tags__[_nbtKey]);
     }
-    DShanhaiNBTAPI.put('expatternprovider:infinity_cell@gtceu:stellar_energy_rocket_fuel', _infinityCell('gtceu:stellar_energy_rocket_fuel'));
-    DShanhaiNBTAPI.put('expatternprovider:infinity_cell@gtceu:hydrogen', _infinityCell('gtceu:hydrogen'));
-    DShanhaiNBTAPI.put('expatternprovider:infinity_cell@gtceu:helium', _infinityCell('gtceu:helium'));
 } catch(_e) {}
 
 // 获取NBT标签的统一接口（委托 Java 侧 DShanhaiNBTAPI 处理，更高效）
@@ -2797,13 +2792,16 @@ function _buildPackSDANBT(itemList, displayName, lore) {
     }
 }
 
+DShanhaiNBTAPI.putStack(Item.of('gt_shanhai:super_disk_array', '{internalCurrentPower:20000.0d}'),'SDA_power_20000d');
+
 // ========== 超级AE包 ==========
 var superAEItems = [
     '1x constructionwand:infinity_wand','16777216x expatternprovider:ex_pattern_provider','1x gtceu:echoite_vajra','4x expatternprovider:ex_pattern_access_part','16777216x expatternprovider:ex_import_bus_part','16777216x expatternprovider:ex_export_bus_part','10x ironfurnaces:unobtainium_furnace','16x expatternprovider:ex_drive','1x mekanism:mekasuit_helmet','1x mekanism:mekasuit_bodyarmor','1x mekanism:mekasuit_pants','1x mekanism:mekasuit_boots','3x ae2:quantum_entangled_singularity','1x gtmadvancedhatch:net_data_stick','1x ae2:portable_item_cell_1k','1x gtmadvancedhatch:adaptive_net_energy_terminal','16777216x gtmadvancedhatch:adaptive_net_laser_source_hatch','16777216x gtmadvancedhatch:adaptive_net_energy_output_hatch','1x ae2wtlib:wireless_universal_terminal','16777216x expatternprovider:wireless_connect','4x ae2:pattern_encoding_terminal','16777216x gtceu:me_input_hatch','16777216x ae2:capacity_card','1x ae2:wireless_access_point','4x minecraft:flint_and_steel','1x sov:spear_of_void','100x avaritia:star_fuel','1x ironfurnaces:augment_generator','16777216x ae2:fuzzy_card','16777216x minecraft:orange_dye',
     '16777216x minecraft:light_gray_dye','16777216x minecraft:light_blue_dye','16777216x ae2:void_card','16777216x minecraft:gray_dye','16777216x ae2:basic_card','16777216x ae2:equal_distribution_card','16777216x minecraft:magenta_dye','16777216x ae2:crafting_card','16777216x ae2:inverter_card','16777216x ae2:speed_card','32x ae2:creative_energy_cell','16777216x ae2:quantum_link','16777216x ae2:quantum_ring','16777216x gtceu:me_input_bus','16777216x expatternprovider:assembler_matrix_glass','16777216x ae2:crafting_terminal','16777216x expatternprovider:ex_interface','16777216x ae2:fluix_smart_cable','16777216x ae2:fluix_glass_cable','16777216x ae2:fluix_covered_dense_cable','16777216x ae2:fluix_smart_dense_cable','16777216x ae2:blank_pattern','16777216x minecraft:pink_dye','16777216x minecraft:purple_dye','16777216x minecraft:red_dye','16777216x ae2:cable_anchor','16777216x ae2:redstone_card','16777216x ae2:logic_processor','16777216x ae2:calculation_processor','16777216x ae2:engineering_processor',
     '16777216x minecraft:black_dye','16777216x minecraft:yellow_dye','16777216x minecraft:green_dye','16777216x minecraft:blue_dye','16777216x minecraft:lime_dye','16777216x ae2:advanced_card','16777216x minecraft:cyan_dye','16777216x minecraft:white_dye','16777216x ae2:quartz_fiber','16777216x expatternprovider:ex_io_port','16777216x ae2:level_emitter','16777216x ae2:toggle_bus','16777216x gtladditions:infinity_input_dual_hatch','16777216x gtladditions:me_super_pattern_buffer','16777216x gtladditions:me_super_pattern_buffer_proxy','16777216x gtceu:uv_dual_output_hatch','16777216x gtceu:uv_dual_input_hatch','16777216x gtceu:me_extended_export_buffer','16777216x gtceu:me_extended_async_export_buffer','16777216x gtceu:tag_filter_me_stock_bus_part_machine','16777216x gtceu:me_dual_hatch_stock_part_machine','1024x extendedae_plus:1024x_crafting_accelerator','16777216x extendedae_plus:labeled_wireless_transceiver','16777216x merequester:requester','16777216x extendedae_plus:wireless_transceiver','16777216x extendedae_plus:channel_card',
     '16777216x expatternprovider:ex_interface_part','16777216x expatternprovider:ex_pattern_provider_part','16777216x expatternprovider:tag_storage_bus','16777216x ae2:storage_bus','16777216x ae2_toggleable_view_cell:toggleable_view_cell','16777216x ae2:fluix_covered_cable','16777216x gtmadvancedhatch:adaptive_net_energy_input_hatch','16777216x gtmadvancedhatch:adaptive_net_laser_target_hatch','16777216x ae2:energy_card','4x extendedae_plus:infinity_biginteger_cell','4x merequester:requester_terminal','16777216x extendedae_plus:virtual_crafting_card','1x gtlcore:fast_infinity_cell','4x gtlcore:debug_pattern_test','4x gtlcore:pattern_modifier','4x expatternprovider:pattern_modifier','4x gtlcore:me_pattern_buffer_cut','4x gtlcore:me_pattern_buffer_copy','32x gtlcore:max_storage','32x mae2:256x_crafting_accelerator','4x expatternprovider:wireless_tool','16777216x travelanchors:travel_anchor','4x travelanchors:travel_staff','16777216x gtladditions:wireless_energy_network_input_terminal','16777216x gtladditions:wireless_energy_network_output_terminal','16777216x aewireless:wireless_transceiver','10000000x ae2:fluix_crystal','10240000x ae2:certus_quartz_crystal','10240000x ae2:charged_certus_quartz_crystal','10240000x ae2:certus_quartz_dust',
-    '10240000x gtceu:certus_quartz_dust','10240000x gtceu:certus_quartz_gem','1x sophisticatedbackpacks:netherite_backpack','1x fluxnetworks:flux_controller','1024000x fluxnetworks:flux_point','1024000x fluxnetworks:flux_plug','1x gtceu:molecular_assembler_matrix','1x gtceu:me_molecular_assembler_io','70x gtlcore:advanced_assembly_line_unit','320x gtlcore:iridium_casing','80x gtlcore:hyper_mechanical_casing','84x gtlcore:molecular_casing','20x gtceu:hsse_frame','56x gtceu:naquadah_alloy_frame','78x gtceu:trinium_frame','36x gtceu:europium_frame','306x gtceu:high_power_casing','48x gtceu:advanced_computer_casing','36x gtceu:fusion_glass','104x gtceu:superconducting_coil','17x gtceu:assembly_line_casing','32x gtceu:assembly_line_grating','90x gtceu:large_scale_assembler_casing','1x gtlcore:ultimate_terminal','10240000x gtmadvancedhatch:max_configurable_dual_hatch_input_16p','5x gtceu:me_craft_speed_core','20x gtceu:me_craft_pattern_container','64x gtceu:me_craft_parallel_core','1x ae2wtlib:magnet_card','1x ae2_ftbquest_detector:me_quests_detector','1x useless_mod:endless_beaf_item','16777216x ae2cs:ender_emitter',"2x ae2cs:ender_linker","16777216x ae2cs:ender_broadcaster"
+    '10240000x gtceu:certus_quartz_dust','10240000x gtceu:certus_quartz_gem','1x sophisticatedbackpacks:netherite_backpack','1x fluxnetworks:flux_controller','1024000x fluxnetworks:flux_point','1024000x fluxnetworks:flux_plug','1x gtceu:molecular_assembler_matrix','1x gtceu:me_molecular_assembler_io','70x gtlcore:advanced_assembly_line_unit','320x gtlcore:iridium_casing','80x gtlcore:hyper_mechanical_casing','84x gtlcore:molecular_casing','20x gtceu:hsse_frame','56x gtceu:naquadah_alloy_frame','78x gtceu:trinium_frame','36x gtceu:europium_frame','306x gtceu:high_power_casing','48x gtceu:advanced_computer_casing','36x gtceu:fusion_glass','104x gtceu:superconducting_coil','17x gtceu:assembly_line_casing','32x gtceu:assembly_line_grating','90x gtceu:large_scale_assembler_casing','1x gtlcore:ultimate_terminal','10240000x gtmadvancedhatch:max_configurable_dual_hatch_input_16p','5x gtceu:me_craft_speed_core','20x gtceu:me_craft_pattern_container','64x gtceu:me_craft_parallel_core','1x ae2wtlib:magnet_card','1x ae2_ftbquest_detector:me_quests_detector','1x useless_mod:endless_beaf_item','16777216x ae2cs:ender_emitter',"2x ae2cs:ender_linker","16777216x ae2cs:ender_broadcaster",
+    '16x gt_shanhai:super_disk_array'
 ];
 
 // 预排序，确保跨端一致（JEI/recipe 数组顺序始终相同）
@@ -2821,204 +2819,68 @@ var superAELore = [
 var skyBaseItems = [
     '1x gtladditions:space_infinity_integrated_ore_processor','426x gtlcore:power_module_7','6364x gtlcore:space_elevator_support','354x gtlcore:iridium_casing','2020x gtlcore:space_elevator_mechanical_casing','2x gtceu:infinity_frame','788x kubejs:space_elevator_internal_support','7347x kubejs:high_strength_concrete','1x kubejs:dimensional_bridge_casing','1x expatternprovider:infinity_cell@gtceu:stellar_energy_rocket_fuel'
 ];
-/*
-// ============================================================
-//  山海的物品注册.js  —— 分支礼包系统
-// ============================================================
 
-// ========== 1. 固定通用礼包：猪咪大礼包 ==========
-var piggyItems = [
-    '1x dishanhai:piggy',
-    '1x gtladditions:forge_of_the_antichrist',
-    '397x gtladditions:central_graviton_flow_regulator',
-    '357x gtladditions:mediary_graviton_flow_regulator',
-    '345x gtladditions:remote_graviton_flow_regulator',
-    '11008x gtladditions:suprachronal_magnetic_confinement_casing',
-    '6566x gtladditions:god_forge_trim_casing',
-    '162x gtladditions:god_forge_support_casing',
-    '824x gtladditions:god_forge_inner_casing',
-    '155x gtladditions:spatially_transcendent_gravitational_lens',
-    '1x expatternprovider:infinity_cell@gtceu:hydrogen',
-    '1x expatternprovider:infinity_cell@gtceu:helium',
-    '2x gtladditions:arcanic_astrograph',
-    '1068x gtlcore:dimension_injection_casing',
-    '1792x gtlcore:create_casing',
-    '66x gtceu:high_power_casing',
-    '336x kubejs:dimension_creation_casing',
-    '96x kubejs:dimensional_stability_casing',
-    '276x kubejs:spacetime_compression_field_generator',
-    '100x gtladditions:phonon_conduit',
-    '420x gtladditions:suprachronal_magnetic_confinement_casing',
-    '720x gtladditions:god_forge_trim_casing',
-    '500x gtladditions:god_forge_support_casing',
-    '56x gtladditions:god_forge_energy_casing',
-    '1x gtladditions:heliophase_leyline_crystallizer',
-    '3x gtladditions:heliothermal_plasma_fabricator',
-    '10x gtladditions:heliofusion_exoticizer',
-    '2x gtladditions:heliofluix_melting_core',
-    '4x gtladditions:helioflare_power_forge',
-    '1x gtladditions:apocalyptic_torsion_quantum_matrix',
-    '864x gtladditions:quantum_glass',
-    '11520x gtlcore:qft_coil',
-    '216x gtlcore:spacetimecontinuumripper',
-    '10927x gtlcore:dimensionally_transcendent_casing',
-    '6285x gtlcore:manipulator',
-    '841x kubejs:dimensional_bridge_casing',
-    '4x gtladditions:thread_modifier_hatch',
-    '1x gtladditions:macro_atomic_resonant_fragment_stripper',
-    '4230x gtlcore:qft_coil',
-    '1718x gtlcore:sps_casing',
-    '5507x gtlcore:hyper_mechanical_casing',
-    '937x gtlcore:echo_casing',
-    '218x gtlcore:fusion_casing_mk5',
-    '360x gtceu:quantumchromodynamically_confined_matter_frame',
-    '786x gtceu:neutronium_frame',
-    '627x gtceu:high_power_casing',
-    '1086x gtceu:fusion_glass',
-    '344x kubejs:eternity_coil_block',
-    '156x kubejs:dyson_receiver_casing',
-    '666x kubejs:dyson_control_toroid',
-    '66x kubejs:dyson_control_casing',
-    '8x kubejs:dimensional_stability_casing',
-    '162x kubejs:dimensional_bridge_casing',
-    '24x kubejs:annihilate_core'
+let version = Platform.mods['gtladditions'].version;
+if (version) {
+    let isCustom = version.contains('Custom_SubSpace') || version.contains('Custom');
+    let isSubSpace = version.contains('Custom_SubSpace');
+    console.log('gtladditions version: ' + version + ' | isCustom: ' + isCustom + ' | isSubSpace: ' + isSubSpace);
+}
+        // SubSpace 专属物品清单
+        var subSpaceItems = ["165429x gtlcore:iridium_casing","145965x gtlcore:oxidation_resistant_hastelloy_n_mechanical_casing","103818x gtlcore:space_elevator_support","58650x gtceu:high_temperature_smelting_casing","48837x kubejs:space_elevator_internal_support","40115x kubejs:high_strength_concrete","26923x gtceu:nonconducting_casing","15983x gtlcore:antifreeze_heatproof_machine_casing","11532x gtladditions:gravity_stabilization_casing","7552x gtladditions:extreme_density_casing","6524x gtlcore:naquadah_alloy_casing","5136x gtlcore:compressed_fusion_coil_mk2","4586x kubejs:containment_field_generator","3299x gtceu:fusion_casing","1616x gtlcore:enhance_hyper_mechanical_casing","1610x kubejs:dimensional_bridge_casing","1164x gtlcore:ultimate_stellar_containment_casing","1126x gtlcore:echo_casing","892x gtceu:fusion_glass","808x gtceu:plascrete","556x gtlcore:dimensionally_transcendent_casing","551x kubejs:force_field_glass","368x gtlcore:dimension_injection_casing","362x gtlcore:dragon_strength_tritanium_casing","278x kubejs:module_base","184x gtlcore:power_core","138x kubejs:module_connector","95x gtlcore:sps_casing","80x gtceu:computer_casing","77x gtlcore:hyper_core","58x gtceu:computer_heat_vent","41x gtceu:advanced_computer_casing","15x kubejs:magic_core","13x kubejs:spacetime_assembly_line_casing","9x kubejs:molecular_coil","9x kubejs:spacetime_assembly_line_unit","9x gtlcore:super_computation_component","5x gtceu:high_power_casing","3x kubejs:restraint_device","1x gtladditions:subspace_corridor_hub_industrial_array"];
+        // Custom-fix3 专属物品清单
+        var customItems = ['1x gtladditions:light_hunter_space_station','4643x gtladditions:gravity_stabilization_casing','1348x gtladditions:extreme_density_casing','208x gtlcore:ultimate_stellar_containment_casing','120x gtlcore:super_computation_component','27x gtlcore:hyper_core','9558x gtlcore:naquadah_alloy_casing','80x gtlcore:sps_casing','720x gtlcore:enhance_hyper_mechanical_casing','293x gtlcore:dragon_strength_tritanium_casing','666x gtlcore:echo_casing','4094x gtlcore:dimensionally_transcendent_casing','5884x gtlcore:dimension_injection_casing','224x gtlcore:molecular_casing','120x gtlcore:improved_superconductor_coil','176x gtlcore:fusion_casing_mk5','64x gtlcore:fusion_casing_mk4','2400x gtlcore:uxv_hermetic_casing','1073x ae2:quartz_vibrant_glass','560x gtceu:neutronium_frame','454x gtceu:high_power_casing','230x gtceu:computer_heat_vent','258x gtceu:advanced_computer_casing','3528x gtceu:fusion_glass','144x gtceu:uhv_ultimate_battery','1029x gtceu:uxv_machine_casing','180x gtceu:uiv_machine_casing','2528x gtceu:uhv_machine_casing','3651x gtceu:atomic_casing','1440x kubejs:restraint_device','280x kubejs:containment_field_generator','1500x kubejs:spacetime_assembly_line_unit','12x kubejs:force_field_glass','20x kubejs:module_connector','1038x kubejs:dimensional_bridge_casing','34x kubejs:neutronium_pipe_casing'];
+
+const astralConvergenceNexusItems = [
+  "29x gtlcore:space_elevator_mechanical_casing",
+  "9x kubejs:module_base",
+  "1x kubejs:module_connector",
+  "1x gtladditions:nebula_reaper",
+  "30x gtlcore:space_elevator_mechanical_casing", "9x kubejs:module_base", "1x kubejs:module_connector", "1x gtladditions:astral_convergence_nexus"
 ];
 
-// ========== 2. 获取版本并判断分支 ==========
-var modId = 'gtladditions';
-var branchItems = [];          // 暂存专属物品
-var version = null;
+const newAstralConvergenceNexusItems = astralConvergenceNexusItems.map(item => 
+  item.replace(/^(\d+)x/, (match, num) => `${parseInt(num, 10) * 10}x`)
+);
 
-if (Platform.isLoaded(modId)) {
-    // 遍历所有模组，查找 gtladditions
-    var mods = Platform.getMods();
-    for (var i = 0; i < mods.size(); i++) {
-        var mod = mods.get(i);
-        if (mod.getModId() === modId) {
-            version = mod.getVersion().toString();
-            break;
-        }
-    }
-}
+let satelliteFactoryItems = [
+  "1x gtladditions:nexus_satellite_factory_mk1","1x gtladditions:nexus_satellite_factory_mk2","1x gtladditions:nexus_satellite_factory_mk3","1x gtladditions:nexus_satellite_factory_mk4","12x gtlcore:dimensionally_transcendent_casing", "2x kubejs:module_base", "1x kubejs:module_connector"
+];
 
-if (version !== null) {
-    console.log('检测到 gtladditions 版本: ' + version);
+let SatelliteFactoryItems = satelliteFactoryItems.map(item => 
+  item.replace(/^(\d+)x/, (match, num) => `${parseInt(num, 10) * 20}x`)
+);
 
-    if (version.includes('Custom_SubSpace')) {
-        console.log('✅ 当前为 SubSpace 分支');
-        // SubSpace 专属物品清单
-        var subSpaceItems = [
-            "165429x gtlcore:iridium_casing",
-            "145965x gtlcore:oxidation_resistant_hastelloy_n_mechanical_casing",
-            "103818x gtlcore:space_elevator_support",
-            "58650x gtceu:high_temperature_smelting_casing",
-            "48837x kubejs:space_elevator_internal_support",
-            "40115x kubejs:high_strength_concrete",
-            "26923x gtceu:nonconducting_casing",
-            "15983x gtlcore:antifreeze_heatproof_machine_casing",
-            "11532x gtladditions:gravity_stabilization_casing",
-            "7552x gtladditions:extreme_density_casing",
-            "6524x gtlcore:naquadah_alloy_casing",
-            "5136x gtlcore:compressed_fusion_coil_mk2",
-            "4586x kubejs:containment_field_generator",
-            "3299x gtceu:fusion_casing",
-            "1616x gtlcore:enhance_hyper_mechanical_casing",
-            "1610x kubejs:dimensional_bridge_casing",
-            "1164x gtlcore:ultimate_stellar_containment_casing",
-            "1126x gtlcore:echo_casing",
-            "892x gtceu:fusion_glass",
-            "808x gtceu:plascrete",
-            "556x gtlcore:dimensionally_transcendent_casing",
-            "551x kubejs:force_field_glass",
-            "368x gtlcore:dimension_injection_casing",
-            "362x gtlcore:dragon_strength_tritanium_casing",
-            "278x kubejs:module_base",
-            "184x gtlcore:power_core",
-            "138x kubejs:module_connector",
-            "95x gtlcore:sps_casing",
-            "80x gtceu:computer_casing",
-            "77x gtlcore:hyper_core",
-            "58x gtceu:computer_heat_vent",
-            "41x gtceu:advanced_computer_casing",
-            "15x kubejs:magic_core",
-            "13x kubejs:spacetime_assembly_line_casing",
-            "9x kubejs:molecular_coil",
-            "9x kubejs:spacetime_assembly_line_unit",
-            "9x gtlcore:super_computation_component",
-            "5x gtceu:high_power_casing",
-            "3x kubejs:restraint_device",
-            "1x gtladditions:subspace_corridor_hub_industrial_array"
-        ];
-        global.subSpaceItems = subSpaceItems;   // 可选，挂载到全局备用
-        branchItems = subSpaceItems;
+let extendItems = (Platform.isLoaded("gtl_extend") && ["46378x gtlcore:hyper_mechanical_casing", "7802x gtlcore:dimensionally_transcendent_casing", "2141x gtceu:high_power_casing", "730x gtlcore:dimension_connection_casing", "696x kubejs:annihilate_core", "560x gtlcore:graviton_field_constraint_casing", "368x gtlcore:enhance_hyper_mechanical_casing", "303x gtlcore:power_module_5", "164x gtceu:naquadria_frame", "156x gtceu:white_borderless_lamp", "153x kubejs:spacetime_compression_field_generator", "87x kubejs:dimension_creation_casing", "20x kubejs:create_hpca_component", "1x gtl_extend:black_hole_matter_decompressor", "1x kubejs:create_aggregatione_core","1211x gtceu:reaction_safe_mixing_casing", "1059x gtceu:inert_machine_casing", "992x gtceu:solid_machine_casing", "932x gtceu:steam_machine_casing", "81x gtceu:cupronickel_coil_block", "59x minecraft:oak_planks", "42x gtlcore:aluminium_bronze_casing", "27x gtceu:tempered_glass", "1x gtl_extend:czyhfdj","2177x gtceu:clean_machine_casing", "2112x kubejs:abyssalalloy_coil_block", "1212x gtceu:heatproof_machine_casing", "120x gtceu:stainless_steel_turbine_casing", "1x gtl_extend:dimensionally_transcendent_dissolving_tank","2869x gtceu:tritanium_frame", "1400x gtlcore:iridium_casing", "1081x gtceu:clean_machine_casing", "420x gtceu:fusion_glass", "324x minecraft:glowstone", "239x gtceu:cupronickel_coil_block", "196x gtceu:ev_machine_casing", "192x gtceu:computer_heat_vent", "175x gtceu:advanced_computer_casing", "132x gtlcore:super_cooler_component", "88x kubejs:containment_field_generator", "82x gtceu:high_power_casing", "69x ae2:quartz_vibrant_glass", "46x gtceu:laser_safe_engraving_casing", "41x gtlcore:hsss_reinforced_borosilicate_glass", "19x minecraft:chain", "9x minecraft:netherite_block", "4x minecraft:reinforced_deepslate", "4x gtceu:nether_star_block", "1x gtl_extend:quantum_computer", "1x gtl_extend:dimension_core", "1x minecraft:beacon","27647x gtceu:white_lamp", "24473x gtlcore:dimensionally_transcendent_casing", "8258x gtceu:superconducting_coil", "3575x minecraft:redstone_block", "2252x gtlcore:compressed_fusion_coil_mk2_prototype", "2007x gtceu:blue_lamp", "1960x gtceu:fusion_glass", "1401x kubejs:annihilate_core", "1232x minecraft:sea_lantern", "1065x gtlcore:dimension_connection_casing", "812x gtceu:tritanium_coil_block", "419x gtlcore:enhance_hyper_mechanical_casing", "404x gtceu:iv_machine_casing", "224x minecraft:chain", "212x minecraft:glowstone", "112x gtlcore:fusion_casing_mk5", "112x gtlcore:lafium_mechanical_casing", "42x kubejs:dimension_creation_casing", "29x ae2:smooth_quartz_wall", "27x ae2:quartz_slab", "8x minecraft:shroomlight", "5x gtl_extend:dimension_core", "5x ae2:smooth_quartz_slab", "2x ae2:quartz_pillar_wall", "1x gtl_extend:time_space_breaker", "1x kubejs:magic_core", "1x minecraft:gold_block","430x gtceu:stable_machine_casing", "261x gtceu:stainless_steel_frame", "71x gtceu:ev_machine_casing", "10x gtceu:high_power_casing", "1x gtl_extend:dimension_core", "1x gtl_extend:large_void_pump"]) || [];
 
-    } else if (version.includes('Custom')) {
-        console.log('✅ 当前为 Custom-fix3 分支');
-        // Custom-fix3 专属物品清单
-        var customItems = [
-            '1x gtladditions:light_hunter_space_station',
-            '4643x gtladditions:gravity_stabilization_casing',
-            '1348x gtladditions:extreme_density_casing',
-            '208x gtlcore:ultimate_stellar_containment_casing',
-            '120x gtlcore:super_computation_component',
-            '27x gtlcore:hyper_core',
-            '9558x gtlcore:naquadah_alloy_casing',
-            '80x gtlcore:sps_casing',
-            '720x gtlcore:enhance_hyper_mechanical_casing',
-            '293x gtlcore:dragon_strength_tritanium_casing',
-            '666x gtlcore:echo_casing',
-            '4094x gtlcore:dimensionally_transcendent_casing',
-            '5884x gtlcore:dimension_injection_casing',
-            '224x gtlcore:molecular_casing',
-            '120x gtlcore:improved_superconductor_coil',
-            '176x gtlcore:fusion_casing_mk5',
-            '64x gtlcore:fusion_casing_mk4',
-            '2400x gtlcore:uxv_hermetic_casing',
-            '1073x ae2:quartz_vibrant_glass',
-            '560x gtceu:neutronium_frame',
-            '454x gtceu:high_power_casing',
-            '230x gtceu:computer_heat_vent',
-            '258x gtceu:advanced_computer_casing',
-            '3528x gtceu:fusion_glass',
-            '144x gtceu:uhv_ultimate_battery',
-            '1029x gtceu:uxv_machine_casing',
-            '180x gtceu:uiv_machine_casing',
-            '2528x gtceu:uhv_machine_casing',
-            '3651x gtceu:atomic_casing',
-            '1440x kubejs:restraint_device',
-            '280x kubejs:containment_field_generator',
-            '1500x kubejs:spacetime_assembly_line_unit',
-            '12x kubejs:force_field_glass',
-            '20x kubejs:module_connector',
-            '1038x kubejs:dimensional_bridge_casing',
-            '34x kubejs:neutronium_pipe_casing'
-        ];
-        global.customItems = customItems;
-        branchItems = customItems;
-
-    } else {
-        console.log('ℹ️ 当前为官方/标准版本，无专属物品');
-    }
-} else {
-    console.log('❌ 模组 gtladditions 未加载或无法读取版本');
-}
-
-global.gtladditionscustomItems = branchItems; 
-
-var piggyItems_finally = piggyItems.concat(branchItems);
-
-global.piggyItems_finally = piggyItems_finally;
-
-console.log('✅ 最终礼包物品总数：' + piggyItems_finally.length);
-*/
 // ========== 猪咪大礼包 ==========
 var piggyItems = [
     '1x dishanhai:piggy','1x gtladditions:forge_of_the_antichrist','397x gtladditions:central_graviton_flow_regulator','357x gtladditions:mediary_graviton_flow_regulator','345x gtladditions:remote_graviton_flow_regulator','11008x gtladditions:suprachronal_magnetic_confinement_casing','6566x gtladditions:god_forge_trim_casing','162x gtladditions:god_forge_support_casing','824x gtladditions:god_forge_inner_casing','155x gtladditions:spatially_transcendent_gravitational_lens','1x expatternprovider:infinity_cell@gtceu:hydrogen','1x expatternprovider:infinity_cell@gtceu:helium',
     '2x gtladditions:arcanic_astrograph','1068x gtlcore:dimension_injection_casing','1792x gtlcore:create_casing','66x gtceu:high_power_casing','336x kubejs:dimension_creation_casing','96x kubejs:dimensional_stability_casing','276x kubejs:spacetime_compression_field_generator','100x gtladditions:phonon_conduit','420x gtladditions:suprachronal_magnetic_confinement_casing','720x gtladditions:god_forge_trim_casing','500x gtladditions:god_forge_support_casing','56x gtladditions:god_forge_energy_casing','1x gtladditions:heliophase_leyline_crystallizer','3x gtladditions:heliothermal_plasma_fabricator','10x gtladditions:heliofusion_exoticizer','2x gtladditions:heliofluix_melting_core','4x gtladditions:helioflare_power_forge',
     '1x gtladditions:apocalyptic_torsion_quantum_matrix','864x gtladditions:quantum_glass','11520x gtlcore:qft_coil','216x gtlcore:spacetimecontinuumripper','10927x gtlcore:dimensionally_transcendent_casing','6285x gtlcore:manipulator','841x kubejs:dimensional_bridge_casing',
     '4x gtladditions:thread_modifier_hatch','1x gtladditions:macro_atomic_resonant_fragment_stripper','4230x gtlcore:qft_coil','1718x gtlcore:sps_casing','5507x gtlcore:hyper_mechanical_casing','937x gtlcore:echo_casing','218x gtlcore:fusion_casing_mk5','360x gtceu:quantumchromodynamically_confined_matter_frame','786x gtceu:neutronium_frame','627x gtceu:high_power_casing','1086x gtceu:fusion_glass','344x kubejs:eternity_coil_block','156x kubejs:dyson_receiver_casing','666x kubejs:dyson_control_toroid','66x kubejs:dyson_control_casing','8x kubejs:dimensional_stability_casing','162x kubejs:dimensional_bridge_casing','24x kubejs:annihilate_core',
-    '1x gtladditions:light_hunter_space_station','4643x gtladditions:gravity_stabilization_casing','1348x gtladditions:extreme_density_casing','208x gtlcore:ultimate_stellar_containment_casing','120x gtlcore:super_computation_component','27x gtlcore:hyper_core','9558x gtlcore:naquadah_alloy_casing','80x gtlcore:sps_casing','720x gtlcore:enhance_hyper_mechanical_casing','293x gtlcore:dragon_strength_tritanium_casing','666x gtlcore:echo_casing','4094x gtlcore:dimensionally_transcendent_casing','5884x gtlcore:dimension_injection_casing','224x gtlcore:molecular_casing','120x gtlcore:improved_superconductor_coil','176x gtlcore:fusion_casing_mk5','64x gtlcore:fusion_casing_mk4','2400x gtlcore:uxv_hermetic_casing','1073x ae2:quartz_vibrant_glass','560x gtceu:neutronium_frame','454x gtceu:high_power_casing','230x gtceu:computer_heat_vent','258x gtceu:advanced_computer_casing','3528x gtceu:fusion_glass','144x gtceu:uhv_ultimate_battery','1029x gtceu:uxv_machine_casing','180x gtceu:uiv_machine_casing','2528x gtceu:uhv_machine_casing','3651x gtceu:atomic_casing','1440x kubejs:restraint_device','280x kubejs:containment_field_generator','1500x kubejs:spacetime_assembly_line_unit','12x kubejs:force_field_glass','20x kubejs:module_connector','1038x kubejs:dimensional_bridge_casing','34x kubejs:neutronium_pipe_casing'
+    '1x gtladditions:light_hunter_space_station','4643x gtladditions:gravity_stabilization_casing','1348x gtladditions:extreme_density_casing','208x gtlcore:ultimate_stellar_containment_casing','120x gtlcore:super_computation_component','27x gtlcore:hyper_core','9558x gtlcore:naquadah_alloy_casing','80x gtlcore:sps_casing','720x gtlcore:enhance_hyper_mechanical_casing','293x gtlcore:dragon_strength_tritanium_casing','666x gtlcore:echo_casing','4094x gtlcore:dimensionally_transcendent_casing','5884x gtlcore:dimension_injection_casing','224x gtlcore:molecular_casing','120x gtlcore:improved_superconductor_coil','176x gtlcore:fusion_casing_mk5','64x gtlcore:fusion_casing_mk4','2400x gtlcore:uxv_hermetic_casing','1073x ae2:quartz_vibrant_glass','560x gtceu:neutronium_frame','454x gtceu:high_power_casing','230x gtceu:computer_heat_vent','258x gtceu:advanced_computer_casing','3528x gtceu:fusion_glass','144x gtceu:uhv_ultimate_battery','1029x gtceu:uxv_machine_casing','180x gtceu:uiv_machine_casing','2528x gtceu:uhv_machine_casing','3651x gtceu:atomic_casing','1440x kubejs:restraint_device','280x kubejs:containment_field_generator','1500x kubejs:spacetime_assembly_line_unit','12x kubejs:force_field_glass','20x kubejs:module_connector','1038x kubejs:dimensional_bridge_casing','34x kubejs:neutronium_pipe_casing',
+    "1896x gtlcore:dimensionally_transcendent_casing", "551x gtladditions:temporal_anchor_field_casing", "320x gtlcore:iridium_casing", "224x gtlcore:graviton_field_constraint_casing", "152x gtceu:high_power_casing", "104x gtceu:superconducting_coil", "84x gtlcore:molecular_casing", "80x gtlcore:hyper_mechanical_casing", "56x gtceu:naquadah_alloy_frame", "52x gtceu:trinium_frame", "36x gtceu:fusion_glass", "36x gtlcore:rhenium_reinforced_energy_glass", "32x kubejs:annihilate_core", "32x gtceu:assembly_line_grating", "24x gtceu:advanced_computer_casing", "24x kubejs:containment_field_generator", "16x gtlcore:advanced_assembly_line_unit", "16x gtceu:assembly_line_casing", "1x gtladditions:dimension_focus_infinity_crafting_array",
+    "2260x gtlcore:dimensionally_transcendent_casing", "1546x kubejs:dimensional_bridge_casing", "1222x kubejs:high_strength_concrete", "992x gtceu:plascrete", "266x kubejs:hollow_casing", "260x kubejs:magic_core", "242x kubejs:speeding_pipe", "227x kubejs:containment_field_generator", "208x gtlcore:molecular_casing", "193x gtceu:high_power_casing", "188x gtlcore:degenerate_rhenium_constrained_casing", "161x gtlcore:rhenium_reinforced_energy_glass", "150x kubejs:annihilate_core", "146x kubejs:dimensional_stability_casing", "142x gtlcore:spacetimebendingcore", "138x kubejs:space_elevator_internal_support", "138x gtladditions:gravity_stabilization_casing", "45x gtlcore:spacetimecontinuumripper", "1x gt_shanhai:gravitational_wave_antenna_transmitter",
+    "2044x gtlcore:create_casing", "736x gtlcore:advanced_fusion_coil", "676x gtlcore:dimension_injection_casing", "464x gtlcore:dimensionally_transcendent_casing", "456x gtceu:high_power_casing", "380x gtlcore:fusion_casing_mk4", "368x gtlcore:graviton_field_constraint_casing", "320x kubejs:dimension_creation_casing", "304x gtladditions:temporal_anchor_field_casing", "290x gtlcore:fusion_casing_mk5", "280x kubejs:annihilate_core", "216x gtlcore:dimension_connection_casing", "172x gtlcore:degenerate_rhenium_constrained_casing", "96x gtlcore:improved_superconductor_coil", "64x gtceu:infinity_frame", "64x gtlcore:hyper_core", "40x gtlcore:dragon_strength_tritanium_casing", "18x gtceu:fusion_glass", "8x kubejs:magic_core", "8x minecraft:crying_obsidian", "1x gtladditions:recursive_reverse_array",
+    "3694x gtladditions:god_forge_trim_casing", "3497x dishanhai:transcendentally_reinforced_borosilicate_glass", "1617x gtladditions:god_forge_inner_casing", "1170x dishanhai:reinforced_temporal_structure_casing", "708x gtladditions:gravity_stabilization_casing", "600x gtladditions:extreme_density_casing", "528x dishanhai:naquadria_reinforced_water_plant_casing", "503x gtlcore:dimension_injection_casing", "440x dishanhai:particle_beam_guidance_pipe_casing", "440x gtlcore:manipulator", "391x dishanhai:omni_purpose_infinity_fused_glass", "361x gtceu:computer_casing", "316x gtceu:naquadah_alloy_frame", "281x gtlcore:component_assembly_line_casing_max", "237x dishanhai:reinforced_spatial_structure_casing", "224x dishanhai:gallifreyan_spacetime_compression_field_generator", "194x gtlcore:dimension_connection_casing", "160x gtladditions:central_graviton_flow_regulator", "160x gtladditions:remote_graviton_flow_regulator", "156x dishanhai:quark_exclusion_casing", "104x dishanhai:gallifreyan_time_dilation_field_generator", "80x gtladditions:god_forge_energy_casing", "5x dishanhai:gallifreyan_stabilisation_field_generator", "1x gt_shanhai:eternal_gregtech_workshop",
+    "11008x gtladditions:quantum_glass", "7264x gtladditions:extreme_density_casing", "824x gtlcore:manipulator", "465x kubejs:dimensional_bridge_casing", "249x gtceu:spacetime_block", "32x gtlcore:qft_coil", "1x gt_shanhai:spacetime_wave_matrix",
+    "808x kubejs:high_strength_concrete", "620x gtlcore:space_elevator_support", "588x gtlcore:space_elevator_mechanical_casing", "348x kubejs:space_elevator_internal_support", "160x gtlcore:power_module", "72x kubejs:module_base", "56x gtceu:neutronium_frame", "1x kubejs:module_connector", "1x gtlcore:power_core", "1x gtceu:space_elevator",
+
+
 ];
+
+let version_gtladditions = Platform.mods['gtladditions'].version;
+if (version_gtladditions) {
+    let isCustom = version_gtladditions.contains('Custom_SubSpace') || version_gtladditions.contains('Custom');
+    let isSubSpace = version_gtladditions.contains('Custom_SubSpace');
+    console.log('gtladditions version: ' + version_gtladditions + ' | isCustom: ' + isCustom + ' | isSubSpace: ' + isSubSpace);
+if (isSubSpace) {
+    piggyItems = piggyItems.concat(subSpaceItems).concat(newAstralConvergenceNexusItems).concat(SatelliteFactoryItems).concat(extendItems);
+} else if (isCustom) {
+    piggyItems = piggyItems.concat(customItems).concat(newAstralConvergenceNexusItems).concat(SatelliteFactoryItems).concat(extendItems);
+}
+}
 
 // ========== 奇点数据中枢建材包 ==========
 var SDAinline_items = [
@@ -3056,7 +2918,9 @@ DShanhaiPackRegistry.create("piggy", piggyItems, "猪咪大礼包", [
     '§7它只被授予给猪咪们,所以你是猪咪吗',
     '§7物品种类: §e%count%§7 种',
     '§7由CellAPI生成,显示由JEIcellAPI生成',
-    '§8山海私货V2.3'
+    '§7如果你不想你的游戏体验受到破坏，那么不要使用猪咪礼包',
+    '§7猪咪礼包默认已从JEI中移除配方显示','虽然你可以通过查看猪咪大帝的使用配方来看到',
+    '§8山海私货V2.3——2.7.4重构'
 ])
     .lock("v1.0")
     .build();
@@ -3103,6 +2967,7 @@ global.shanhaiJEINBTBuilder = function(items, name, lore) {
 };
 
 console.log('[山海JEI包数据] 已加载 ' + Object.keys(global.shanhaiPackDefs).length + ' 个包定义');
+
 
 
 })();

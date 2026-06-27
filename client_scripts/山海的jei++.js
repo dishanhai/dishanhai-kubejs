@@ -1,5 +1,7 @@
 (function() {
 var DShanhaiItemTooltipAPI = Java.loadClass('com.dishanhai.gt_shanhai.api.DShanhaiItemTooltipAPI');
+var registerShiftLinesStringArrays = DShanhaiItemTooltipAPI['registerShiftLines(java.lang.String,java.lang.String[],java.lang.String[])'];
+var registerAltLinesStringArrays = DShanhaiItemTooltipAPI['registerAltLines(java.lang.String,java.lang.String[],java.lang.String[])'];
 Java.loadClass('com.dishanhai.gt_shanhai.test.WidthTest').run()
 var c = ShanhaiText.styled('测试', 'ultimate');
   console.log('styled result: ' + c);
@@ -165,7 +167,7 @@ e.addAdvanced('dishanhai:wzcz2', function(item, advanced, text) {
 });
 })
 
-DShanhaiItemTooltipAPI.registerShiftLines('dishanhai:big_tear', [
+registerShiftLinesStringArrays('dishanhai:big_tear', [
     '{water}蓝星文明技术资料存档{/}',
     '{body_silver}编号：■■■ / 解密序列：■■■■ / 超宇宙统一理论验证后解锁{/}',
     '{crimson}警告：请再次确定解锁条件，否则将遭遇攻性防壁自动反击{/}',
@@ -196,7 +198,7 @@ DShanhaiItemTooltipAPI.registerShiftLines('dishanhai:big_tear', [
     '§8§o§l§n按住 SHIFT 查看完整档案§r'
 ]);
 
-DShanhaiItemTooltipAPI.registerShiftLines('dishanhai:time_reversal_protocol', [
+registerShiftLinesStringArrays('dishanhai:time_reversal_protocol', [
     '{ultimateRainbow}蓝星文明技术资料存档{/}',
     '{body_silver}编号：甲■ ｜ 项目名：{/}{golden}【世线信标】{/}{body_silver} ｜ 第一序列{/}',
     '{body_silver}项目解密序列：■■■■第一序列。根据协议，以下内容为时间回溯后解锁。{/}',
@@ -1168,6 +1170,8 @@ global.shanhaiColorAPI.isTextUtilAvailable = function() {
 
 // ===== 动态文本 API 客户端测试 =====
 (function() {
+var DShanhaiItemTooltipAPI = Java.loadClass('com.dishanhai.gt_shanhai.api.DShanhaiItemTooltipAPI');
+var registerAltLinesStringArrays = DShanhaiItemTooltipAPI['registerAltLines(java.lang.String,java.lang.String[],java.lang.String[])'];
 
 // batch addLore helper
 function addLore(textList, lines) {
@@ -1248,6 +1252,20 @@ function addLore(textList, lines) {
                 try { if (typeof ShanhaiText.crimson === 'function') text.add(ShanhaiText.crimson('猩红系测试')); } catch(ex) {}
                 try { if (typeof ShanhaiText.neon === 'function') text.add(ShanhaiText.neon('霓虹系测试')); } catch(ex) {}
                 try { if (typeof ShanhaiText.sakura === 'function') text.add(ShanhaiText.sakura('樱花系测试')); } catch(ex) {}
+                text.add(Component.literal('§8—— 新 RGB 色板 ——'));
+                try { if (typeof ShanhaiText.cosmic === 'function') text.add(ShanhaiText.cosmic('cosmic / 宇宙星云 RGB')); } catch(ex) {}
+                try { if (typeof ShanhaiText.voidText === 'function') text.add(ShanhaiText.voidText('void / 虚空紫黑 RGB')); } catch(ex) {}
+                try { if (typeof ShanhaiText.jade === 'function') text.add(ShanhaiText.jade('jade / 青玉翠光 RGB')); } catch(ex) {}
+                try { if (typeof ShanhaiText.plasma === 'function') text.add(ShanhaiText.plasma('plasma / 等离子辉光 RGB')); } catch(ex) {}
+                try { if (typeof ShanhaiText.starlight === 'function') text.add(ShanhaiText.starlight('starlight / 星辉白金 RGB')); } catch(ex) {}
+                try { if (typeof ShanhaiText.abyss === 'function') text.add(ShanhaiText.abyss('abyss / 深渊蓝光 RGB')); } catch(ex) {}
+                text.add(Component.literal('§8—— 新 FCS 动态效果 ——'));
+                try { if (typeof ShanhaiText.scan === 'function') text.add(ShanhaiText.scan('^ scan 扫光效果', 'cosmic')); } catch(ex) {}
+                try { if (typeof ShanhaiText.glitch === 'function') text.add(ShanhaiText.glitch('? glitch 故障效果', 'neon')); } catch(ex) {}
+                try { if (typeof ShanhaiText.breatheFx === 'function') text.add(ShanhaiText.breatheFx('+ breathe 呼吸亮度', 'jade')); } catch(ex) {}
+                try { if (typeof ShanhaiText.chase === 'function') text.add(ShanhaiText.chase('> chase 追光效果', 'starlight')); } catch(ex) {}
+                try { if (typeof ShanhaiText.fcs === 'function') text.add(ShanhaiText.fcs('^+>', '组合: 扫光 + 呼吸 + 追光', 'plasma')); } catch(ex) {}
+                try { if (typeof ShanhaiText.inline === 'function') text.add(ShanhaiText.inline('{cosmic}inline cosmic{/}{body_silver} + {/}{plasma}inline plasma{/}')); } catch(ex) {}
             } else {
                 text.add(Component.literal('§cShanhaiText 不可用'));
             }
@@ -1323,19 +1341,80 @@ DShanhaiItemTooltipAPI.registerShift('gtceu:molecular_assembler_matrix', [
     '│安装至分子操纵者核心位置[分操内部]后解锁分操超限模式'
 ], 'Ω| 按住 SHIFT 查看神私修改提示{/}');
 
-DShanhaiItemTooltipAPI.registerShift('gtladditions:dimension_focus_infinity_crafting_array', [
+registerAltLinesStringArrays('gtladditions:dimension_focus_infinity_crafting_array', [
     '',
     'ω-BUG提示：{electric}【维度聚焦合成阵列有掉并行问题】{/}',
     '│此问题在add265fix1修复，不过你也可以选择超级并行核心来解决'
-], 'ω| 按住 SHIFT 查看神私BUG提示{/}');
+], ['ω| 按住 ALT 查看神私BUG提示{/}']);
 
-DShanhaiItemTooltipAPI.registerAlt('gtladditions:me_super_pattern_buffer', [
+var subspaceModuleIndependentConfigMachines = [
+    'gtladditions:nexus_satellite_factory_mk1',
+    'gtladditions:nexus_satellite_factory_mk2',
+    'gtladditions:nexus_satellite_factory_mk3',
+    'gtladditions:nexus_satellite_factory_mk4',
+    'gtladditions:subspace_corridor_hub_industrial_array'
+];
+for (var subspaceConfigIndex = 0; subspaceConfigIndex < subspaceModuleIndependentConfigMachines.length; subspaceConfigIndex++) {
+    DShanhaiItemTooltipAPI.remove(subspaceModuleIndependentConfigMachines[subspaceConfigIndex]);
+}
+
+
+var machine_id_array_1 = [
+"gtladditions:forge_of_the_antichrist","gtladditions:heliofusion_exoticizer","gtladditions:helioflare_power_forge","gtladditions:heliofluix_melting_core","gtladditions:heliothermal_plasma_fabricator","gtladditions:heliophase_leyline_crystallizer"
+]
+    machine_id_array_1.forEach(function(machine_id){
+registerAltLinesStringArrays(machine_id,[
     '',
-    'Ω-普通提示：{electric}【超级样板总成虽然自带隔离 但其并非绝对不会串配方】{/}',
-    '│关于“隔离”,即将各仓室内的物品分开管理 或说使另一个仓室无法访问超级样板总成 反之亦然',
-    '│其隔离是对外部仓室而言 对其内部的样板并不包含此效果',
-    '│如果你串了配方 把样板放到另一个样板总成 是更好选择'
-], 'Ω| 按住 ALT 查看神私普通提示{/}');
+    "Ω-|████████████████",
+    'Ω-配置提示：{electric}【伪神之锻炉(FOTC)模块独立运行配置】{/}',
+    '│§e对应配置项：{golden}workWithoutHost{/}',
+    '│§e模块机器是否可脱离主机独立运行（默认禁用）',
+    '│§cfalse=模块必须有主机才能运行',
+    '│§atrue=模块脱离主机后可独立运行配方'
+],[
+'',
+'Ω-|███████████████',
+'按住 ALT 查看伪神之锻炉(FOTC)模块配置提示'
+])})
+
+
+var subspaceModuleIndependentConfigLines = [
+    '',
+    "Ω-|████████████████",
+    'Ω-配置提示：{electric}【亚空间模块独立运行配置】{/}',
+    '│§e对应配置项：{golden}workWithoutHost{/}',
+    '│§e模块机器是否可脱离主机独立运行（默认禁用）',
+    '│§cfalse=模块必须有主机才能运行',
+    '│§atrue=模块脱离主机后可独立运行配方'
+];
+for (var subspaceRegisterIndex = 0; subspaceRegisterIndex < subspaceModuleIndependentConfigMachines.length; subspaceRegisterIndex++) {
+    registerAltLinesStringArrays(subspaceModuleIndependentConfigMachines[subspaceRegisterIndex], subspaceModuleIndependentConfigLines, ["Ω-|████████████████",'按住 ALT 查看亚空间模块配置提示{/}']);
+}
+
+var recursiveBypassConfigMachines = [
+    'gtladditions:recursive_reverse_array',
+    'gtladditions:catalytic_cascade_array',
+    'gtladditions:spacetime_stasis_device',
+    'gtladditions:supratemporal_boosting_engine'
+];
+for (var recursiveBypassRemoveIndex = 0; recursiveBypassRemoveIndex < recursiveBypassConfigMachines.length; recursiveBypassRemoveIndex++) {
+    DShanhaiItemTooltipAPI.remove(recursiveBypassConfigMachines[recursiveBypassRemoveIndex]);
+}
+
+var recursiveBypassConfigLines = [
+    '',
+    'Ω-|████████████████',
+    'Ω-配置提示：{electric}【递归模块内部限制绕过配置】{/}',
+    '│§e对应配置项：{golden}bypassModuleRestrictions{/}',
+    '│§e递归反演阵列是否破除已连接子模块的内部限制（默认禁用）',
+    '│§cfalse=保持 GTLAdditions 原版逻辑：催化剂、聚焦材料、温度窗口、模块运行状态全部正常检查',
+    '│§atrue=仅当子模块已成型并连接到递归反演阵列时，将其视作满状态参与递归反演增益',
+    '│§e该配置不会让脱离阵列独立运行的模块参与递归反演增益'
+];
+for (var recursiveBypassRegisterIndex = 0; recursiveBypassRegisterIndex < recursiveBypassConfigMachines.length; recursiveBypassRegisterIndex++) {
+    registerAltLinesStringArrays(recursiveBypassConfigMachines[recursiveBypassRegisterIndex], recursiveBypassConfigLines, ['',"Ω-|████████████████", '按住 ALT 查看递归模块配置提示{/}']);
+}
+
 
 DShanhaiItemTooltipAPI.registerAlt('gtceu:me_extended_async_export_buffer', [
     '',
@@ -1343,6 +1422,39 @@ DShanhaiItemTooltipAPI.registerAlt('gtceu:me_extended_async_export_buffer', [
     ' |目前没有解决方法，你可以使用增广总成去避免 但是不能使用异步',
     ' |注意：增广会更慢 但权宜之计如此 没有办法'
 ], 'ω| 按住 ALT 查看神私BUG提示{/}');
+
+
+var machine_id_array_ó = [
+"gtceu:me_mini_pattern_buffer","gtceu:me_extend_pattern_buffer","gtceu:me_stocking_pattern_buffer","gtceu:me_final_pattern_buffer","gtceu:me_wildcard_pattern_buffer","gtladditions:me_super_pattern_buffer"]
+machine_id_array_ó.forEach(function(machine_id){
+registerAltLinesStringArrays(machine_id,[
+'',
+"Ω-|████████████████",
+'Ω-普通提示：{electric}【超级/正常样板总成虽然自带隔离 但其并非绝对不会串配方】',
+'|关于“隔离”，即将各仓室内的物品分开管理 或说使另一个仓室无法访问超级样板总成 反之亦然',
+'|其隔离是对外部仓室而言 对其内部的样板并不包含此效果',
+'|如果你串了配方 把样板放到另一个样板总成 是更好选择'
+],[
+'',
+'Ω-|███████████████',
+'按住 ALT 查看神私普通提示'
+])})
+
+var programmable_hatch_id_3 = Ingredient.of('/^gt_shanhai:[a-z]{3}_programmable_hatch$|^gt_shanhai:programmable_hatch|^gt_shanhai:[a-z]{2}_programmable_hatch$/').getItemIds();
+console.log(programmable_hatch_id_3);
+programmable_hatch_id_3.forEach(function(itemid){
+DShanhaiItemTooltipAPI.registerAlt(itemid,[
+'',
+"ω-|████████████████",
+'ω-BUG提示：{electric}【可编程仓有严重BUG存在！】',
+'|如果你安装了可编程仓，所有的仓室均会失效，包括可编程仓自己也是',
+'|可编程仓暂时被禁用，请勿使用！',
+'|等待修复！！！！！！！！'
+],[
+'',
+'ω-|███████████████',
+'按住 ALT 查看神私BUG提示'
+])})
 
 DShanhaiItemTooltipAPI.registerAlt('gt_shanhai:singularity_data_hub', [
     '',
@@ -1365,6 +1477,19 @@ TooltipEffectAPI.register("gt_shanhai:maintenance_hatch", [
       '这是空想与现实之间的边界',
       '不再适应规则，而是让规则适应你'    
   ],7000,3,['ultimate','fire','water','%$aurora','*$sakura'],"§7§o按住 §eALT §7查看空想寄语",'obfu:true');
+
+
+DShanhaiItemTooltipAPI.registerAlt("gt_shanhai:me_disk_hatch",[
+'',
+"α-|████████████████",
+    'α-奇妙提示：{electric}【目前ME磁盘仓室有BUG】{/}',
+    ' |{cosmic}当然这个BUG是友好的，你可以将me磁盘仓室直接连入AE就能使用{/}',
+    ' |{ice}并不需要其接入奇点数据中枢{/}'
+],[
+'',
+'Ω-|███████████████',
+'按住 ALT 查看神私普通提示'
+])
 
     // ===== 终焉聚合枢纽 — 模块表 =====
     ItemEvents.tooltip(function(e) {
