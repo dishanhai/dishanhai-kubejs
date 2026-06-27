@@ -1630,17 +1630,6 @@ console.log(`🗓️ [山海的big私货] ♾️级物品配方添加完毕 成�
     .inputFluids("minecraft:water 102400")
     },{defaultEnabled:false})
 
-    // ========== 创造模块 ==========
-    safeAddRecipe('suprachronal_assembly_line', 'dishanhai:czmk', () => {
-        gtr.suprachronal_assembly_line('dishanhai:czmk')
-            .itemInputs('dishanhai:halo_end','256x dishanhai:god_forge_mod','256x gtladditions:forge_of_the_antichrist','256x gtceu:suprachronal_assembly_line','256x gtladditions:arcanic_astrograph','21474836x gtladditions:astral_array','2048x gtladditions:astral_convergence_nexus','2048x gtladditions:nebula_reaper',"5200x dishanhai:dark_energy_multiplier","dishanhai:collapse_tear","dishanhai:bridge_and_gate","dishanhai:gate_and_bridg","dishanhai:csj","dishanhai:big_tear")
-            .inputFluids('gtladditions:star_gate_crystal_slurry 21474836','gtceu:magnetohydrodynamicallyconstrainedstarmatter 2147483647','gtceu:spatialfluid 2147483647')
-            .itemOutputs('dishanhai:create_mk')
-            .EUt(MAX)
-            .duration(20)
-            .stationResearch(b => b.researchStack(Registries.getItemStack("dishanhai:halo_end")).dataStack(Registries.getItemStack("gtceu:data_module")).EUt(MAX).CWUt(8192));
-    });
-    
 
     
     var $ModuleLCond; try { $ModuleLCond = Java.loadClass('com.dishanhai.gt_shanhai.api.ModuleLevelCondition'); } catch(e) {}
@@ -1664,15 +1653,7 @@ console.log(`🗓️ [山海的big私货] ♾️级物品配方添加完毕 成�
             
     });
 
-    safeAddRecipe('suprachronal_assembly_line', 'dishanhai:wzcz3', () => {
-        gtr.suprachronal_assembly_line('dishanhai:wzcz3')
-            .itemInputs('16x gtladditions:forge_of_the_antichrist','64x gtladditions:heliothermal_plasma_fabricator','64x gtladditions:helioflare_power_forge','64x gtladditions:heliofluix_melting_core','64x gtladditions:heliofusion_exoticizer','64x gtladditions:heliophase_leyline_crystallizer','64x gtladditions:space_infinity_integrated_ore_processor','64x gtceu:create_aggregation','64x gtceu:space_elevator','64x gtladditions:arcanic_astrograph','64x gtladditions:apocalyptic_torsion_quantum_matrix','64x gtceu:suprachronal_assembly_line','64x gtladditions:dimensionally_transcendent_chemical_plant','64x gtceu:molecular_assembler_matrix','64x gtceu:atomic_energy_excitation_plant','64x gtceu:annihilate_generator')
-            .inputFluids('gtceu:infinity 2140000','gtceu:spacetime 2140000','gtceu:spatialfluid 2140000','gtceu:magmatter 2140000')
-            .itemOutputs('dishanhai:wzcz3')
-            .EUt(MAX)
-            .duration(20);
-    });
-    
+
     // ========== 电路配方组 ==========
     const circuitRecipes = [
         { id: 'uv_to_universal', input: '#gtceu:circuits/uv', output: 'kubejs:uv_universal_circuit' },
