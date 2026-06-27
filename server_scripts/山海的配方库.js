@@ -233,17 +233,17 @@ const universalRecipes = [
       inputFluids: ['gtceu:lubricant 1000','gtceu:soldering_alloy 576'],
       itemOutputs: ['gt_shanhai:primordial_coin_forge'], EUt: hv, duration: 400 },
 
-    // ========== 铸币: 1块→32币 (coin_forge) ==========
-    { id: 'copper_coin_mint',      type: 'coin_forge', itemInputs: ['gtceu:copper_block'],      itemOutputs: ['32x dishanhai:copper_coin'],      EUt: hv, duration: 200 },
-    { id: 'cupronickel_coin_mint', type: 'coin_forge', itemInputs: ['gtceu:cupronickel_block'], itemOutputs: ['32x dishanhai:cupronickel_coin'], EUt: hv, duration: 200 },
-    { id: 'silver_coin_mint',      type: 'coin_forge', itemInputs: ['gtceu:silver_block'],      itemOutputs: ['32x dishanhai:silver_coin'],      EUt: hv, duration: 200 },
-    { id: 'gold_coin_mint',        type: 'coin_forge', itemInputs: ['minecraft:gold_block'],    itemOutputs: ['32x dishanhai:gold_coin'],        EUt: hv, duration: 200 },
-    { id: 'platinum_coin_mint',    type: 'coin_forge', itemInputs: ['gtceu:platinum_block'],    itemOutputs: ['32x dishanhai:platinum_coin'],    EUt: hv, duration: 200 },
-    { id: 'osmium_coin_mint',      type: 'coin_forge', itemInputs: ['gtceu:osmium_block'],      itemOutputs: ['32x dishanhai:osmium_coin'],      EUt: hv, duration: 200 },
-    { id: 'naquadah_coin_mint',    type: 'coin_forge', itemInputs: ['gtceu:naquadah_block'],    itemOutputs: ['32x dishanhai:naquadah_coin'],    EUt: hv, duration: 200 },
-    { id: 'neutronium_coin_mint',  type: 'coin_forge', itemInputs: ['gtceu:neutronium_block'],  itemOutputs: ['32x dishanhai:neutronium_coin'],  EUt: hv, duration: 200 },
-    { id: 'neutron_coin_mint',     type: 'coin_forge', itemInputs: ['gtceu:cosmic_neutronium_block'], itemOutputs: ['32x dishanhai:neutron_coin'], EUt: hv, duration: 200 },
-    { id: 'infinite_coin_mint',    type: 'coin_forge', itemInputs: ['gtceu:infinity_block'],    itemOutputs: ['32x dishanhai:infinite_coin'],    EUt: hv, duration: 200 },
+    // ========== 铸币: 64块→32币 (coin_forge) ==========
+    { id: 'copper_coin_mint',      type: 'coin_forge', itemInputs: ['64x gtceu:copper_block'],      itemOutputs: ['32x dishanhai:copper_coin'],      EUt: hv, duration: 200 },
+    { id: 'cupronickel_coin_mint', type: 'coin_forge', itemInputs: ['64x gtceu:cupronickel_block'], itemOutputs: ['32x dishanhai:cupronickel_coin'], EUt: hv, duration: 200 },
+    { id: 'silver_coin_mint',      type: 'coin_forge', itemInputs: ['64x gtceu:silver_block'],      itemOutputs: ['32x dishanhai:silver_coin'],      EUt: hv, duration: 200 },
+    { id: 'gold_coin_mint',        type: 'coin_forge', itemInputs: ['64x minecraft:gold_block'],    itemOutputs: ['32x dishanhai:gold_coin'],        EUt: hv, duration: 200 },
+    { id: 'platinum_coin_mint',    type: 'coin_forge', itemInputs: ['64x gtceu:platinum_block'],    itemOutputs: ['32x dishanhai:platinum_coin'],    EUt: hv, duration: 200 },
+    { id: 'osmium_coin_mint',      type: 'coin_forge', itemInputs: ['64x gtceu:osmium_block'],      itemOutputs: ['32x dishanhai:osmium_coin'],      EUt: hv, duration: 200 },
+    { id: 'naquadah_coin_mint',    type: 'coin_forge', itemInputs: ['64x gtceu:naquadah_block'],    itemOutputs: ['32x dishanhai:naquadah_coin'],    EUt: hv, duration: 200 },
+    { id: 'neutronium_coin_mint',  type: 'coin_forge', itemInputs: ['64x gtceu:neutronium_block'],  itemOutputs: ['32x dishanhai:neutronium_coin'],  EUt: hv, duration: 200 },
+    { id: 'neutron_coin_mint',     type: 'coin_forge', itemInputs: ['64x gtceu:cosmic_neutronium_block'], itemOutputs: ['32x dishanhai:neutron_coin'], EUt: hv, duration: 200 },
+    { id: 'infinite_coin_mint',    type: 'coin_forge', itemInputs: ['64x gtceu:infinity_block'],    itemOutputs: ['32x dishanhai:infinite_coin'],    EUt: hv, duration: 200 },
 
     // ========== 特殊币兑换 (coin_forge) ==========
     { id: 'stupid_coin_from_copper',      type: 'coin_forge', itemInputs: ['dishanhai:copper_coin'],  itemOutputs: ['9x dishanhai:stupid_coin'],         EUt: hv, duration: 100 },
@@ -252,10 +252,10 @@ const universalRecipes = [
 
     // ========== 量子计算机 — IV级 (assembler) ==========
     { id: 'quantum_structure',           type: 'assembler', itemInputs: ['4x gtceu:tungstensteel_frame','4x gtceu:quantum_eye','4x gtceu:iridium_plate','4x gtceu:naquadah_plate'], inputFluids: ['gtceu:soldering_alloy 576'], itemOutputs: ['4x gt_shanhai:quantum_structure'],           EUt: iv, duration: 200 },
-    { id: 'quantum_computer_unit',       type: 'assembler', itemInputs: ['gtceu:advanced_computer_casing','4x ae2:engineering_processor','4x ae2:calculation_processor','4x ae2:logic_processor','2x ae2:crafting_unit','gtceu:advanced_integrated_circuit'], inputFluids: ['gtceu:soldering_alloy 288'], itemOutputs: ['gt_shanhai:quantum_computer_unit'],       EUt: iv, duration: 300 },
-    { id: 'quantum_parallel_processor',  type: 'assembler', itemInputs: ['gtceu:advanced_computer_casing','8x ae2:engineering_processor','4x ae2:crafting_accelerator','2x gtceu:advanced_integrated_circuit','4x gtceu:quantum_eye'], inputFluids: ['gtceu:soldering_alloy 288'], itemOutputs: ['gt_shanhai:quantum_parallel_processor'],  EUt: iv, duration: 300 },
-    { id: 'quantum_crafting_storage',    type: 'assembler', itemInputs: ['gtceu:advanced_computer_casing','8x ae2:calculation_processor','4x ae2:crafting_storage_1k','2x gtceu:advanced_integrated_circuit','4x gtceu:quantum_star'], inputFluids: ['gtceu:soldering_alloy 288'], itemOutputs: ['gt_shanhai:quantum_crafting_storage'],    EUt: iv, duration: 300 },
-    { id: 'quantum_computer',            type: 'assembler', itemInputs: ['4x gt_shanhai:quantum_structure','gt_shanhai:quantum_computer_unit','gt_shanhai:quantum_parallel_processor','gt_shanhai:quantum_crafting_storage','4x gtceu:advanced_integrated_circuit','4x ae2:quantum_entangled_singularity'], inputFluids: ['gtceu:soldering_alloy 1152'], itemOutputs: ['gt_shanhai:quantum_computer'],            EUt: iv, duration: 400 }
+    { id: 'quantum_computer_unit',       type: 'assembler', itemInputs: ['gtceu:advanced_computer_casing','4x ae2:engineering_processor','4x ae2:calculation_processor','4x ae2:logic_processor','2x ae2:crafting_unit','gtceu:quantum_processor_mainframe'], inputFluids: ['gtceu:soldering_alloy 288'], itemOutputs: ['gt_shanhai:quantum_computer_unit'],       EUt: iv, duration: 300 },
+    { id: 'quantum_parallel_processor',  type: 'assembler', itemInputs: ['gtceu:advanced_computer_casing','8x ae2:engineering_processor','4x ae2:crafting_accelerator','2x gtceu:quantum_processor_mainframe','4x gtceu:quantum_eye'], inputFluids: ['gtceu:soldering_alloy 288'], itemOutputs: ['gt_shanhai:quantum_parallel_processor'],  EUt: iv, duration: 300 },
+    { id: 'quantum_crafting_storage',    type: 'assembler', itemInputs: ['gtceu:advanced_computer_casing','8x ae2:calculation_processor','4x ae2:crafting_storage_1k','2x gtceu:quantum_processor_mainframe','4x gtceu:quantum_star'], inputFluids: ['gtceu:soldering_alloy 288'], itemOutputs: ['gt_shanhai:quantum_crafting_storage'],    EUt: iv, duration: 300 },
+    { id: 'quantum_computer',            type: 'assembler', itemInputs: ['4x gt_shanhai:quantum_structure','gt_shanhai:quantum_computer_unit','gt_shanhai:quantum_parallel_processor','gt_shanhai:quantum_crafting_storage','4x gtceu:quantum_processor_mainframe','4x ae2:quantum_entangled_singularity'], inputFluids: ['gtceu:soldering_alloy 1152'], itemOutputs: ['gt_shanhai:quantum_computer'],            EUt: iv, duration: 400 }
 
 ];
 
