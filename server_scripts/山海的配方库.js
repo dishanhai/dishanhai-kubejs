@@ -1996,4 +1996,7 @@ if (Platform.isLoaded('ae2_overclocked')){
 
 console.log('[山海的配方库] ServerEvents.recipes 执行到末尾');
 
+    // 每次 /reload 时强制输出配方统计
+    try { DShanhaiRecipeEngine.printStats(); } catch(e) { console.log('[配方库] printStats 失败: ' + e); }
+
         })
