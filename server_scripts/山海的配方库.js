@@ -508,7 +508,7 @@ let myRecipes = [
     itemInputs: ['dishanhai:worldline_genesis_embryo', '4x dishanhai:worldline_divergent_core',
                  '16x dishanhai:wl_board_uiv', '64x dishanhai:star_spark'],
     inputFluids: ['dishanhai:matter_fluid_transcend 128000', 'dishanhai:dimensional_fabric 64000'],
-    itemOutputs: ['64x dishanhai:dimensional_frame'], EUt: uxv, duration: 400, conditions: ["16x dishanhai:wzsw"] },
+    itemOutputs: ['64x dishanhai:dimensional_frame'], EUt: uiv, duration: 400, conditions: ["16x dishanhai:wzsw"] },
   { id: 'matter_module_casting_worldline_genesis_embryo', type: 'matter_module_casting',
     itemInputs: ['dishanhai:dimensional_worldline_fragment', 'dishanhai:worldline_boundless_singularity', 'dishanhai:worldline_imaginary_string',
                  '1024x dishanhai:genesis_shard', '1024x dishanhai:star_spark', '1024x kubejs:leptonic_charge',
@@ -517,7 +517,7 @@ let myRecipes = [
                  'gtceu:dimensionally_transcendent_plasma_forge', 'gtceu:star_ultimate_material_forge_factory',
                  'gtceu:space_probe_surface_reception', 'gtceu:advanced_neutron_activator'],
     inputFluids: ['dishanhai:matter_fluid_ascension 32000', 'dishanhai:matter_fluid_transcend 16000', 'dishanhai:matter_fluid_peak 64000'],
-    itemOutputs: ['dishanhai:worldline_genesis_embryo'], EUt: uxv, duration: 600 },
+    itemOutputs: ['dishanhai:worldline_genesis_embryo'], EUt: uiv, duration: 600 },
   // ===== UXV 级 (EUt: uxv) =====
   { id: 'primordial_matter_recombination_wl_board_uxv_x4', type: 'primordial_matter_recombination', itemInputs: ['64x dishanhai:star_spark', '4x kubejs:uxv_universal_circuit'], inputFluids: ['dishanhai:primal_chaos 4000'], itemOutputs: ['4x dishanhai:wl_board_uxv'], EUt: uxv, duration: 200, conditions: ["4x dishanhai:wzcx"] },
   { id: 'matter_module_casting_wzdf', type: 'matter_module_casting', itemInputs: [ '128x dishanhai:worldline_divergent_core', '1x dishanhai:wzcx', '32x dishanhai:wl_board_uxv', '1024x dishanhai:genesis_shard', '1024x dishanhai:star_spark', '512x dishanhai:worldline_residual_fragment', '32x dishanhai:nova_catalyst', '16x dishanhai:worldline_genesis_embryo', '8x dishanhai:worldline_boundless_singularity' ], inputFluids: [ 'dishanhai:matter_fluid_transcend 128000', 'dishanhai:matter_fluid_ascension 128000', 'dishanhai:primal_chaos 64000' ], itemOutputs: ['1x dishanhai:wzdf'], EUt: uxv, duration: 200, conditions: ["64x dishanhai:wzcx"], },
