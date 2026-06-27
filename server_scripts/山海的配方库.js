@@ -1981,6 +1981,7 @@ if (Platform.isLoaded('ae2_overclocked')){
         e.remove({output: output});
         debug(`移除原版配方: ${output}`);
     });
+}
 
 console.log('[山海的配方库] ServerEvents.recipes 执行到末尾');
 
