@@ -1935,7 +1935,50 @@ if (Platform.isLoaded('ae2_overclocked')){
         e.remove({output: output});
         debug(`移除原版配方: ${output}`);
     });
-}    
+
+    // ========== 可编程仓配方 (各等级输入总成 + LV电路板 → 可编程仓) ==========
+    var programmableHatchTiers = [
+        {tier:'ulv', bus:'gtceu:ulv_input_bus',   hatch:'gt_shanhai:ulv_programmable_hatch'},
+        {tier:'lv',  bus:'gtceu:lv_input_bus',    hatch:'gt_shanhai:lv_programmable_hatch'},
+        {tier:'mv',  bus:'gtceu:mv_input_bus',    hatch:'gt_shanhai:mv_programmable_hatch'},
+        {tier:'hv',  bus:'gtceu:hv_input_bus',    hatch:'gt_shanhai:hv_programmable_hatch'},
+        {tier:'ev',  bus:'gtceu:ev_input_bus',    hatch:'gt_shanhai:ev_programmable_hatch'},
+        {tier:'iv',  bus:'gtceu:iv_input_bus',    hatch:'gt_shanhai:iv_programmable_hatch'},
+        {tier:'luv', bus:'gtceu:luv_input_bus',   hatch:'gt_shanhai:luv_programmable_hatch'},
+        {tier:'zpm', bus:'gtceu:zpm_input_bus',   hatch:'gt_shanhai:zpm_programmable_hatch'},
+        {tier:'uv',  bus:'gtceu:uv_input_bus',    hatch:'gt_shanhai:uv_programmable_hatch'},
+        {tier:'uhv', bus:'gtceu:uhv_input_bus',   hatch:'gt_shanhai:uhv_programmable_hatch'},
+        {tier:'uev', bus:'gtceu:uev_input_bus',   hatch:'gt_shanhai:uev_programmable_hatch'},
+        {tier:'uiv', bus:'gtceu:uiv_input_bus',   hatch:'gt_shanhai:uiv_programmable_hatch'},
+        {tier:'uxv', bus:'gtceu:uxv_input_bus',   hatch:'gt_shanhai:uxv_programmable_hatch'},
+        {tier:'opv', bus:'gtceu:opv_input_bus',   hatch:'gt_shanhai:opv_programmable_hatch'},
+        {tier:'max', bus:'gtceu:max_input_bus',   hatch:'gt_shanhai:programmable_hatch'}
+    ];
+    programmableHatchTiers.forEach(function(h) {
+        safeAddRecipe('assembler', 'dishanhai:' + h.hatch.split(':')[1], function() {
+            gtr.assembler('dishanhai:' + h.hatch.split(':')[1])
+                .itemInputs(h.bus, 'gtceu:basic_integrated_circuit')
+                .itemOutputs(h.hatch)
+                .circuit(16)
+                .EUt(8)
+                .duration(100);
+        }, {defaultEnabled: true});
+    });
+
+    // ========== 虚拟物品供应机 (工作台合成) ==========
+    e.shaped('gt_shanhai:virtual_item_supply_machine', [
+        'B'
+    ], {
+        B: 'gtceu:me_stocking_input_bus'
+    });
+
+    // ========== 虚拟物品提供器 (工作台合成) ==========
+    e.shaped('gt_shanhai:virtual_item_provider', [
+        'C'
+    ], {
+        C: 'gtceu:basic_integrated_circuit'
+    });
+}
 
 console.log('[山海的配方库] ServerEvents.recipes 执行到末尾');
 
