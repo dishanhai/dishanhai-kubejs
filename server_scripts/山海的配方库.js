@@ -227,11 +227,14 @@ const universalRecipes = [
     {id:'assembler_salt_water',type:'chemical_reactor',inputFluids: ['minecraft:water 1000'], outputFluids: ['gtceu:salt_water 1000'], notConsumable: 'dishanhai:wzcz1', EUt: lv, duration: 20 },
     {id:'assembler_module_gate_and_bridg',type:'assembler_module',itemInputs: ['512x dishanhai:wzcz2','16x gtceu:space_elevator','64x gtceu:resource_collection','64x gtceu:assembler_module','64x kubejs:space_drone_mk1','64x gtlcore:power_core','32x gtceu:chemical_distort','64x kubejs:bioware_assembly'], itemOutputs: ['dishanhai:gate_and_bridg'], EUt: uv, duration: 20,addDataid: "SEPMTier", addData: 2},
 
-    // ========== 原初铸币工厂 — 机器配方 ==========
+    // ========== 原初铸币工厂 — 机器配方 (山海体系 HV) ==========
     { id: 'coin_forge_machine', type: 'primordial_matter_recombination',
-      itemInputs: ['4x gtceu:stainless_steel_plate','2x gtceu:titanium_plate','1x gtceu:mv_assembler','1x gtceu:mv_extruder','4x gtceu:gold_foil','4x gtceu:silver_foil','64x gtceu:copper_foil','64x gtceu:cupronickel_foil','1x gtceu:basic_integrated_circuit','4x gtceu:glass_lens'],
-      inputFluids: ['gtceu:lubricant 1000','gtceu:soldering_alloy 576'],
-      itemOutputs: ['gt_shanhai:primordial_coin_forge'], EUt: hv, duration: 400 },
+      itemInputs: ['1x dishanhai:wzsb', '16x dishanhai:wl_board_hv', '8x kubejs:hv_universal_circuit',
+                   '64x dishanhai:photon', '64x dishanhai:first_light', '16x dishanhai:matter_singularity',
+                   '16x dishanhai:worldline_residual_fragment', '4x dishanhai:navigate_prism',
+                   '4x gtceu:hv_machine_hull', '4x gtceu:hv_robot_arm'],
+      inputFluids: ['dishanhai:matter_fluid_virtual 64000', 'dishanhai:zero_point_energy 32000', 'dishanhai:light 128000'],
+      itemOutputs: ['gt_shanhai:primordial_coin_forge'], EUt: hv, duration: 400, conditions: ["16x dishanhai:wzsb"] },
 
     // ========== 铸币: 64块→32币 (coin_forge) ==========
     { id: 'copper_coin_mint',      type: 'coin_forge', itemInputs: ['64x gtceu:copper_block'],      itemOutputs: ['32x dishanhai:copper_coin'],      EUt: hv, duration: 200 },
