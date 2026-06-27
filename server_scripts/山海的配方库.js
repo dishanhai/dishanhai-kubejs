@@ -1983,6 +1983,77 @@ if (Platform.isLoaded('ae2_overclocked')){
     // 移除虚拟物品配方，需要时删掉这两行
     e.remove({output: 'gt_shanhai:virtual_item_supply_machine'});
     e.remove({output: 'gt_shanhai:virtual_item_provider'});
+
+    // ================================================================
+    // 原初铸币工厂 — 机器配方 (primordial_matter_recombination, HV)
+    // ================================================================
+    safeAddRecipe('primordial_matter_recombination', 'dishanhai:coin_forge_machine', function() {
+        gtr.primordial_matter_recombination('dishanhai:coin_forge_machine')
+            .itemInputs('4x gtceu:stainless_steel_plate', '2x gtceu:titanium_plate',
+                        '1x gtceu:assembler_mv', '1x gtceu:extruder_mv',
+                        '4x gtceu:gold_foil', '4x gtceu:silver_foil',
+                        '64x gtceu:copper_foil', '64x gtceu:cupronickel_foil',
+                        '1x gtceu:basic_integrated_circuit', '4x gtceu:glass_lens')
+            .inputFluids('gtceu:lubricant 1000', 'gtceu:soldering_alloy 576')
+            .itemOutputs('gt_shanhai:primordial_coin_forge')
+            .EUt(512)
+            .duration(400);
+    }, {defaultEnabled: true});
+
+    // ================================================================
+    // 铸币配方 — 1块→32币 (coin_forge)
+    // ================================================================
+    var coinRecipes = [
+        {block:'gtceu:copper_block',          coin:'dishanhai:copper_coin',      name:'铜GT币'},
+        {block:'gtceu:cupronickel_block',     coin:'dishanhai:cupronickel_coin', name:'白铜GT币'},
+        {block:'gtceu:silver_block',          coin:'dishanhai:silver_coin',      name:'银GT币'},
+        {block:'minecraft:gold_block',        coin:'dishanhai:gold_coin',        name:'金GT币'},
+        {block:'gtceu:platinum_block',        coin:'dishanhai:platinum_coin',    name:'铂GT币'},
+        {block:'gtceu:osmium_block',          coin:'dishanhai:osmium_coin',      name:'锇GT币'},
+        {block:'gtceu:naquadah_block',        coin:'dishanhai:naquadah_coin',    name:'硅岩GT币'},
+        {block:'gtceu:neutronium_block',      coin:'dishanhai:neutronium_coin',  name:'中子GT币'},
+        {block:'gtceu:cosmic_neutronium_block',coin:'dishanhai:neutron_coin',    name:'宇宙中子GT币'},
+        {block:'gtceu:infinity_block',        coin:'dishanhai:infinite_coin',    name:'无尽GT币'}
+    ];
+    coinRecipes.forEach(function(r) {
+        safeAddRecipe('coin_forge', 'dishanhai:' + r.coin.split(':')[1], function() {
+            gtr.coin_forge('dishanhai:' + r.coin.split(':')[1])
+                .itemInputs(r.block)
+                .itemOutputs('32x ' + r.coin)
+                .EUt(512)
+                .duration(200);
+        }, {defaultEnabled: true});
+    });
+
+    // ================================================================
+    // 特殊币兑换 (coin_forge)
+    // ================================================================
+    // 蠢民币: 1铜GT币 → 9蠢民币
+    safeAddRecipe('coin_forge', 'dishanhai:stupid_coin_from_copper', function() {
+        gtr.coin_forge('dishanhai:stupid_coin_from_copper')
+            .itemInputs('dishanhai:copper_coin')
+            .itemOutputs('9x dishanhai:stupid_coin')
+            .EUt(512)
+            .duration(100);
+    }, {defaultEnabled: true});
+
+    // 虚无GT币: 9无尽GT币 → 1虚无GT币
+    safeAddRecipe('coin_forge', 'dishanhai:coin_secondary_from_infinite', function() {
+        gtr.coin_forge('dishanhai:coin_secondary_from_infinite')
+            .itemInputs('9x dishanhai:infinite_coin')
+            .itemOutputs('dishanhai:coin_secondary')
+            .EUt(512)
+            .duration(300);
+    }, {defaultEnabled: true});
+
+    // SadBapyCat代币: 8虚无GT币 + 1GigaChad → 1SadBapyCat
+    safeAddRecipe('coin_forge', 'dishanhai:sadbapycat_token_from_coins', function() {
+        gtr.coin_forge('dishanhai:sadbapycat_token_from_coins')
+            .itemInputs('8x dishanhai:coin_secondary', 'kubejs:giga_chad')
+            .itemOutputs('dishanhai:sadbapycat_token')
+            .EUt(512)
+            .duration(600);
+    }, {defaultEnabled: true});
 }
 
 console.log('[山海的配方库] ServerEvents.recipes 执行到末尾');
