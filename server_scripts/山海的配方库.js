@@ -146,7 +146,23 @@ const assrecipes = [
         circuit: null,
         EUt: mv,uev
         duration: 100
-    }*/
+    }*/,
+    // ========== 可编程仓 ×15 (对应输入总线 + LV电路板) ==========
+    { id: 'ulv_programmable_hatch',  type: 'assembler', itemInputs: ['gtceu:ulv_input_bus', 'gtceu:basic_integrated_circuit'], itemOutputs: ['gt_shanhai:ulv_programmable_hatch'],  circuit: 16, EUt: 8,  duration: 100 },
+    { id: 'lv_programmable_hatch',   type: 'assembler', itemInputs: ['gtceu:lv_input_bus',  'gtceu:basic_integrated_circuit'], itemOutputs: ['gt_shanhai:lv_programmable_hatch'],   circuit: 16, EUt: 8,  duration: 100 },
+    { id: 'mv_programmable_hatch',   type: 'assembler', itemInputs: ['gtceu:mv_input_bus',  'gtceu:basic_integrated_circuit'], itemOutputs: ['gt_shanhai:mv_programmable_hatch'],   circuit: 16, EUt: 8,  duration: 100 },
+    { id: 'hv_programmable_hatch',   type: 'assembler', itemInputs: ['gtceu:hv_input_bus',  'gtceu:basic_integrated_circuit'], itemOutputs: ['gt_shanhai:hv_programmable_hatch'],   circuit: 16, EUt: 8,  duration: 100 },
+    { id: 'ev_programmable_hatch',   type: 'assembler', itemInputs: ['gtceu:ev_input_bus',  'gtceu:basic_integrated_circuit'], itemOutputs: ['gt_shanhai:ev_programmable_hatch'],   circuit: 16, EUt: 8,  duration: 100 },
+    { id: 'iv_programmable_hatch',   type: 'assembler', itemInputs: ['gtceu:iv_input_bus',  'gtceu:basic_integrated_circuit'], itemOutputs: ['gt_shanhai:iv_programmable_hatch'],   circuit: 16, EUt: 8,  duration: 100 },
+    { id: 'luv_programmable_hatch',  type: 'assembler', itemInputs: ['gtceu:luv_input_bus', 'gtceu:basic_integrated_circuit'], itemOutputs: ['gt_shanhai:luv_programmable_hatch'],  circuit: 16, EUt: 8,  duration: 100 },
+    { id: 'zpm_programmable_hatch',  type: 'assembler', itemInputs: ['gtceu:zpm_input_bus', 'gtceu:basic_integrated_circuit'], itemOutputs: ['gt_shanhai:zpm_programmable_hatch'],  circuit: 16, EUt: 8,  duration: 100 },
+    { id: 'uv_programmable_hatch',   type: 'assembler', itemInputs: ['gtceu:uv_input_bus',  'gtceu:basic_integrated_circuit'], itemOutputs: ['gt_shanhai:uv_programmable_hatch'],   circuit: 16, EUt: 8,  duration: 100 },
+    { id: 'uhv_programmable_hatch',  type: 'assembler', itemInputs: ['gtceu:uhv_input_bus', 'gtceu:basic_integrated_circuit'], itemOutputs: ['gt_shanhai:uhv_programmable_hatch'],  circuit: 16, EUt: 8,  duration: 100 },
+    { id: 'uev_programmable_hatch',  type: 'assembler', itemInputs: ['gtceu:uev_input_bus', 'gtceu:basic_integrated_circuit'], itemOutputs: ['gt_shanhai:uev_programmable_hatch'],  circuit: 16, EUt: 8,  duration: 100 },
+    { id: 'uiv_programmable_hatch',  type: 'assembler', itemInputs: ['gtceu:uiv_input_bus', 'gtceu:basic_integrated_circuit'], itemOutputs: ['gt_shanhai:uiv_programmable_hatch'],  circuit: 16, EUt: 8,  duration: 100 },
+    { id: 'uxv_programmable_hatch',  type: 'assembler', itemInputs: ['gtceu:uxv_input_bus', 'gtceu:basic_integrated_circuit'], itemOutputs: ['gt_shanhai:uxv_programmable_hatch'],  circuit: 16, EUt: 8,  duration: 100 },
+    { id: 'opv_programmable_hatch',  type: 'assembler', itemInputs: ['gtceu:opv_input_bus', 'gtceu:basic_integrated_circuit'], itemOutputs: ['gt_shanhai:opv_programmable_hatch'],  circuit: 16, EUt: 8,  duration: 100 },
+    { id: 'programmable_hatch',      type: 'assembler', itemInputs: ['gtceu:max_input_bus', 'gtceu:basic_integrated_circuit'], itemOutputs: ['gt_shanhai:programmable_hatch'],      circuit: 16, EUt: 8,  duration: 100 }
 ];
 
 // 配方验证函数
@@ -210,6 +226,29 @@ const universalRecipes = [
     {id:'test_placeholder',type:'assembler',itemInputs: ['nonexistent:invalid_item', '2x another:missing_item'], itemOutputs: ['3x invalid:output_item'], defaultEnabled: false, EUt: ulv, duration: 20 },
     {id:'assembler_salt_water',type:'chemical_reactor',inputFluids: ['minecraft:water 1000'], outputFluids: ['gtceu:salt_water 1000'], notConsumable: 'dishanhai:wzcz1', EUt: lv, duration: 20 },
     {id:'assembler_module_gate_and_bridg',type:'assembler_module',itemInputs: ['512x dishanhai:wzcz2','16x gtceu:space_elevator','64x gtceu:resource_collection','64x gtceu:assembler_module','64x kubejs:space_drone_mk1','64x gtlcore:power_core','32x gtceu:chemical_distort','64x kubejs:bioware_assembly'], itemOutputs: ['dishanhai:gate_and_bridg'], EUt: uv, duration: 20,addDataid: "SEPMTier", addData: 2},
+
+    // ========== 原初铸币工厂 — 机器配方 ==========
+    { id: 'coin_forge_machine', type: 'primordial_matter_recombination',
+      itemInputs: ['4x gtceu:stainless_steel_plate','2x gtceu:titanium_plate','1x gtceu:assembler_mv','1x gtceu:extruder_mv','4x gtceu:gold_foil','4x gtceu:silver_foil','64x gtceu:copper_foil','64x gtceu:cupronickel_foil','1x gtceu:basic_integrated_circuit','4x gtceu:glass_lens'],
+      inputFluids: ['gtceu:lubricant 1000','gtceu:soldering_alloy 576'],
+      itemOutputs: ['gt_shanhai:primordial_coin_forge'], EUt: hv, duration: 400 },
+
+    // ========== 铸币: 1块→32币 (coin_forge) ==========
+    { id: 'copper_coin_mint',      type: 'coin_forge', itemInputs: ['gtceu:copper_block'],      itemOutputs: ['32x dishanhai:copper_coin'],      EUt: hv, duration: 200 },
+    { id: 'cupronickel_coin_mint', type: 'coin_forge', itemInputs: ['gtceu:cupronickel_block'], itemOutputs: ['32x dishanhai:cupronickel_coin'], EUt: hv, duration: 200 },
+    { id: 'silver_coin_mint',      type: 'coin_forge', itemInputs: ['gtceu:silver_block'],      itemOutputs: ['32x dishanhai:silver_coin'],      EUt: hv, duration: 200 },
+    { id: 'gold_coin_mint',        type: 'coin_forge', itemInputs: ['minecraft:gold_block'],    itemOutputs: ['32x dishanhai:gold_coin'],        EUt: hv, duration: 200 },
+    { id: 'platinum_coin_mint',    type: 'coin_forge', itemInputs: ['gtceu:platinum_block'],    itemOutputs: ['32x dishanhai:platinum_coin'],    EUt: hv, duration: 200 },
+    { id: 'osmium_coin_mint',      type: 'coin_forge', itemInputs: ['gtceu:osmium_block'],      itemOutputs: ['32x dishanhai:osmium_coin'],      EUt: hv, duration: 200 },
+    { id: 'naquadah_coin_mint',    type: 'coin_forge', itemInputs: ['gtceu:naquadah_block'],    itemOutputs: ['32x dishanhai:naquadah_coin'],    EUt: hv, duration: 200 },
+    { id: 'neutronium_coin_mint',  type: 'coin_forge', itemInputs: ['gtceu:neutronium_block'],  itemOutputs: ['32x dishanhai:neutronium_coin'],  EUt: hv, duration: 200 },
+    { id: 'neutron_coin_mint',     type: 'coin_forge', itemInputs: ['gtceu:cosmic_neutronium_block'], itemOutputs: ['32x dishanhai:neutron_coin'], EUt: hv, duration: 200 },
+    { id: 'infinite_coin_mint',    type: 'coin_forge', itemInputs: ['gtceu:infinity_block'],    itemOutputs: ['32x dishanhai:infinite_coin'],    EUt: hv, duration: 200 },
+
+    // ========== 特殊币兑换 (coin_forge) ==========
+    { id: 'stupid_coin_from_copper',      type: 'coin_forge', itemInputs: ['dishanhai:copper_coin'],  itemOutputs: ['9x dishanhai:stupid_coin'],         EUt: hv, duration: 100 },
+    { id: 'coin_secondary_from_infinite', type: 'coin_forge', itemInputs: ['9x dishanhai:infinite_coin'], itemOutputs: ['dishanhai:coin_secondary'],      EUt: hv, duration: 300 },
+    { id: 'sadbapycat_token_from_coins',  type: 'coin_forge', itemInputs: ['8x dishanhai:coin_secondary','kubejs:giga_chad'], itemOutputs: ['dishanhai:sadbapycat_token'], EUt: hv, duration: 600 }
 
 ];
 
@@ -1935,126 +1974,6 @@ if (Platform.isLoaded('ae2_overclocked')){
         e.remove({output: output});
         debug(`移除原版配方: ${output}`);
     });
-
-    // ========== 可编程仓配方 (各等级输入总成 + LV电路板 → 可编程仓) ==========
-    var programmableHatchTiers = [
-        {tier:'ulv', bus:'gtceu:ulv_input_bus',   hatch:'gt_shanhai:ulv_programmable_hatch'},
-        {tier:'lv',  bus:'gtceu:lv_input_bus',    hatch:'gt_shanhai:lv_programmable_hatch'},
-        {tier:'mv',  bus:'gtceu:mv_input_bus',    hatch:'gt_shanhai:mv_programmable_hatch'},
-        {tier:'hv',  bus:'gtceu:hv_input_bus',    hatch:'gt_shanhai:hv_programmable_hatch'},
-        {tier:'ev',  bus:'gtceu:ev_input_bus',    hatch:'gt_shanhai:ev_programmable_hatch'},
-        {tier:'iv',  bus:'gtceu:iv_input_bus',    hatch:'gt_shanhai:iv_programmable_hatch'},
-        {tier:'luv', bus:'gtceu:luv_input_bus',   hatch:'gt_shanhai:luv_programmable_hatch'},
-        {tier:'zpm', bus:'gtceu:zpm_input_bus',   hatch:'gt_shanhai:zpm_programmable_hatch'},
-        {tier:'uv',  bus:'gtceu:uv_input_bus',    hatch:'gt_shanhai:uv_programmable_hatch'},
-        {tier:'uhv', bus:'gtceu:uhv_input_bus',   hatch:'gt_shanhai:uhv_programmable_hatch'},
-        {tier:'uev', bus:'gtceu:uev_input_bus',   hatch:'gt_shanhai:uev_programmable_hatch'},
-        {tier:'uiv', bus:'gtceu:uiv_input_bus',   hatch:'gt_shanhai:uiv_programmable_hatch'},
-        {tier:'uxv', bus:'gtceu:uxv_input_bus',   hatch:'gt_shanhai:uxv_programmable_hatch'},
-        {tier:'opv', bus:'gtceu:opv_input_bus',   hatch:'gt_shanhai:opv_programmable_hatch'},
-        {tier:'max', bus:'gtceu:max_input_bus',   hatch:'gt_shanhai:programmable_hatch'}
-    ];
-    programmableHatchTiers.forEach(function(h) {
-        safeAddRecipe('assembler', 'dishanhai:' + h.hatch.split(':')[1], function() {
-            gtr.assembler('dishanhai:' + h.hatch.split(':')[1])
-                .itemInputs(h.bus, 'gtceu:basic_integrated_circuit')
-                .itemOutputs(h.hatch)
-                .circuit(16)
-                .EUt(8)
-                .duration(100);
-        }, {defaultEnabled: true});
-    });
-
-    // ========== 虚拟物品供应机 (工作台合成) — 默认禁用 ==========
-    // GTLcore样板总成已内置电路识别，虚拟物品会多一步"AE里塞电路"，反而倒退
-    e.shaped('gt_shanhai:virtual_item_supply_machine', [
-        'B'
-    ], {
-        B: 'gtceu:me_stocking_input_bus'
-    }).id('dishanhai:virtual_item_supply_machine');
-
-    // ========== 虚拟物品提供器 (工作台合成) — 默认禁用 ==========
-    e.shaped('gt_shanhai:virtual_item_provider', [
-        'C'
-    ], {
-        C: 'gtceu:basic_integrated_circuit'
-    }).id('dishanhai:virtual_item_provider');
-
-    // 移除虚拟物品配方，需要时删掉这两行
-    e.remove({output: 'gt_shanhai:virtual_item_supply_machine'});
-    e.remove({output: 'gt_shanhai:virtual_item_provider'});
-
-    // ================================================================
-    // 原初铸币工厂 — 机器配方 (primordial_matter_recombination, HV)
-    // ================================================================
-    safeAddRecipe('primordial_matter_recombination', 'dishanhai:coin_forge_machine', function() {
-        gtr.primordial_matter_recombination('dishanhai:coin_forge_machine')
-            .itemInputs('4x gtceu:stainless_steel_plate', '2x gtceu:titanium_plate',
-                        '1x gtceu:assembler_mv', '1x gtceu:extruder_mv',
-                        '4x gtceu:gold_foil', '4x gtceu:silver_foil',
-                        '64x gtceu:copper_foil', '64x gtceu:cupronickel_foil',
-                        '1x gtceu:basic_integrated_circuit', '4x gtceu:glass_lens')
-            .inputFluids('gtceu:lubricant 1000', 'gtceu:soldering_alloy 576')
-            .itemOutputs('gt_shanhai:primordial_coin_forge')
-            .EUt(512)
-            .duration(400);
-    }, {defaultEnabled: true});
-
-    // ================================================================
-    // 铸币配方 — 1块→32币 (coin_forge)
-    // ================================================================
-    var coinRecipes = [
-        {block:'gtceu:copper_block',          coin:'dishanhai:copper_coin',      name:'铜GT币'},
-        {block:'gtceu:cupronickel_block',     coin:'dishanhai:cupronickel_coin', name:'白铜GT币'},
-        {block:'gtceu:silver_block',          coin:'dishanhai:silver_coin',      name:'银GT币'},
-        {block:'minecraft:gold_block',        coin:'dishanhai:gold_coin',        name:'金GT币'},
-        {block:'gtceu:platinum_block',        coin:'dishanhai:platinum_coin',    name:'铂GT币'},
-        {block:'gtceu:osmium_block',          coin:'dishanhai:osmium_coin',      name:'锇GT币'},
-        {block:'gtceu:naquadah_block',        coin:'dishanhai:naquadah_coin',    name:'硅岩GT币'},
-        {block:'gtceu:neutronium_block',      coin:'dishanhai:neutronium_coin',  name:'中子GT币'},
-        {block:'gtceu:cosmic_neutronium_block',coin:'dishanhai:neutron_coin',    name:'宇宙中子GT币'},
-        {block:'gtceu:infinity_block',        coin:'dishanhai:infinite_coin',    name:'无尽GT币'}
-    ];
-    coinRecipes.forEach(function(r) {
-        safeAddRecipe('coin_forge', 'dishanhai:' + r.coin.split(':')[1], function() {
-            gtr.coin_forge('dishanhai:' + r.coin.split(':')[1])
-                .itemInputs(r.block)
-                .itemOutputs('32x ' + r.coin)
-                .EUt(512)
-                .duration(200);
-        }, {defaultEnabled: true});
-    });
-
-    // ================================================================
-    // 特殊币兑换 (coin_forge)
-    // ================================================================
-    // 蠢民币: 1铜GT币 → 9蠢民币
-    safeAddRecipe('coin_forge', 'dishanhai:stupid_coin_from_copper', function() {
-        gtr.coin_forge('dishanhai:stupid_coin_from_copper')
-            .itemInputs('dishanhai:copper_coin')
-            .itemOutputs('9x dishanhai:stupid_coin')
-            .EUt(512)
-            .duration(100);
-    }, {defaultEnabled: true});
-
-    // 虚无GT币: 9无尽GT币 → 1虚无GT币
-    safeAddRecipe('coin_forge', 'dishanhai:coin_secondary_from_infinite', function() {
-        gtr.coin_forge('dishanhai:coin_secondary_from_infinite')
-            .itemInputs('9x dishanhai:infinite_coin')
-            .itemOutputs('dishanhai:coin_secondary')
-            .EUt(512)
-            .duration(300);
-    }, {defaultEnabled: true});
-
-    // SadBapyCat代币: 8虚无GT币 + 1GigaChad → 1SadBapyCat
-    safeAddRecipe('coin_forge', 'dishanhai:sadbapycat_token_from_coins', function() {
-        gtr.coin_forge('dishanhai:sadbapycat_token_from_coins')
-            .itemInputs('8x dishanhai:coin_secondary', 'kubejs:giga_chad')
-            .itemOutputs('dishanhai:sadbapycat_token')
-            .EUt(512)
-            .duration(600);
-    }, {defaultEnabled: true});
-}
 
 console.log('[山海的配方库] ServerEvents.recipes 执行到末尾');
 
