@@ -2,6 +2,9 @@
 ServerEvents.recipes(function(e) {
    var gtr = e.recipes.gtceu;  global._shanhaiGTR = gtr;
    DShanhaiRecipeEngine.resetRecipeStats();
+   // 配方库独立运行时需要的shim函数 (依赖big私货中定义,priority:60先于70执行)
+   var debug = (typeof debug !== 'undefined') ? debug : function(m) { console.log('[配方库] ' + m); };
+   var broadcastRecipeError = (typeof broadcastRecipeError !== 'undefined') ? broadcastRecipeError : function(type, id, msg) { console.error('[配方错误] ' + type + ': ' + id + ' - ' + msg); };
    var normalizeRecipeId = function(recipeId) {
        if (recipeId === null || recipeId === undefined) return '';
        var value = String(recipeId);
