@@ -248,7 +248,14 @@ const universalRecipes = [
     // ========== 特殊币兑换 (coin_forge) ==========
     { id: 'stupid_coin_from_copper',      type: 'coin_forge', itemInputs: ['dishanhai:copper_coin'],  itemOutputs: ['9x dishanhai:stupid_coin'],         EUt: hv, duration: 100 },
     { id: 'coin_secondary_from_infinite', type: 'coin_forge', itemInputs: ['9x dishanhai:infinite_coin'], itemOutputs: ['dishanhai:coin_secondary'],      EUt: hv, duration: 300 },
-    { id: 'sadbapycat_token_from_coins',  type: 'coin_forge', itemInputs: ['8x dishanhai:coin_secondary','kubejs:giga_chad'], itemOutputs: ['dishanhai:sadbapycat_token'], EUt: hv, duration: 600 }
+    { id: 'sadbapycat_token_from_coins',  type: 'coin_forge', itemInputs: ['8x dishanhai:coin_secondary','kubejs:giga_chad'], itemOutputs: ['dishanhai:sadbapycat_token'], EUt: hv, duration: 600 },
+
+    // ========== 量子计算机 — IV级 (assembler) ==========
+    { id: 'quantum_structure',           type: 'assembler', itemInputs: ['4x gtceu:tungstensteel_frame','4x gtceu:quantum_eye','4x gtceu:iridium_plate','4x gtceu:naquadah_plate'], inputFluids: ['gtceu:soldering_alloy 576'], itemOutputs: ['4x gt_shanhai:quantum_structure'],           EUt: iv, duration: 200 },
+    { id: 'quantum_computer_unit',       type: 'assembler', itemInputs: ['gtceu:advanced_computer_casing','4x ae2:engineering_processor','4x ae2:calculation_processor','4x ae2:logic_processor','2x ae2:crafting_unit','gtceu:advanced_integrated_circuit'], inputFluids: ['gtceu:soldering_alloy 288'], itemOutputs: ['gt_shanhai:quantum_computer_unit'],       EUt: iv, duration: 300 },
+    { id: 'quantum_parallel_processor',  type: 'assembler', itemInputs: ['gtceu:advanced_computer_casing','8x ae2:engineering_processor','4x ae2:crafting_accelerator','2x gtceu:advanced_integrated_circuit','4x gtceu:quantum_eye'], inputFluids: ['gtceu:soldering_alloy 288'], itemOutputs: ['gt_shanhai:quantum_parallel_processor'],  EUt: iv, duration: 300 },
+    { id: 'quantum_crafting_storage',    type: 'assembler', itemInputs: ['gtceu:advanced_computer_casing','8x ae2:calculation_processor','4x ae2:crafting_storage_1k','2x gtceu:advanced_integrated_circuit','4x gtceu:quantum_star'], inputFluids: ['gtceu:soldering_alloy 288'], itemOutputs: ['gt_shanhai:quantum_crafting_storage'],    EUt: iv, duration: 300 },
+    { id: 'quantum_computer',            type: 'assembler', itemInputs: ['4x gt_shanhai:quantum_structure','gt_shanhai:quantum_computer_unit','gt_shanhai:quantum_parallel_processor','gt_shanhai:quantum_crafting_storage','4x gtceu:advanced_integrated_circuit','4x ae2:quantum_entangled_singularity'], inputFluids: ['gtceu:soldering_alloy 1152'], itemOutputs: ['gt_shanhai:quantum_computer'],            EUt: iv, duration: 400 }
 
 ];
 
