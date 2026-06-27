@@ -242,7 +242,7 @@ const universalRecipes = [
     { id: 'osmium_coin_mint',      type: 'coin_forge', itemInputs: ['64x gtceu:osmium_block'],      itemOutputs: ['32x dishanhai:osmium_coin'],      EUt: hv, duration: 200 },
     { id: 'naquadah_coin_mint',    type: 'coin_forge', itemInputs: ['64x gtceu:naquadah_block'],    itemOutputs: ['32x dishanhai:naquadah_coin'],    EUt: hv, duration: 200 },
     { id: 'neutronium_coin_mint',  type: 'coin_forge', itemInputs: ['64x gtceu:neutronium_block'],  itemOutputs: ['32x dishanhai:neutronium_coin'],  EUt: hv, duration: 200 },
-    { id: 'neutron_coin_mint',     type: 'coin_forge', itemInputs: ['64x gtceu:cosmic_neutronium_block'], itemOutputs: ['32x dishanhai:neutron_coin'], EUt: hv, duration: 200 },
+    { id: 'neutron_coin_mint',     type: 'coin_forge', itemInputs: ['64x gtceu:cosmicneutronium_block'], itemOutputs: ['32x dishanhai:neutron_coin'], EUt: hv, duration: 200 },
     { id: 'infinite_coin_mint',    type: 'coin_forge', itemInputs: ['64x gtceu:infinity_block'],    itemOutputs: ['32x dishanhai:infinite_coin'],    EUt: hv, duration: 200 },
 
     // ========== 特殊币兑换 (coin_forge) ==========
