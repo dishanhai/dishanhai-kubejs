@@ -1965,19 +1965,24 @@ if (Platform.isLoaded('ae2_overclocked')){
         }, {defaultEnabled: true});
     });
 
-    // ========== 虚拟物品供应机 (工作台合成) ==========
+    // ========== 虚拟物品供应机 (工作台合成) — 默认禁用 ==========
+    // GTLcore样板总成已内置电路识别，虚拟物品会多一步"AE里塞电路"，反而倒退
     e.shaped('gt_shanhai:virtual_item_supply_machine', [
         'B'
     ], {
         B: 'gtceu:me_stocking_input_bus'
-    });
+    }).id('dishanhai:virtual_item_supply_machine');
 
-    // ========== 虚拟物品提供器 (工作台合成) ==========
+    // ========== 虚拟物品提供器 (工作台合成) — 默认禁用 ==========
     e.shaped('gt_shanhai:virtual_item_provider', [
         'C'
     ], {
         C: 'gtceu:basic_integrated_circuit'
-    });
+    }).id('dishanhai:virtual_item_provider');
+
+    // 移除虚拟物品配方，需要时删掉这两行
+    e.remove({output: 'gt_shanhai:virtual_item_supply_machine'});
+    e.remove({output: 'gt_shanhai:virtual_item_provider'});
 }
 
 console.log('[山海的配方库] ServerEvents.recipes 执行到末尾');
