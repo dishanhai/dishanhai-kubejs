@@ -1996,7 +1996,15 @@ if (Platform.isLoaded('ae2_overclocked')){
 
 console.log('[山海的配方库] ServerEvents.recipes 执行到末尾');
 
-    // 每次 /reload 时强制输出配方统计
-    try { DShanhaiRecipeEngine.printStats(); } catch(e) { console.log('[配方库] printStats 失败: ' + e); }
+    // 每次 /reload 时强制输出配方统计到聊天栏
+    try {
+        DShanhaiRecipeEngine.printStats();
+        // 同时尝试发送给在线玩家
+        if (typeof Server !== 'undefined' && Server.players) {
+            for (var pi = 0; pi < Server.players.length; pi++) {
+                try { DShanhaiRecipeEngine.sendRecipeStatsToPlayer(Server.players[pi], 'v2.7.4', '2.8.0'); } catch(e2) {}
+            }
+        }
+    } catch(e) { console.log('[配方库] 统计输出失败: ' + e); }
 
         })
