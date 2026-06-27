@@ -1201,7 +1201,7 @@ function addLore(textList, lines) {
     // 1. 检查 ShanhaiText API
     if (typeof ShanhaiText !== 'undefined') {
         console.log('[山海动态文本] ShanhaiText 可用!');
-        var methods = ['ultimateRainbow','rainbow','obfuscatedRainbow','golden','fire','water','magic','nature','electric','ice','lava','custom'];
+        var methods = ['ultimateRainbow','rainbow','obfuscatedRainbow','golden','fire','water','magic','nature','electric','ice','lava'];
         for (var i = 0; i < methods.length; i++) {
             try {
                 var result = ShanhaiText[methods[i]]('测试');
@@ -1209,6 +1209,13 @@ function addLore(textList, lines) {
             } catch(e) {
                 console.warn('[山海动态文本] ShanhaiText.' + methods[i] + '() 失败: ' + String(e));
             }
+        }
+        // custom() 需要4参数 (v2.3 签名变更)
+        try {
+            var customResult = ShanhaiText.custom('测试', [/* ChatFormatting[] */], 1, 0);
+            console.log('[山海动态文本] ShanhaiText.custom() → 类型: ' + (typeof customResult));
+        } catch(e) {
+            console.warn('[山海动态文本] ShanhaiText.custom() 失败: ' + String(e));
         }
     } else {
         console.warn('[山海动态文本] ShanhaiText 不可用(客户端)');
