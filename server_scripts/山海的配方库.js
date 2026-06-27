@@ -544,6 +544,32 @@ let myRecipes = [
   { id: 'primordial_matter_recombination_bhd_hyper_seed', type: 'primordial_matter_recombination', itemInputs: [ '1x dishanhai:artificial_neutron_star', '1x dishanhai:gravitational_lens', '4x dishanhai:singularity_ring', '64x dishanhai:blue_son' ], inputFluids: ['dishanhai:primal_chaos 256000', 'dishanhai:stabilized_eternity 128000'], itemOutputs: ['4x dishanhai:bhd_hyper_seed'], EUt: MAX, duration: 200, conditions: ["32x dishanhai:wzyh"] },
   { id: 'primordial_matter_recombination_bhd_collapser', type: 'primordial_matter_recombination', itemInputs: [ '1x dishanhai:bhd_hyper_seed', '1x dishanhai:annihilation_core', '1x dishanhai:strong_interaction_droplet', '4x dishanhai:singularity_ring' ], inputFluids: ['dishanhai:matter_fluid_ultimate 256000', 'dishanhai:causal_essence 128000'], itemOutputs: ['1x dishanhai:bhd_collapser'], EUt: MAX, duration: 200, conditions: ["32x dishanhai:wzyh"] },
   { id: 'primordial_matter_recombination_graviton_shard', type: 'primordial_matter_recombination', itemInputs: [ '1x dishanhai:artificial_neutron_star', '4x dishanhai:gravitational_vibration_string', '16x dishanhai:singularity_ring', '64x dishanhai:blue_son' ], inputFluids: ['dishanhai:matter_fluid_ultimate 512000', 'dishanhai:stabilized_eternity 256000'], itemOutputs: ['4x gt_shanhai:graviton_shard'], EUt: MAX, duration: 200, conditions: ["32x dishanhai:wzyh"] },
+  // ===== 世线创世胚胎 (suprachronal_assembly_line, UXV) =====
+  { id: 'suprachronal_assembly_line_worldline_genesis_embryo', type: 'suprachronal_assembly_line',
+    itemInputs: ['dishanhai:dimensional_worldline_fragment', 'dishanhai:worldline_boundless_singularity', 'dishanhai:worldline_imaginary_string',
+                 '1024x dishanhai:genesis_shard', '1024x dishanhai:star_spark', '1024x kubejs:leptonic_charge',
+                 'dishanhai:worldline_residual_fragment', 'dishanhai:worldline_divergent_core',
+                 '16x gtlcore:transcendent_max_battery', 'gtceu:dimensionally_transcendent_mixer',
+                 'gtceu:dimensionally_transcendent_plasma_forge', 'gtceu:star_ultimate_material_forge_factory',
+                 'gtceu:space_probe_surface_reception', 'gtceu:advanced_neutron_activator'],
+    inputFluids: ['dishanhai:matter_fluid_ascension 32000', 'dishanhai:matter_fluid_transcend 16000', 'dishanhai:matter_fluid_peak 64000'],
+    itemOutputs: ['dishanhai:worldline_genesis_embryo'], EUt: uxv, duration: 600 },
+  // ===== 维度框架 ×64 (suprachronal_assembly_line, UXV) =====
+  { id: 'suprachronal_assembly_line_dimensional_frame', type: 'suprachronal_assembly_line',
+    itemInputs: ['dishanhai:worldline_genesis_embryo', '4x dishanhai:worldline_divergent_core',
+                 '16x dishanhai:wl_board_uiv', '64x dishanhai:star_spark'],
+    inputFluids: ['dishanhai:matter_fluid_transcend 128000', 'dishanhai:dimensional_fabric 64000'],
+    itemOutputs: ['64x dishanhai:dimensional_frame'], EUt: uxv, duration: 400 },
+  // ===== 维度矩阵 (matter_module_casting, UXV) =====
+  { id: 'matter_module_casting_dimensional_matrix', type: 'matter_module_casting',
+    itemInputs: ['64x kubejs:ctc_computational_unit', '16x dishanhai:dimensional_frame',
+                 '64x kubejs:eigenfolded_kerr_manifold', '32x gtlcore:extremely_max_battery',
+                 'gtceu:element_copying', 'gtceu:a_mass_fabricator', 'gtceu:nano_core',
+                 'gtceu:qft', 'gtceu:dragon_egg_copier',
+                 '1024x kubejs:quantum_chromodynamic_charge', '1024x dishanhai:blue_son',
+                 '32x kubejs:relativistic_spinorial_memory_system'],
+    inputFluids: ['dishanhai:causal_essence 64000', 'dishanhai:dimensional_fabric 64000', 'dishanhai:primal_chaos 64000'],
+    itemOutputs: ['dishanhai:dimensional_matrix'], EUt: uxv, duration: 600, conditions: ["32x dishanhai:wzcx"] },
   // ===== 苦命鸳鸯 =====
   { id: 'primordial_causal_weaving_ku_ming_yuan_yang', type: 'primordial_causal_weaving', itemInputs: [ '1x dishanhai:blue_alien', '1x dishanhai:long_zui', '1x dishanhai:halo_end', '4x dishanhai:singularity_ring', '16x dishanhai:wl_board_eternal', '64x dishanhai:blue_son', '16x dishanhai:worldline_genesis_embryo' ], inputFluids: ['dishanhai:causal_essence 1024000', 'dishanhai:liquid_ending 512000', 'dishanhai:stabilized_eternity 256000'], itemOutputs: ['1x dishanhai:ku_ming_yuan_yang'], EUt: MAX, duration: 1000, conditions: ["64x dishanhai:wzyh"] },
   // ===== 帝山海（通关目标） =====
@@ -1613,12 +1639,12 @@ console.log(`🗓️ [山海的big私货] ♾️级物品配方添加完毕 成�
     // ========== 创造模块 ==========
     safeAddRecipe('suprachronal_assembly_line', 'dishanhai:czmk', () => {
         gtr.suprachronal_assembly_line('dishanhai:czmk')
-            .itemInputs('dishanhai:halo_end','256x dishanhai:god_forge_mod','512x dishanhai:wzcz3','256x gtladditions:forge_of_the_antichrist','256x gtceu:suprachronal_assembly_line','256x gtladditions:arcanic_astrograph','21474836x gtladditions:astral_array','2048x gtladditions:astral_convergence_nexus','2048x gtladditions:nebula_reaper',"5200x dishanhai:dark_energy_multiplier","dishanhai:collapse_tear","dishanhai:bridge_and_gate","dishanhai:gate_and_bridg","dishanhai:csj","dishanhai:big_tear")
+            .itemInputs('dishanhai:halo_end','256x dishanhai:god_forge_mod','256x gtladditions:forge_of_the_antichrist','256x gtceu:suprachronal_assembly_line','256x gtladditions:arcanic_astrograph','21474836x gtladditions:astral_array','2048x gtladditions:astral_convergence_nexus','2048x gtladditions:nebula_reaper',"5200x dishanhai:dark_energy_multiplier","dishanhai:collapse_tear","dishanhai:bridge_and_gate","dishanhai:gate_and_bridg","dishanhai:csj","dishanhai:big_tear")
             .inputFluids('gtladditions:star_gate_crystal_slurry 21474836','gtceu:magnetohydrodynamicallyconstrainedstarmatter 2147483647','gtceu:spatialfluid 2147483647')
             .itemOutputs('dishanhai:create_mk')
             .EUt(MAX)
             .duration(20)
-            .stationResearch(b => b.researchStack(Registries.getItemStack("dishanhai:wzcz3")).dataStack(Registries.getItemStack("gtceu:data_module")).EUt(MAX).CWUt(8192));
+            .stationResearch(b => b.researchStack(Registries.getItemStack("dishanhai:halo_end")).dataStack(Registries.getItemStack("gtceu:data_module")).EUt(MAX).CWUt(8192));
     });
     
 
