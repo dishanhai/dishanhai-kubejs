@@ -147,22 +147,22 @@ const assrecipes = [
         EUt: mv,uev
         duration: 100
     }*/,
-    // ========== 可编程仓 ×15 (对应输入总线 + LV电路板) ==========
-    { id: 'ulv_programmable_hatch',  type: 'assembler', itemInputs: ['gtceu:ulv_input_bus', 'gtceu:basic_integrated_circuit'], itemOutputs: ['gt_shanhai:ulv_programmable_hatch'],  circuit: 16, EUt: 8,  duration: 100 },
-    { id: 'lv_programmable_hatch',   type: 'assembler', itemInputs: ['gtceu:lv_input_bus',  'gtceu:basic_integrated_circuit'], itemOutputs: ['gt_shanhai:lv_programmable_hatch'],   circuit: 16, EUt: 8,  duration: 100 },
-    { id: 'mv_programmable_hatch',   type: 'assembler', itemInputs: ['gtceu:mv_input_bus',  'gtceu:basic_integrated_circuit'], itemOutputs: ['gt_shanhai:mv_programmable_hatch'],   circuit: 16, EUt: 8,  duration: 100 },
-    { id: 'hv_programmable_hatch',   type: 'assembler', itemInputs: ['gtceu:hv_input_bus',  'gtceu:basic_integrated_circuit'], itemOutputs: ['gt_shanhai:hv_programmable_hatch'],   circuit: 16, EUt: 8,  duration: 100 },
-    { id: 'ev_programmable_hatch',   type: 'assembler', itemInputs: ['gtceu:ev_input_bus',  'gtceu:basic_integrated_circuit'], itemOutputs: ['gt_shanhai:ev_programmable_hatch'],   circuit: 16, EUt: 8,  duration: 100 },
-    { id: 'iv_programmable_hatch',   type: 'assembler', itemInputs: ['gtceu:iv_input_bus',  'gtceu:basic_integrated_circuit'], itemOutputs: ['gt_shanhai:iv_programmable_hatch'],   circuit: 16, EUt: 8,  duration: 100 },
-    { id: 'luv_programmable_hatch',  type: 'assembler', itemInputs: ['gtceu:luv_input_bus', 'gtceu:basic_integrated_circuit'], itemOutputs: ['gt_shanhai:luv_programmable_hatch'],  circuit: 16, EUt: 8,  duration: 100 },
-    { id: 'zpm_programmable_hatch',  type: 'assembler', itemInputs: ['gtceu:zpm_input_bus', 'gtceu:basic_integrated_circuit'], itemOutputs: ['gt_shanhai:zpm_programmable_hatch'],  circuit: 16, EUt: 8,  duration: 100 },
-    { id: 'uv_programmable_hatch',   type: 'assembler', itemInputs: ['gtceu:uv_input_bus',  'gtceu:basic_integrated_circuit'], itemOutputs: ['gt_shanhai:uv_programmable_hatch'],   circuit: 16, EUt: 8,  duration: 100 },
-    { id: 'uhv_programmable_hatch',  type: 'assembler', itemInputs: ['gtceu:uhv_input_bus', 'gtceu:basic_integrated_circuit'], itemOutputs: ['gt_shanhai:uhv_programmable_hatch'],  circuit: 16, EUt: 8,  duration: 100 },
-    { id: 'uev_programmable_hatch',  type: 'assembler', itemInputs: ['gtceu:uev_input_bus', 'gtceu:basic_integrated_circuit'], itemOutputs: ['gt_shanhai:uev_programmable_hatch'],  circuit: 16, EUt: 8,  duration: 100 },
-    { id: 'uiv_programmable_hatch',  type: 'assembler', itemInputs: ['gtceu:uiv_input_bus', 'gtceu:basic_integrated_circuit'], itemOutputs: ['gt_shanhai:uiv_programmable_hatch'],  circuit: 16, EUt: 8,  duration: 100 },
-    { id: 'uxv_programmable_hatch',  type: 'assembler', itemInputs: ['gtceu:uxv_input_bus', 'gtceu:basic_integrated_circuit'], itemOutputs: ['gt_shanhai:uxv_programmable_hatch'],  circuit: 16, EUt: 8,  duration: 100 },
-    { id: 'opv_programmable_hatch',  type: 'assembler', itemInputs: ['gtceu:opv_input_bus', 'gtceu:basic_integrated_circuit'], itemOutputs: ['gt_shanhai:opv_programmable_hatch'],  circuit: 16, EUt: 8,  duration: 100 },
-    { id: 'programmable_hatch',      type: 'assembler', itemInputs: ['gtceu:max_input_bus', 'gtceu:basic_integrated_circuit'], itemOutputs: ['gt_shanhai:programmable_hatch'],      circuit: 16, EUt: 8,  duration: 100 }
+    // ========== 可编程仓 ×15 (对应输入总线 + 通用电路板) ==========
+    { id: 'ulv_programmable_hatch',  type: 'assembler', itemInputs: ['gtceu:ulv_input_bus', 'kubejs:ulv_universal_circuit'], itemOutputs: ['gt_shanhai:ulv_programmable_hatch'],  circuit: 16, EUt: 8,  duration: 100 },
+    { id: 'lv_programmable_hatch',   type: 'assembler', itemInputs: ['gtceu:lv_input_bus',  'kubejs:lv_universal_circuit'], itemOutputs: ['gt_shanhai:lv_programmable_hatch'],   circuit: 16, EUt: 8,  duration: 100 },
+    { id: 'mv_programmable_hatch',   type: 'assembler', itemInputs: ['gtceu:mv_input_bus',  'kubejs:mv_universal_circuit'], itemOutputs: ['gt_shanhai:mv_programmable_hatch'],   circuit: 16, EUt: 8,  duration: 100 },
+    { id: 'hv_programmable_hatch',   type: 'assembler', itemInputs: ['gtceu:hv_input_bus',  'kubejs:hv_universal_circuit'], itemOutputs: ['gt_shanhai:hv_programmable_hatch'],   circuit: 16, EUt: 8,  duration: 100 },
+    { id: 'ev_programmable_hatch',   type: 'assembler', itemInputs: ['gtceu:ev_input_bus',  'kubejs:ev_universal_circuit'], itemOutputs: ['gt_shanhai:ev_programmable_hatch'],   circuit: 16, EUt: 8,  duration: 100 },
+    { id: 'iv_programmable_hatch',   type: 'assembler', itemInputs: ['gtceu:iv_input_bus',  'kubejs:iv_universal_circuit'], itemOutputs: ['gt_shanhai:iv_programmable_hatch'],   circuit: 16, EUt: 8,  duration: 100 },
+    { id: 'luv_programmable_hatch',  type: 'assembler', itemInputs: ['gtceu:luv_input_bus', 'kubejs:luv_universal_circuit'], itemOutputs: ['gt_shanhai:luv_programmable_hatch'],  circuit: 16, EUt: 8,  duration: 100 },
+    { id: 'zpm_programmable_hatch',  type: 'assembler', itemInputs: ['gtceu:zpm_input_bus', 'kubejs:zpm_universal_circuit'], itemOutputs: ['gt_shanhai:zpm_programmable_hatch'],  circuit: 16, EUt: 8,  duration: 100 },
+    { id: 'uv_programmable_hatch',   type: 'assembler', itemInputs: ['gtceu:uv_input_bus',  'kubejs:uv_universal_circuit'], itemOutputs: ['gt_shanhai:uv_programmable_hatch'],   circuit: 16, EUt: 8,  duration: 100 },
+    { id: 'uhv_programmable_hatch',  type: 'assembler', itemInputs: ['gtceu:uhv_input_bus', 'kubejs:uhv_universal_circuit'], itemOutputs: ['gt_shanhai:uhv_programmable_hatch'],  circuit: 16, EUt: 8,  duration: 100 },
+    { id: 'uev_programmable_hatch',  type: 'assembler', itemInputs: ['gtceu:uev_input_bus', 'kubejs:uev_universal_circuit'], itemOutputs: ['gt_shanhai:uev_programmable_hatch'],  circuit: 16, EUt: 8,  duration: 100 },
+    { id: 'uiv_programmable_hatch',  type: 'assembler', itemInputs: ['gtceu:uiv_input_bus', 'kubejs:uiv_universal_circuit'], itemOutputs: ['gt_shanhai:uiv_programmable_hatch'],  circuit: 16, EUt: 8,  duration: 100 },
+    { id: 'uxv_programmable_hatch',  type: 'assembler', itemInputs: ['gtceu:uxv_input_bus', 'kubejs:uxv_universal_circuit'], itemOutputs: ['gt_shanhai:uxv_programmable_hatch'],  circuit: 16, EUt: 8,  duration: 100 },
+    { id: 'opv_programmable_hatch',  type: 'assembler', itemInputs: ['gtceu:opv_input_bus', 'kubejs:opv_universal_circuit'], itemOutputs: ['gt_shanhai:opv_programmable_hatch'],  circuit: 16, EUt: 8,  duration: 100 },
+    { id: 'programmable_hatch',      type: 'assembler', itemInputs: ['gtceu:max_input_bus', 'kubejs:max_universal_circuit'], itemOutputs: ['gt_shanhai:programmable_hatch'],      circuit: 16, EUt: 8,  duration: 100 }
 ];
 
 // 配方验证函数
@@ -603,7 +603,7 @@ let myRecipes = [
 
 
 var matterFlowCondensationRecipeDefs = [
-    ['wl_board_lv', ['dishanhai:first_light'], ['dishanhai:light 2000'], ['dishanhai:matter_fluid_entry', 'dishanhai:zero_point_energy'], ulv, 20, null],
+    ['entry', ['1x minecraft:iron_ingot', '1x minecraft:copper_ingot', '1x minecraft:gold_ingot'], ['minecraft:water 1000', 'minecraft:lava 1000'], ['dishanhai:matter_fluid_entry 1000'], ulv, 100, null],
     ['basic', ['1x minecraft:ender_pearl'], ['gtceu:glass 1000', 'gtceu:polyethylene 1000'], ['dishanhai:matter_fluid_basic 1000'], 32, 100, 'dishanhai:wzrm'],
     ['foundation', ['1x gtceu:stainless_steel_ingot', '1x gtceu:silicon_ingot', '1x gtceu:exquisite_emerald_gem'], ['gtceu:kanthal 1000', 'gtceu:vanadium_steel 1000'], ['dishanhai:matter_fluid_foundation 1000'], 128, 100, 'dishanhai:wzjc'],
     ['virtual', ['1x gtceu:nichrome_ingot', '1x gtceu:titanium_ingot', '1x minecraft:ender_eye'], ['gtceu:soldering_alloy 1000', 'gtceu:polytetrafluoroethylene 1000'], ['dishanhai:matter_fluid_virtual 1000'], 512, 100, 'dishanhai:wzcz1'],
