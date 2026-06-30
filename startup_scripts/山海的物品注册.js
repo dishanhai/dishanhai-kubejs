@@ -2414,6 +2414,204 @@ DShanhaiItemTooltipAPI.register('dishanhai:naan', [
     '{bodySilver}哎捧油，馕舀不舀{/}',
 ])
 
+e.create('dishanhai:proxy_resonance_core_mk1')
+  .displayName('&$cosmic-代理共鸣核心 MK1')
+  .texture('dishanhai_item:item/proxy_resonance_core_mk1')
+  .maxStackSize(1)
+  .fireResistant(true)
+DShanhaiItemTooltipAPI.register('dishanhai:proxy_resonance_core_mk1', [
+    '{golden}代理共鸣核心 MK1{/}',
+    '{bodySilver}放入代理执行者增幅槽，使代理并行倍率提升至 16x{/}',
+    '{ultimateRainbow}满堆叠目标机器时，代理并行可达 524288{/}'
+])
+
+e.create('dishanhai:proxy_resonance_core_mk1a')
+  .displayName('&$cosmic-代理共鸣核心 MK1A')
+  .texture('dishanhai_item:item/proxy_resonance_core_mk1a')
+  .maxStackSize(1)
+  .fireResistant(true)
+DShanhaiItemTooltipAPI.register('dishanhai:proxy_resonance_core_mk1a', [
+    '{golden}代理共鸣核心 MK1A{/}',
+    '{bodySilver}放入代理执行者增幅槽，使代理并行倍率提升至 32x{/}',
+    '{ultimateRainbow}满堆叠目标机器时，代理并行可达 1048576{/}'
+])
+
+e.create('dishanhai:proxy_resonance_core_mk1b')
+  .displayName('&$cosmic-代理共鸣核心 MK1B')
+  .texture('dishanhai_item:item/proxy_resonance_core_mk1b')
+  .maxStackSize(1)
+  .fireResistant(true)
+DShanhaiItemTooltipAPI.register('dishanhai:proxy_resonance_core_mk1b', [
+    '{golden}代理共鸣核心 MK1B{/}',
+    '{bodySilver}放入代理执行者增幅槽，使代理并行倍率提升至 48x{/}',
+    '{ultimateRainbow}满堆叠目标机器时，代理并行可达 1572864{/}'
+])
+
+e.create('dishanhai:proxy_resonance_core_mk2')
+  .displayName('&$cosmic-代理共鸣核心 MK2')
+  .texture('dishanhai_item:item/proxy_resonance_core_mk2')
+  .maxStackSize(1)
+  .fireResistant(true)
+DShanhaiItemTooltipAPI.register('dishanhai:proxy_resonance_core_mk2', [
+    '{golden}代理共鸣核心 MK2{/}',
+    '{bodySilver}放入代理执行者增幅槽，使代理并行倍率提升至 256x{/}',
+    '{ultimateRainbow}满堆叠目标机器时，代理并行可达 8388608{/}'
+])
+
+e.create('dishanhai:proxy_resonance_core_mk2a')
+  .displayName('&$cosmic-代理共鸣核心 MK2A')
+  .texture('dishanhai_item:item/proxy_resonance_core_mk2a')
+  .maxStackSize(1)
+  .fireResistant(true)
+DShanhaiItemTooltipAPI.register('dishanhai:proxy_resonance_core_mk2a', [
+    '{golden}代理共鸣核心 MK2A{/}',
+    '{bodySilver}放入代理执行者增幅槽，使代理并行倍率提升至 512x{/}',
+    '{ultimateRainbow}满堆叠目标机器时，代理并行可达 16777216{/}'
+])
+
+e.create('dishanhai:proxy_resonance_core_mk2b')
+  .displayName('&$cosmic-代理共鸣核心 MK2B')
+  .texture('dishanhai_item:item/proxy_resonance_core_mk2b')
+  .maxStackSize(1)
+  .fireResistant(true)
+DShanhaiItemTooltipAPI.register('dishanhai:proxy_resonance_core_mk2b', [
+    '{golden}代理共鸣核心 MK2B{/}',
+    '{bodySilver}放入代理执行者增幅槽，使代理并行倍率提升至 768x{/}',
+    '{ultimateRainbow}满堆叠目标机器时，代理并行可达 25165824{/}'
+])
+
+e.create('dishanhai:proxy_resonance_core_mk3')
+  .displayName('&$ultimate-代理共鸣核心 MK3')
+  .texture('dishanhai_item:item/proxy_resonance_core_mk3')
+  .maxStackSize(1)
+  .fireResistant(true)
+DShanhaiItemTooltipAPI.register('dishanhai:proxy_resonance_core_mk3', [
+    '{golden}代理共鸣核心 MK3{/}',
+    '{bodySilver}放入代理执行者增幅槽，使代理并行倍率提升至 1024x{/}',
+    '{ultimateRainbow}满堆叠目标机器时，代理并行可达 33554432{/}'
+])
+
+e.create('dishanhai:proxy_resonance_core_mk3a')
+  .displayName('&$ultimate-代理共鸣核心 MK3A')
+  .texture('dishanhai_item:item/proxy_resonance_core_mk3a')
+  .maxStackSize(1)
+  .fireResistant(true)
+DShanhaiItemTooltipAPI.register('dishanhai:proxy_resonance_core_mk3a', [
+    '{golden}代理共鸣核心 MK3A{/}',
+    '{bodySilver}放入代理执行者增幅槽，使代理并行倍率提升至 2048x{/}',
+    '{ultimateRainbow}满堆叠目标机器时，代理并行可达 67108864{/}'
+])
+
+e.create('dishanhai:proxy_resonance_core_mk3b')
+  .displayName('&$ultimate-代理共鸣核心 MK3B')
+  .texture('dishanhai_item:item/proxy_resonance_core_mk3b')
+  .maxStackSize(1)
+  .fireResistant(true)
+DShanhaiItemTooltipAPI.register('dishanhai:proxy_resonance_core_mk3b', [
+    '{golden}代理共鸣核心 MK3B{/}',
+    '{bodySilver}放入代理执行者增幅槽，使代理并行倍率提升至 3072x{/}',
+    '{ultimateRainbow}满堆叠目标机器时，代理并行可达 100663296{/}'
+])
+
+e.create('dishanhai:proxy_resonance_core_mk4')
+  .displayName('&$ultimate-代理共鸣核心 MK4')
+  .texture('dishanhai_item:item/proxy_resonance_core_mk4')
+  .maxStackSize(1)
+  .fireResistant(true)
+DShanhaiItemTooltipAPI.register('dishanhai:proxy_resonance_core_mk4', [
+    '{golden}代理共鸣核心 MK4{/}',
+    '{bodySilver}放入代理执行者增幅槽，使代理并行倍率提升至 4096x{/}',
+    '{ultimateRainbow}满堆叠目标机器时，代理并行可达 134217728{/}'
+])
+
+e.create('dishanhai:proxy_resonance_core_mk4a')
+  .displayName('&$ultimate-代理共鸣核心 MK4A')
+  .texture('dishanhai_item:item/proxy_resonance_core_mk4a')
+  .maxStackSize(1)
+  .fireResistant(true)
+DShanhaiItemTooltipAPI.register('dishanhai:proxy_resonance_core_mk4a', [
+    '{golden}代理共鸣核心 MK4A{/}',
+    '{bodySilver}放入代理执行者增幅槽，使代理并行倍率提升至 8192x{/}',
+    '{ultimateRainbow}满堆叠目标机器时，代理并行可达 268435456{/}'
+])
+
+e.create('dishanhai:proxy_resonance_core_mk4b')
+  .displayName('&$ultimate-代理共鸣核心 MK4B')
+  .texture('dishanhai_item:item/proxy_resonance_core_mk4b')
+  .maxStackSize(1)
+  .fireResistant(true)
+DShanhaiItemTooltipAPI.register('dishanhai:proxy_resonance_core_mk4b', [
+    '{golden}代理共鸣核心 MK4B{/}',
+    '{bodySilver}放入代理执行者增幅槽，使代理并行倍率提升至 12288x{/}',
+    '{ultimateRainbow}满堆叠目标机器时，代理并行可达 402653184{/}'
+])
+
+e.create('dishanhai:proxy_resonance_core_mk5')
+  .displayName('&$ultimate-代理共鸣核心 MK5')
+  .texture('dishanhai_item:item/proxy_resonance_core_mk5')
+  .maxStackSize(1)
+  .fireResistant(true)
+DShanhaiItemTooltipAPI.register('dishanhai:proxy_resonance_core_mk5', [
+    '{golden}代理共鸣核心 MK5{/}',
+    '{bodySilver}放入代理执行者增幅槽，使代理并行倍率提升至 16384x{/}',
+    '{ultimateRainbow}满堆叠目标机器时，代理并行可达 536870912{/}'
+])
+
+e.create('dishanhai:proxy_resonance_core_mk5a')
+  .displayName('&$ultimate-代理共鸣核心 MK5A')
+  .texture('dishanhai_item:item/proxy_resonance_core_mk5a')
+  .maxStackSize(1)
+  .fireResistant(true)
+DShanhaiItemTooltipAPI.register('dishanhai:proxy_resonance_core_mk5a', [
+    '{golden}代理共鸣核心 MK5A{/}',
+    '{bodySilver}放入代理执行者增幅槽，使代理并行倍率提升至 32768x{/}',
+    '{ultimateRainbow}满堆叠目标机器时，代理并行可达 1073741824{/}'
+])
+
+e.create('dishanhai:proxy_resonance_core_mk5b')
+  .displayName('&$ultimate-代理共鸣核心 MK5B')
+  .texture('dishanhai_item:item/proxy_resonance_core_mk5b')
+  .maxStackSize(1)
+  .fireResistant(true)
+DShanhaiItemTooltipAPI.register('dishanhai:proxy_resonance_core_mk5b', [
+    '{golden}代理共鸣核心 MK5B{/}',
+    '{bodySilver}放入代理执行者增幅槽，使代理并行倍率提升至 49152x{/}',
+    '{ultimateRainbow}满堆叠目标机器时，代理并行可达 1610612736{/}'
+])
+
+e.create('dishanhai:proxy_resonance_core_mk6')
+  .displayName('&$ultimate-代理共鸣核心 MK6')
+  .texture('dishanhai_item:item/proxy_resonance_core_mk6')
+  .maxStackSize(1)
+  .fireResistant(true)
+DShanhaiItemTooltipAPI.register('dishanhai:proxy_resonance_core_mk6', [
+    '{golden}代理共鸣核心 MK6{/}',
+    '{bodySilver}放入代理执行者增幅槽，使代理并行倍率提升至 65536x{/}',
+    '{ultimateRainbow}满堆叠目标机器时，代理并行可达 Integer.MAX_VALUE{/}'
+])
+
+e.create('dishanhai:proxy_resonance_core_mk6a')
+  .displayName('&$ultimate-代理共鸣核心 MK6A')
+  .texture('dishanhai_item:item/proxy_resonance_core_mk6a')
+  .maxStackSize(1)
+  .fireResistant(true)
+DShanhaiItemTooltipAPI.register('dishanhai:proxy_resonance_core_mk6a', [
+    '{golden}代理共鸣核心 MK6A{/}',
+    '{bodySilver}放入代理执行者增幅槽，使代理并行倍率提升至 131072x{/}',
+    '{ultimateRainbow}满堆叠目标机器时，代理并行可达 Integer.MAX_VALUE{/}'
+])
+
+e.create('dishanhai:proxy_resonance_core_mk6b')
+  .displayName('&$ultimate-代理共鸣核心 MK6B')
+  .texture('dishanhai_item:item/proxy_resonance_core_mk6b')
+  .maxStackSize(1)
+  .fireResistant(true)
+DShanhaiItemTooltipAPI.register('dishanhai:proxy_resonance_core_mk6b', [
+    '{golden}代理共鸣核心 MK6B{/}',
+    '{bodySilver}放入代理执行者增幅槽，使代理并行倍率提升至 196608x{/}',
+    '{ultimateRainbow}满堆叠目标机器时，代理并行可达 Integer.MAX_VALUE{/}'
+])
+
 
     TooltipAPI.register("gt_shanhai:black_hole_containment", [
         '',
