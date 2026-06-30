@@ -77,7 +77,10 @@ ServerEvents.recipes(function(e) {
    var VA = [8,32,128,512,2048,8192,32768,131072,524288,2097152,8388608,33554432,134217728,536870912,2147483647];
    var ULV=VA[0],LV=VA[1],MV=VA[2],HV=VA[3],EV=VA[4],IV=VA[5],LuV=VA[6],ZPM=VA[7],UV=VA[8],UHV=VA[9],UEV=VA[10],UIV=VA[11],UXV=VA[12],OpV=VA[13],MAX=VA[14];
    var ulv=VA[0],lv=VA[1],mv=VA[2],hv=VA[3],ev=VA[4],iv=VA[5],luv=VA[6],zpm=VA[7],uv=VA[8],uhv=VA[9],uev=VA[10],uiv=VA[11],uxv=VA[12],opv=VA[13],max=VA[14];
-   
+   // 配方库独立运行时需要的shim函数 (依赖big私货中定义,priority:60先于70执行)
+   var debug = (typeof debug !== 'undefined') ? debug : function(m) { console.log('[配方库] ' + m); };
+   var broadcastRecipeError = (typeof broadcastRecipeError !== 'undefined') ? broadcastRecipeError : function(type, id, msg) { console.error('[配方错误] ' + type + ': ' + id + ' - ' + msg); };
+
 //==========     组装机      ==========
 const assrecipes = [
     { 
