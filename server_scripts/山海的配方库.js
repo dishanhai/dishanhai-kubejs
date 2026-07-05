@@ -1224,6 +1224,160 @@ ServerEvents.recipes(function(e) {
         M: 'ae2:storage_bus'
     });
 
+    // ── ME可请求输入总线 ─────
+    e.shaped('gt_shanhai:me_requestable_input_bus', [
+        'B  ',
+        'P  ',
+        'C  '
+    ], {
+        B: 'gtceu:me_input_bus',
+        P: 'ae2:logic_processor',
+        C: 'kubejs:hv_universal_circuit'
+    });
+
+    // ── ME可请求输入仓 ─────
+    e.shaped('gt_shanhai:me_requestable_input_hatch', [
+        'H  ',
+        'P  ',
+        'C  '
+    ], {
+        H: 'gtceu:me_input_hatch',
+        P: 'ae2:engineering_processor',
+        C: 'kubejs:hv_universal_circuit'
+    });
+
+    // ── 可请求输入总成 ─────
+    e.shaped('gt_shanhai:input_dual_hatch', [
+        'B  ',
+        'H  ',
+        'C  '
+    ], {
+        B: 'gt_shanhai:me_requestable_input_bus',
+        H: 'gt_shanhai:me_requestable_input_hatch',
+        C: 'kubejs:hv_universal_circuit'
+    });
+
+    // ── ME 相位输出矩阵 ─────
+    e.shaped('gt_shanhai:reliable_me_async_output_buffer', [
+        'E  ',
+        'P  ',
+        'C  '
+    ], {
+        E: 'ae2:export_bus',
+        P: 'ae2:engineering_processor',
+        C: 'kubejs:hv_universal_circuit'
+    });
+
+    // ── ME 星轨输出矩阵 ─────
+    e.shaped('gt_shanhai:me_starrail_output_matrix', [
+        'O  ',
+        'S  ',
+        'C  '
+    ], {
+        O: 'gt_shanhai:reliable_me_async_output_buffer',
+        S: 'ae2:singularity',
+        C: 'kubejs:hv_universal_circuit'
+    });
+
+    // ── 星律样板总成 ─────
+    e.shaped('gt_shanhai:recipe_type_pattern_buffer', [
+        'P  ',
+        'F  ',
+        'C  '
+    ], {
+        P: 'ae2:blank_pattern',
+        F: 'ae2:formation_core',
+        C: 'kubejs:hv_universal_circuit'
+    });
+
+    // ── 星律样板代理 ─────
+    e.shaped('gt_shanhai:recipe_type_pattern_buffer_proxy', [
+        'B  ',
+        'I  ',
+        'C  '
+    ], {
+        B: 'gt_shanhai:recipe_type_pattern_buffer',
+        I: 'ae2:interface',
+        C: 'kubejs:hv_universal_circuit'
+    });
+
+    // ── ME 磁盘仓室 ─────
+    e.shaped('gt_shanhai:me_disk_hatch', [
+        'D  ',
+        'H  ',
+        'C  '
+    ], {
+        D: 'ae2:drive',
+        H: 'gtceu:me_input_hatch',
+        C: 'kubejs:hv_universal_circuit'
+    });
+
+    // ── 虚拟物品提供器 ─────
+    e.shaped('gt_shanhai:virtual_item_provider', [
+        'G  ',
+        'P  ',
+        'S  '
+    ], {
+        G: 'ae2:quartz_glass',
+        P: 'ae2:calculation_processor',
+        S: 'ae2:singularity'
+    });
+
+    // ── 虚拟物品供应机 ─────
+    e.shaped('gt_shanhai:virtual_item_supply_machine', [
+        'V  ',
+        'M  ',
+        'C  '
+    ], {
+        V: 'gt_shanhai:virtual_item_provider',
+        M: 'gtceu:hv_machine_hull',
+        C: 'kubejs:hv_universal_circuit'
+    });
+
+    // ── FTBQ AE 自动提交器 ─────
+    e.shaped('gt_shanhai:ftbq_ae_submitter', [
+        'B  ',
+        'I  ',
+        'C  '
+    ], {
+        B: 'minecraft:book',
+        I: 'ae2:interface',
+        C: 'kubejs:lv_universal_circuit'
+    });
+
+    // ── 进阶质量发生器 ─────
+    e.shaped('gt_shanhai:advanced_mass_fabricator', [
+        'M  ',
+        'S  ',
+        'C  '
+    ], {
+        M: 'gtceu:mass_fabricator',
+        S: 'ae2:singularity',
+        C: 'kubejs:hv_universal_circuit'
+    });
+
+    // ── 盒系统中央控制器 ─────
+    e.shaped('gt_shanhai:box_system_central_controller', [
+        'A  ',
+        'B  ',
+        'C  '
+    ], {
+        A: 'ae2:controller',
+        B: 'gtceu:hv_machine_hull',
+        C: 'kubejs:hv_universal_circuit'
+    });
+
+    // ── 纠缠奇点 ─────
+    e.shaped('kubejs:entangled_singularity', [
+        'S  ',
+        'P  ',
+        'E  '
+    ], {
+        S: 'ae2:singularity',
+        P: 'ae2:fluix_pearl',
+        E: 'minecraft:ender_eye'
+    });
+
     safeAddRecipe('primordial_matter_recombination', 'gt_shanhai:primordial_matter_recombination', () => {
         gtr.primordial_matter_recombination('dishanhai:primordial_matter_recombination_')
             .itemInputs(
