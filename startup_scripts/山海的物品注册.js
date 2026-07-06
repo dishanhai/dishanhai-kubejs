@@ -2369,16 +2369,94 @@ DShanhaiItemTooltipAPI.register('dishanhai:neutronium_coin', [
     '{bodySilver}用于终极交易——据说连重力都能买通{/}',
 ])
 
+e.create('dishanhai:magmatter_coin')
+  .displayName('磁物质GT币')
+  .texture('dishanhai_item:item/magmatter_coin')
+DShanhaiItemTooltipAPI.register('dishanhai:magmatter_coin', [
+    '{golden}磁物质GT币{/}',
+    '{bodySilver}以磁约束恒星物质铸成，币面流动暗色熔光{/}',
+])
+
+e.create('dishanhai:magnetohydrodynamicallyconstrainedstarmatter_coin')
+  .displayName('磁流体约束恒星物质GT币')
+  .texture('dishanhai_item:item/magnetohydrodynamicallyconstrainedstarmatter_coin')
+DShanhaiItemTooltipAPI.register('dishanhai:magnetohydrodynamicallyconstrainedstarmatter_coin', [
+    '{golden}磁流体约束恒星物质GT币{/}',
+    '{bodySilver}以磁流体约束恒星物质铸成，币面涌动高能恒星流体{/}',
+])
+
+e.create('dishanhai:primordialmatter_coin')
+  .displayName('流体本源物质币')
+  .texture('dishanhai_item:item/primordialmatter_coin')
+DShanhaiItemTooltipAPI.register('dishanhai:primordialmatter_coin', [
+    '{golden}流体本源物质币{/}',
+    '{bodySilver}以流体本源物质铸成，币面翻涌创世前的蓝白星流{/}',
+])
+
+e.create('dishanhai:spacetime_coin')
+  .displayName('时空GT币')
+  .texture('dishanhai_item:item/spacetime_coin')
+DShanhaiItemTooltipAPI.register('dishanhai:spacetime_coin', [
+    '{golden}时空GT币{/}',
+    '{bodySilver}以液化时空铸成，币面在过去与未来之间闪烁{/}',
+])
+
+e.create('dishanhai:transcendentmetal_coin')
+  .displayName('超维度GT币')
+  .texture('dishanhai_item:item/transcendentmetal_coin')
+DShanhaiItemTooltipAPI.register('dishanhai:transcendentmetal_coin', [
+    '{golden}超维度GT币{/}',
+    '{bodySilver}以超维度物质铸成，币体呈现立体相位偏移{/}',
+])
+
+e.create('dishanhai:cosmic_coin')
+  .displayName('宇宙GT币')
+  .texture('dishanhai_item:item/cosmic_coin')
+DShanhaiItemTooltipAPI.register('dishanhai:cosmic_coin', [
+    '{golden}宇宙GT币{/}',
+    '{bodySilver}以宇宙物质铸成，币面流转星海光纹{/}',
+])
+
 e.create('dishanhai:neutron_coin')
   .displayName('宇宙中子GT币')
   .texture('dishanhai_item:item/neutron_coin')
 DShanhaiItemTooltipAPI.register('dishanhai:neutron_coin', [
     '{golden}宇宙中子GT币{/}',
+    '{bodySilver}以宇宙中子铸成，币面流转宇宙中子光{/}',
+])
+
+e.create('dishanhai:eternity_coin')
+  .displayName('永恒GT币')
+  .texture('dishanhai_item:item/eternity_coin')
+DShanhaiItemTooltipAPI.register('dishanhai:eternity_coin', [
+    '{golden}永恒GT币{/}',
+    '{bodySilver}以永恒流体铸成，币面循环着不终止的紫绿星涡{/}',
+])
+
+e.create('dishanhai:chaos_coin')
+  .displayName('混沌物质币')
+  .texture('dishanhai_item:item/chaos_coin')
+DShanhaiItemTooltipAPI.register('dishanhai:chaos_coin', [
+    '{golden}混沌物质币{/}',
+    '{bodySilver}以混沌物质铸成，币面闪烁不可名状的白色星痕{/}',
+])
+
+e.create('dishanhai:star_gate_crystal_slurry_coin')
+  .displayName('星门水晶浆币')
+  .texture('dishanhai_item:item/star_gate_crystal_slurry_coin')
+
+DShanhaiItemTooltipAPI.register('dishanhai:star_gate_crystal_slurry_coin', [
+    '{golden}星门水晶浆币{/}',
+    '{bodySilver}以星门水晶浆液铸成，币面流转通向星门的彩虹晶辉{/}',
 ])
 
 e.create('dishanhai:infinite_coin')
   .displayName('无尽GT币')
   .texture('dishanhai_item:item/infinite_coin')
+  DShanhaiItemTooltipAPI.register('dishanhai:infinite_coin', [
+    '{golden}无尽GT币{/}',
+    '{bodySilver}以无尽物质铸成，"汝掌心中者，寰宇之力也"{/}',
+])
 
 e.create('dishanhai:coin_secondary')
   .displayName('虚无GT币')
@@ -2945,6 +3023,8 @@ global.__shanhai_item_tags__ = {
     'ae2:portable_item_cell_1k': ', tag: {RepairCost:0,amts:[L;1L,1L,1L,1L,1L,1L,1L,1L,1L,1L,1L,1L,1L,1L,1L,1L,1L,1L,1L,1L,1L,1L,1L,1L,1L,1L,1L,1L,1L,1L,1L],display:{Name:\'{"text":"无尽工具包"}\'},ic:31L,internalCurrentPower:20000.0d,keys:[{"#c":"ae2:i",id:"avaritia:infinity_boots"},{"#c":"ae2:i",id:"avaritia:crystal_pickaxe"},{"#c":"ae2:i",id:"avaritia:infinity_helmet"},{"#c":"ae2:i",id:"avaritia:infinity_bucket"},{"#c":"ae2:i",id:"expatternprovider:infinity_cell",tag:{record:{"#c":"ae2:i",id:"fragile_tool:fragile_hammer"}}},{"#c":"ae2:i",id:"avaritia:infinity_bow"},{"#c":"ae2:i",id:"expatternprovider:infinity_cell",tag:{record:{"#c":"ae2:i",id:"fragile_tool:fragile_wire_cutter"}}},{"#c":"ae2:i",id:"expatternprovider:infinity_cell",tag:{record:{"#c":"ae2:i",id:"fragile_tool:fragile_crowbar"}}},{"#c":"ae2:i",id:"expatternprovider:infinity_cell",tag:{record:{"#c":"ae2:i",id:"fragile_tool:fragile_knife"}}},{"#c":"ae2:i",id:"expatternprovider:infinity_cell",tag:{record:{"#c":"ae2:i",id:"fragile_tool:fragile_wrench"}}},{"#c":"ae2:i",id:"avaritia:infinity_hoe"},{"#c":"ae2:i",id:"sophisticatedbackpacks:everlasting_upgrade"},{"#c":"ae2:i",id:"sophisticatedbackpacks:xp_pump_upgrade",tag:{direction:"keep",enabled:1b,level:30}},{"#c":"ae2:i",id:"avaritia:infinity_pants"},{"#c":"ae2:i",id:"avaritia:skull_fire_sword",tag:{Damage:0}},{"#c":"ae2:i",id:"avaritia:infinity_axe"},{"#c":"ae2:i",id:"expatternprovider:infinity_cell",tag:{record:{"#c":"ae2:i",id:"fragile_tool:fragile_mortar"}}},{"#c":"ae2:i",id:"sophisticatedbackpacks:tank_upgrade",tag:{contents:{Amount:0,FluidName:"minecraft:empty"}}},{"#c":"ae2:i",id:"expatternprovider:infinity_cell",tag:{record:{"#c":"ae2:i",id:"fragile_tool:fragile_file"}}},{"#c":"ae2:i",id:"sophisticatedbackpacks:advanced_void_upgrade"},{"#c":"ae2:i",id:"avaritia:infinity_pickaxe"},{"#c":"ae2:i",id:"avaritia:infinity_totem",tag:{Damage:0}},{"#c":"ae2:i",id:"sophisticatedbackpacks:advanced_refill_upgrade",tag:{filters:{Items:[],Size:12},targetSlots:{}}},{"#c":"ae2:i",id:"sophisticatedbackpacks:stack_upgrade_omega_tier"},{"#c":"ae2:i",id:"sophisticatedbackpacks:inception_upgrade"},{"#c":"ae2:i",id:"expatternprovider:infinity_cell",tag:{record:{"#c":"ae2:i",id:"fragile_tool:fragile_screwdriver"}}},{"#c":"ae2:i",id:"avaritia:infinity_shovel"},{"#c":"ae2:i",id:"avaritia:infinity_sword"},{"#c":"ae2:i",id:"expatternprovider:infinity_cell",tag:{record:{"#c":"ae2:i",id:"fragile_tool:fragile_saw"}}},{"#c":"ae2:i",id:"avaritia:infinity_chestplate"},{"#c":"ae2:i",id:"expatternprovider:infinity_cell",tag:{record:{"#c":"ae2:i",id:"fragile_tool:fragile_mallet"}}}]}',
     "ae2wtlib:wireless_universal_terminal": ',tag:{accessPoint:{dimension:"minecraft:overworld",pos:[I;6,68,6]},blankPattern:[{Count:64b,Slot:0,id:"ae2:blank_pattern"}],craft_if_missing:1b,crafting:1b,currentTerminal:"crafting",encodedInputs:[{"#":4L,"#c":"ae2:i",id:"minecraft:beef"},{"#":4L,"#c":"ae2:i",id:"minecraft:bone"},{"#":4L,"#c":"ae2:i",id:"minecraft:leather"},{"#":1000L,"#c":"ae2:f",id:"gtceu:milk"}],encodedOutputs:[{"#":1L,"#c":"ae2:i",id:"minecraft:cow_spawn_egg"}],ex_pattern_access:1b,filter_type:"ALL",internalCurrentPower:4800000.0d,internalMaxPower:4800000.0d,magnet_settings:1b,mode:"PROCESSING",pattern_encoding:1b,pick_block:1b,restock:0b,show_pattern_providers:"NOT_FULL",singularity:[{Count:1b,Slot:0,id:"ae2:quantum_entangled_singularity",tag:{freq:177365839983100L}}],sort_by:"AMOUNT",sort_direction:"DESCENDING",stonecuttingRecipeId:"minecraft:kjs/mae2_pattern_p2p_tunnel",substitute:1b,substituteFluids:1b,upgrades:[{Count:1b,Slot:0,id:"ae2wtlib:quantum_bridge_card"},{Count:1b,Slot:1,id:"ae2wtlib:magnet_card"},{Count:1b,Slot:2,id:"ae2insertexportcard:insert_card",tag:{}},{Count:1b,Slot:3,id:"ae2insertexportcard:export_card",tag:{SelectedInventorySlots:[I;0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],filterConfig:[{"#":0L,"#c":"ae2:i",id:"gtladditions:astral_array"}],upgrades:[{Count:1b,Slot:0,id:"ae2:speed_card"}]}}],view_mode:"ALL"}',
 };
+
+
 
 // 无限单元格模板（供 NBT 构建使用）
 // Java 侧 DShanhaiNBTAPI.getTag 已自动查 Forge 注册表判断 fluid/item，无需 KJS 手动注册

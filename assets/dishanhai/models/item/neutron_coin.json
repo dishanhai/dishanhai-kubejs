@@ -1,10 +1,10 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "gtocore:item/neutron_coin",
-    "halo": "renderblender:misc/halo_noise"
+    "layer0": "dishanhai_item:item/neutron_coin",
+    "halo": "avaritia:misc/halo_noise"
   },
-  "loader": "renderblender:halo",
+  "loader": "avaritia:halo",
   "halo": {
     "texture": "#halo",
     "color": -1711276033,
