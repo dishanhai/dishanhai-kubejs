@@ -1,0 +1,13 @@
+{
+  "uuid": "b7f6f107-60e2-4358-920d-8d157255f78d",
+  "entries": [
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:i\",id:\"kubejs:precision_circuit_assembly_robot_mk1\"}}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:i\",id:\"kubejs:precision_circuit_assembly_robot_mk2\"}}}",
+      "amount": "1"
+    }
+  ]
+}
