@@ -386,14 +386,20 @@ let myRecipes = [
   { id: 'primordial_matter_recombination_chaotic_furnace', type: 'primordial_matter_recombination', itemInputs: [ '4x gtceu:hv_macerator', '4x gtceu:hv_sifter', '4x gtceu:hv_centrifuge', '4x gtceu:hv_thermal_centrifuge', '4x gtceu:hv_chemical_bath', '4x dishanhai:worldline_residual_fragment', '1x dishanhai:wem_1', '1x gt_shanhai:primordial_omega_engine' ], inputFluids: ['dishanhai:matter_fluid_virtual 64000'], itemOutputs: ['1x gt_shanhai:primordial_chaotic_ephemeral_deconstruction_crystallization_furnace'], EUt: 512, duration: 200, conditions: ["4x dishanhai:wzxc"] },
   { id: 'primordial_matter_recombination_world_fragments_collector', type: 'primordial_matter_recombination', itemInputs: [ '4x gtceu:ulv_fragment_world_collection_machine', '1x gt_shanhai:primordial_omega_engine', '1x dishanhai:wem_1', '4x dishanhai:worldline_residual_fragment' ], inputFluids: ['dishanhai:matter_fluid_virtual 64000'], itemOutputs: ['1x gt_shanhai:primordial_world_fragments_collector'], EUt: 512, duration: 200, conditions: ["4x dishanhai:wzxc"] },
   { id: 'coin_forge_gold_coin_source', type: 'coin_forge', notConsumable: ["gtceu:credit_casting_mold"], itemInputs: ["9x dishanhai:silver_coin"], inputFluids: ['gtceu:electrum 36000'], itemOutputs: ["16x dishanhai:gold_coin"], EUt: hv, duration: 20 },
+     // ========== 量子计算机 — IV级 (assembler) ==========
+    { id: 'quantum_structure',           type: 'assembler', itemInputs: ['4x gtceu:tungstensteel_frame','4x gtceu:quantum_eye','4x gtceu:iridium_plate','4x gtceu:naquadah_plate'], inputFluids: ['gtceu:soldering_alloy 576'], itemOutputs: ['4x gt_shanhai:quantum_structure'],           EUt: iv, duration: 200 },
+    { id: 'quantum_computer_unit',       type: 'assembler', itemInputs: ['gtceu:advanced_computer_casing','4x ae2:engineering_processor','4x ae2:calculation_processor','4x ae2:logic_processor','2x ae2:crafting_unit','gtceu:advanced_integrated_circuit'], inputFluids: ['gtceu:soldering_alloy 288'], itemOutputs: ['gt_shanhai:quantum_computer_unit'],       EUt: iv, duration: 300 },
+    { id: 'quantum_parallel_processor',  type: 'assembler', itemInputs: ['gtceu:advanced_computer_casing','8x ae2:engineering_processor','4x ae2:crafting_accelerator','2x gtceu:advanced_integrated_circuit','4x gtceu:quantum_eye'], inputFluids: ['gtceu:soldering_alloy 288'], itemOutputs: ['gt_shanhai:quantum_parallel_processor'],  EUt: iv, duration: 300 },
+    { id: 'quantum_crafting_storage',    type: 'assembler', itemInputs: ['gtceu:advanced_computer_casing','8x ae2:calculation_processor','4x ae2:crafting_storage_1k','2x gtceu:advanced_integrated_circuit','4x gtceu:quantum_star'], inputFluids: ['gtceu:soldering_alloy 288'], itemOutputs: ['gt_shanhai:quantum_crafting_storage'],    EUt: iv, duration: 300 },
+    { id: 'quantum_computer',            type: 'assembler', itemInputs: ['4x gt_shanhai:quantum_structure','gt_shanhai:quantum_computer_unit','gt_shanhai:quantum_parallel_processor','gt_shanhai:quantum_crafting_storage','4x gtceu:advanced_integrated_circuit','4x ae2:quantum_entangled_singularity'], inputFluids: ['gtceu:soldering_alloy 1152'], itemOutputs: ['gt_shanhai:quantum_computer'],EUt: iv, duration: 400 },
   // ===== EV 级 (EUt: 2048) =====
   { id: 'matter_forging_cosmic_dust', type: 'matter_forging', circuit: 5, itemInputs: ['1x dishanhai:matter_singularity', '64x dishanhai:photon'], inputFluids: ['dishanhai:light 64000', 'dishanhai:zero_point_energy 64000'], itemOutputs: ['1x dishanhai:cosmic_dust'], EUt: 2048, duration: 200, conditions: ["4x dishanhai:wzxc"] },
   { id: 'matter_module_casting_wzsb', type: 'matter_module_casting', itemInputs: [ '16x dishanhai:worldline_residual_fragment', '1x dishanhai:wem_1', '32x dishanhai:wl_board_ev', '1024x dishanhai:cosmic_dust', '1x dishanhai:primordial_parallel_particle', '4x dishanhai:primordial_worldline_seed' ], inputFluids: [ 'dishanhai:matter_fluid_virtual 64000', 'dishanhai:matter_fluid_transmutation 64000', 'dishanhai:matter_fluid_foundation 64000' ], itemOutputs: ['1x dishanhai:wzsb'], EUt: 2048, duration: 200, conditions: ["16x dishanhai:wzxc"] },
   { id: 'primordial_matter_recombination_wl_board_ev_x4', type: 'primordial_matter_recombination', itemInputs: ['64x dishanhai:first_light', '4x kubejs:ev_universal_circuit'], inputFluids: ['dishanhai:light 2000', 'dishanhai:matter_fluid_transmutation 2000'], itemOutputs: ['4x dishanhai:wl_board_ev'], EUt: 2048, duration: 200, conditions: ["4x dishanhai:wzxc"] },
   { id: 'primordial_matter_recombination_thread_shard_1', type: 'primordial_matter_recombination', itemInputs: [ '1x gt_shanhai:divergence_engine', '1x dishanhai:primordial_worldline_seed', '32x dishanhai:cosmic_dust' ], itemOutputs: ['1x dishanhai:thread_shard_1'], EUt: 2048, duration: 200, conditions: ["4x dishanhai:wzsb"] },
   { id: 'primordial_matter_recombination_divergence_engine', type: 'primordial_matter_recombination', itemInputs: [ '4x gtceu:iv_machine_hull', '16x gtceu:ev_emitter', '16x gtceu:ev_sensor', '1x dishanhai:primordial_worldline_seed', '64x dishanhai:cosmic_dust', '32x dishanhai:worldline_residual_fragment' ], inputFluids: ['dishanhai:matter_fluid_transmutation 64000', 'dishanhai:zero_point_energy 1024000'], itemOutputs: ['1x gt_shanhai:divergence_engine'], EUt: 2048, duration: 200, conditions: ["4x dishanhai:wzsb"] },
-  { id: 'primordial_matter_recombination_primordial_worldline_seed', type: 'primordial_matter_recombination', itemInputs: ['64x dishanhai:cosmic_dust', '16x dishanhai:wl_board_ev', '4x dishanhai:primordial_parallel_particle'], inputFluids: ['dishanhai:matter_fluid_transmutation 64000'], itemOutputs: ['1x dishanhai:primordial_worldline_seed'], EUt: 2048, duration: 200, conditions: ["4x dishanhai:wzsb"] },
-  { id: 'primordial_matter_recombination_primordial_parallel_particle', type: 'primordial_matter_recombination', itemInputs: [ '1x dishanhai:wem_1', '16x dishanhai:dimensional_worldline_fragment', '4x dishanhai:worldline_residual_fragment', '32x dishanhai:cosmic_dust' ], inputFluids: [ 'dishanhai:matter_fluid_transmutation 16000', 'dishanhai:matter_fluid_virtual 32000', 'dishanhai:matter_fluid_foundation 64000' ], itemOutputs: ['1x dishanhai:primordial_parallel_particle'], EUt: 2048, duration: 200, conditions: ["16x dishanhai:wzsb"] },
+  { id: 'primordial_matter_recombination_primordial_worldline_seed', type: 'primordial_matter_recombination', itemInputs: ['64x dishanhai:cosmic_dust', '16x dishanhai:wl_board_ev', '4x dishanhai:primordial_parallel_particle'], inputFluids: ['dishanhai:matter_fluid_transmutation 64000'], itemOutputs: ['1x dishanhai:primordial_worldline_seed'], EUt: 2048, duration: 200, conditions: ["4x dishanhai:wzxc"] },
+  { id: 'primordial_matter_recombination_primordial_parallel_particle', type: 'primordial_matter_recombination', itemInputs: [ '1x dishanhai:wem_1', '16x dishanhai:dimensional_worldline_fragment', '4x dishanhai:worldline_residual_fragment', '32x dishanhai:cosmic_dust' ], inputFluids: [ 'dishanhai:matter_fluid_transmutation 16000', 'dishanhai:matter_fluid_virtual 32000', 'dishanhai:matter_fluid_foundation 64000' ], itemOutputs: ['1x dishanhai:primordial_parallel_particle'], EUt: 2048, duration: 200, conditions: ["16x dishanhai:wzxc"] },
   { id: 'primordial_matter_recombination_primordial_divergence_generator', type: 'primordial_matter_recombination', itemInputs: [ '16x gt_shanhai:divergence_engine', '32x dishanhai:primordial_worldline_seed', '128x dishanhai:primordial_parallel_particle', '1x gt_shanhai:primordial_omega_engine' ], itemOutputs: ['1x gt_shanhai:primordial_divergence_generator'], EUt: 2048, duration: 200, conditions: ["16x dishanhai:wzsb"] },
   { id: 'primordial_matter_recombination_causal_weaving_matrix', type: 'primordial_matter_recombination', itemInputs: [ '16x dishanhai:worldline_divergent_core', '1x dishanhai:wzsb', '4x gt_shanhai:divergence_engine', '64x dishanhai:navigate_prism', '256x dishanhai:cosmic_dust' ], inputFluids: ['dishanhai:matter_fluid_transmutation 128000', 'dishanhai:causal_essence 32000'], itemOutputs: ['1x gt_shanhai:primordial_causal_weaving_matrix'], EUt: 2048, duration: 200, conditions: ["16x dishanhai:wzsb"] },
   { id: 'primordial_causal_weaving_collapse_tear', type: 'primordial_causal_weaving', itemInputs: [ '4096x dishanhai:cosmic_dust', '1024x dishanhai:worldline_residual_fragment', '256x dishanhai:primordial_parallel_particle', '1024x dishanhai:photon' ], inputFluids: ['dishanhai:matter_fluid_transmutation 5120000', 'dishanhai:primal_chaos 2048000'], itemOutputs: ['1x dishanhai:collapse_tear'], EUt: 2048, duration: 600, conditions: ["64x dishanhai:wzsb"] },
@@ -496,6 +502,11 @@ let myRecipes = [
   { id: 'primordial_matter_recombination_halo_end', type: 'primordial_matter_recombination', notConsumable: ['4x dishanhai:singularity_ring'], itemInputs: [ '1x dishanhai:finality_certificate', '64x dishanhai:blue_son' ], inputFluids: ['dishanhai:liquid_ending 64000'], itemOutputs: ['1x dishanhai:halo_end'], EUt: opv, duration: 200, conditions: ["32x dishanhai:wzdf"] },
   { id:'coin_forge_infinite_coin_source', type: 'coin_forge', notConsumable: ["gtceu:credit_casting_mold"], itemInputs: ['9x dishanhai:neutron_coin'], inputFluids: ['gtceu:infinity 36000'], itemOutputs: ["16x dishanhai:infinite_coin"], EUt: opv, duration: 20 },
   { id:'coin_forge_transcendentmetal_coin_source', type: 'coin_forge', notConsumable: ["gtceu:credit_casting_mold"], itemInputs: ['9x dishanhai:infinite_coin'], inputFluids: ['gtceu:dimensionallytranscendentexoticcatalyst 36000'], itemOutputs: ["16x dishanhai:transcendentmetal_coin"], EUt: opv, duration: 20 },
+  // ===== 绝对量子完美净化单元 (primordial_matter_recombination, OpV) =====
+  { id: 'primordial_matter_recombination_absolute_quantum_purification', type: 'primordial_matter_recombination',
+    itemInputs: [ '4x dishanhai:singularity_ring', '1x dishanhai:worldline_genesis_embryo', '32x dishanhai:wl_board_opv','64x dishanhai:blue_son', '64x dishanhai:genesis_shard', '16x dishanhai:dimensional_worldline_fragment','8x gtceu:opv_machine_hull', '8x gtceu:opv_field_generator', '16x gtceu:opv_emitter' ],
+    inputFluids: ['dishanhai:matter_fluid_eternal 512000', 'dishanhai:stabilized_eternity 256000', 'dishanhai:causal_essence 128000'],
+    itemOutputs: ['gt_shanhai:absolute_quantum_perfect_purification_unit'], EUt: opv, duration: 400, conditions: ["32x dishanhai:wzdf"] },
     // ===== MAX 级 (EUt: MAX) =====
   { id: 'primordial_matter_recombination_apocalyptic_torsion_quantum_matrix', type: 'primordial_matter_recombination', itemInputs: [ '1x dishanhai:annihilation_core', '1x dishanhai:reality_core', '1x dishanhai:universal_parallel_overdriver', '1x gt_shanhai:spacetime_wave_matrix', '4x dishanhai:singularity_ring', '16x dishanhai:wl_board_eternal', '64x dishanhai:blue_son', '16x dishanhai:finality_certificate', '64x dishanhai:beyond_taixu_thread' ], inputFluids: ['dishanhai:matter_fluid_ultimate 1024000', 'dishanhai:stabilized_eternity 512000', 'dishanhai:causal_essence 512000'], itemOutputs: ['1x gtladditions:apocalyptic_torsion_quantum_matrix'], EUt: MAX, duration: 200, conditions: ["64x dishanhai:wzyh"] },
   { id: 'primordial_matter_recombination_wl_board_max_x4', type: 'primordial_matter_recombination', itemInputs: ['32x dishanhai:blue_son', '4x kubejs:max_universal_circuit'], inputFluids: ['dishanhai:matter_fluid_ultimate 4000'], itemOutputs: ['4x dishanhai:wl_board_max'], EUt: MAX, duration: 200, conditions: ["4x dishanhai:wzyh"] },
@@ -1593,16 +1604,6 @@ console.log(`🗓️ [山海的big私货] ♾️级物品配方添加完毕 成�
     .inputFluids("minecraft:water 102400")
     },{defaultEnabled:false})
 
-    // ========== 创造模块 ==========
-    safeAddRecipe('suprachronal_assembly_line', 'dishanhai:czmk', () => {
-        gtr.suprachronal_assembly_line('dishanhai:czmk')
-            .itemInputs('dishanhai:halo_end','256x dishanhai:god_forge_mod','512x dishanhai:wzcz3','256x gtladditions:forge_of_the_antichrist','256x gtceu:suprachronal_assembly_line','256x gtladditions:arcanic_astrograph','21474836x gtladditions:astral_array','2048x gtladditions:astral_convergence_nexus','2048x gtladditions:nebula_reaper',"5200x dishanhai:dark_energy_multiplier","dishanhai:collapse_tear","dishanhai:bridge_and_gate","dishanhai:gate_and_bridg","dishanhai:csj","dishanhai:big_tear")
-            .inputFluids('gtladditions:star_gate_crystal_slurry 21474836','gtceu:magnetohydrodynamicallyconstrainedstarmatter 2147483647','gtceu:spatialfluid 2147483647')
-            .itemOutputs('dishanhai:create_mk')
-            .EUt(MAX)
-            .duration(20)
-            .stationResearch(b => b.researchStack(Registries.getItemStack("dishanhai:wzcz3")).dataStack(Registries.getItemStack("gtceu:data_module")).EUt(MAX).CWUt(8192));
-    });
     
 
     
@@ -1627,14 +1628,6 @@ console.log(`🗓️ [山海的big私货] ♾️级物品配方添加完毕 成�
             
     });
 
-    safeAddRecipe('suprachronal_assembly_line', 'dishanhai:wzcz3', () => {
-        gtr.suprachronal_assembly_line('dishanhai:wzcz3')
-            .itemInputs('16x gtladditions:forge_of_the_antichrist','64x gtladditions:heliothermal_plasma_fabricator','64x gtladditions:helioflare_power_forge','64x gtladditions:heliofluix_melting_core','64x gtladditions:heliofusion_exoticizer','64x gtladditions:heliophase_leyline_crystallizer','64x gtladditions:space_infinity_integrated_ore_processor','64x gtceu:create_aggregation','64x gtceu:space_elevator','64x gtladditions:arcanic_astrograph','64x gtladditions:apocalyptic_torsion_quantum_matrix','64x gtceu:suprachronal_assembly_line','64x gtladditions:dimensionally_transcendent_chemical_plant','64x gtceu:molecular_assembler_matrix','64x gtceu:atomic_energy_excitation_plant','64x gtceu:annihilate_generator')
-            .inputFluids('gtceu:infinity 2140000','gtceu:spacetime 2140000','gtceu:spatialfluid 2140000','gtceu:magmatter 2140000')
-            .itemOutputs('dishanhai:wzcz3')
-            .EUt(MAX)
-            .duration(20);
-    });
     
     // ========== 电路配方组 ==========
     const circuitRecipes = [
@@ -1935,6 +1928,279 @@ recipes_electrolyzers.forEach(recipe => {
     }
 })
  
+
+// ── ME可请求输入总线 ─────
+    e.shaped('gt_shanhai:me_requestable_input_bus', [
+        'B  ',
+        'P  ',
+        'C  '
+    ], {
+        B: 'gtceu:me_input_bus',
+        P: 'ae2:logic_processor',
+        C: 'kubejs:hv_universal_circuit'
+    });
+
+    // ── ME可请求输入仓 ─────
+    e.shaped('gt_shanhai:me_requestable_input_hatch', [
+        'H  ',
+        'P  ',
+        'C  '
+    ], {
+        H: 'gtceu:me_input_hatch',
+        P: 'ae2:engineering_processor',
+        C: 'kubejs:hv_universal_circuit'
+    });
+
+    // ── 可请求输入总成 ─────
+    e.shaped('gt_shanhai:input_dual_hatch', [
+        'B  ',
+        'H  ',
+        'C  '
+    ], {
+        B: 'gt_shanhai:me_requestable_input_bus',
+        H: 'gt_shanhai:me_requestable_input_hatch',
+        C: 'kubejs:hv_universal_circuit'
+    });
+
+    // ── ME 相位输出矩阵 ─────
+    e.shaped('gt_shanhai:reliable_me_async_output_buffer', [
+        'E  ',
+        'P  ',
+        'C  '
+    ], {
+        E: 'ae2:export_bus',
+        P: 'ae2:engineering_processor',
+        C: 'kubejs:hv_universal_circuit'
+    });
+
+    // ── ME 星轨输出矩阵 ─────
+    e.shaped('gt_shanhai:me_starrail_output_matrix', [
+        'O  ',
+        'S  ',
+        'C  '
+    ], {
+        O: 'gt_shanhai:reliable_me_async_output_buffer',
+        S: 'ae2:singularity',
+        C: 'kubejs:hv_universal_circuit'
+    });
+
+    // ── 星律样板总成 ─────
+    e.shaped('gt_shanhai:recipe_type_pattern_buffer', [
+        'P  ',
+        'F  ',
+        'C  '
+    ], {
+        P: 'ae2:blank_pattern',
+        F: 'ae2:formation_core',
+        C: 'kubejs:hv_universal_circuit'
+    });
+
+    // ── 星律样板代理 ─────
+    e.shaped('gt_shanhai:recipe_type_pattern_buffer_proxy', [
+        'B  ',
+        'I  ',
+        'C  '
+    ], {
+        B: 'gt_shanhai:recipe_type_pattern_buffer',
+        I: 'ae2:interface',
+        C: 'kubejs:hv_universal_circuit'
+    });
+
+    // ── ME 磁盘仓室 ─────
+    e.shaped('gt_shanhai:me_disk_hatch', [
+        'D  ',
+        'H  ',
+        'C  '
+    ], {
+        D: 'ae2:drive',
+        H: 'gtceu:me_input_hatch',
+        C: 'kubejs:hv_universal_circuit'
+    });
+
+    // ── 虚拟物品提供器 ─────
+    e.shaped('gt_shanhai:virtual_item_provider', [
+        'G  ',
+        'P  ',
+        'S  '
+    ], {
+        G: 'ae2:quartz_glass',
+        P: 'ae2:calculation_processor',
+        S: 'ae2:singularity'
+    });
+
+    // ── 虚拟物品供应机 ─────
+    e.shaped('gt_shanhai:virtual_item_supply_machine', [
+        'V  ',
+        'M  ',
+        'C  '
+    ], {
+        V: 'gt_shanhai:virtual_item_provider',
+        M: 'gtceu:hv_machine_hull',
+        C: 'kubejs:hv_universal_circuit'
+    });
+
+    // ── FTBQ AE 自动提交器 ─────
+    e.shaped('gt_shanhai:ftbq_ae_submitter', [
+        'B  ',
+        'I  ',
+        'C  '
+    ], {
+        B: 'minecraft:book',
+        I: 'ae2:interface',
+        C: 'kubejs:lv_universal_circuit'
+    });
+
+    // ── 进阶质量发生器 ─────
+    e.shaped('gt_shanhai:advanced_mass_fabricator', [
+        'M  ',
+        'S  ',
+        'C  '
+    ], {
+        M: 'gtceu:mass_fabricator',
+        S: 'ae2:singularity',
+        C: 'kubejs:hv_universal_circuit'
+    });
+
+    // ── 盒系统中央控制器 ─────
+    e.shaped('gt_shanhai:box_system_central_controller', [
+        'A  ',
+        'B  ',
+        'C  '
+    ], {
+        A: 'ae2:controller',
+        B: 'gtceu:hv_machine_hull',
+        C: 'kubejs:hv_universal_circuit'
+    });
+
+    // ── 纠缠奇点 ─────
+    e.shaped('kubejs:entangled_singularity', [
+        'S  ',
+        'P  ',
+        'E  '
+    ], {
+        S: 'ae2:singularity',
+        P: 'ae2:fluix_pearl',
+        E: 'minecraft:ender_eye'
+    });
+
+    // ================================================================
+    // 原初铸币工厂 — 机器配方 (primordial_matter_recombination, HV)
+    // ================================================================
+    safeAddRecipe('primordial_matter_recombination', 'dishanhai:coin_forge_machine', function() {
+        gtr.primordial_matter_recombination('dishanhai:coin_forge_machine')
+            .itemInputs('4x gtceu:stainless_steel_plate', '2x gtceu:titanium_plate',
+                        '1x gtceu:assembler_mv', '1x gtceu:extruder_mv',
+                        '4x gtceu:gold_foil', '4x gtceu:silver_foil',
+                        '64x gtceu:copper_foil', '64x gtceu:cupronickel_foil',
+                        '1x gtceu:basic_integrated_circuit', '4x gtceu:glass_lens')
+            .inputFluids('gtceu:lubricant 1000', 'gtceu:soldering_alloy 576')
+            .itemOutputs('gt_shanhai:primordial_coin_forge')
+            .EUt(512)
+            .duration(400);
+    }, {defaultEnabled: true});
+
+   /* 
+    // ================================================================
+    // 铸币配方 — 1块→32币 (coin_forge)
+    // ================================================================
+    var coinRecipes = [
+        {block:'gtceu:copper_block',          coin:'dishanhai:copper_coin',      name:'铜GT币'},
+        {block:'gtceu:cupronickel_block',     coin:'dishanhai:cupronickel_coin', name:'白铜GT币'},
+        {block:'gtceu:silver_block',          coin:'dishanhai:silver_coin',      name:'银GT币'},
+        {block:'minecraft:gold_block',        coin:'dishanhai:gold_coin',        name:'金GT币'},
+        {block:'gtceu:platinum_block',        coin:'dishanhai:platinum_coin',    name:'铂GT币'},
+        {block:'gtceu:osmium_block',          coin:'dishanhai:osmium_coin',      name:'锇GT币'},
+        {block:'gtceu:naquadah_block',        coin:'dishanhai:naquadah_coin',    name:'硅岩GT币'},
+        {block:'gtceu:neutronium_block',      coin:'dishanhai:neutronium_coin',  name:'中子GT币'},
+        {block:'gtceu:cosmic_neutronium_block',coin:'dishanhai:neutron_coin',    name:'宇宙中子GT币'},
+        {block:'gtceu:infinity_block',        coin:'dishanhai:infinite_coin',    name:'无尽GT币'}
+    ];
+    coinRecipes.forEach(function(r) {
+        safeAddRecipe('coin_forge', 'dishanhai:' + r.coin.split(':')[1], function() {
+            gtr.coin_forge('dishanhai:' + r.coin.split(':')[1])
+                .itemInputs(r.block)
+                .itemOutputs('32x ' + r.coin)
+                .EUt(512)
+                .duration(200);
+        }, {defaultEnabled: true});
+    });
+
+    // ================================================================
+    // 特殊币兑换 (coin_forge)
+    // ================================================================
+    // 蠢民币: 1铜GT币 → 9蠢民币
+    safeAddRecipe('coin_forge', 'dishanhai:stupid_coin_from_copper', function() {
+        gtr.coin_forge('dishanhai:stupid_coin_from_copper')
+            .itemInputs('dishanhai:copper_coin')
+            .itemOutputs('9x dishanhai:stupid_coin')
+            .EUt(512)
+            .duration(100);
+    }, {defaultEnabled: true});
+
+    // 虚无GT币: 9无尽GT币 → 1虚无GT币
+    safeAddRecipe('coin_forge', 'dishanhai:coin_secondary_from_infinite', function() {
+        gtr.coin_forge('dishanhai:coin_secondary_from_infinite')
+            .itemInputs('9x dishanhai:infinite_coin')
+            .itemOutputs('dishanhai:coin_secondary')
+            .EUt(512)
+            .duration(300);
+    }, {defaultEnabled: true});
+
+    // SadBapyCat代币: 8虚无GT币 + 1GigaChad → 1SadBapyCat
+    safeAddRecipe('coin_forge', 'dishanhai:sadbapycat_token_from_coins', function() {
+        gtr.coin_forge('dishanhai:sadbapycat_token_from_coins')
+            .itemInputs('8x dishanhai:coin_secondary', 'kubejs:giga_chad')
+            .itemOutputs('dishanhai:sadbapycat_token')
+            .EUt(512)
+            .duration(600);
+    }, {defaultEnabled: true});
+*/
+
+
+    // ========== 可编程仓配方 (各等级输入总成 + LV电路板 → 可编程仓) ==========
+    var programmableHatchTiers = [
+        {tier:'ulv', bus:'gtceu:ulv_input_bus',   hatch:'gt_shanhai:ulv_programmable_hatch'},
+        {tier:'lv',  bus:'gtceu:lv_input_bus',    hatch:'gt_shanhai:lv_programmable_hatch'},
+        {tier:'mv',  bus:'gtceu:mv_input_bus',    hatch:'gt_shanhai:mv_programmable_hatch'},
+        {tier:'hv',  bus:'gtceu:hv_input_bus',    hatch:'gt_shanhai:hv_programmable_hatch'},
+        {tier:'ev',  bus:'gtceu:ev_input_bus',    hatch:'gt_shanhai:ev_programmable_hatch'},
+        {tier:'iv',  bus:'gtceu:iv_input_bus',    hatch:'gt_shanhai:iv_programmable_hatch'},
+        {tier:'luv', bus:'gtceu:luv_input_bus',   hatch:'gt_shanhai:luv_programmable_hatch'},
+        {tier:'zpm', bus:'gtceu:zpm_input_bus',   hatch:'gt_shanhai:zpm_programmable_hatch'},
+        {tier:'uv',  bus:'gtceu:uv_input_bus',    hatch:'gt_shanhai:uv_programmable_hatch'},
+        {tier:'uhv', bus:'gtceu:uhv_input_bus',   hatch:'gt_shanhai:uhv_programmable_hatch'},
+        {tier:'uev', bus:'gtceu:uev_input_bus',   hatch:'gt_shanhai:uev_programmable_hatch'},
+        {tier:'uiv', bus:'gtceu:uiv_input_bus',   hatch:'gt_shanhai:uiv_programmable_hatch'},
+        {tier:'uxv', bus:'gtceu:uxv_input_bus',   hatch:'gt_shanhai:uxv_programmable_hatch'},
+        {tier:'opv', bus:'gtceu:opv_input_bus',   hatch:'gt_shanhai:opv_programmable_hatch'},
+        {tier:'max', bus:'gtceu:max_input_bus',   hatch:'gt_shanhai:programmable_hatch'}
+    ];
+    programmableHatchTiers.forEach(function(h) {
+        safeAddRecipe('assembler', 'dishanhai:' + h.hatch.split(':')[1], function() {
+            gtr.assembler('dishanhai:' + h.hatch.split(':')[1])
+                .itemInputs(h.bus, 'gtceu:basic_integrated_circuit')
+                .itemOutputs(h.hatch)
+                .circuit(16)
+                .EUt(8)
+                .duration(100);
+        }, {defaultEnabled: true});
+    });
+
+    // ========== 虚拟物品供应机 (工作台合成) ==========
+    e.shaped('gt_shanhai:virtual_item_supply_machine', [
+        'B'
+    ], {
+        B: 'gtceu:me_stocking_input_bus'
+    });
+
+    // ========== 虚拟物品提供器 (工作台合成) ==========
+    e.shaped('gt_shanhai:virtual_item_provider', [
+        'C'
+    ], {
+        C: 'gtceu:basic_integrated_circuit'
+    });
+
+
 var timer_ele = DShanhaiRecipeEngine.endTimer(timer_electrolyzer)
     
 // ========== ae2_overclocked 模组配方 ==========
