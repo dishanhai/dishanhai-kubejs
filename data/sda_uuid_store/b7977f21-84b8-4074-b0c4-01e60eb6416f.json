@@ -1,0 +1,13 @@
+{
+  "uuid": "b7977f21-84b8-4074-b0c4-01e60eb6416f",
+  "entries": [
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:i\",id:\"gtladditions:compressed_astral_array\"}}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:i\",id:\"gtladditions:astral_array\"}}}",
+      "amount": "1"
+    }
+  ]
+}

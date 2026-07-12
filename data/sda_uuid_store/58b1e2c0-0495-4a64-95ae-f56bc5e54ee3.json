@@ -1,0 +1,13 @@
+{
+  "uuid": "58b1e2c0-0495-4a64-95ae-f56bc5e54ee3",
+  "entries": [
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:i\",id:\"kubejs:dust_cryotheum\"}}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:i\",id:\"kubejs:dust_blizz\"}}}",
+      "amount": "1"
+    }
+  ]
+}

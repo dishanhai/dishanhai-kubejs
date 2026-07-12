@@ -1,0 +1,33 @@
+{
+  "uuid": "c0d7c94e-bbb5-4a8e-ae83-04dfcdbec256",
+  "entries": [
+    {
+      "key": "{\"#c\":\"ae2:i\",caps:{Parent:{Items:[],Size:81}},id:\"avaritia:neutron_ring\"}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"avaritia:infinity_ring\"}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"sgjourney:pegasus_dhd\"}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:f\",id:\"gtladditions:star_gate_crystal_slurry\"}}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"avaritia:infinity_umbrella\"}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"sgjourney:universe_stargate\"}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"sgjourney:pegasus_stargate\"}",
+      "amount": "1"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "uuid": "96aadadb-c861-40cc-b788-6b2457beecda",
+  "entries": [
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:i\",id:\"gtlcore:mega_max_battery\"}}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:i\",id:\"kubejs:create_ultimate_battery\"}}}",
+      "amount": "1"
+    }
+  ]
+}

@@ -1,0 +1,589 @@
+{
+  "uuid": "c895715f-cd62-46f9-a7d8-dc43ec4c599d",
+  "entries": [
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"mekanism:mekasuit_boots\",tag:{mekData:{EnergyContainers:[{Container:0b,stored:\"4096000000\"}],ProtectionPoints:153600.00610351562d,ShieldEntropy:0.0d,modules:{\"mekanism:energy_unit\":{amount:8,enabled:1b},\"mekanism:hydraulic_propulsion_unit\":{amount:4,enabled:1b,jump_boost:2,step_assist:4},\"mekanism:laser_dissipation_unit\":{},\"moremekasuitmodules:energy_shield_unit\":{amount:10,enabled:1b},\"moremekasuitmodules:hp_boots_unit\":{amount:64,enabled:1b},\"moremekasuitmodules:infinite_energy_supply_unit\":{},\"moremekasuitmodules:insulated_unit\":{},\"moremekasuitmodules:power_enhancement_unit\":{amount:64,enabled:1b}}}}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2wtlib:wireless_universal_terminal\",tag:{accessPoint:{dimension:\"minecraft:overworld\",pos:[I;6,68,6]},blankPattern:[{Count:64b,Slot:0,id:\"ae2:blank_pattern\"}],craft_if_missing:1b,crafting:1b,currentTerminal:\"crafting\",encodedInputs:[{\"#\":4L,\"#c\":\"ae2:i\",id:\"minecraft:beef\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"minecraft:bone\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"minecraft:leather\"},{\"#\":1000L,\"#c\":\"ae2:f\",id:\"gtceu:milk\"}],encodedOutputs:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"minecraft:cow_spawn_egg\"}],ex_pattern_access:1b,filter_type:\"ALL\",internalCurrentPower:4800000.0d,internalMaxPower:4800000.0d,magnet_settings:1b,mode:\"PROCESSING\",pattern_encoding:1b,pick_block:1b,restock:0b,show_pattern_providers:\"NOT_FULL\",singularity:[{Count:1b,Slot:0,id:\"ae2:quantum_entangled_singularity\",tag:{freq:177365839983100L}}],sort_by:\"AMOUNT\",sort_direction:\"DESCENDING\",stonecuttingRecipeId:\"minecraft:kjs/mae2_pattern_p2p_tunnel\",substitute:1b,substituteFluids:1b,upgrades:[{Count:1b,Slot:0,id:\"ae2wtlib:quantum_bridge_card\"},{Count:1b,Slot:1,id:\"ae2wtlib:magnet_card\"},{Count:1b,Slot:2,id:\"ae2insertexportcard:insert_card\",tag:{}},{Count:1b,Slot:3,id:\"ae2insertexportcard:export_card\",tag:{SelectedInventorySlots:[I;0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],filterConfig:[{\"#\":0L,\"#c\":\"ae2:i\",id:\"gtladditions:astral_array\"}],upgrades:[{Count:1b,Slot:0,id:\"ae2:speed_card\"}]}}],view_mode:\"ALL\"}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:fluix_smart_cable\"}",
+      "amount": "16777216"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"minecraft:white_dye\"}",
+      "amount": "16777216"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtlcore:max_storage\"}",
+      "amount": "32"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtceu:uv_dual_output_hatch\"}",
+      "amount": "16777216"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"extendedae_plus:channel_card\"}",
+      "amount": "16777216"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtceu:uv_dual_input_hatch\"}",
+      "amount": "16777216"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtlcore:me_pattern_buffer_copy\"}",
+      "amount": "4"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtceu:europium_frame\"}",
+      "amount": "36"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"minecraft:green_dye\"}",
+      "amount": "16777216"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtceu:superconducting_coil\"}",
+      "amount": "104"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:void_card\"}",
+      "amount": "16777216"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2cs:ender_broadcaster\"}",
+      "amount": "16777216"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtmadvancedhatch:adaptive_net_energy_input_hatch\"}",
+      "amount": "16777216"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:quantum_ring\"}",
+      "amount": "16777216"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gt_shanhai:super_disk_array\"}",
+      "amount": "16"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"minecraft:flint_and_steel\"}",
+      "amount": "4"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"minecraft:orange_dye\"}",
+      "amount": "16777216"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:basic_card\"}",
+      "amount": "16777216"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:creative_energy_cell\"}",
+      "amount": "32"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtceu:me_input_hatch\"}",
+      "amount": "16777216"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:quartz_fiber\"}",
+      "amount": "16777216"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:fluix_glass_cable\"}",
+      "amount": "16777216"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2wtlib:magnet_card\"}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtceu:trinium_frame\"}",
+      "amount": "78"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"minecraft:pink_dye\"}",
+      "amount": "16777216"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:quantum_entangled_singularity\",tag:{freq:177365839983100L}}",
+      "amount": "3"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"minecraft:yellow_dye\"}",
+      "amount": "16777216"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtceu:hsse_frame\"}",
+      "amount": "20"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtceu:assembly_line_grating\"}",
+      "amount": "32"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtmadvancedhatch:adaptive_net_energy_output_hatch\"}",
+      "amount": "16777216"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:logic_processor\"}",
+      "amount": "16777216"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtceu:me_input_bus\"}",
+      "amount": "16777216"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtceu:me_extended_async_export_buffer\"}",
+      "amount": "16777216"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"minecraft:black_dye\"}",
+      "amount": "16777216"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:engineering_processor\"}",
+      "amount": "16777216"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtceu:assembly_line_casing\"}",
+      "amount": "17"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:portable_item_cell_1k\",tag:{RepairCost:0,amts:[L;1L,1L,1L,1L,1L,1L,1L,1L,1L,1L,1L,1L,1L,1L,1L,1L,1L,1L,1L,1L,1L,1L,1L,1L,1L,1L,1L,1L,1L,1L,1L],display:{Name:\u0027{\"text\":\"无尽工具包\"}\u0027},ic:31L,internalCurrentPower:20000.0d,keys:[{\"#c\":\"ae2:i\",id:\"avaritia:infinity_boots\"},{\"#c\":\"ae2:i\",id:\"avaritia:crystal_pickaxe\"},{\"#c\":\"ae2:i\",id:\"avaritia:infinity_helmet\"},{\"#c\":\"ae2:i\",id:\"avaritia:infinity_bucket\"},{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:i\",id:\"fragile_tool:fragile_hammer\"}}},{\"#c\":\"ae2:i\",id:\"avaritia:infinity_bow\"},{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:i\",id:\"fragile_tool:fragile_wire_cutter\"}}},{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:i\",id:\"fragile_tool:fragile_crowbar\"}}},{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:i\",id:\"fragile_tool:fragile_knife\"}}},{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:i\",id:\"fragile_tool:fragile_wrench\"}}},{\"#c\":\"ae2:i\",id:\"avaritia:infinity_hoe\"},{\"#c\":\"ae2:i\",id:\"sophisticatedbackpacks:everlasting_upgrade\"},{\"#c\":\"ae2:i\",id:\"sophisticatedbackpacks:xp_pump_upgrade\",tag:{direction:\"keep\",enabled:1b,level:30}},{\"#c\":\"ae2:i\",id:\"avaritia:infinity_pants\"},{\"#c\":\"ae2:i\",id:\"avaritia:skull_fire_sword\",tag:{Damage:0}},{\"#c\":\"ae2:i\",id:\"avaritia:infinity_axe\"},{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:i\",id:\"fragile_tool:fragile_mortar\"}}},{\"#c\":\"ae2:i\",id:\"sophisticatedbackpacks:tank_upgrade\",tag:{contents:{Amount:0,FluidName:\"minecraft:empty\"}}},{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:i\",id:\"fragile_tool:fragile_file\"}}},{\"#c\":\"ae2:i\",id:\"sophisticatedbackpacks:advanced_void_upgrade\"},{\"#c\":\"ae2:i\",id:\"avaritia:infinity_pickaxe\"},{\"#c\":\"ae2:i\",id:\"avaritia:infinity_totem\",tag:{Damage:0}},{\"#c\":\"ae2:i\",id:\"sophisticatedbackpacks:advanced_refill_upgrade\",tag:{filters:{Items:[],Size:12},targetSlots:{}}},{\"#c\":\"ae2:i\",id:\"sophisticatedbackpacks:stack_upgrade_omega_tier\"},{\"#c\":\"ae2:i\",id:\"sophisticatedbackpacks:inception_upgrade\"},{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:i\",id:\"fragile_tool:fragile_screwdriver\"}}},{\"#c\":\"ae2:i\",id:\"avaritia:infinity_shovel\"},{\"#c\":\"ae2:i\",id:\"avaritia:infinity_sword\"},{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:i\",id:\"fragile_tool:fragile_saw\"}}},{\"#c\":\"ae2:i\",id:\"avaritia:infinity_chestplate\"},{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:i\",id:\"fragile_tool:fragile_mallet\"}}}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"merequester:requester\"}",
+      "amount": "16777216"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"minecraft:red_dye\"}",
+      "amount": "16777216"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:inverter_card\"}",
+      "amount": "16777216"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:advanced_card\"}",
+      "amount": "16777216"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtlcore:pattern_modifier\"}",
+      "amount": "4"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:level_emitter\"}",
+      "amount": "16777216"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:assembler_matrix_glass\"}",
+      "amount": "16777216"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"sophisticatedbackpacks:netherite_backpack\"}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"travelanchors:travel_staff\"}",
+      "amount": "4"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtceu:advanced_computer_casing\"}",
+      "amount": "48"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtladditions:wireless_energy_network_input_terminal\"}",
+      "amount": "16777216"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtceu:me_dual_hatch_stock_part_machine\"}",
+      "amount": "16777216"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"minecraft:light_blue_dye\"}",
+      "amount": "16777216"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtceu:high_power_casing\"}",
+      "amount": "306"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtceu:me_craft_parallel_core\"}",
+      "amount": "64"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"minecraft:light_gray_dye\"}",
+      "amount": "16777216"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"fluxnetworks:flux_plug\"}",
+      "amount": "1024000"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"minecraft:lime_dye\"}",
+      "amount": "16777216"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"constructionwand:infinity_wand\",tag:{wand_options:{cores:[\"constructionwand:core_angel\"],cores_sel:1b,lock:\"nolock\"}}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2cs:ender_emitter\"}",
+      "amount": "16777216"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtmadvancedhatch:adaptive_net_laser_source_hatch\"}",
+      "amount": "16777216"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:redstone_card\"}",
+      "amount": "16777216"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:storage_bus\"}",
+      "amount": "16777216"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtmadvancedhatch:adaptive_net_energy_terminal\"}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:cable_anchor\"}",
+      "amount": "16777216"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"extendedae_plus:virtual_crafting_card\"}",
+      "amount": "16777216"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"extendedae_plus:wireless_transceiver\"}",
+      "amount": "16777216"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtceu:fusion_glass\"}",
+      "amount": "36"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"minecraft:blue_dye\"}",
+      "amount": "16777216"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"fluxnetworks:flux_point\"}",
+      "amount": "1024000"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"extendedae_plus:labeled_wireless_transceiver\"}",
+      "amount": "16777216"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"sov:spear_of_void\"}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"fluxnetworks:flux_controller\"}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"avaritia:star_fuel\"}",
+      "amount": "100"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:capacity_card\"}",
+      "amount": "16777216"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:energy_card\"}",
+      "amount": "16777216"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"merequester:requester_terminal\"}",
+      "amount": "4"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:blank_pattern\"}",
+      "amount": "16777216"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:quantum_link\"}",
+      "amount": "16777216"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:ex_io_port\"}",
+      "amount": "16777216"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"mekanism:mekasuit_helmet\",tag:{mekData:{EnergyContainers:[{Container:0b,stored:\"4096000000\"}],FluidTanks:[{Tank:0b,stored:{Amount:128000,FluidName:\"mekanism:nutritional_paste\"}}],ProtectionPoints:153600.00610351562d,ShieldEntropy:0.0d,modules:{\"mekanism:electrolytic_breathing_unit\":{amount:4,enabled:1b,fill_held:1b},\"mekanism:energy_unit\":{amount:8,enabled:1b},\"mekanism:inhalation_purification_unit\":{amount:1,beneficial_effects:0b,enabled:1b,harmful_effects:1b,neutral_effects:1b},\"mekanism:nutritional_injection_unit\":{},\"mekanismgenerators:solar_recharging_unit\":{amount:8,enabled:1b},\"moremekasuitmodules:advanced_interception_system_unit\":{},\"moremekasuitmodules:automatic_attack_unit\":{amount:4,attack_hostile:1b,attack_neutral:0b,attack_other:0b,attack_player:0b,enabled:1b,range:4},\"moremekasuitmodules:energy_shield_unit\":{amount:10,enable_shield:1b,enabled:1b},\"moremekasuitmodules:hp_boots_unit\":{amount:64,enabled:1b},\"moremekasuitmodules:infinite_energy_supply_unit\":{},\"moremekasuitmodules:infinite_interception_and_rescue_system_unit\":{amount:1,chunkRemove:1b,damagesource:0b,damagesourceIndirect:0b,enabled:1b},\"moremekasuitmodules:insulated_unit\":{},\"moremekasuitmodules:power_enhancement_unit\":{amount:64,enabled:1b}}}}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtladditions:me_super_pattern_buffer\"}",
+      "amount": "16777216"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:equal_distribution_card\"}",
+      "amount": "16777216"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtlcore:fast_infinity_cell\"}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtlcore:debug_pattern_test\"}",
+      "amount": "4"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:crafting_terminal\"}",
+      "amount": "16777216"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtceu:tag_filter_me_stock_bus_part_machine\"}",
+      "amount": "16777216"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:pattern_modifier\"}",
+      "amount": "4"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:speed_card\"}",
+      "amount": "16777216"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtceu:large_scale_assembler_casing\"}",
+      "amount": "90"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtlcore:hyper_mechanical_casing\"}",
+      "amount": "80"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:wireless_tool\"}",
+      "amount": "4"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"mae2:256x_crafting_accelerator\"}",
+      "amount": "32"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:ex_pattern_access_part\"}",
+      "amount": "4"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtceu:certus_quartz_dust\"}",
+      "amount": "10240000"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:fluix_covered_dense_cable\"}",
+      "amount": "16777216"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtlcore:advanced_assembly_line_unit\"}",
+      "amount": "70"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:crafting_card\"}",
+      "amount": "16777216"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:fuzzy_card\"}",
+      "amount": "16777216"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:charged_certus_quartz_crystal\"}",
+      "amount": "10240000"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtladditions:wireless_energy_network_output_terminal\"}",
+      "amount": "16777216"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:calculation_processor\"}",
+      "amount": "16777216"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"minecraft:cyan_dye\"}",
+      "amount": "16777216"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtceu:molecular_assembler_matrix\"}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:ex_export_bus_part\"}",
+      "amount": "16777216"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtmadvancedhatch:adaptive_net_laser_target_hatch\"}",
+      "amount": "16777216"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtladditions:me_super_pattern_buffer_proxy\"}",
+      "amount": "16777216"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtlcore:iridium_casing\"}",
+      "amount": "320"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:ex_pattern_provider_part\"}",
+      "amount": "16777216"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:ex_drive\"}",
+      "amount": "16"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:wireless_connect\"}",
+      "amount": "16777216"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:tag_storage_bus\"}",
+      "amount": "16777216"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2cs:ender_linker\"}",
+      "amount": "2"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"extendedae_plus:1024x_crafting_accelerator\"}",
+      "amount": "1024"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:ex_pattern_provider\"}",
+      "amount": "16777216"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtceu:me_craft_speed_core\"}",
+      "amount": "5"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"minecraft:magenta_dye\"}",
+      "amount": "16777216"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:ex_interface_part\"}",
+      "amount": "16777216"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"minecraft:purple_dye\"}",
+      "amount": "16777216"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2_ftbquest_detector:me_quests_detector\"}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtlcore:ultimate_terminal\"}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:fluix_smart_dense_cable\"}",
+      "amount": "16777216"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"mekanism:mekasuit_pants\",tag:{mekData:{Enchantments:[{id:\"minecraft:depth_strider\",lvl:4s},{id:\"minecraft:swift_sneak\",lvl:5s}],EnergyContainers:[{Container:0b,stored:\"4096000000\"}],ProtectionPoints:307200.01220703125d,ShieldEntropy:0.0d,modules:{\"mekanism:energy_unit\":{amount:8,enabled:1b},\"mekanism:gyroscopic_stabilization_unit\":{},\"mekanism:hydrostatic_repulsor_unit\":{amount:4,enabled:1b,swim_boost:1b},\"mekanism:laser_dissipation_unit\":{},\"mekanism:locomotive_boosting_unit\":{amount:4,enabled:1b,handleModeChange:1b,sprint_boost:3},\"mekanism:motorized_servo_unit\":{amount:5,enabled:1b},\"mekanismgenerators:geothermal_generator_unit\":{amount:8,enabled:1b},\"moremekasuitmodules:energy_shield_unit\":{amount:10,enabled:1b},\"moremekasuitmodules:hp_boots_unit\":{amount:64,enabled:1b},\"moremekasuitmodules:infinite_energy_supply_unit\":{},\"moremekasuitmodules:insulated_unit\":{}}}}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtmadvancedhatch:max_configurable_dual_hatch_input_16p\"}",
+      "amount": "10240000"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtceu:echoite_vajra\",tag:{DisallowContainerItem:0b,GT.Behaviours:{DisableShields:1b,Mode:2b,RelocateMinedBlocks:1b,TreeFelling:1b},GT.Tool:{AttackDamage:110.0f,AttackSpeed:2.0f,Damage:0,Enchantability:10,HarvestLevel:6,MaxDamage:63,ToolSpeed:10.0f},HideFlags:2,Unbreakable:1b}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtlcore:molecular_casing\"}",
+      "amount": "84"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtceu:certus_quartz_gem\"}",
+      "amount": "10240000"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtceu:me_molecular_assembler_io\"}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:ex_interface\"}",
+      "amount": "16777216"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"minecraft:gray_dye\"}",
+      "amount": "16777216"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:fluix_crystal\"}",
+      "amount": "10000000"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtceu:me_extended_export_buffer\"}",
+      "amount": "16777216"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"mekanism:mekasuit_bodyarmor\",tag:{mekData:{EnergyContainers:[{Container:0b,stored:\"4096000000\"}],ProtectionPoints:409600.0061035156d,ShieldEntropy:0.0d,modules:{\"mekanism:charge_distribution_unit\":{},\"mekanism:dosimeter_unit\":{},\"mekanism:energy_unit\":{amount:8,enabled:1b},\"mekanism:geiger_unit\":{},\"mekanism:gravitational_modulating_unit\":{amount:1,enabled:1b,handleModeChange:1b,renderHUD:1b,speed_boost:1},\"mekanism:laser_dissipation_unit\":{},\"moremekasuitmodules:energy_shield_unit\":{amount:10,enabled:1b},\"moremekasuitmodules:health_regeneration_unit\":{amount:10,enabled:1b},\"moremekasuitmodules:high_speed_cooling_unit\":{amount:10,enabled:1b},\"moremekasuitmodules:hp_boots_unit\":{amount:64,enabled:1b},\"moremekasuitmodules:infinite_chemical_and_fluid_supply_unit\":{},\"moremekasuitmodules:infinite_energy_supply_unit\":{},\"moremekasuitmodules:insulated_unit\":{}}}}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtceu:naquadah_alloy_frame\"}",
+      "amount": "56"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:certus_quartz_dust\"}",
+      "amount": "10240000"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtladditions:infinity_input_dual_hatch\"}",
+      "amount": "16777216"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtceu:me_craft_pattern_container\"}",
+      "amount": "20"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:ex_import_bus_part\"}",
+      "amount": "16777216"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"extendedae_plus:infinity_biginteger_cell\"}",
+      "amount": "4"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:fluix_covered_cable\"}",
+      "amount": "16777216"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:wireless_access_point\"}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:toggle_bus\"}",
+      "amount": "16777216"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtlcore:me_pattern_buffer_cut\"}",
+      "amount": "4"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:pattern_encoding_terminal\"}",
+      "amount": "4"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"travelanchors:travel_anchor\"}",
+      "amount": "16777216"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:certus_quartz_crystal\"}",
+      "amount": "10240000"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtmadvancedhatch:net_data_stick\"}",
+      "amount": "1"
+    }
+  ]
+}

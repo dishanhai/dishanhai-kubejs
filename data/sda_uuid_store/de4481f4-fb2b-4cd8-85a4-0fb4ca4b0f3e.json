@@ -1,0 +1,13 @@
+{
+  "uuid": "de4481f4-fb2b-4cd8-85a4-0fb4ca4b0f3e",
+  "entries": [
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:i\",id:\"gt_shanhai:reliable_me_async_output_buffer\"}}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:i\",id:\"gt_shanhai:me_starrail_output_matrix\"}}}",
+      "amount": "1"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "uuid": "3fe72869-8e26-41bc-a6e8-30c04d641d18",
+  "entries": [
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:i\",id:\"gtlcore:really_max_battery\"}}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:i\",id:\"gtceu:max_battery\"}}}",
+      "amount": "1"
+    }
+  ]
+}
