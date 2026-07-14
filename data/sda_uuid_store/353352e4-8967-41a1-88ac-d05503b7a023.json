@@ -1,0 +1,85 @@
+{
+  "uuid": "353352e4-8967-41a1-88ac-d05503b7a023",
+  "entries": [
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtceu:me_molecular_assembler_io\"}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtlcore:molecular_casing\"}",
+      "amount": "84"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtlcore:hyper_mechanical_casing\"}",
+      "amount": "80"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtceu:trinium_frame\"}",
+      "amount": "78"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtceu:superconducting_coil\"}",
+      "amount": "104"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtceu:europium_frame\"}",
+      "amount": "36"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtceu:naquadah_alloy_frame\"}",
+      "amount": "56"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtceu:assembly_line_grating\"}",
+      "amount": "32"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtceu:me_craft_parallel_core\"}",
+      "amount": "10"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtceu:me_craft_speed_core\"}",
+      "amount": "5"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtceu:high_power_casing\"}",
+      "amount": "306"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtlcore:advanced_assembly_line_unit\"}",
+      "amount": "70"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtlcore:iridium_casing\"}",
+      "amount": "320"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtceu:molecular_assembler_matrix\"}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtceu:advanced_computer_casing\"}",
+      "amount": "48"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtceu:fusion_glass\"}",
+      "amount": "36"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtceu:hsse_frame\"}",
+      "amount": "20"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtceu:me_craft_pattern_container\"}",
+      "amount": "45"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtceu:large_scale_assembler_casing\"}",
+      "amount": "90"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtceu:assembly_line_casing\"}",
+      "amount": "16"
+    }
+  ]
+}

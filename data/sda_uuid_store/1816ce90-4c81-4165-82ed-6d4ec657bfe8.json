@@ -1,0 +1,45 @@
+{
+  "uuid": "1816ce90-4c81-4165-82ed-6d4ec657bfe8",
+  "entries": [
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"kubejs:dimensional_bridge_casing\"}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"kubejs:space_elevator_internal_support\"}",
+      "amount": "788"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"kubejs:high_strength_concrete\"}",
+      "amount": "7347"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtlcore:power_module_7\"}",
+      "amount": "426"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtladditions:space_infinity_integrated_ore_processor\"}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtlcore:space_elevator_mechanical_casing\"}",
+      "amount": "2020"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtceu:infinity_frame\"}",
+      "amount": "2"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:f\",id:\"gtceu:stellar_energy_rocket_fuel\"}}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtlcore:space_elevator_support\"}",
+      "amount": "6364"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtlcore:iridium_casing\"}",
+      "amount": "354"
+    }
+  ]
+}

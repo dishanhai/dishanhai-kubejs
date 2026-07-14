@@ -1,5 +1,12 @@
 // priority:60
 ServerEvents.recipes(function(e) {
+    // 配方库缓存：本文件源码 + gtlcore配置 没变就直接跳过，配方由 DShanhaiRecipePackFinder
+    // 注入的静态数据包 json 走 vanilla 原生加载；变了就照常整份跑一遍，Java 侧会在
+    // ServerAboutToStartEvent 里重新导出缓存。见 DShanhaiRecipeCache.java。
+    if (DShanhaiRecipeCache.isCacheValid()) {
+        console.log('§b[山海配方库]§r §a缓存命中，跳过本次 Rhino 注册§r');
+        return;
+    }
     var gtr = e.recipes.gtceu;  global._shanhaiGTR = gtr;
 
     // 日志函数（本地定义，避免跨文件依赖）
@@ -76,6 +83,7 @@ ServerEvents.recipes(function(e) {
                 try {
                     arg3(recipeObj);
                     DShanhaiRecipeEngine.recordRecipe(arg1, true, arg2, 'callback 注册完成');
+                    DShanhaiRecipeEngine.trackRecipeForCache(arg1, arg2);
                     return true;
                 } catch (callbackErr) {
                     DShanhaiRecipeEngine.recordRecipe(arg1, false, arg2, String(callbackErr));
@@ -382,16 +390,16 @@ ServerEvents.recipes(function(e) {
         { id: 'zero_point_conversion_energy', type: 'zero_point_conversion', notConsumable: ['gtceu:lv_electric_pump', 'gtlcore:primitive_fluid_regulator'], inputFluids: ['minecraft:water 3000'], outputFluids: ['dishanhai:zero_point_energy 20'], EUt: ulv, duration: 20 },
         { id: 'photon_siphon_light_item_source', type: 'photon_siphon', notConsumable: ['gtceu:lv_electric_pump', 'gtlcore:primitive_fluid_regulator'], inputFluids: ['dishanhai:zero_point_energy 20'], itemOutputs: ['dishanhai:first_light'], EUt: ulv, duration: 20 },
         { id: 'photon_siphon_light_source', type: 'photon_siphon', notConsumable: ['gtceu:lv_electric_pump', 'gtlcore:primitive_fluid_regulator'], itemInputs: ['2x dishanhai:first_light'], outputFluids: ['dishanhai:light 2000'], EUt: ulv, duration: 20 },
-        { id: 'circuit_assembly_wl_board_ulv', type: 'circuit_assembler', itemInputs: ['64x dishanhai:first_light', '8x #gtceu:circuits/ulv'], inputFluids: ['dishanhai:zero_point_energy 8000'], itemOutputs: ['4x dishanhai:wl_board_ulv'], EUt: ulv, duration: 20 },
+        { id: 'circuit_assembly_wl_board_ulv', type: 'circuit_assembler', circuit:1,itemInputs: ['64x dishanhai:first_light', '8x #gtceu:circuits/ulv'], inputFluids: ['dishanhai:zero_point_energy 8000'], itemOutputs: ['4x dishanhai:wl_board_ulv'], EUt: ulv, duration: 20 },
         { id: 'chemical_bath_primordial_void_induction_armature', type: 'chemical_bath', itemInputs: ['64x gt_shanhai:primordial_omega_engine'], inputFluids: ['dishanhai:zero_point_energy 320000'], itemOutputs: ['gt_shanhai:primordial_void_induction_armature'], EUt: ulv, duration: 20 },
         { id: 'matter_forging_matter_ball_source', type: 'matter_forging', circuit: 1, itemInputs: ['256000x minecraft:cobblestone'], itemOutputs: ['3840x ae2:matter_ball'], EUt: ulv, duration: 20 },
         { id: 'matter_forging_singularity_source', type: 'matter_forging', circuit: 2, itemInputs: ['640x ae2:matter_ball'], itemOutputs: ['ae2:singularity'], EUt: ulv, duration: 20 },
         { id: 'matter_forging_matter_ball_destination', type: 'matter_forging', circuit: 3, inputFluids: ['minecraft:water 15360000'], itemOutputs: ['2560x ae2:matter_ball'], EUt: ulv, duration: 20 },
         { id: 'matter_forging_matter_singularity_source', type: 'matter_forging', circuit: 4, itemInputs: ['131002x ae2:matter_ball', '16x ae2:singularity'], inputFluids: ['dishanhai:zero_point_energy 1000'], itemOutputs: ['dishanhai:matter_singularity'], EUt: ulv, duration: 20 },
-        { id: 'photon_separation_source', type: 'photon_separation', inputFluids: ['dishanhai:light 500'], itemOutputs: ['dishanhai:photon'], EUt: ulv, duration: 20 },
-        { id: 'photon_separation_destination', type: 'photon_separation', inputFluids: ['dishanhai:zero_point_energy'], itemOutputs: ['2x dishanhai:first_light'], outputFluids: ['dishanhai:light 550'], EUt: ulv, duration: 20 },
-        { id: 'matter_module_casting_wzrm_destination', type: 'matter_module_casting', itemInputs: [ '1312x dishanhai:first_light', '648x dishanhai:matter_singularity', '328x dishanhai:photon', '16x dishanhai:wl_board_ulv' ], inputFluids: ['dishanhai:matter_fluid_entry 10000'], itemOutputs: ['dishanhai:wzrm'], EUt: ulv, duration: 20 },
-        { id: 'primordial_matter_recombination_wl_board_ulv', type: 'primordial_matter_recombination', notConsumable: [], itemInputs: ['64x dishanhai:first_light', '4x gtceu:nand_chip'], inputFluids: ['dishanhai:light 2000', 'dishanhai:matter_fluid_entry 2000'], itemOutputs: ['4x dishanhai:wl_board_ulv'], EUt: ulv, duration: 20 },
+        { id: 'photon_separation_source', type: 'photon_separation',circuit:3, inputFluids: ['dishanhai:light 500'], itemOutputs: ['dishanhai:photon'], EUt: ulv, duration: 20 },
+        { id: 'photon_separation_destination', type: 'photon_separation',circuit:1,inputFluids: ['dishanhai:zero_point_energy'], itemOutputs: ['2x dishanhai:first_light'], outputFluids: ['dishanhai:light 550'], EUt: ulv, duration: 20 },
+        { id: 'matter_module_casting_wzrm_destination', type: 'matter_module_casting',circuit:1, itemInputs: [ '1312x dishanhai:first_light', '648x dishanhai:matter_singularity', '328x dishanhai:photon', '16x dishanhai:wl_board_ulv' ], inputFluids: ['dishanhai:matter_fluid_entry 10000'], itemOutputs: ['dishanhai:wzrm'], EUt: ulv, duration: 20 },
+        { id: 'primordial_matter_recombination_wl_board_ulv', type: 'primordial_matter_recombination',circuit:1, itemInputs: ['64x dishanhai:first_light', '4x gtceu:nand_chip'], inputFluids: ['dishanhai:light 2000', 'dishanhai:matter_fluid_entry 2000'], itemOutputs: ['4x dishanhai:wl_board_ulv'], EUt: ulv, duration: 20 },
         { id: 'coin_forge_copper_coin_source', type: 'coin_forge', notConsumable: ["gtceu:credit_casting_mold"], inputFluids: ['gtceu:copper 72000'], itemOutputs: ["16x dishanhai:copper_coin"], EUt: ulv, duration: 20 },
         // ===== LV 级 (EUt: 32) =====
         { id: 'assembler_maintenance_hatch', type: 'assembler', defaultEnabled: false, itemInputs: ['gt_shanhai:primordial_omega_engine'], inputFluids: ['dishanhai:light'], itemOutputs: ['gt_shanhai:maintenance_hatch'], EUt: 20, duration: lv },
@@ -402,28 +410,29 @@ ServerEvents.recipes(function(e) {
         // ===== LV 机器升级配方 =====
         { id: 'assembler_lv_photon_siphon', type: 'assembler', itemInputs: [ '1x gt_shanhai:ulv_photon_siphon', '4x gtceu:solid_machine_casing', '8x #gtceu:circuits/lv', '4x gtceu:lv_electric_pump', '2x gtceu:lv_robot_arm' ], inputFluids: ['dishanhai:zero_point_energy 2000'], itemOutputs: ['1x gt_shanhai:lv_photon_siphon'], EUt: lv, duration: 400 },
         { id: 'assembler_lv_zero_point_conversion', type: 'assembler', itemInputs: [ '1x gt_shanhai:ulv_zero_point_conversion', '4x gtceu:solid_machine_casing', '8x #gtceu:circuits/lv', '4x gtceu:lv_electric_pump', '2x gtceu:lv_robot_arm' ], inputFluids: ['dishanhai:zero_point_energy 2000'], itemOutputs: ['1x gt_shanhai:lv_zero_point_conversion'], EUt: lv, duration: 400 },
-        { id: 'circuit_assembly_wl_board_lv', type: 'circuit_assembler', itemInputs: [ '64x dishanhai:photon', '10x kubejs:lv_universal_circuit', '16x gtceu:conductive_alloy_single_wire', '128x gtceu:aluminium_foil' ], inputFluids: ['dishanhai:zero_point_energy 8000'], itemOutputs: ['1x dishanhai:wl_board_lv'], EUt: 32, duration: 200 },
-        { id: 'matter_module_casting_wzjc', type: 'matter_module_casting', itemInputs: [ '1000x dishanhai:first_light', '1000x dishanhai:matter_singularity', '1000x dishanhai:photon', '32x dishanhai:wl_board_lv', '1x dishanhai:wzrm' ], inputFluids: ['dishanhai:matter_fluid_basic 20000'], itemOutputs: ['1x dishanhai:wzjc'], EUt: 32, duration: 200, conditions: ["4x dishanhai:wzrm"] },
+        { id: 'circuit_assembly_wl_board_lv', type: 'circuit_assembler', circuit:2,itemInputs: [ '64x dishanhai:photon', '10x kubejs:lv_universal_circuit', '16x gtceu:conductive_alloy_single_wire', '128x gtceu:aluminium_foil' ], inputFluids: ['dishanhai:zero_point_energy 8000'], itemOutputs: ['1x dishanhai:wl_board_lv'], EUt: 32, duration: 200 },
+        { id: 'matter_module_casting_wzjc', type: 'matter_module_casting',circuit:2, itemInputs: [ '1000x dishanhai:first_light', '1000x dishanhai:matter_singularity', '1000x dishanhai:photon', '32x dishanhai:wl_board_lv', '1x dishanhai:wzrm' ], inputFluids: ['dishanhai:matter_fluid_basic 20000'], itemOutputs: ['1x dishanhai:wzjc'], EUt: 32, duration: 200, conditions: ["4x dishanhai:wzrm"] },
         // ===== MV 级 (EUt: 128) =====
-        { id: 'primordial_energy_absorption', type: 'primordial_energy_absorption', inputFluids: ['minecraft:water 3000'], outputFluids: ['dishanhai:zero_point_energy 1000'], EUt: mv, duration: 20 },
-        { id: 'matter_module_casting_dimensional_worldline_fragment', type: 'matter_module_casting', itemInputs: [ '128x minecraft:ender_pearl', '1x gtceu:separated_plant', '1x gtceu:mixed_plant', '1x gtceu:assemble_plant', '1x gtceu:processing_plant', '4x gtceu:mv_energy_input_hatch_16a', '16x dishanhai:matter_singularity', '1024x dishanhai:photon' ], inputFluids: [ 'dishanhai:matter_fluid_entry 64000', 'dishanhai:matter_fluid_basic 32000', 'dishanhai:matter_fluid_foundation 16000' ], itemOutputs: ['1x dishanhai:dimensional_worldline_fragment'], EUt: 128, duration: 200, conditions: ["4x dishanhai:wzjc"] },
-        { id: 'matter_module_casting_wzcz1', type: 'matter_module_casting', itemInputs: [ '4x dishanhai:dimensional_worldline_fragment', '1x dishanhai:wzjc', '32x dishanhai:wl_board_mv', '1024x dishanhai:photon', '1024x dishanhai:matter_singularity' ], inputFluids: [ 'dishanhai:matter_fluid_entry 64000', 'dishanhai:matter_fluid_basic 64000', 'dishanhai:matter_fluid_foundation 64000', 'dishanhai:light 1024000' ], itemOutputs: ['1x dishanhai:wzcz1'], EUt: 128, duration: 200, conditions: ["16x dishanhai:wzjc"] },
-        { id: 'circuit_assembly_wl_board_mv', type: 'circuit_assembler', itemInputs: [ '64x dishanhai:photon', '12x kubejs:mv_universal_circuit', '16x gtceu:energetic_alloy_single_wire', '64x gtceu:ulpic_chip', '64x gtceu:ilc_chip', '64x gtceu:ram_chip' ], inputFluids: ['dishanhai:zero_point_energy 8000'], itemOutputs: ['1x dishanhai:wl_board_mv'], EUt: 128, duration: 200, circuit: 1 },
-        { id: 'matter_module_casting_dark_energy_multiplier', type: 'matter_module_casting', itemInputs: [ '1x dishanhai:wzcz1', '16x dishanhai:dimensional_worldline_fragment', '4x gt_shanhai:primordial_void_induction_armature' ], inputFluids: [ 'dishanhai:zero_point_energy 1024000', 'dishanhai:light 1024000', 'dishanhai:matter_fluid_foundation 256000' ], itemOutputs: ['1x dishanhai:dark_energy_multiplier'], EUt: 128, duration: 200, conditions: ["4x dishanhai:wzcz1"] },
+        { id: 'primordial_energy_absorption_mv', type: 'primordial_energy_absorption',circuit:1, inputFluids: ['minecraft:water 3000'], outputFluids: ['dishanhai:zero_point_energy 1000'], EUt: mv, duration: 20 },
+        { id: 'matter_module_casting_dimensional_worldline_fragment', type: 'matter_module_casting',circuit:3, itemInputs: [ '128x minecraft:ender_pearl', '1x gtceu:separated_plant', '1x gtceu:mixed_plant', '1x gtceu:assemble_plant', '1x gtceu:processing_plant', '4x gtceu:mv_energy_input_hatch_16a', '16x dishanhai:matter_singularity', '1024x dishanhai:photon' ], inputFluids: [ 'dishanhai:matter_fluid_entry 64000', 'dishanhai:matter_fluid_basic 32000', 'dishanhai:matter_fluid_foundation 16000' ], itemOutputs: ['1x dishanhai:dimensional_worldline_fragment'], EUt: 128, duration: 200, conditions: ["4x dishanhai:wzjc"] },
+        { id: 'matter_module_casting_wzcz1', type: 'matter_module_casting',circuit:4, itemInputs: [ '4x dishanhai:dimensional_worldline_fragment', '1x dishanhai:wzjc', '32x dishanhai:wl_board_mv', '1024x dishanhai:photon', '1024x dishanhai:matter_singularity' ], inputFluids: [ 'dishanhai:matter_fluid_entry 64000', 'dishanhai:matter_fluid_basic 64000', 'dishanhai:matter_fluid_foundation 64000', 'dishanhai:light 1024000' ], itemOutputs: ['1x dishanhai:wzcz1'], EUt: 128, duration: 200, conditions: ["16x dishanhai:wzjc"] },
+        { id: 'circuit_assembly_wl_board_mv', type: 'circuit_assembler', itemInputs: [ '64x dishanhai:photon', '12x kubejs:mv_universal_circuit', '16x gtceu:energetic_alloy_single_wire', '64x gtceu:ulpic_chip', '64x gtceu:ilc_chip'], inputFluids: ['dishanhai:zero_point_energy 8000'], itemOutputs: ['1x dishanhai:wl_board_mv'], EUt: 128, duration: 200, circuit: 3 },
+        { id: 'matter_module_casting_dark_energy_multiplier', type: 'matter_module_casting', circuit:4,itemInputs: [ '1x dishanhai:wzcz1', '16x dishanhai:dimensional_worldline_fragment', '4x gt_shanhai:primordial_void_induction_armature' ], inputFluids: [ 'dishanhai:zero_point_energy 1024000', 'dishanhai:light 1024000', 'dishanhai:matter_fluid_foundation 256000' ], itemOutputs: ['1x dishanhai:dark_energy_multiplier'], EUt: 128, duration: 200, conditions: ["4x dishanhai:wzcz1"] },
         { id:'coin_forge_silver_coin_source', type: 'coin_forge', notConsumable: ["gtceu:credit_casting_mold"], itemInputs: ["9x dishanhai:cupronickel_coin"], inputFluids: ['gtceu:silver 36000'], itemOutputs: ["16x dishanhai:silver_coin"], EUt: mv, duration: 20 },
         // ===== MV 机器升级配方 =====
         { id: 'assembler_mv_photon_siphon', type: 'assembler', itemInputs: [ '1x gt_shanhai:lv_photon_siphon', '4x gtceu:solid_machine_casing', '8x #gtceu:circuits/mv', '4x gtceu:mv_electric_pump', '2x gtceu:mv_robot_arm' ], inputFluids: ['dishanhai:zero_point_energy 8000'], itemOutputs: ['1x gt_shanhai:mv_photon_siphon'], EUt: mv, duration: 400 },
         { id: 'assembler_mv_zero_point_conversion', type: 'assembler', itemInputs: [ '1x gt_shanhai:lv_zero_point_conversion', '4x gtceu:solid_machine_casing', '8x #gtceu:circuits/mv', '4x gtceu:mv_electric_pump', '2x gtceu:mv_robot_arm' ], inputFluids: ['dishanhai:zero_point_energy 8000'], itemOutputs: ['1x gt_shanhai:mv_zero_point_conversion'], EUt: mv, duration: 400 },
         // ===== HV 级 (EUt: 512) =====
         { id: 'interstellar_matter_absorption_cosmic_dust', type: 'interstellar_matter_absorption', itemInputs: ['1x minecraft:cobblestone'], itemOutputs: ['1x dishanhai:cosmic_dust'], EUt: 512, duration: 100, conditions: ["64x dishanhai:wzsb"] },
+        { id: 'primordial_energy_absorption_hv', type: 'primordial_energy_absorption',circuit:2, inputFluids: ['minecraft:water 3000'], outputFluids: ['dishanhai:zero_point_energy 3000'], EUt: hv, duration: 20, conditions: ['16x dishanhai:wzxc'] },
         { id: 'assembler_primordial_matter_recombinator_core', type: 'assembler', itemInputs: [ "64x dishanhai:wzrm", '1024x dishanhai:wl_board_hv', '512x dishanhai:wl_board_lv', '256x dishanhai:wl_board_ulv', '131002x gtceu:industrial_steam_casing', '131002x gtceu:bronze_machine_casing' ], inputFluids: ['dishanhai:light 1031022'], itemOutputs: ['gt_shanhai:primordial_matter_recombinator_core'], EUt: hv, duration: 20 },
         { id: 'circuit_assembly_wem_1', type: 'circuit_assembler', itemInputs: [ '64x kubejs:iv_universal_circuit', '1x dishanhai:wzrm', '1x dishanhai:wzjc', '1x dishanhai:wzcz1', '1x dishanhai:wzxc' ], inputFluids: ['dishanhai:light 32000'], itemOutputs: ['1x dishanhai:wem_1'], EUt: 512, duration: 200, circuit: 1 },
-        { id: 'circuit_assembly_wl_board_hv', type: 'circuit_assembler', itemInputs: [ '14x kubejs:hv_universal_circuit', '64x dishanhai:photon', '64x gtceu:smd_capacitor', '64x gtceu:smd_diode', '64x gtceu:lpic_chip', '64x gtceu:smd_resistor' ], inputFluids: ['dishanhai:zero_point_energy 8000'], itemOutputs: ['1x dishanhai:wl_board_hv'], EUt: 512, duration: 200, circuit: 1 },
-        { id: 'matter_module_casting_worldline_residual_fragment', type: 'matter_module_casting', itemInputs: [ '64x dishanhai:wzrm', '32x dishanhai:matter_singularity', '4x gtceu:cleaning_maintenance_hatch', '1x gtceu:vacuum_freezer', '1x gtceu:fishing_ground', '4x gtceu:hv_energy_input_hatch_16a', '1x gtceu:cracker', '1x gtceu:distillation_tower', '2048x dishanhai:photon' ], inputFluids: [ 'dishanhai:matter_fluid_basic 32000', 'dishanhai:matter_fluid_virtual 8000', 'dishanhai:matter_fluid_foundation 16000' ], itemOutputs: ['1x dishanhai:worldline_residual_fragment'], EUt: 512, duration: 200, conditions: ["4x dishanhai:wzcz1"] },
-        { id: 'matter_module_casting_wzxc', type: 'matter_module_casting', itemInputs: [ '4x dishanhai:worldline_residual_fragment', '1x dishanhai:wzcz1', '32x dishanhai:wl_board_hv', '1024x dishanhai:photon', '1024x dishanhai:matter_singularity' ], inputFluids: [ 'dishanhai:matter_fluid_virtual 64000', 'dishanhai:matter_fluid_basic 64000', 'dishanhai:matter_fluid_foundation 64000', 'dishanhai:light 1024000' ], itemOutputs: ['1x dishanhai:wzxc'], EUt: 512, duration: 200, conditions: ["16x dishanhai:wzcz1"] },
-        { id: 'primordial_matter_recombination_wl_board_lv_x4', type: 'primordial_matter_recombination', itemInputs: ['64x dishanhai:first_light', '4x kubejs:lv_universal_circuit'], inputFluids: ['dishanhai:light 2000', 'dishanhai:matter_fluid_basic 2000'], itemOutputs: ['4x dishanhai:wl_board_lv'], EUt: 512, duration: 200, conditions: ["16x dishanhai:wzxc"] },
-        { id: 'primordial_matter_recombination_wl_board_mv_x4', type: 'primordial_matter_recombination', itemInputs: ['64x dishanhai:first_light', '4x kubejs:mv_universal_circuit'], inputFluids: ['dishanhai:light 2000', 'dishanhai:matter_fluid_foundation 2000'], itemOutputs: ['4x dishanhai:wl_board_mv'], EUt: 512, duration: 200, conditions: ["16x dishanhai:wzxc"] },
-        { id: 'primordial_matter_recombination_wl_board_hv_x4', type: 'primordial_matter_recombination', itemInputs: ['64x dishanhai:first_light', '4x kubejs:hv_universal_circuit'], inputFluids: ['dishanhai:light 2000', 'dishanhai:matter_fluid_virtual 2000'], itemOutputs: ['4x dishanhai:wl_board_hv'], EUt: 512, duration: 200, conditions: ["16x dishanhai:wzxc"] },
+        { id: 'circuit_assembly_wl_board_hv', type: 'circuit_assembler', itemInputs: [ '14x kubejs:hv_universal_circuit', '64x dishanhai:photon', '64x gtceu:smd_capacitor', '64x gtceu:smd_diode', '64x gtceu:lpic_chip'], inputFluids: ['dishanhai:zero_point_energy 8000'], itemOutputs: ['1x dishanhai:wl_board_hv'], EUt: 512, duration: 200, circuit: 4 },
+        { id: 'matter_module_casting_worldline_residual_fragment', type: 'matter_module_casting',circuit:5, itemInputs: [ '64x dishanhai:wzrm', '32x dishanhai:matter_singularity', '4x gtceu:cleaning_maintenance_hatch', '1x gtceu:vacuum_freezer', '1x gtceu:fishing_ground', '4x gtceu:hv_energy_input_hatch_16a', '1x gtceu:cracker', '1x gtceu:distillation_tower', '2048x dishanhai:photon' ], inputFluids: [ 'dishanhai:matter_fluid_basic 32000', 'dishanhai:matter_fluid_virtual 8000', 'dishanhai:matter_fluid_foundation 16000' ], itemOutputs: ['1x dishanhai:worldline_residual_fragment'], EUt: 512, duration: 200, conditions: ["4x dishanhai:wzcz1"] },
+        { id: 'matter_module_casting_wzxc', type: 'matter_module_casting', circuit:6,itemInputs: [ '4x dishanhai:worldline_residual_fragment', '1x dishanhai:wzcz1', '32x dishanhai:wl_board_hv', '1024x dishanhai:photon', '1024x dishanhai:matter_singularity' ], inputFluids: [ 'dishanhai:matter_fluid_virtual 64000', 'dishanhai:matter_fluid_basic 64000', 'dishanhai:matter_fluid_foundation 64000', 'dishanhai:light 1024000' ], itemOutputs: ['1x dishanhai:wzxc'], EUt: 512, duration: 200, conditions: ["16x dishanhai:wzcz1"] },
+        { id: 'primordial_matter_recombination_wl_board_lv_x4', type: 'primordial_matter_recombination',circuit:1, itemInputs: ['64x dishanhai:first_light', '4x kubejs:lv_universal_circuit'], inputFluids: ['dishanhai:light 2000', 'dishanhai:matter_fluid_basic 2000'], itemOutputs: ['4x dishanhai:wl_board_lv'], EUt: 512, duration: 200, conditions: ["16x dishanhai:wzxc"] },
+        { id: 'primordial_matter_recombination_wl_board_mv_x4', type: 'primordial_matter_recombination',circuit:2, itemInputs: ['64x dishanhai:first_light', '4x kubejs:mv_universal_circuit'], inputFluids: ['dishanhai:light 2000', 'dishanhai:matter_fluid_foundation 2000'], itemOutputs: ['4x dishanhai:wl_board_mv'], EUt: 512, duration: 200, conditions: ["16x dishanhai:wzxc"] },
+        { id: 'primordial_matter_recombination_wl_board_hv_x4', type: 'primordial_matter_recombination',circuit:3, itemInputs: ['64x dishanhai:first_light', '4x kubejs:hv_universal_circuit'], inputFluids: ['dishanhai:light 2000', 'dishanhai:matter_fluid_virtual 2000'], itemOutputs: ['4x dishanhai:wl_board_hv'], EUt: 512, duration: 200, conditions: ["16x dishanhai:wzxc"] },
         { id: 'primordial_matter_recombination_zero_photon_condenser', type: 'primordial_matter_recombination', itemInputs: [ '1x dishanhai:wem_1', '32x gtceu:nichrome_coil_block', '4x gtceu:ev_machine_hull', '1x gtceu:large_chemical_reactor', '64x gtceu:hv_emitter', '64x gtceu:hv_sensor' ], inputFluids: ['dishanhai:zero_point_energy 32000'], itemOutputs: ['1x gt_shanhai:zero_photon_condenser'], EUt: 512, duration: 200, conditions: ["4x dishanhai:wzxc"] },
         { id: 'primordial_matter_recombination_chaotic_furnace', type: 'primordial_matter_recombination', itemInputs: [ '4x gtceu:hv_macerator', '4x gtceu:hv_sifter', '4x gtceu:hv_centrifuge', '4x gtceu:hv_thermal_centrifuge', '4x gtceu:hv_chemical_bath', '4x dishanhai:worldline_residual_fragment', '1x dishanhai:wem_1', '1x gt_shanhai:primordial_omega_engine' ], inputFluids: ['dishanhai:matter_fluid_virtual 64000'], itemOutputs: ['1x gt_shanhai:primordial_chaotic_ephemeral_deconstruction_crystallization_furnace'], EUt: 512, duration: 200, conditions: ["4x dishanhai:wzxc"] },
         { id: 'primordial_matter_recombination_world_fragments_collector', type: 'primordial_matter_recombination', itemInputs: [ '4x gtceu:ulv_fragment_world_collection_machine', '1x gt_shanhai:primordial_omega_engine', '1x dishanhai:wem_1', '4x dishanhai:worldline_residual_fragment' ], inputFluids: ['dishanhai:matter_fluid_virtual 64000'], itemOutputs: ['1x gt_shanhai:primordial_world_fragments_collector'], EUt: 512, duration: 200, conditions: ["4x dishanhai:wzxc"] },
@@ -435,22 +444,23 @@ ServerEvents.recipes(function(e) {
         { id: 'primordial_matter_recombination_proxy_resonance_core_mk1a', type: 'primordial_matter_recombination', itemInputs: ['128x dishanhai:photon', '64x dishanhai:matter_singularity', '8x dishanhai:wl_board_ev'], inputFluids: ['dishanhai:light 128000', 'dishanhai:matter_fluid_transmutation 8000'], itemOutputs: ['dishanhai:proxy_resonance_core_mk1a'], EUt: ev, duration: 200 },
         { id: 'primordial_matter_recombination_proxy_resonance_core_mk1b', type: 'primordial_matter_recombination', itemInputs: ['192x dishanhai:photon', '96x dishanhai:matter_singularity', '12x dishanhai:wl_board_ev'], inputFluids: ['dishanhai:light 192000', 'dishanhai:matter_fluid_transmutation 12000'], itemOutputs: ['dishanhai:proxy_resonance_core_mk1b'], EUt: ev, duration: 200 },
         { id: 'matter_forging_cosmic_dust', type: 'matter_forging', circuit: 5, itemInputs: ['1x dishanhai:matter_singularity', '64x dishanhai:photon'], inputFluids: ['dishanhai:light 64000', 'dishanhai:zero_point_energy 64000'], itemOutputs: ['1x dishanhai:cosmic_dust'], EUt: 2048, duration: 200, conditions: ["4x dishanhai:wzxc"] },
-        { id: 'matter_module_casting_wzsb', type: 'matter_module_casting', itemInputs: [ '16x dishanhai:worldline_residual_fragment', '1x dishanhai:wem_1', '32x dishanhai:wl_board_ev', '1024x dishanhai:cosmic_dust', '1x dishanhai:primordial_parallel_particle', '4x dishanhai:primordial_worldline_seed' ], inputFluids: [ 'dishanhai:matter_fluid_virtual 64000', 'dishanhai:matter_fluid_transmutation 64000', 'dishanhai:matter_fluid_foundation 64000' ], itemOutputs: ['1x dishanhai:wzsb'], EUt: 2048, duration: 200, conditions: ["16x dishanhai:wzxc"] },
-        { id: 'primordial_matter_recombination_wl_board_ev_x4', type: 'primordial_matter_recombination', itemInputs: ['64x dishanhai:first_light', '4x kubejs:ev_universal_circuit'], inputFluids: ['dishanhai:light 2000', 'dishanhai:matter_fluid_transmutation 2000'], itemOutputs: ['4x dishanhai:wl_board_ev'], EUt: 2048, duration: 200, conditions: ["4x dishanhai:wzxc"] },
-        { id: 'primordial_matter_recombination_thread_shard_1', type: 'primordial_matter_recombination', itemInputs: [ '1x gt_shanhai:divergence_engine', '1x dishanhai:primordial_worldline_seed', '32x dishanhai:cosmic_dust' ], itemOutputs: ['1x dishanhai:thread_shard_1'], EUt: 2048, duration: 200, conditions: ["4x dishanhai:wzsb"] },
+        { id: 'matter_module_casting_wzsb', type: 'matter_module_casting',circuit:7, itemInputs: [ '16x dishanhai:worldline_residual_fragment', '1x dishanhai:wem_1', '32x dishanhai:wl_board_ev', '1024x dishanhai:cosmic_dust', '1x dishanhai:primordial_parallel_particle', '4x dishanhai:primordial_worldline_seed' ], inputFluids: [ 'dishanhai:matter_fluid_virtual 64000', 'dishanhai:matter_fluid_transmutation 64000', 'dishanhai:matter_fluid_foundation 64000' ], itemOutputs: ['1x dishanhai:wzsb'], EUt: 2048, duration: 200, conditions: ["16x dishanhai:wzxc"] },
+        { id: 'primordial_matter_recombination_wl_board_ev_x4', type: 'primordial_matter_recombination', circuit:4,itemInputs: ['64x dishanhai:first_light', '4x kubejs:ev_universal_circuit'], inputFluids: ['dishanhai:light 2000', 'dishanhai:matter_fluid_transmutation 2000'], itemOutputs: ['4x dishanhai:wl_board_ev'], EUt: 2048, duration: 200, conditions: ["4x dishanhai:wzxc"] },
+        { id: 'primordial_matter_recombination_thread_shard_1', type: 'primordial_matter_recombination',circuit:1, itemInputs: [ '1x gt_shanhai:divergence_engine', '1x dishanhai:primordial_worldline_seed', '32x dishanhai:cosmic_dust' ], itemOutputs: ['1x dishanhai:thread_shard_1'], EUt: 2048, duration: 200, conditions: ["4x dishanhai:wzsb"] },
         { id: 'primordial_matter_recombination_divergence_engine', type: 'primordial_matter_recombination', itemInputs: [ '4x gtceu:iv_machine_hull', '16x gtceu:ev_emitter', '16x gtceu:ev_sensor', '1x dishanhai:primordial_worldline_seed', '64x dishanhai:cosmic_dust', '32x dishanhai:worldline_residual_fragment' ], inputFluids: ['dishanhai:matter_fluid_transmutation 64000', 'dishanhai:zero_point_energy 1024000'], itemOutputs: ['1x gt_shanhai:divergence_engine'], EUt: 2048, duration: 200, conditions: ["4x dishanhai:wzsb"] },
-        { id: 'primordial_matter_recombination_primordial_worldline_seed', type: 'primordial_matter_recombination', itemInputs: ['64x dishanhai:cosmic_dust', '16x dishanhai:wl_board_ev', '4x dishanhai:primordial_parallel_particle'], inputFluids: ['dishanhai:matter_fluid_transmutation 64000'], itemOutputs: ['1x dishanhai:primordial_worldline_seed'], EUt: 2048, duration: 200, conditions: ["4x dishanhai:wzsb"] },
-        { id: 'primordial_matter_recombination_primordial_parallel_particle', type: 'primordial_matter_recombination', itemInputs: [ '1x dishanhai:wem_1', '16x dishanhai:dimensional_worldline_fragment', '4x dishanhai:worldline_residual_fragment', '32x dishanhai:cosmic_dust' ], inputFluids: [ 'dishanhai:matter_fluid_transmutation 16000', 'dishanhai:matter_fluid_virtual 32000', 'dishanhai:matter_fluid_foundation 64000' ], itemOutputs: ['1x dishanhai:primordial_parallel_particle'], EUt: 2048, duration: 200, conditions: ["16x dishanhai:wzsb"] },
+        { id: 'primordial_matter_recombination_primordial_worldline_seed', type: 'primordial_matter_recombination',circuit:2, itemInputs: ['64x dishanhai:cosmic_dust', '16x dishanhai:wl_board_ev', '4x dishanhai:primordial_parallel_particle'], inputFluids: ['dishanhai:matter_fluid_transmutation 64000'], itemOutputs: ['1x dishanhai:primordial_worldline_seed'], EUt: 2048, duration: 200, conditions: ["4x dishanhai:wzxc"] },
+        { id: 'primordial_matter_recombination_primordial_parallel_particle', type: 'primordial_matter_recombination',circuit:1, itemInputs: [ '1x dishanhai:wem_1', '16x dishanhai:dimensional_worldline_fragment', '4x dishanhai:worldline_residual_fragment', '32x dishanhai:cosmic_dust' ], inputFluids: [ 'dishanhai:matter_fluid_transmutation 16000', 'dishanhai:matter_fluid_virtual 32000', 'dishanhai:matter_fluid_foundation 64000' ], itemOutputs: ['1x dishanhai:primordial_parallel_particle'], EUt: 2048, duration: 200, conditions: ["16x dishanhai:wzsb"] },
         { id: 'primordial_matter_recombination_primordial_divergence_generator', type: 'primordial_matter_recombination', itemInputs: [ '16x gt_shanhai:divergence_engine', '32x dishanhai:primordial_worldline_seed', '128x dishanhai:primordial_parallel_particle', '1x gt_shanhai:primordial_omega_engine' ], itemOutputs: ['1x gt_shanhai:primordial_divergence_generator'], EUt: 2048, duration: 200, conditions: ["16x dishanhai:wzsb"] },
         { id: 'primordial_matter_recombination_causal_weaving_matrix', type: 'primordial_matter_recombination', itemInputs: [ '16x dishanhai:worldline_divergent_core', '1x dishanhai:wzsb', '4x gt_shanhai:divergence_engine', '64x dishanhai:navigate_prism', '256x dishanhai:cosmic_dust' ], inputFluids: ['dishanhai:matter_fluid_transmutation 128000', 'dishanhai:causal_essence 32000'], itemOutputs: ['1x gt_shanhai:primordial_causal_weaving_matrix'], EUt: 2048, duration: 200, conditions: ["16x dishanhai:wzsb"] },
         { id: 'primordial_causal_weaving_collapse_tear', type: 'primordial_causal_weaving', itemInputs: [ '4096x dishanhai:cosmic_dust', '1024x dishanhai:worldline_residual_fragment', '256x dishanhai:primordial_parallel_particle', '1024x dishanhai:photon' ], inputFluids: ['dishanhai:matter_fluid_transmutation 5120000', 'dishanhai:primal_chaos 2048000'], itemOutputs: ['1x dishanhai:collapse_tear'], EUt: 2048, duration: 600, conditions: ["64x dishanhai:wzsb"] },
         { id: 'coin_forge_platinum_coin_source', type: 'coin_forge', notConsumable: ["gtceu:credit_casting_mold"], itemInputs: ["9x dishanhai:gold_coin"], inputFluids: ['gtceu:electrum 36000'], itemOutputs: ["16x dishanhai:platinum_coin"], EUt: ev, duration: 20 },
         // ===== IV 级 (EUt: 8192) =====
-        { id: 'matter_module_casting_wzax', type: 'matter_module_casting', itemInputs: [ '4x dishanhai:worldline_divergent_core', '1x dishanhai:wzsb', '32x dishanhai:wl_board_iv', '1024x dishanhai:cosmic_dust', '1024x dishanhai:navigate_prism', '16x dishanhai:worldline_residual_fragment' ], inputFluids: [ 'dishanhai:matter_fluid_virtual 64000', 'dishanhai:matter_fluid_transmutation 64000', 'dishanhai:matter_fluid_darkstar 64000' ], itemOutputs: ['1x dishanhai:wzax'], EUt: 8192, duration: 200, conditions: ["16x dishanhai:wzsb"] },
+        { id: 'matter_module_casting_wzax', type: 'matter_module_casting',circuit:8, itemInputs: [ '4x dishanhai:worldline_divergent_core', '1x dishanhai:wzsb', '32x dishanhai:wl_board_iv', '1024x dishanhai:cosmic_dust', '1024x dishanhai:navigate_prism', '16x dishanhai:worldline_residual_fragment' ], inputFluids: [ 'dishanhai:matter_fluid_virtual 64000', 'dishanhai:matter_fluid_transmutation 64000', 'dishanhai:matter_fluid_darkstar 64000' ], itemOutputs: ['1x dishanhai:wzax'], EUt: 8192, duration: 200, conditions: ["16x dishanhai:wzsb"] },
+        { id: 'primordial_energy_absorption_iv', type: 'primordial_energy_absorption',circuit:3,itemInputs:['dishanhai:dark_energy_multiplier'], inputFluids: ['minecraft:water 3000'], outputFluids: ['dishanhai:zero_point_energy 10000'], EUt: iv, duration: 20, conditions: ['16x dishanhai:wzax'] },
         { id: 'photon_separation_primordial_divergence_heart', type: 'photon_separation', notConsumable: ['1x gt_shanhai:divergence_engine'], itemInputs: ['4x dishanhai:primordial_worldline_seed'], inputFluids: ['dishanhai:light 1024000', 'dishanhai:zero_point_energy 1024000'], itemOutputs: ['32x dishanhai:primordial_divergence_heart'], EUt: 8192, duration: 200, conditions: ["16x dishanhai:wzsb"] },
-        { id: 'photon_separation_navigate_prism', type: 'photon_separation', itemInputs: ['1x dishanhai:cosmic_dust'], itemOutputs: ['4x dishanhai:navigate_prism', '32x dishanhai:first_light'], EUt: 8192, duration: 200, conditions: ["64x dishanhai:wzsb"] },
-        { id: 'matter_module_casting_worldline_divergent_core_v2', type: 'matter_module_casting', itemInputs: [ '32x dishanhai:cosmic_dust', '16x dishanhai:primordial_divergence_heart', '1x gtceu:assembly_line', '1x gtceu:fission_reactor', '1x gtceu:cold_ice_freezer', '1x gtceu:blaze_blast_furnace', '4x gtceu:iv_energy_input_hatch_16a', '64x dishanhai:navigate_prism' ], inputFluids: [ 'dishanhai:matter_fluid_transmutation 16000', 'dishanhai:matter_fluid_darkstar 8000', 'dishanhai:matter_fluid_virtual 32000' ], itemOutputs: ['1x dishanhai:worldline_divergent_core'], EUt: 8192, duration: 200, conditions: ["4x dishanhai:wzsb"] },
-        { id: 'primordial_matter_recombination_wl_board_iv_x4', type: 'primordial_matter_recombination', itemInputs: ['4x dishanhai:cosmic_dust', '4x kubejs:iv_universal_circuit'], inputFluids: ['dishanhai:matter_fluid_darkstar 2000'], itemOutputs: ['4x dishanhai:wl_board_iv'], EUt: 8192, duration: 200, conditions: ["4x dishanhai:wzsb"] },
+        { id: 'photon_separation_navigate_prism', type: 'photon_separation', circuit:2 , itemInputs: ['1x dishanhai:cosmic_dust'], itemOutputs: ['4x dishanhai:navigate_prism', '32x dishanhai:first_light'], EUt: 8192, duration: 200, conditions: ["64x dishanhai:wzsb"] },
+        { id: 'matter_module_casting_worldline_divergent_core_v2', type: 'matter_module_casting',circuit:9, itemInputs: [ '32x dishanhai:cosmic_dust', '16x dishanhai:primordial_divergence_heart', '1x gtceu:assembly_line', '1x gtceu:fission_reactor', '1x gtceu:cold_ice_freezer', '1x gtceu:blaze_blast_furnace', '4x gtceu:iv_energy_input_hatch_16a', '64x dishanhai:navigate_prism' ], inputFluids: [ 'dishanhai:matter_fluid_transmutation 16000', 'dishanhai:matter_fluid_darkstar 8000', 'dishanhai:matter_fluid_virtual 32000' ], itemOutputs: ['1x dishanhai:worldline_divergent_core'], EUt: 8192, duration: 200, conditions: ["4x dishanhai:wzsb"] },
+        { id: 'primordial_matter_recombination_wl_board_iv_x4', type: 'primordial_matter_recombination',circuit:5, itemInputs: ['4x dishanhai:cosmic_dust', '4x kubejs:iv_universal_circuit'], inputFluids: ['dishanhai:matter_fluid_darkstar 2000'], itemOutputs: ['4x dishanhai:wl_board_iv'], EUt: 8192, duration: 200, conditions: ["4x dishanhai:wzsb"] },
         { id: 'primordial_matter_recombination_assembly_line_module', type: 'primordial_matter_recombination', itemInputs: [ '64x gtceu:assembly_line', '1x dishanhai:wzax', '16x dishanhai:worldline_divergent_core', '64x dishanhai:cosmic_dust', '64x dishanhai:navigate_prism' ], inputFluids: ['dishanhai:matter_fluid_darkstar 64000'], itemOutputs: ['1x gt_shanhai:primordial_assembly_line_module'], EUt: 8192, duration: 200, conditions: ["16x dishanhai:wzax"] },
         { id: 'primordial_matter_recombination_anti_entropy_core', type: 'primordial_matter_recombination', itemInputs: [ '64x gtceu:cold_ice_freezer', '16x dishanhai:worldline_divergent_core', '64x dishanhai:navigate_prism', '64x dishanhai:cosmic_dust', '1x dishanhai:wzax' ], inputFluids: ['dishanhai:matter_fluid_darkstar 64000'], itemOutputs: ['1x gt_shanhai:primordial_anti_entropy_condensation_core'], EUt: 8192, duration: 200, conditions: ["16x dishanhai:wzax"] },
         { id: 'primordial_matter_recombination_nebula_siphon', type: 'primordial_matter_recombination', itemInputs: [ '1x dishanhai:wem_1', '32x gtceu:iv_machine_hull', '64x dishanhai:navigate_prism', '64x dishanhai:cosmic_dust', '16x gtceu:iv_emitter', '16x gtceu:iv_sensor' ], inputFluids: ['dishanhai:matter_fluid_darkstar 64000', 'dishanhai:zero_point_energy 256000'], itemOutputs: ['1x gt_shanhai:nebula_siphon'], EUt: 8192, duration: 200, conditions: ["16x dishanhai:wzax"] },
@@ -460,18 +470,18 @@ ServerEvents.recipes(function(e) {
         // ========== 代理共鸣核心 MK2A/B (LuV, 512x/768x) ==========
         { id: 'primordial_matter_recombination_proxy_resonance_core_mk2a', type: 'primordial_matter_recombination', itemInputs: ['256x dishanhai:photon', '128x dishanhai:matter_singularity', '8x dishanhai:wl_board_luv', '8x dishanhai:worldline_residual_fragment'], inputFluids: ['dishanhai:light 256000', 'dishanhai:matter_fluid_advanced 8000'], itemOutputs: ['dishanhai:proxy_resonance_core_mk2a'], EUt: luv, duration: 200 },
         { id: 'primordial_matter_recombination_proxy_resonance_core_mk2b', type: 'primordial_matter_recombination', itemInputs: ['384x dishanhai:photon', '192x dishanhai:matter_singularity', '12x dishanhai:wl_board_luv', '12x dishanhai:worldline_residual_fragment'], inputFluids: ['dishanhai:light 384000', 'dishanhai:matter_fluid_advanced 12000'], itemOutputs: ['dishanhai:proxy_resonance_core_mk2b'], EUt: luv, duration: 200 },
-        { id: 'primordial_matter_recombination_wl_board_luv_x4', type: 'primordial_matter_recombination', itemInputs: ['4x dishanhai:navigate_prism', '4x kubejs:luv_universal_circuit'], inputFluids: ['dishanhai:matter_fluid_advanced 2000'], itemOutputs: ['4x dishanhai:wl_board_luv'], EUt: 32768, duration: 200, conditions: ["4x dishanhai:wzax"] },
-        { id: 'matter_module_casting_nova_catalyst', type: 'matter_module_casting', itemInputs: [ '16x gtceu:iv_256a_laser_target_hatch', '1x gtceu:luv_compressed_fusion_reactor', '1x gtceu:research_station', '1x gtceu:precision_assembler', '1x gtceu:neutron_activator', '4x dishanhai:dimensional_worldline_fragment', '64x dishanhai:navigate_prism', '128x dishanhai:cosmic_dust', '4x dishanhai:wem_1' ], inputFluids: [ 'dishanhai:matter_fluid_advanced 8000', 'dishanhai:matter_fluid_darkstar 16000', 'dishanhai:matter_fluid_transmutation 32000' ], itemOutputs: ['1x dishanhai:nova_catalyst'], EUt: 32768, duration: 200, conditions: ["4x dishanhai:wzax"] },
-        { id: 'primordial_matter_recombination_thread_shard_2', type: 'primordial_matter_recombination', itemInputs: [ '1x dishanhai:thread_shard_1', '2x gt_shanhai:divergence_engine', '1x dishanhai:worldline_divergent_core', '64x dishanhai:navigate_prism', '32x dishanhai:wl_board_luv' ], itemOutputs: ['1x dishanhai:thread_shard_2'], EUt: 32768, duration: 200, conditions: ["4x dishanhai:wzcz2"] },
-        { id: 'matter_module_casting_wzcz2_luv', type: 'matter_module_casting', itemInputs: [ '16x dishanhai:worldline_divergent_core', '1x dishanhai:wzax', '32x dishanhai:wl_board_luv', '1024x dishanhai:cosmic_dust', '1024x dishanhai:navigate_prism', '64x dishanhai:worldline_residual_fragment', '4x dishanhai:nova_catalyst' ], inputFluids: [ 'dishanhai:matter_fluid_advanced 64000', 'dishanhai:matter_fluid_transmutation 64000', 'dishanhai:matter_fluid_darkstar 64000' ], itemOutputs: ['1x dishanhai:wzcz2'], EUt: 32768, duration: 200, conditions: ["16x dishanhai:wzax"], },
+        { id: 'primordial_matter_recombination_wl_board_luv_x4', type: 'primordial_matter_recombination',circuit:6, itemInputs: ['4x dishanhai:navigate_prism', '4x kubejs:luv_universal_circuit'], inputFluids: ['dishanhai:matter_fluid_advanced 2000'], itemOutputs: ['4x dishanhai:wl_board_luv'], EUt: 32768, duration: 200, conditions: ["4x dishanhai:wzax"] },
+        { id: 'matter_module_casting_nova_catalyst', type: 'matter_module_casting',circuit:10, itemInputs: [ '16x gtceu:iv_256a_laser_target_hatch', '1x gtceu:luv_compressed_fusion_reactor', '1x gtceu:research_station', '1x gtceu:precision_assembler', '1x gtceu:neutron_activator', '4x dishanhai:dimensional_worldline_fragment', '64x dishanhai:navigate_prism', '128x dishanhai:cosmic_dust', '4x dishanhai:wem_1' ], inputFluids: [ 'dishanhai:matter_fluid_advanced 8000', 'dishanhai:matter_fluid_darkstar 16000', 'dishanhai:matter_fluid_transmutation 32000' ], itemOutputs: ['1x dishanhai:nova_catalyst'], EUt: 32768, duration: 200, conditions: ["4x dishanhai:wzax"] },
+        { id: 'primordial_matter_recombination_thread_shard_2', type: 'primordial_matter_recombination',circuit:2, itemInputs: [ '1x dishanhai:thread_shard_1', '2x gt_shanhai:divergence_engine', '1x dishanhai:worldline_divergent_core', '64x dishanhai:navigate_prism', '32x dishanhai:wl_board_luv' ], itemOutputs: ['1x dishanhai:thread_shard_2'], EUt: 32768, duration: 200, conditions: ["4x dishanhai:wzcz2"] },
+        { id: 'matter_module_casting_wzcz2_luv', type: 'matter_module_casting', circuit:11,itemInputs: [ '16x dishanhai:worldline_divergent_core', '1x dishanhai:wzax', '32x dishanhai:wl_board_luv', '1024x dishanhai:cosmic_dust', '1024x dishanhai:navigate_prism', '64x dishanhai:worldline_residual_fragment', '4x dishanhai:nova_catalyst' ], inputFluids: [ 'dishanhai:matter_fluid_advanced 64000', 'dishanhai:matter_fluid_transmutation 64000', 'dishanhai:matter_fluid_darkstar 64000' ], itemOutputs: ['1x dishanhai:wzcz2'], EUt: 32768, duration: 200, conditions: ["16x dishanhai:wzax"], },
         { id: 'primordial_causal_weaving_bridge_and_gate', type: 'primordial_causal_weaving', itemInputs: [ '1024x dishanhai:worldline_divergent_core', '64x dishanhai:wl_board_luv', '4096x dishanhai:navigate_prism', '1024x dishanhai:photon' ], inputFluids: ['dishanhai:matter_fluid_advanced 5120000', 'dishanhai:dimensional_fabric 2048000'], itemOutputs: ['1x dishanhai:bridge_and_gate'], EUt: 32768, duration: 600, conditions: ["64x dishanhai:wzax"] },
         { id:'coin_forge_osmium_coin_source', type: 'coin_forge', notConsumable: ["gtceu:credit_casting_mold"], itemInputs: ["9x dishanhai:platinum_coin"], inputFluids: ['gtceu:electrum 36000'], itemOutputs: ["16x dishanhai:osmium_coin"], EUt: luv, duration: 20 },
         // ===== ZPM 级 (EUt: 131072) =====
-        { id: 'primordial_matter_recombination_wl_board_zpm_x4', type: 'primordial_matter_recombination', itemInputs: ['4x dishanhai:light_voyage', '4x kubejs:zpm_universal_circuit'], inputFluids: ['dishanhai:matter_fluid_transition 2000'], itemOutputs: ['4x dishanhai:wl_board_zpm'], EUt: 131072, duration: 200, conditions: ["4x dishanhai:wzcz2"] },
-        { id: 'matter_forging_light_voyage', type: 'matter_forging', itemInputs: [ '4096x dishanhai:navigate_prism', '1024x dishanhai:primordial_divergence_heart', '1x dishanhai:nova_catalyst' ], inputFluids: ['dishanhai:zero_point_energy 256000', 'dishanhai:light 256000'], itemOutputs: ['1024x dishanhai:light_voyage'], EUt: 131072, duration: 200, conditions: ["32x dishanhai:wzcz2"] },
-        { id: 'matter_module_casting_primordial_biological_core_zpm', type: 'primordial_matter_recombination', itemInputs: [ '64x gtceu:large_greenhouse', '1x dishanhai:wem_2', '16x dishanhai:nova_catalyst', '64x dishanhai:light_voyage', '64x dishanhai:navigate_prism', '32x dishanhai:worldline_divergent_core', '64x gtceu:large_incubator' ], inputFluids: ['dishanhai:matter_fluid_transition 64000'], itemOutputs: ['1x gt_shanhai:primordial_biological_core'], EUt: 131072, duration: 200, conditions: ["16x dishanhai:wzqs"] },
-        { id: 'primordial_matter_recombination_thread_shard_3', type: 'primordial_matter_recombination', itemInputs: [ '1x dishanhai:thread_shard_2', '4x gt_shanhai:divergence_engine', '1x dishanhai:nova_catalyst', '64x dishanhai:light_voyage', '32x dishanhai:wl_board_zpm' ], itemOutputs: ['1x dishanhai:thread_shard_3'], EUt: 131072, duration: 200, conditions: ["4x dishanhai:wzqs"] },
-        { id: 'matter_module_casting_wzqs', type: 'matter_module_casting', itemInputs: [ '32x dishanhai:worldline_divergent_core', '1x dishanhai:wzcz2', '32x dishanhai:wl_board_zpm', '1024x dishanhai:light_voyage', '1024x dishanhai:navigate_prism', '128x dishanhai:worldline_residual_fragment', '8x dishanhai:nova_catalyst', '256x dishanhai:dimensional_worldline_fragment' ], inputFluids: [ 'dishanhai:matter_fluid_advanced 64000', 'dishanhai:matter_fluid_transition 64000', 'dishanhai:matter_fluid_darkstar 64000' ], itemOutputs: ['1x dishanhai:wzqs'], EUt: 131072, duration: 200, conditions: ["16x dishanhai:wzcz2"], },
+        { id: 'primordial_matter_recombination_wl_board_zpm_x4', type: 'primordial_matter_recombination',circuit:7, itemInputs: ['4x dishanhai:light_voyage', '4x kubejs:zpm_universal_circuit'], inputFluids: ['dishanhai:matter_fluid_transition 2000'], itemOutputs: ['4x dishanhai:wl_board_zpm'], EUt: 131072, duration: 200, conditions: ["4x dishanhai:wzcz2"] },
+        { id: 'matter_forging_light_voyage', type: 'matter_forging', circuit:13,itemInputs: [ '4096x dishanhai:navigate_prism', '1024x dishanhai:primordial_divergence_heart', '1x dishanhai:nova_catalyst' ], inputFluids: ['dishanhai:zero_point_energy 256000', 'dishanhai:light 256000'], itemOutputs: ['1024x dishanhai:light_voyage'], EUt: 131072, duration: 200, conditions: ["32x dishanhai:wzcz2"] },
+        { id: 'matter_module_casting_primordial_biological_core_zpm', type: 'primordial_matter_recombination',circuit:12, itemInputs: [ '64x gtceu:large_greenhouse', '1x dishanhai:wem_2', '16x dishanhai:nova_catalyst', '64x dishanhai:light_voyage', '64x dishanhai:navigate_prism', '32x dishanhai:worldline_divergent_core', '64x gtceu:large_incubator' ], inputFluids: ['dishanhai:matter_fluid_transition 64000'], itemOutputs: ['1x gt_shanhai:primordial_biological_core'], EUt: 131072, duration: 200, conditions: ["16x dishanhai:wzqs"] },
+        { id: 'primordial_matter_recombination_thread_shard_3', type: 'primordial_matter_recombination',circuit:3, itemInputs: [ '1x dishanhai:thread_shard_2', '4x gt_shanhai:divergence_engine', '1x dishanhai:nova_catalyst', '64x dishanhai:light_voyage', '32x dishanhai:wl_board_zpm' ], itemOutputs: ['1x dishanhai:thread_shard_3'], EUt: 131072, duration: 200, conditions: ["4x dishanhai:wzqs"] },
+        { id: 'matter_module_casting_wzqs', type: 'matter_module_casting',circuit:13, itemInputs: [ '32x dishanhai:worldline_divergent_core', '1x dishanhai:wzcz2', '32x dishanhai:wl_board_zpm', '1024x dishanhai:light_voyage', '1024x dishanhai:navigate_prism', '128x dishanhai:worldline_residual_fragment', '8x dishanhai:nova_catalyst', '256x dishanhai:dimensional_worldline_fragment' ], inputFluids: [ 'dishanhai:matter_fluid_advanced 64000', 'dishanhai:matter_fluid_transition 64000', 'dishanhai:matter_fluid_darkstar 64000' ], itemOutputs: ['1x dishanhai:wzqs'], EUt: 131072, duration: 200, conditions: ["16x dishanhai:wzcz2"], },
         { id: 'primordial_matter_recombination_wem_2', type: 'primordial_matter_recombination', itemInputs: [ '64x dishanhai:wl_board_zpm', '1x dishanhai:wzsb', '1x dishanhai:wzax', '1x dishanhai:wzcz2', '512x dishanhai:photon', '64x dishanhai:light_voyage', '128x dishanhai:navigate_prism', '256x dishanhai:cosmic_dust', '1x dishanhai:wzqs' ], itemOutputs: ['1x dishanhai:wem_2'], EUt: 131072, duration: 200, conditions: ["64x dishanhai:wzqs"] },
         { id:'coin_forge_naquadah_coin_source', type: 'coin_forge', notConsumable: ["gtceu:credit_casting_mold"], itemInputs: ["9x dishanhai:osmium_coin"], inputFluids: ['gtceu:naquadah 36000'], itemOutputs: ["16x dishanhai:naquadah_coin"], EUt: zpm, duration: 20 },
         // ========== 代理共鸣核心 MK3 (ZPM, 1024x) ==========
@@ -479,10 +489,11 @@ ServerEvents.recipes(function(e) {
         { id: 'primordial_matter_recombination_proxy_resonance_core_mk3a', type: 'primordial_matter_recombination', itemInputs: ['512x dishanhai:photon', '256x dishanhai:matter_singularity', '8x dishanhai:wl_board_zpm', '16x dishanhai:worldline_residual_fragment', '4x dishanhai:dimensional_worldline_fragment'], inputFluids: ['dishanhai:light 512000', 'dishanhai:matter_fluid_transition 8000'], itemOutputs: ['dishanhai:proxy_resonance_core_mk3a'], EUt: zpm, duration: 200 },
         { id: 'primordial_matter_recombination_proxy_resonance_core_mk3b', type: 'primordial_matter_recombination', itemInputs: ['768x dishanhai:photon', '384x dishanhai:matter_singularity', '12x dishanhai:wl_board_zpm', '24x dishanhai:worldline_residual_fragment', '6x dishanhai:dimensional_worldline_fragment'], inputFluids: ['dishanhai:light 768000', 'dishanhai:matter_fluid_transition 12000'], itemOutputs: ['dishanhai:proxy_resonance_core_mk3b'], EUt: zpm, duration: 200 },
         // ===== UV 级 (EUt: uv) =====
-        { id: 'primordial_matter_recombination_wl_board_uv_x4', type: 'primordial_matter_recombination', itemInputs: ['8x dishanhai:light_voyage', '4x kubejs:uv_universal_circuit'], inputFluids: ['dishanhai:matter_fluid_zero 2000'], itemOutputs: ['4x dishanhai:wl_board_uv'], EUt: uv, duration: 200, conditions: ["4x dishanhai:wzqs"] },
+        { id: 'primordial_matter_recombination_wl_board_uv_x4', type: 'primordial_matter_recombination',circuit:8, itemInputs: ['8x dishanhai:light_voyage', '4x kubejs:uv_universal_circuit'], inputFluids: ['dishanhai:matter_fluid_zero 2000'], itemOutputs: ['4x dishanhai:wl_board_uv'], EUt: uv, duration: 200, conditions: ["4x dishanhai:wzqs"] },
+        { id: 'primordial_energy_absorption_uv', type: 'primordial_energy_absorption',circuit:4,itemInputs:['4x dishanhai:dark_energy_multiplier'], inputFluids: ['minecraft:water 10000'], outputFluids: ['dishanhai:zero_point_energy 100000'], EUt: uv, duration: 20, conditions: ['16x dishanhai:wzgl'] },
         { id: 'primordial_matter_recombination_primordial_engraving_module', type: 'primordial_matter_recombination', itemInputs: [ '64x gtceu:large_engraving_laser', '1x dishanhai:wzgl', '32x dishanhai:nova_catalyst', '128x dishanhai:light_voyage', '256x dishanhai:navigate_prism', '16x dishanhai:worldline_boundless_singularity', '16x gtceu:engraving_laser_plant' ], inputFluids: ['dishanhai:matter_fluid_zero 64000'], itemOutputs: ['1x gt_shanhai:primordial_engraving_module'], EUt: uv, duration: 200, conditions: ["16x dishanhai:wzgl"] },
-        { id: 'matter_module_casting_wzgl', type: 'matter_module_casting', itemInputs: [ '64x dishanhai:worldline_divergent_core', '1x dishanhai:wem_2', '32x dishanhai:wl_board_uv', '1024x dishanhai:light_voyage', '1024x dishanhai:navigate_prism', '256x dishanhai:worldline_residual_fragment', '16x dishanhai:nova_catalyst', '8x dishanhai:worldline_boundless_singularity' ], inputFluids: [ 'dishanhai:matter_fluid_advanced 64000', 'dishanhai:matter_fluid_transition 64000', 'dishanhai:matter_fluid_zero 64000' ], itemOutputs: ['1x dishanhai:wzgl'], EUt: uv, duration: 200, conditions: ["64x dishanhai:wzqs"], },
-        { id: 'primordial_matter_recombination_worldline_boundless_singularity', type: 'matter_module_casting', itemInputs: [ '16x gtceu:uv_16384a_laser_target_hatch', '16x gtceu:me_extended_export_buffer', '16x gtceu:gravity_hatch', '4x dishanhai:thread_shard_3', '32x dishanhai:light_voyage', '64x dishanhai:primordial_divergence_heart', '64x dishanhai:navigate_prism', '128x dishanhai:cosmic_dust', '1x dishanhai:wem_2', '1x gtceu:chemical_distort', '1x gtceu:space_elevator', '1x gtceu:uv_fusion_reactor', '1x gtceu:large_naquadah_reactor' ], inputFluids: [ 'dishanhai:matter_fluid_zero 8000', 'dishanhai:matter_fluid_transition 16000', 'dishanhai:matter_fluid_advanced 32000' ], itemOutputs: ['4x dishanhai:worldline_boundless_singularity'], EUt: uv, duration: 200, conditions: ["4x dishanhai:wzqs"] },
+        { id: 'matter_module_casting_wzgl', type: 'matter_module_casting',circuit:14, itemInputs: [ '64x dishanhai:worldline_divergent_core', '1x dishanhai:wem_2', '32x dishanhai:wl_board_uv', '1024x dishanhai:light_voyage', '1024x dishanhai:navigate_prism', '256x dishanhai:worldline_residual_fragment', '16x dishanhai:nova_catalyst', '8x dishanhai:worldline_boundless_singularity' ], inputFluids: [ 'dishanhai:matter_fluid_advanced 64000', 'dishanhai:matter_fluid_transition 64000', 'dishanhai:matter_fluid_zero 64000' ], itemOutputs: ['1x dishanhai:wzgl'], EUt: uv, duration: 200, conditions: ["64x dishanhai:wzqs"], },
+        { id: 'primordial_matter_recombination_worldline_boundless_singularity', type: 'matter_module_casting',circuit:10, itemInputs: [ '16x gtceu:uv_16384a_laser_target_hatch', '16x gtceu:me_extended_export_buffer', '16x gtceu:gravity_hatch', '4x dishanhai:thread_shard_3', '32x dishanhai:light_voyage', '64x dishanhai:primordial_divergence_heart', '64x dishanhai:navigate_prism', '128x dishanhai:cosmic_dust', '1x dishanhai:wem_2', '1x gtceu:chemical_distort', '1x gtceu:space_elevator', '1x gtceu:uv_fusion_reactor', '1x gtceu:large_naquadah_reactor' ], inputFluids: [ 'dishanhai:matter_fluid_zero 8000', 'dishanhai:matter_fluid_transition 16000', 'dishanhai:matter_fluid_advanced 32000' ], itemOutputs: ['4x dishanhai:worldline_boundless_singularity'], EUt: uv, duration: 200, conditions: ["4x dishanhai:wzqs"] },
         { id: 'primordial_causal_weaving_gate_and_bridg', type: 'primordial_causal_weaving', itemInputs: [ '1024x dishanhai:worldline_divergent_core', '64x dishanhai:wl_board_uv', '4096x dishanhai:light_voyage', '1024x dishanhai:genesis_shard' ], inputFluids: ['dishanhai:matter_fluid_zero 5120000', 'dishanhai:dimensional_fabric 4096000'], itemOutputs: ['1x dishanhai:gate_and_bridg'], EUt: uv, duration: 600, conditions: ["64x dishanhai:wzqs"] },
         { id: 'primordial_matter_recombination_integrated_assembly_matrix', type: 'primordial_matter_recombination', itemInputs: [ '16x gtceu:uv_machine_hull', '4x kubejs:uv_universal_circuit', '64x dishanhai:light_voyage', '64x dishanhai:navigate_prism', '16x gtceu:uv_robot_arm', '16x gtceu:uv_conveyor_module' ], inputFluids: ['dishanhai:matter_fluid_zero 64000'], itemOutputs: ['1x gt_shanhai:integrated_assembly_matrix'], EUt: uv, duration: 200, conditions: ["16x dishanhai:wzgl"] },
         { id: 'primordial_matter_recombination_integrated_assembly_facility', type: 'primordial_matter_recombination', itemInputs: [ '32x gtceu:uv_machine_hull', '8x kubejs:uv_universal_circuit', '128x dishanhai:light_voyage', '64x dishanhai:genesis_shard', '32x gtceu:uv_robot_arm', '32x gtceu:uv_emitter', '1x dishanhai:worldline_boundless_singularity' ], inputFluids: ['dishanhai:matter_fluid_zero 128000'], itemOutputs: ['1x gt_shanhai:integrated_assembly_facility'], EUt: uv, duration: 200, conditions: ["32x dishanhai:wzgl"] },
@@ -500,27 +511,28 @@ ServerEvents.recipes(function(e) {
         // ========== 代理共鸣核心 MK4A/B (UHV, 8192x/12288x) ==========
         { id: 'primordial_matter_recombination_proxy_resonance_core_mk4a', type: 'primordial_matter_recombination', itemInputs: ['1024x dishanhai:photon', '512x dishanhai:matter_singularity', '8x dishanhai:wl_board_uhv', '32x dishanhai:worldline_residual_fragment', '8x dishanhai:dimensional_worldline_fragment', '2x dishanhai:worldline_divergent_core'], inputFluids: ['dishanhai:light 1024000', 'dishanhai:matter_fluid_zero 8000'], itemOutputs: ['dishanhai:proxy_resonance_core_mk4a'], EUt: uhv, duration: 200 },
         { id: 'primordial_matter_recombination_proxy_resonance_core_mk4b', type: 'primordial_matter_recombination', itemInputs: ['1536x dishanhai:photon', '768x dishanhai:matter_singularity', '12x dishanhai:wl_board_uhv', '48x dishanhai:worldline_residual_fragment', '12x dishanhai:dimensional_worldline_fragment', '3x dishanhai:worldline_divergent_core'], inputFluids: ['dishanhai:light 1536000', 'dishanhai:matter_fluid_zero 12000'], itemOutputs: ['dishanhai:proxy_resonance_core_mk4b'], EUt: uhv, duration: 200 },
-        { id: 'primordial_matter_recombination_wl_board_uhv_x4', type: 'primordial_matter_recombination', itemInputs: ['2x dishanhai:genesis_shard', '4x kubejs:uhv_universal_circuit'], inputFluids: ['dishanhai:matter_fluid_zero 4000'], itemOutputs: ['4x dishanhai:wl_board_uhv'], EUt: uhv, duration: 200, conditions: ["4x dishanhai:wzgl"] },
-        { id: 'matter_module_casting_wzhy', type: 'matter_module_casting', itemInputs: [ '128x dishanhai:worldline_divergent_core', '1x dishanhai:wzgl', '32x dishanhai:wl_board_uhv', '1024x dishanhai:genesis_shard', '1024x dishanhai:light_voyage', '512x dishanhai:worldline_residual_fragment', '32x dishanhai:nova_catalyst', '16x dishanhai:worldline_boundless_singularity', '8x dishanhai:worldline_imaginary_string' ], inputFluids: [ 'dishanhai:matter_fluid_zero 128000', 'dishanhai:matter_fluid_transition 128000', 'dishanhai:matter_fluid_peak 64000' ], itemOutputs: ['1x dishanhai:wzhy'], EUt: uhv, duration: 200, conditions: ["64x dishanhai:wzgl"], },
+        { id: 'primordial_matter_recombination_wl_board_uhv_x4', type: 'primordial_matter_recombination',circuit:9,itemInputs: ['2x dishanhai:genesis_shard', '4x kubejs:uhv_universal_circuit'], inputFluids: ['dishanhai:matter_fluid_zero 4000'], itemOutputs: ['4x dishanhai:wl_board_uhv'], EUt: uhv, duration: 200, conditions: ["4x dishanhai:wzgl"] },
+        { id: 'matter_module_casting_wzhy', type: 'matter_module_casting',circuit:15, itemInputs: [ '128x dishanhai:worldline_divergent_core', '1x dishanhai:wzgl', '32x dishanhai:wl_board_uhv', '1024x dishanhai:genesis_shard', '1024x dishanhai:light_voyage', '512x dishanhai:worldline_residual_fragment', '32x dishanhai:nova_catalyst', '16x dishanhai:worldline_boundless_singularity', '8x dishanhai:worldline_imaginary_string' ], inputFluids: [ 'dishanhai:matter_fluid_zero 128000', 'dishanhai:matter_fluid_transition 128000', 'dishanhai:matter_fluid_peak 64000' ], itemOutputs: ['1x dishanhai:wzhy'], EUt: uhv, duration: 200, conditions: ["64x dishanhai:wzgl"], },
         { id: 'primordial_matter_recombination_wem_3', type: 'primordial_matter_recombination', itemInputs: [ '64x dishanhai:wl_board_uxv', '1x dishanhai:wzgl', '1x dishanhai:wzhy', '1x dishanhai:wzsw', '1x dishanhai:wzcx', '1x dishanhai:wzdf', '1024x dishanhai:photon', '128x dishanhai:genesis_shard', '128x dishanhai:light_voyage', '256x dishanhai:navigate_prism', '512x dishanhai:cosmic_dust' ], itemOutputs: ['1x dishanhai:wem_3'], EUt: uxv, duration: 200, conditions: ["64x dishanhai:wzdf"] },
         // ===== UHV 级 (EUt: uhv) — 基础材料光子分离 =====
         { id: 'photon_separation_genesis_shard', type: 'photon_separation', notConsumable: ['1x dishanhai:worldline_imaginary_string'], itemInputs: ['32768x dishanhai:cosmic_dust'], inputFluids: ['dishanhai:matter_fluid_zero 64000', 'dishanhai:zero_point_energy 32768000'], itemOutputs: ['256x dishanhai:genesis_shard'], EUt: uhv, duration: 200, conditions: ["64x dishanhai:wzgl"] },
-        { id: 'matter_module_casting_worldline_imaginary_string', type: 'matter_module_casting', itemInputs: [ '128x dishanhai:dimensional_worldline_fragment', '1x dishanhai:worldline_boundless_singularity', '128x dishanhai:worldline_residual_fragment', '64x dishanhai:light_voyage', '64x dishanhai:primordial_divergence_heart', '4x dishanhai:wzqs', '64x kubejs:naquadria_charge', '1x gtceu:stellar_forge', '1x gtceu:uhv_fusion_reactor', '1x gtceu:suprachronal_assembly_line', '1x gtceu:matter_fabricator', '64x gtceu:max_battery', '64x gtceu:uhv_16384a_laser_target_hatch' ], inputFluids: [ 'dishanhai:matter_fluid_zero 16000', 'dishanhai:matter_fluid_transition 32000', 'dishanhai:matter_fluid_advanced 64000' ], itemOutputs: ['2x dishanhai:worldline_imaginary_string'], EUt: uhv, duration: 200, conditions: ["4x dishanhai:wzgl"] },
-        { id: 'primordial_matter_recombination_thread_shard_4', type: 'primordial_matter_recombination', itemInputs: [ '2x dishanhai:thread_shard_3', '1x dishanhai:worldline_boundless_singularity', '1x dishanhai:worldline_imaginary_string', '128x dishanhai:genesis_shard', '32x dishanhai:wl_board_uhv' ], itemOutputs: ['2x dishanhai:thread_shard_4'], EUt: uhv, duration: 200, conditions: ["16x dishanhai:wzgl"] },
+        { id: 'matter_module_casting_worldline_imaginary_string', type: 'matter_module_casting', circuit:16,itemInputs: [ '128x dishanhai:dimensional_worldline_fragment', '1x dishanhai:worldline_boundless_singularity', '128x dishanhai:worldline_residual_fragment', '64x dishanhai:light_voyage', '64x dishanhai:primordial_divergence_heart', '4x dishanhai:wzqs', '64x kubejs:naquadria_charge', '1x gtceu:stellar_forge', '1x gtceu:uhv_fusion_reactor', '1x gtceu:suprachronal_assembly_line', '1x gtceu:matter_fabricator', '64x gtceu:max_battery', '64x gtceu:uhv_16384a_laser_target_hatch' ], inputFluids: [ 'dishanhai:matter_fluid_zero 16000', 'dishanhai:matter_fluid_transition 32000', 'dishanhai:matter_fluid_advanced 64000' ], itemOutputs: ['2x dishanhai:worldline_imaginary_string'], EUt: uhv, duration: 200, conditions: ["4x dishanhai:wzgl"] },
+        { id: 'primordial_matter_recombination_thread_shard_4', type: 'primordial_matter_recombination',circuit:4, itemInputs: [ '2x dishanhai:thread_shard_3', '1x dishanhai:worldline_boundless_singularity', '1x dishanhai:worldline_imaginary_string', '128x dishanhai:genesis_shard', '32x dishanhai:wl_board_uhv' ], itemOutputs: ['2x dishanhai:thread_shard_4'], EUt: uhv, duration: 200, conditions: ["16x dishanhai:wzgl"] },
         { id: 'primordial_matter_recombination_taixu_smelting_furnace', type: 'primordial_matter_recombination', itemInputs: [ '64x gtceu:super_blast_smelter', '2x dishanhai:wzgl', '32x dishanhai:nova_catalyst', '256x dishanhai:light_voyage', '256x dishanhai:genesis_shard', '16x dishanhai:worldline_boundless_singularity', '8x dishanhai:worldline_imaginary_string' ], inputFluids: ['dishanhai:matter_fluid_zero 128000'], itemOutputs: ['1x gt_shanhai:taixu_smelting_furnace'], EUt: uhv, duration: 200, conditions: ["16x dishanhai:wzgl"] },
         // ===== UEV 级 (EUt: uev) =====
         { id: 'taixu_smelting_cobblestone_to_taixu_dust', type: 'taixu_smelting', itemInputs: ['1x minecraft:cobblestone'], itemOutputs: ['1x dishanhai:taixu_dust'], EUt: uev, duration: 100 },
-        { id: 'photon_separation_star_spark', type: 'photon_separation', itemInputs: [ '64x dishanhai:light_voyage', '16x dishanhai:genesis_shard', '256x dishanhai:navigate_prism' ], inputFluids: ['dishanhai:light 2048000', 'dishanhai:matter_fluid_ascension 64000'], itemOutputs: ['16x dishanhai:star_spark'], EUt: uev, duration: 200, conditions: ["32x dishanhai:wzhy"] },
-        { id: 'primordial_matter_recombination_wl_board_uev_x4', type: 'primordial_matter_recombination', itemInputs: ['64x dishanhai:star_spark', '4x kubejs:uev_universal_circuit'], inputFluids: ['dishanhai:matter_fluid_ascension 4000'], itemOutputs: ['4x dishanhai:wl_board_uev'], EUt: uev, duration: 200, conditions: ["4x dishanhai:wzhy"] },
-        { id: 'primordial_matter_recombination_thread_shard_5', type: 'primordial_matter_recombination', itemInputs: [ '2x dishanhai:thread_shard_4', '8x gt_shanhai:divergence_engine', '1x dishanhai:worldline_genesis_embryo', '1x dishanhai:worldline_imaginary_string', '128x dishanhai:genesis_shard', '32x dishanhai:wl_board_uev' ], itemOutputs: ['1x dishanhai:thread_shard_5'], EUt: uev, duration: 200, conditions: ["16x dishanhai:wzhy"] },
-        { id: 'matter_module_casting_wzsw', type: 'matter_module_casting', itemInputs: [ '128x dishanhai:worldline_divergent_core', '1x dishanhai:wzhy', '32x dishanhai:wl_board_uev', '1024x dishanhai:genesis_shard', '1024x dishanhai:star_spark', '512x dishanhai:worldline_residual_fragment', '32x dishanhai:nova_catalyst', '16x dishanhai:worldline_boundless_singularity', '8x dishanhai:worldline_genesis_embryo' ], inputFluids: [ 'dishanhai:matter_fluid_peak 128000', 'dishanhai:matter_fluid_transition 128000', 'dishanhai:matter_fluid_ascension 64000' ], itemOutputs: ['1x dishanhai:wzsw'], EUt: uev, duration: 200, conditions: ["64x dishanhai:wzhy"], },
-        { id: 'matter_forging_gravitational_medium', type: 'matter_forging', itemInputs: ['1x gtceu:spacetime_ingot', '64x dishanhai:cosmic_dust'], inputFluids: ['dishanhai:matter_fluid_ascension 64000', 'dishanhai:light 320000'], itemOutputs: ['64x dishanhai:gravitational_medium'], EUt: uev, duration: 200, conditions: ["16x dishanhai:wzhy"] },
+        { id: 'primordial_energy_absorption_uev', type: 'primordial_energy_absorption',circuit:4,itemInputs:['4x dishanhai:dark_energy_multiplier'], inputFluids: ['minecraft:water 10000'], outputFluids: ['dishanhai:zero_point_energy 100000'], EUt: uv, duration: 20, conditions: ['16x dishanshanhai:star_spark'], EUt: uev, duration: 200, conditions: ["32x dishanhai:wzhy"],notes: '我感觉零点能已经很便宜了后面电压没必要了'},
+        { id: 'primordial_matter_recombination_wl_board_uev_x4', type: 'primordial_matter_recombination',circuit:10, itemInputs: ['64x dishanhai:star_spark', '4x kubejs:uev_universal_circuit'], inputFluids: ['dishanhai:matter_fluid_ascension 4000'], itemOutputs: ['4x dishanhai:wl_board_uev'], EUt: uev, duration: 200, conditions: ["4x dishanhai:wzhy"] },
+        { id: 'primordial_matter_recombination_thread_shard_5', type: 'primordial_matter_recombination',circuit:5, itemInputs: [ '2x dishanhai:thread_shard_4', '8x gt_shanhai:divergence_engine', '1x dishanhai:worldline_genesis_embryo', '1x dishanhai:worldline_imaginary_string', '128x dishanhai:genesis_shard', '32x dishanhai:wl_board_uev' ], itemOutputs: ['1x dishanhai:thread_shard_5'], EUt: uev, duration: 200, conditions: ["16x dishanhai:wzhy"] },
+        { id: 'matter_module_casting_wzsw', type: 'matter_module_casting',circuit:17, itemInputs: [ '128x dishanhai:worldline_divergent_core', '1x dishanhai:wzhy', '32x dishanhai:wl_board_uev', '1024x dishanhai:genesis_shard', '1024x dishanhai:star_spark', '512x dishanhai:worldline_residual_frhai_wzgl'] },
+        { id: 'photon_separation_star_spark', type: 'photon_separation', itemInputs: [ '64x dishanhai:light_voyage', '16x dishanhai:genesis_shard', '256x dishanhai:navigate_prism' ], inputFluids: ['dishanhai:light 2048000', 'dishanhai:matter_fluid_ascension 64000'], itemOutputs: ['16x diagment', '32x dishanhai:nova_catalyst', '16x dishanhai:worldline_boundless_singularity', '8x dishanhai:worldline_genesis_embryo' ], inputFluids: [ 'dishanhai:matter_fluid_peak 128000', 'dishanhai:matter_fluid_transition 128000', 'dishanhai:matter_fluid_ascension 64000' ], itemOutputs: ['1x dishanhai:wzsw'], EUt: uev, duration: 200, conditions: ["64x dishanhai:wzhy"], },
+        { id: 'matter_forging_gravitational_medium', type: 'matter_forging',circuit:14, itemInputs: ['1x gtceu:spacetime_ingot', '64x dishanhai:cosmic_dust'], inputFluids: ['dishanhai:matter_fluid_ascension 64000', 'dishanhai:light 320000'], itemOutputs: ['64x dishanhai:gravitational_medium'], EUt: uev, duration: 200, conditions: ["16x dishanhai:wzhy"] },
         { id: 'taixu_smelting_crystal_core', type: 'taixu_smelting', itemInputs: ['64x dishanhai:taixu_dust', '16x dishanhai:gravitational_medium'], inputFluids: ['dishanhai:matter_fluid_ascension 64000'], itemOutputs: ['4x dishanhai:taixu_crystal_core'], EUt: uev, duration: 200, conditions: ["4x dishanhai:wzhy"] },
         { id: 'taixu_smelting_liquid_droplet', type: 'taixu_smelting', itemInputs: ['16x dishanhai:taixu_dust', '4x dishanhai:taixu_crystal_core'], inputFluids: ['dishanhai:matter_fluid_ascension 32000'], itemOutputs: ['64x dishanhai:taixu_liquid_droplet'], EUt: uev, duration: 200, conditions: ["4x dishanhai:wzhy"] },
         { id: 'primordial_matter_recombination_gravitational_antenna', type: 'primordial_matter_recombination', itemInputs: [ '16x dishanhai:gravitational_medium', '4x gtceu:uev_field_generator', '16x dishanhai:wl_board_uev', '64x dishanhai:star_spark' ], inputFluids: ['dishanhai:matter_fluid_ascension 64000'], itemOutputs: ['4x dishanhai:gravitational_antenna'], EUt: uev, duration: 200, conditions: ["4x dishanhai:wzhy"] },
         { id: 'primordial_matter_recombination_gravitational_vibration_string', type: 'primordial_matter_recombination', itemInputs: [ '4x dishanhai:gravitational_antenna', '16x dishanhai:gravitational_medium', '8x dishanhai:worldline_divergent_core', '64x dishanhai:star_spark' ], inputFluids: ['dishanhai:matter_fluid_ascension 128000'], itemOutputs: ['1x dishanhai:gravitational_vibration_string'], EUt: uev, duration: 200, conditions: ["16x dishanhai:wzhy"] },
         { id: 'primordial_matter_recombination_artificial_neutron_star', type: 'primordial_matter_recombination', itemInputs: [ '4x dishanhai:gravitational_vibration_string', '16x dishanhai:gravitational_antenna', '64x dishanhai:gravitational_medium', '1x dishanhai:worldline_boundless_singularity' ], inputFluids: ['dishanhai:matter_fluid_ascension 256000'], itemOutputs: ['1x dishanhai:artificial_neutron_star'], EUt: uev, duration: 200, conditions: ["32x dishanhai:wzhy"] },
-        { id: 'primordial_matter_recombination_super_pa', type: 'primordial_matter_recombination', itemInputs: [ '4x dishanhai:gravitational_antenna', '16x dishanhai:wl_board_uev', '32x dishanhai:star_spark' ], inputFluids: ['dishanhai:matter_fluid_ascension 128000', 'dishanhai:zero_point_energy 256000'], itemOutputs: ['1x gt_shanhai:super_pa'], EUt: uev, duration: 200, conditions: ["16x dishanhai:wzhy"] },
+        { id: 'primordial_matter_recombination_super_pa', type: 'primordial_matter_recombination', itemInputs: [ '4x dishanhai:gravitational_antenna', '16x dishanhai:wl_board_uev', '32x dishanhai:star_spark' ], inputFluids: ['dishanhai:matter_fluid_ascension 128000', 'dishanhai:zero_point_energy 256000'], itemOutputs: ['gt_shanhai:super_parallel_core'], EUt: uev, duration: 200, conditions: ["16x dishanhai:wzhy"] },
         { id: 'coin_forge_spacetime_coin_source', type: 'coin_forge', notConsumable: ["gtceu:credit_casting_mold"], itemInputs: ['9x dishanhai:neutronium_coin'], inputFluids: ['gtceu:spacetime 36000'], itemOutputs: ["16x dishanhai:spacetime_coin"], EUt: uev, duration: 20 },
         // ===== 引力波天线发射器 =====
         { id: 'primordial_matter_recombination_gravitational_wave_antenna_transmitter', type: 'primordial_matter_recombination', itemInputs: [ '1x dishanhai:gravitational_lens', '4x dishanhai:gravitational_vibration_string', '16x dishanhai:gravitational_antenna', '64x dishanhai:star_spark', '16x dishanhai:wl_board_uev', '8x dishanhai:worldline_divergent_core', '4x dishanhai:worldline_imaginary_string' ], inputFluids: ['dishanhai:matter_fluid_ascension 256000', 'dishanhai:zero_point_energy 1024000'], itemOutputs: ['1x gt_shanhai:gravitational_wave_antenna_transmitter'], EUt: uev, duration: 400, conditions: ["32x dishanhai:wzhy"] },
@@ -529,37 +541,37 @@ ServerEvents.recipes(function(e) {
         // ===== UIV 级 (EUt: uiv) =====
         // ========== 代理共鸣核心 MK5A (UIV, 32768x) ==========
         { id: 'primordial_matter_recombination_proxy_resonance_core_mk5a', type: 'primordial_matter_recombination', itemInputs: ['2048x dishanhai:photon', '1024x dishanhai:matter_singularity', '8x dishanhai:wl_board_uiv', '64x dishanhai:worldline_residual_fragment', '16x dishanhai:dimensional_worldline_fragment', '4x dishanhai:worldline_divergent_core', '2x dishanhai:worldline_boundless_singularity'], inputFluids: ['dishanhai:light 2048000', 'dishanhai:matter_fluid_transcend 8000'], itemOutputs: ['dishanhai:proxy_resonance_core_mk5a'], EUt: uiv, duration: 200 },
-        { id: 'primordial_matter_recombination_wl_board_uiv_x4', type: 'primordial_matter_recombination', itemInputs: ['64x dishanhai:star_spark', '4x kubejs:uiv_universal_circuit'], inputFluids: ['dishanhai:matter_fluid_transcend 4000'], itemOutputs: ['4x dishanhai:wl_board_uiv'], EUt: uiv, duration: 200, conditions: ["4x dishanhai:wzsw"] },
-        { id: 'primordial_matter_recombination_thread_shard_6', type: 'primordial_matter_recombination', itemInputs: [ '2x dishanhai:thread_shard_5', '16x gt_shanhai:divergence_engine', '1x dishanhai:worldline_genesis_embryo', '1x dishanhai:worldline_boundless_singularity', '256x dishanhai:genesis_shard', '32x dishanhai:wl_board_uiv' ], itemOutputs: ['1x dishanhai:thread_shard_6'], EUt: uiv, duration: 200, conditions: ["16x dishanhai:wzsw"] },
-        { id: 'matter_module_casting_wzcx', type: 'matter_module_casting', itemInputs: [ '128x dishanhai:worldline_divergent_core', '1x dishanhai:wzsw', '32x dishanhai:wl_board_uiv', '1024x dishanhai:genesis_shard', '1024x dishanhai:star_spark', '512x dishanhai:worldline_residual_fragment', '32x dishanhai:nova_catalyst', '16x dishanhai:worldline_genesis_embryo', '8x dishanhai:worldline_imaginary_string' ], inputFluids: [ 'dishanhai:matter_fluid_ascension 128000', 'dishanhai:matter_fluid_peak 128000', 'dishanhai:matter_fluid_transcend 64000' ], itemOutputs: ['1x dishanhai:wzcx'], EUt: uiv, duration: 200, conditions: ["64x dishanhai:wzsw"], },
-        { id: 'matter_forging_dimensional_fabric', type: 'matter_forging', itemInputs: ['32x dishanhai:dimensional_worldline_fragment', '128x dishanhai:worldline_residual_fragment'], inputFluids: ['dishanhai:matter_fluid_transcend 128000'], outputFluids: ['dishanhai:dimensional_fabric 64000'], EUt: uiv, duration: 200, conditions: ["16x dishanhai:wzsw"] },
-        { id: 'matter_forging_dimensional_matrix', type: 'matter_forging', itemInputs: ['16x dishanhai:dimensional_worldline_fragment', '64x dishanhai:worldline_residual_fragment'], inputFluids: ['dishanhai:matter_fluid_transcend 64000', 'dishanhai:dimensional_fabric 32000'], itemOutputs: ['4x dishanhai:dimensional_matrix'], EUt: uiv, duration: 200, conditions: ["16x dishanhai:wzsw"] },
+        { id: 'primordial_matter_recombination_wl_board_uiv_x4', type: 'primordial_matter_recombination',circuit:11,itemInputs: ['64x dishanhai:star_spark', '4x kubejs:uiv_universal_circuit'], inputFluids: ['dishanhai:matter_fluid_transcend 4000'], itemOutputs: ['4x dishanhai:wl_board_uiv'], EUt: uiv, duration: 200, conditions: ["4x dishanhai:wzsw"] },
+        { id: 'primordial_matter_recombination_thread_shard_6', type: 'primordial_matter_recombination',circuit:6, itemInputs: [ '2x dishanhai:thread_shard_5', '16x gt_shanhai:divergence_engine', '1x dishanhai:worldline_genesis_embryo', '1x dishanhai:worldline_boundless_singularity', '256x dishanhai:genesis_shard', '32x dishanhai:wl_board_uiv' ], itemOutputs: ['1x dishanhai:thread_shard_6'], EUt: uiv, duration: 200, conditions: ["16x dishanhai:wzsw"] },
+        { id: 'matter_module_casting_wzcx', type: 'matter_module_casting',circuit:18, itemInputs: [ '128x dishanhai:worldline_divergent_core', '1x dishanhai:wzsw', '32x dishanhai:wl_board_uiv', '1024x dishanhai:genesis_shard', '1024x dishanhai:star_spark', '512x dishanhai:worldline_residual_fragment', '32x dishanhai:nova_catalyst', '16x dishanhai:worldline_genesis_embryo', '8x dishanhai:worldline_imaginary_string' ], inputFluids: [ 'dishanhai:matter_fluid_ascension 128000', 'dishanhai:matter_fluid_peak 128000', 'dishanhai:matter_fluid_transcend 64000' ], itemOutputs: ['1x dishanhai:wzcx'], EUt: uiv, duration: 200, conditions: ["64x dishanhai:wzsw"], },
+        { id: 'matter_forging_dimensional_fabric', type: 'matter_forging',circuit:9, itemInputs: ['32x dishanhai:dimensional_worldline_fragment', '128x dishanhai:worldline_residual_fragment'], inputFluids: ['dishanhai:matter_fluid_transcend 128000'], outputFluids: ['dishanhai:dimensional_fabric 64000'], EUt: uiv, duration: 200, conditions: ["16x dishanhai:wzsw"] },
+        { id: 'matter_forging_dimensional_matrix', type: 'matter_forging',circuit:11, itemInputs: ['16x dishanhai:dimensional_worldline_fragment', '64x dishanhai:worldline_residual_fragment'], inputFluids: ['dishanhai:matter_fluid_transcend 64000', 'dishanhai:dimensional_fabric 32000'], itemOutputs: ['4x dishanhai:dimensional_matrix'], EUt: uiv, duration: 200, conditions: ["16x dishanhai:wzsw"] },
         { id: 'primordial_matter_recombination_dimensional_frame', type: 'primordial_matter_recombination', itemInputs: [ '8x dishanhai:dimensional_matrix', '4x dishanhai:worldline_divergent_core', '16x dishanhai:wl_board_uiv', '64x dishanhai:star_spark' ], inputFluids: ['dishanhai:matter_fluid_transcend 128000', 'dishanhai:dimensional_fabric 64000'], itemOutputs: ['1x dishanhai:dimensional_frame'], EUt: uiv, duration: 200, conditions: ["16x dishanhai:wzsw"] },
-        { id: 'matter_module_casting_genesis_embryo', type: 'matter_module_casting', itemInputs: [ '4x dishanhai:dimensional_frame', '1x dishanhai:worldline_boundless_singularity', '1x dishanhai:worldline_imaginary_string', '64x dishanhai:genesis_shard' ], inputFluids: ['dishanhai:matter_fluid_transcend 256000', 'dishanhai:causal_essence 128000'], itemOutputs: ['1x dishanhai:worldline_genesis_embryo'], EUt: uiv, duration: 200, conditions: ["32x dishanhai:wzsw"] },
+        { id: 'matter_module_casting_genesis_embryo', type: 'matter_module_casting',circuit:19, itemInputs: [ '4x dishanhai:dimensional_frame', '1x dishanhai:worldline_boundless_singularity', '1x dishanhai:worldline_imaginary_string', '64x dishanhai:genesis_shard' ], inputFluids: ['dishanhai:matter_fluid_transcend 256000', 'dishanhai:causal_essence 128000'], itemOutputs: ['1x dishanhai:worldline_genesis_embryo'], EUt: uiv, duration: 200, conditions: ["32x dishanhai:wzsw"] },
         { id:'coin_forge_coin_secondary_source', type: 'coin_forge', notConsumable: ["gtceu:credit_casting_mold"], itemInputs: ["9x kubejs:void_matter","9x dishanhai:spacetime_coin"], inputFluids: ['gtceu:uu_matter 36000'], itemOutputs: ["16x dishanhai:coin_secondary"], EUt: uiv, duration: 20 },
         // ===== UXV 级 (EUt: uxv) =====
-        { id: 'primordial_matter_recombination_wl_board_uxv_x4', type: 'primordial_matter_recombination', itemInputs: ['64x dishanhai:star_spark', '4x kubejs:uxv_universal_circuit'], inputFluids: ['dishanhai:primal_chaos 4000'], itemOutputs: ['4x dishanhai:wl_board_uxv'], EUt: uxv, duration: 200, conditions: ["4x dishanhai:wzcx"] },
-        { id: 'matter_module_casting_wzdf', type: 'matter_module_casting', itemInputs: [ '128x dishanhai:worldline_divergent_core', '1x dishanhai:wzcx', '32x dishanhai:wl_board_uxv', '1024x dishanhai:genesis_shard', '1024x dishanhai:star_spark', '512x dishanhai:worldline_residual_fragment', '32x dishanhai:nova_catalyst', '16x dishanhai:worldline_genesis_embryo', '8x dishanhai:worldline_boundless_singularity' ], inputFluids: [ 'dishanhai:matter_fluid_transcend 128000', 'dishanhai:matter_fluid_ascension 128000', 'dishanhai:primal_chaos 64000' ], itemOutputs: ['1x dishanhai:wzdf'], EUt: uxv, duration: 200, conditions: ["64x dishanhai:wzcx"], },
+        { id: 'primordial_matter_recombination_wl_board_uxv_x4', type: 'primordial_matter_recombination',circuit:12, itemInputs: ['64x dishanhai:star_spark', '4x kubejs:uxv_universal_circuit'], inputFluids: ['dishanhai:primal_chaos 4000'], itemOutputs: ['4x dishanhai:wl_board_uxv'], EUt: uxv, duration: 200, conditions: ["4x dishanhai:wzcx"] },
+        { id: 'matter_module_casting_wzdf', type: 'matter_module_casting',circuit:20, itemInputs: [ '128x dishanhai:worldline_divergent_core', '1x dishanhai:wzcx', '32x dishanhai:wl_board_uxv', '1024x dishanhai:genesis_shard', '1024x dishanhai:star_spark', '512x dishanhai:worldline_residual_fragment', '32x dishanhai:nova_catalyst', '16x dishanhai:worldline_genesis_embryo', '8x dishanhai:worldline_boundless_singularity' ], inputFluids: [ 'dishanhai:matter_fluid_transcend 128000', 'dishanhai:matter_fluid_ascension 128000', 'dishanhai:primal_chaos 64000' ], itemOutputs: ['1x dishanhai:wzdf'], EUt: uxv, duration: 200, conditions: ["64x dishanhai:wzcx"], },
         { id: 'primordial_matter_recombination_wem_4', type: 'primordial_matter_recombination', itemInputs: [ '64x dishanhai:wl_board_eternal', '1x dishanhai:wzyh', '1x dishanhai:wzcz3', '1024x dishanhai:photon', '256x dishanhai:genesis_shard', '256x dishanhai:light_voyage', '512x dishanhai:navigate_prism', '1024x dishanhai:cosmic_dust' ], itemOutputs: ['1x dishanhai:wem_4'], EUt: MAX, duration: 200, conditions: ["64x dishanhai:wzcz3"] },
         { id: 'primordial_matter_recombination_gravitational_lens', type: 'primordial_matter_recombination', itemInputs: [ '1x dishanhai:artificial_neutron_star', '4x dishanhai:gravitational_vibration_string', '16x dishanhai:gravitational_antenna', '64x dishanhai:star_spark' ], inputFluids: ['dishanhai:primal_chaos 256000'], itemOutputs: ['1x dishanhai:gravitational_lens'], EUt: uxv, duration: 200, conditions: ["32x dishanhai:wzcx"] },
         { id: 'taixu_smelting_ideal_ashes', type: 'taixu_smelting', itemInputs: ['64x dishanhai:taixu_dust', '16x dishanhai:taixu_crystal_core'], inputFluids: ['dishanhai:primal_chaos 64000'], itemOutputs: ['16x dishanhai:ideal_ashes'], EUt: uxv, duration: 200, conditions: ["16x dishanhai:wzcx"] },
         { id: 'taixu_smelting_beyond_taixu_thread', type: 'taixu_smelting', itemInputs: ['32x dishanhai:ideal_ashes', '4x dishanhai:worldline_divergent_core'], inputFluids: ['dishanhai:primal_chaos 128000'], itemOutputs: ['1x dishanhai:beyond_taixu_thread'], EUt: uxv, duration: 200, conditions: ["32x dishanhai:wzcx"] },
-        { id: 'matter_forging_causal_essence', type: 'matter_forging', itemInputs: ['8x dishanhai:beyond_taixu_thread', '16x dishanhai:worldline_divergent_core'], inputFluids: ['dishanhai:primal_chaos 128000'], outputFluids: ['dishanhai:causal_essence 64000'], EUt: uxv, duration: 200, conditions: ["16x dishanhai:wzcx"] },
+        { id: 'matter_forging_causal_essence', type: 'matter_forging',circuit:6 , itemInputs: ['8x dishanhai:beyond_taixu_thread', '16x dishanhai:worldline_divergent_core'], inputFluids: ['dishanhai:primal_chaos 128000'], outputFluids: ['dishanhai:causal_essence 64000'], EUt: uxv, duration: 200, conditions: ["16x dishanhai:wzcx"] },
         { id: 'primordial_matter_recombination_strong_interaction_droplet', type: 'primordial_matter_recombination', itemInputs: [ '1x dishanhai:artificial_neutron_star', '16x dishanhai:gravitational_vibration_string', '4x dishanhai:singularity_ring', '64x dishanhai:star_spark' ], inputFluids: ['dishanhai:primal_chaos 256000', 'dishanhai:stabilized_eternity 128000'], itemOutputs: ['1x dishanhai:strong_interaction_droplet'], EUt: uxv, duration: 200, conditions: ["32x dishanhai:wzcx"] },
         { id:'coin_forge_neutron_coin_source', type: 'coin_forge', notConsumable: ["gtceu:credit_casting_mold"], itemInputs: ["9x dishanhai:coin_secondary"], inputFluids: ['gtceu:cosmicneutronium 36000'], itemOutputs: ["16x dishanhai:neutron_coin"], EUt: uxv, duration: 20 },
         // ========== 代理共鸣核心 MK5B (UXV, 49152x) ==========
         { id: 'primordial_matter_recombination_proxy_resonance_core_mk5b', type: 'primordial_matter_recombination', itemInputs: ['3072x dishanhai:photon', '1536x dishanhai:matter_singularity', '12x dishanhai:wl_board_uxv', '96x dishanhai:worldline_residual_fragment', '24x dishanhai:dimensional_worldline_fragment', '6x dishanhai:worldline_divergent_core', '3x dishanhai:worldline_boundless_singularity'], inputFluids: ['dishanhai:light 3072000', 'dishanhai:primal_chaos 12000'], itemOutputs: ['dishanhai:proxy_resonance_core_mk5b'], EUt: uxv, duration: 200 },
         // ===== OpV 级 (EUt: opv) =====
         { id: 'photon_separation_blue_son', type: 'photon_separation', itemInputs: [ '64x dishanhai:star_spark', '32x dishanhai:genesis_shard', '4x dishanhai:worldline_genesis_embryo' ], inputFluids: ['dishanhai:light 4096000', 'dishanhai:matter_fluid_eternal 64000'], itemOutputs: ['4x dishanhai:blue_son'], EUt: opv, duration: 200, conditions: ["32x dishanhai:wzdf"] },
-        { id: 'primordial_matter_recombination_wl_board_opv_x4', type: 'primordial_matter_recombination', itemInputs: ['32x dishanhai:blue_son', '4x kubejs:opv_universal_circuit'], inputFluids: ['dishanhai:matter_fluid_eternal 4000'], itemOutputs: ['4x dishanhai:wl_board_opv'], EUt: opv, duration: 200, conditions: ["4x dishanhai:wzdf"] },
-        { id: 'primordial_matter_recombination_thread_shard_7', type: 'primordial_matter_recombination', itemInputs: [ '2x dishanhai:thread_shard_6', '32x gt_shanhai:divergence_engine', '1x dishanhai:worldline_genesis_embryo', '1x dishanhai:worldline_boundless_singularity', '512x dishanhai:genesis_shard', '32x dishanhai:wl_board_opv' ], itemOutputs: ['1x dishanhai:thread_shard_7'], EUt: opv, duration: 200, conditions: ["16x dishanhai:wzcx"] },
-        { id: 'matter_module_casting_wzyh', type: 'matter_module_casting', itemInputs: [ '128x dishanhai:worldline_divergent_core', '1x dishanhai:wzdf', '32x dishanhai:wl_board_opv', '1024x dishanhai:genesis_shard', '1024x dishanhai:blue_son', '512x dishanhai:worldline_residual_fragment', '32x dishanhai:nova_catalyst', '16x dishanhai:worldline_genesis_embryo', '8x dishanhai:worldline_imaginary_string' ], inputFluids: [ 'dishanhai:primal_chaos 128000', 'dishanhai:matter_fluid_transcend 128000', 'dishanhai:matter_fluid_eternal 64000' ], itemOutputs: ['1x dishanhai:wzyh'], EUt: opv, duration: 200, conditions: ["64x dishanhai:wzdf"], },
+        { id: 'primordial_matter_recombination_wl_board_opv_x4', type: 'primordial_matter_recombination',circuit:13, itemInputs: ['32x dishanhai:blue_son', '4x kubejs:opv_universal_circuit'], inputFluids: ['dishanhai:matter_fluid_eternal 4000'], itemOutputs: ['4x dishanhai:wl_board_opv'], EUt: opv, duration: 200, conditions: ["4x dishanhai:wzdf"] },
+        { id: 'primordial_matter_recombination_thread_shard_7', type: 'primordial_matter_recombination',circuit:7, itemInputs: [ '2x dishanhai:thread_shard_6', '32x gt_shanhai:divergence_engine', '1x dishanhai:worldline_genesis_embryo', '1x dishanhai:worldline_boundless_singularity', '512x dishanhai:genesis_shard', '32x dishanhai:wl_board_opv' ], itemOutputs: ['1x dishanhai:thread_shard_7'], EUt: opv, duration: 200, conditions: ["16x dishanhai:wzcx"] },
+        { id: 'matter_module_casting_wzyh', type: 'matter_module_casting',circuit:21, itemInputs: [ '128x dishanhai:worldline_divergent_core', '1x dishanhai:wzdf', '32x dishanhai:wl_board_opv', '1024x dishanhai:genesis_shard', '1024x dishanhai:blue_son', '512x dishanhai:worldline_residual_fragment', '32x dishanhai:nova_catalyst', '16x dishanhai:worldline_genesis_embryo', '8x dishanhai:worldline_imaginary_string' ], inputFluids: [ 'dishanhai:primal_chaos 128000', 'dishanhai:matter_fluid_transcend 128000', 'dishanhai:matter_fluid_eternal 64000' ], itemOutputs: ['1x dishanhai:wzyh'], EUt: opv, duration: 200, conditions: ["64x dishanhai:wzdf"], },
         { id: 'primordial_matter_recombination_singularity_ring', type: 'primordial_matter_recombination', itemInputs: [ '4x dishanhai:artificial_neutron_star', '1x dishanhai:gravitational_lens', '16x dishanhai:wl_board_opv', '64x dishanhai:blue_son' ], inputFluids: ['dishanhai:matter_fluid_eternal 256000', 'dishanhai:stabilized_eternity 64000'], itemOutputs: ['4x dishanhai:singularity_ring'], EUt: opv, duration: 200, conditions: ["16x dishanhai:wzdf"] },
         { id: 'primordial_matter_recombination_annihilation_core', type: 'primordial_matter_recombination', itemInputs: [ '4x dishanhai:singularity_ring', '1x dishanhai:worldline_genesis_embryo', '32x dishanhai:wl_board_opv', '64x dishanhai:blue_son' ], inputFluids: ['dishanhai:matter_fluid_eternal 512000', 'dishanhai:primal_chaos 256000'], itemOutputs: ['1x dishanhai:annihilation_core'], EUt: opv, duration: 200, conditions: ["32x dishanhai:wzdf"] },
         { id: 'primordial_matter_recombination_wanxiang_core', type: 'primordial_matter_recombination', itemInputs: [ '4x dishanhai:singularity_ring', '1x dishanhai:worldline_genesis_embryo', '16x dishanhai:wl_board_opv', '64x dishanhai:blue_son' ], inputFluids: ['dishanhai:matter_fluid_eternal 256000', 'dishanhai:causal_essence 128000'], itemOutputs: ['1x dishanhai:wanxiang_core'], EUt: opv, duration: 200, conditions: ["32x dishanhai:wzdf"] },
-        { id: 'matter_forging_stabilized_eternity', type: 'matter_forging', itemInputs: ['16x dishanhai:ideal_ashes', '1x dishanhai:finality_certificate'], inputFluids: ['dishanhai:matter_fluid_eternal 256000', 'dishanhai:primal_chaos 256000'], outputFluids: ['dishanhai:stabilized_eternity 64000'], EUt: opv, duration: 200, conditions: ["32x dishanhai:wzdf"] },
-        { id: 'matter_forging_finality_certificate', type: 'matter_forging', itemInputs: ['64x dishanhai:ideal_ashes', '16x dishanhai:beyond_taixu_thread', '1x dishanhai:worldline_genesis_embryo'], inputFluids: ['dishanhai:matter_fluid_eternal 256000', 'dishanhai:stabilized_eternity 128000'], itemOutputs: ['1x dishanhai:finality_certificate'], EUt: opv, duration: 200, conditions: ["32x dishanhai:wzdf"] },
-        { id: 'matter_forging_liquid_ending', type: 'matter_forging', notConsumable: ['1x dishanhai:finality_certificate'], itemInputs: ['64x dishanhai:ideal_ashes', '16x dishanhai:beyond_taixu_thread'], inputFluids: ['dishanhai:matter_fluid_eternal 256000'], outputFluids: ['dishanhai:liquid_ending 64000'], EUt: opv, duration: 200, conditions: ["32x dishanhai:wzdf"] },
+        { id: 'matter_forging_stabilized_eternity', type: 'matter_forging',circuit:10, itemInputs: ['16x dishanhai:ideal_ashes', '1x dishanhai:finality_certificate'], inputFluids: ['dishanhai:matter_fluid_eternal 256000', 'dishanhai:primal_chaos 256000'], outputFluids: ['dishanhai:stabilized_eternity 64000'], EUt: opv, duration: 200, conditions: ["32x dishanhai:wzdf"] },
+        { id: 'matter_forging_finality_certificate', type: 'matter_forging',circuit:8, itemInputs: ['64x dishanhai:ideal_ashes', '16x dishanhai:beyond_taixu_thread', '1x dishanhai:worldline_genesis_embryo'], inputFluids: ['dishanhai:matter_fluid_eternal 256000', 'dishanhai:stabilized_eternity 128000'], itemOutputs: ['1x dishanhai:finality_certificate'], EUt: opv, duration: 200, conditions: ["32x dishanhai:wzdf"] },
+        { id: 'matter_forging_liquid_ending', type: 'matter_forging', circuit:12,notConsumable: ['1x dishanhai:finality_certificate'], itemInputs: ['64x dishanhai:ideal_ashes', '16x dishanhai:beyond_taixu_thread'], inputFluids: ['dishanhai:matter_fluid_eternal 256000'], outputFluids: ['dishanhai:liquid_ending 64000'], EUt: opv, duration: 200, conditions: ["32x dishanhai:wzdf"] },
         { id: 'primordial_matter_recombination_halo_end', type: 'primordial_matter_recombination', notConsumable: ['4x dishanhai:singularity_ring'], itemInputs: [ '1x dishanhai:finality_certificate', '64x dishanhai:blue_son' ], inputFluids: ['dishanhai:liquid_ending 64000'], itemOutputs: ['1x dishanhai:halo_end'], EUt: opv, duration: 200, conditions: ["32x dishanhai:wzdf"] },
         { id: 'primordial_matter_recombination_absolute_quantum_purification', type: 'primordial_matter_recombination',
             itemInputs: [ '4x dishanhai:singularity_ring', '1x dishanhai:worldline_genesis_embryo', '32x dishanhai:wl_board_opv',
@@ -571,11 +583,11 @@ ServerEvents.recipes(function(e) {
         { id:'coin_forge_transcendentmetal_coin_source', type: 'coin_forge', notConsumable: ["gtceu:credit_casting_mold"], itemInputs: ['9x dishanhai:infinite_coin'], inputFluids: ['gtceu:dimensionallytranscendentexoticcatalyst 36000'], itemOutputs: ["16x dishanhai:transcendentmetal_coin"], EUt: opv, duration: 20 },
         // ===== MAX 级 (EUt: MAX) =====
         { id: 'primordial_matter_recombination_apocalyptic_torsion_quantum_matrix', type: 'primordial_matter_recombination', itemInputs: [ '1x dishanhai:annihilation_core', '1x dishanhai:reality_core', '1x dishanhai:universal_parallel_overdriver', '1x gt_shanhai:spacetime_wave_matrix', '4x dishanhai:singularity_ring', '16x dishanhai:wl_board_eternal', '64x dishanhai:blue_son', '16x dishanhai:finality_certificate', '64x dishanhai:beyond_taixu_thread' ], inputFluids: ['dishanhai:matter_fluid_ultimate 1024000', 'dishanhai:stabilized_eternity 512000', 'dishanhai:causal_essence 512000'], itemOutputs: ['1x gtladditions:apocalyptic_torsion_quantum_matrix'], EUt: MAX, duration: 200, conditions: ["64x dishanhai:wzyh"] },
-        { id: 'primordial_matter_recombination_wl_board_max_x4', type: 'primordial_matter_recombination', itemInputs: ['32x dishanhai:blue_son', '4x kubejs:max_universal_circuit'], inputFluids: ['dishanhai:matter_fluid_ultimate 4000'], itemOutputs: ['4x dishanhai:wl_board_max'], EUt: MAX, duration: 200, conditions: ["4x dishanhai:wzyh"] },
-        { id: 'primordial_matter_recombination_wl_board_eternal', type: 'primordial_matter_recombination', itemInputs: [ '1x dishanhai:wl_board_max', '1x dishanhai:worldline_genesis_embryo', '64x dishanhai:blue_son' ], inputFluids: ['dishanhai:matter_fluid_ultimate 64000'], itemOutputs: ['1x dishanhai:wl_board_eternal'], EUt: MAX, duration: 200, conditions: ["64x dishanhai:wzyh"] },
-        { id: 'matter_module_casting_wzcz3', type: 'matter_module_casting', itemInputs: [ '256x dishanhai:worldline_divergent_core', '1x dishanhai:wzyh', '32x dishanhai:wl_board_max', '1024x dishanhai:genesis_shard', '1024x dishanhai:blue_son', '512x dishanhai:worldline_residual_fragment', '64x dishanhai:nova_catalyst', '32x dishanhai:worldline_genesis_embryo', '16x dishanhai:worldline_boundless_singularity', '8x dishanhai:worldline_imaginary_string' ], inputFluids: [ 'dishanhai:matter_fluid_eternal 128000', 'dishanhai:primal_chaos 128000', 'dishanhai:matter_fluid_ultimate 64000' ], itemOutputs: ['1x dishanhai:wzcz3'], EUt: MAX, duration: 200, conditions: ["64x dishanhai:wzyh"], },
-        { id: 'matter_module_casting_reality_anchor_module', type: 'matter_module_casting', itemInputs: [ '1x dishanhai:wzcz3', '1x dishanhai:worldline_genesis_embryo', '1x dishanhai:universal_parallel_overdriver', '32x dishanhai:wl_board_eternal', '64x dishanhai:blue_son' ], inputFluids: ['dishanhai:matter_fluid_ultimate 512000', 'dishanhai:stabilized_eternity 256000', 'dishanhai:causal_essence 256000'], itemOutputs: ['1x dishanhai:reality_anchor_module'], EUt: MAX, duration: 200, conditions: ["64x dishanhai:wzyh"] },
-        { id: 'matter_module_casting_create_mk', type: 'matter_module_casting', itemInputs: [ '1x dishanhai:reality_anchor_module', '1x dishanhai:reality_core', '1x dishanhai:annihilation_core', '1x dishanhai:universal_parallel_overdriver', '1x dishanhai:ku_ming_yuan_yang', '1x gt_shanhai:spacetime_wave_matrix', '1x dishanhai:halo_end', '1x dishanhai:collapse_tear', '1x dishanhai:bridge_and_gate', '1x dishanhai:gate_and_bridg', '1x dishanhai:csj', '1x dishanhai:big_tear', '48x dishanhai:wl_board_eternal', '8x dishanhai:singularity_ring', '32x dishanhai:finality_certificate', '128x dishanhai:blue_son' ], inputFluids: [ 'dishanhai:matter_fluid_ultimate 2048000', 'dishanhai:stabilized_eternity 1024000', 'dishanhai:primal_chaos 1024000', 'dishanhai:causal_essence 1024000' ], itemOutputs: ['1x dishanhai:create_mk'], EUt: MAX, duration: 400 },
+        { id: 'primordial_matter_recombination_wl_board_max_x4', type: 'primordial_matter_recombination',circuit:14, itemInputs: ['32x dishanhai:blue_son', '4x kubejs:max_universal_circuit'], inputFluids: ['dishanhai:matter_fluid_ultimate 4000'], itemOutputs: ['4x dishanhai:wl_board_max'], EUt: MAX, duration: 200, conditions: ["4x dishanhai:wzyh"] },
+        { id: 'primordial_matter_recombination_wl_board_eternal', type: 'primordial_matter_recombination',circuit:15, itemInputs: [ '1x dishanhai:wl_board_max', '1x dishanhai:worldline_genesis_embryo', '64x dishanhai:blue_son' ], inputFluids: ['dishanhai:matter_fluid_ultimate 64000'], itemOutputs: ['1x dishanhai:wl_board_eternal'], EUt: MAX, duration: 200, conditions: ["64x dishanhai:wzyh"] },
+        { id: 'matter_module_casting_wzcz3', type: 'matter_module_casting', circuit:22,itemInputs: [ '256x dishanhai:worldline_divergent_core', '1x dishanhai:wzyh', '32x dishanhai:wl_board_max', '1024x dishanhai:genesis_shard', '1024x dishanhai:blue_son', '512x dishanhai:worldline_residual_fragment', '64x dishanhai:nova_catalyst', '32x dishanhai:worldline_genesis_embryo', '16x dishanhai:worldline_boundless_singularity', '8x dishanhai:worldline_imaginary_string' ], inputFluids: [ 'dishanhai:matter_fluid_eternal 128000', 'dishanhai:primal_chaos 128000', 'dishanhai:matter_fluid_ultimate 64000' ], itemOutputs: ['1x dishanhai:wzcz3'], EUt: MAX, duration: 200, conditions: ["64x dishanhai:wzyh"], },
+        { id: 'matter_module_casting_reality_anchor_module', type: 'matter_module_casting',circuit:23, itemInputs: [ '1x dishanhai:wzcz3', '1x dishanhai:worldline_genesis_embryo', '1x dishanhai:universal_parallel_overdriver', '32x dishanhai:wl_board_eternal', '64x dishanhai:blue_son' ], inputFluids: ['dishanhai:matter_fluid_ultimate 512000', 'dishanhai:stabilized_eternity 256000', 'dishanhai:causal_essence 256000'], itemOutputs: ['1x dishanhai:reality_anchor_module'], EUt: MAX, duration: 200, conditions: ["64x dishanhai:wzyh"] },
+        { id: 'matter_module_casting_create_mk', type: 'matter_module_casting',circuit:24, itemInputs: [ '1x dishanhai:reality_anchor_module', '1x dishanhai:reality_core', '1x dishanhai:annihilation_core', '1x dishanhai:universal_parallel_overdriver', '1x dishanhai:ku_ming_yuan_yang', '1x gt_shanhai:spacetime_wave_matrix', '1x dishanhai:halo_end', '1x dishanhai:collapse_tear', '1x dishanhai:bridge_and_gate', '1x dishanhai:gate_and_bridg', '1x dishanhai:csj', '1x dishanhai:big_tear', '48x dishanhai:wl_board_eternal', '8x dishanhai:singularity_ring', '32x dishanhai:finality_certificate', '128x dishanhai:blue_son' ], inputFluids: [ 'dishanhai:matter_fluid_ultimate 2048000', 'dishanhai:stabilized_eternity 1024000', 'dishanhai:primal_chaos 1024000', 'dishanhai:causal_essence 1024000' ], itemOutputs: ['1x dishanhai:create_mk'], EUt: MAX, duration: 400 },
         { id: 'primordial_matter_recombination_spacetime_wave_matrix', type: 'primordial_matter_recombination', itemInputs: [ '64x gtceu:spacetime_ingot', '4x dishanhai:singularity_ring', '1x dishanhai:annihilation_core', '16x dishanhai:wl_board_eternal', '64x dishanhai:blue_son', '16x dishanhai:finality_certificate' ], inputFluids: ['dishanhai:matter_fluid_ultimate 1024000', 'gtceu:spacetime 1024000', 'dishanhai:stabilized_eternity 256000', 'dishanhai:causal_essence 256000'], itemOutputs: ['1x gt_shanhai:spacetime_wave_matrix'], EUt: MAX, duration: 400 },
         { id: 'primordial_causal_weaving_big_tear', type: 'primordial_causal_weaving', itemInputs: [ '1024x dishanhai:worldline_genesis_embryo', '64x dishanhai:wl_board_max', '4096x dishanhai:blue_son', '1024x dishanhai:genesis_shard' ], inputFluids: ['dishanhai:matter_fluid_ultimate 10240000', 'dishanhai:primal_chaos 10240000'], itemOutputs: ['1x dishanhai:big_tear'], EUt: MAX, duration: 600, conditions: ["64x dishanhai:wzyh"] },
         { id: 'primordial_causal_weaving_csj', type: 'primordial_causal_weaving', itemInputs: [ '1x dishanhai:big_tear', '1x dishanhai:collapse_tear', '1x dishanhai:bridge_and_gate', '1x dishanhai:gate_and_bridg', '64x dishanhai:wl_board_eternal', '4096x dishanhai:blue_son', '1024x dishanhai:finality_certificate' ], inputFluids: ['dishanhai:matter_fluid_ultimate 20480000', 'dishanhai:stabilized_eternity 10240000', 'dishanhai:primal_chaos 10240000'], itemOutputs: ['1x dishanhai:csj'], EUt: MAX, duration: 600, conditions: ["64x dishanhai:wzyh"] },
@@ -637,21 +649,21 @@ ServerEvents.recipes(function(e) {
 
 
     var matterFlowCondensationRecipeDefs = [
-        ['wl_board_lv', ['dishanhai:first_light'], ['dishanhai:light 2000'], ['dishanhai:matter_fluid_entry', 'dishanhai:zero_point_energy'], ulv, 20, null],
-        ['basic', ['1x minecraft:ender_pearl'], ['gtceu:glass 1000', 'gtceu:polyethylene 1000'], ['dishanhai:matter_fluid_basic 1000'], 32, 100, 'dishanhai:wzrm'],
-        ['foundation', ['1x gtceu:stainless_steel_ingot', '1x gtceu:silicon_ingot', '1x gtceu:exquisite_emerald_gem'], ['gtceu:kanthal 1000', 'gtceu:vanadium_steel 1000'], ['dishanhai:matter_fluid_foundation 1000'], 128, 100, 'dishanhai:wzjc'],
-        ['virtual', ['1x gtceu:nichrome_ingot', '1x gtceu:titanium_ingot', '1x minecraft:ender_eye'], ['gtceu:soldering_alloy 1000', 'gtceu:polytetrafluoroethylene 1000'], ['dishanhai:matter_fluid_virtual 1000'], 512, 100, 'dishanhai:wzcz1'],
-        ['transmutation', ['1x minecraft:nether_star', '1x gtceu:uranium_triplatinum_ingot', '1x gtceu:tungsten_steel_ingot'], ['gtceu:radon 1000', 'gtceu:epoxy 1000'], ['dishanhai:matter_fluid_transmutation 1000'], 2048, 100, 'dishanhai:wzxc'],
-        ['darkstar', ['1x gtceu:rhodium_plated_palladium_ingot', '1x gtceu:samarium_iron_arsenic_oxide_ingot', '1x gtceu:hsse_ingot'], ['gtceu:polybenzimidazole 1000', 'gtceu:styrene_butadiene_rubber 1000'], ['dishanhai:matter_fluid_darkstar 1000'], 8192, 100, 'dishanhai:wzsb'],
-        ['advanced_luv', ['1x gtceu:naquadah_alloy_ingot', '1x gtceu:uranium_rhodium_dinaquadide_ingot', '1x gtceu:indium_tin_barium_titanium_cuprate_ingot'], ['gtceu:duranium 1000', 'gtceu:europium 1000'], ['dishanhai:matter_fluid_advanced 1000'], 32768, 100, 'dishanhai:wzax'],
-        ['transition', ['1x gtceu:tritanium_ingot', '1x gtceu:naquadria_ingot', '1x gtceu:enriched_naquadah_trinium_europium_duranide_ingot'], ['gtceu:curium 1000', 'gtceu:antineutron 1000'], ['dishanhai:matter_fluid_transition 1000'], 131072, 100, 'dishanhai:wzcz2'],
-        ['zero', ['1x gtceu:highurabilityompoundteel_ingot', '1x gtceu:pikyonium_ingot', '1x gtceu:ruthenium_trinium_americium_neutronate_ingot'], ['gtceu:mutated_living_solder 1000', 'gtceu:antimatter 100'], ['dishanhai:matter_fluid_zero 1000'], uv, 100, 'dishanhai:wzqs'],
-        ['peak', ['1x gtceu:dubnium_ingot', '1x gtceu:seaborgium_ingot', '1x gtceu:carbon_nanotubes_ingot'], ['gtceu:enderium_plasma 1000', 'gtceu:cycloparaphenylene 1000'], ['dishanhai:matter_fluid_peak 1000'], uhv, 100, 'dishanhai:wzgl'],
-        ['ascension', ['1x gtceu:taranium_ingot', '1x gtceu:attuned_tengam_ingot', '1x gtceu:echoite_ingot'], ['gtceu:euv_photoresist 1000', 'gtceu:californium 1000'], ['dishanhai:matter_fluid_ascension 1000'], uev, 100, 'dishanhai:wzhy'],
-        ['transcend', ['1x gtceu:heavy_quark_degenerate_matter_ingot', '1x gtceu:legendarium_ingot', '1x gtceu:superheavy_h_alloy_ingot'], ['gtceu:quark_gluon_plasma 1000', 'gtceu:heavy_lepton_mixture 1000'], ['dishanhai:matter_fluid_transcend 1000'], uiv, 100, 'dishanhai:wzsw'],
-        ['chaos', ['1x gtceu:crystalmatrix_ingot', '1x gtceu:starmetal_ingot', '1x gtceu:draconiumawakened_ingot'], ['gtceu:radox 1000', 'gtceu:liquid_starlight 1000'], ['dishanhai:primal_chaos 1000'], uxv, 100, 'dishanhai:wzcx'],
-        ['eternal', ['1x gtceu:spacetime_ingot', '1x gtceu:magmatter_ingot', '1x gtceu:transcendentmetal_ingot'], ['gtceu:spacetime 1000', 'gtceu:primordialmatter 1000'], ['dishanhai:matter_fluid_eternal 1000'], opv, 100, 'dishanhai:wzdf'],
-        ['ultimate', ['1x gtladditions:creon_ingot', '1x gtladditions:mellion_dust', '1x gtladditions:super_dense_magmatter_plate'], ['gtladditions:star_gate_crystal_slurry 1000', 'gtceu:spatialfluid 1000'], ['dishanhai:matter_fluid_ultimate 1000'], MAX, 100, 'dishanhai:wzyh']
+        ['wl_board_lv', ['dishanhai:first_light'], ['dishanhai:light 2000'], ['dishanhai:matter_fluid_entry', 'dishanhai:zero_point_energy'], ulv, 20, null,1],
+        ['basic', ['1x minecraft:ender_pearl'], ['gtceu:glass 1000', 'gtceu:polyethylene 1000'], ['dishanhai:matter_fluid_basic 1000'], 32, 100, 'dishanhai:wzrm',2],
+        ['foundation', ['1x gtceu:stainless_steel_ingot', '1x gtceu:silicon_ingot', '1x gtceu:exquisite_emerald_gem'], ['gtceu:kanthal 1000', 'gtceu:vanadium_steel 1000'], ['dishanhai:matter_fluid_foundation 1000'], 128, 100, 'dishanhai:wzjc',3],
+        ['virtual', ['1x gtceu:nichrome_ingot', '1x gtceu:titanium_ingot', '1x minecraft:ender_eye'], ['gtceu:soldering_alloy 1000', 'gtceu:polytetrafluoroethylene 1000'], ['dishanhai:matter_fluid_virtual 1000'], 512, 100, 'dishanhai:wzcz1',4],
+        ['transmutation', ['1x minecraft:nether_star', '1x gtceu:uranium_triplatinum_ingot', '1x gtceu:tungsten_steel_ingot'], ['gtceu:radon 1000', 'gtceu:epoxy 1000'], ['dishanhai:matter_fluid_transmutation 1000'], 2048, 100, 'dishanhai:wzxc',5],
+        ['darkstar', ['1x gtceu:rhodium_plated_palladium_ingot', '1x gtceu:samarium_iron_arsenic_oxide_ingot', '1x gtceu:hsse_ingot'], ['gtceu:polybenzimidazole 1000', 'gtceu:styrene_butadiene_rubber 1000'], ['dishanhai:matter_fluid_darkstar 1000'], 8192, 100, 'dishanhai:wzsb',6],
+        ['advanced_luv', ['1x gtceu:naquadah_alloy_ingot', '1x gtceu:uranium_rhodium_dinaquadide_ingot', '1x gtceu:indium_tin_barium_titanium_cuprate_ingot'], ['gtceu:duranium 1000', 'gtceu:europium 1000'], ['dishanhai:matter_fluid_advanced 1000'], 32768, 100, 'dishanhai:wzax',7],
+        ['transition', ['1x gtceu:tritanium_ingot', '1x gtceu:naquadria_ingot', '1x gtceu:enriched_naquadah_trinium_europium_duranide_ingot'], ['gtceu:curium 1000', 'gtceu:antineutron 1000'], ['dishanhai:matter_fluid_transition 1000'], 131072, 100, 'dishanhai:wzcz2',8],
+        ['zero', ['1x gtceu:highurabilityompoundteel_ingot', '1x gtceu:pikyonium_ingot', '1x gtceu:ruthenium_trinium_americium_neutronate_ingot'], ['gtceu:mutated_living_solder 1000', 'gtceu:antimatter 100'], ['dishanhai:matter_fluid_zero 1000'], uv, 100, 'dishanhai:wzqs',9],
+        ['peak', ['1x gtceu:dubnium_ingot', '1x gtceu:seaborgium_ingot', '1x gtceu:carbon_nanotubes_ingot'], ['gtceu:enderium_plasma 1000', 'gtceu:cycloparaphenylene 1000'], ['dishanhai:matter_fluid_peak 1000'], uhv, 100, 'dishanhai:wzgl',10],
+        ['ascension', ['1x gtceu:taranium_ingot', '1x gtceu:attuned_tengam_ingot', '1x gtceu:echoite_ingot'], ['gtceu:euv_photoresist 1000', 'gtceu:californium 1000'], ['dishanhai:matter_fluid_ascension 1000'], uev, 100, 'dishanhai:wzhy',11],
+        ['transcend', ['1x gtceu:heavy_quark_degenerate_matter_ingot', '1x gtceu:legendarium_ingot', '1x gtceu:superheavy_h_alloy_ingot'], ['gtceu:quark_gluon_plasma 1000', 'gtceu:heavy_lepton_mixture 1000'], ['dishanhai:matter_fluid_transcend 1000'], uiv, 100, 'dishanhai:wzsw',12],
+        ['chaos', ['1x gtceu:crystalmatrix_ingot', '1x gtceu:starmetal_ingot', '1x gtceu:draconiumawakened_ingot'], ['gtceu:radox 1000', 'gtceu:liquid_starlight 1000'], ['dishanhai:primal_chaos 1000'], uxv, 100, 'dishanhai:wzcx',13],
+        ['eternal', ['1x gtceu:spacetime_ingot', '1x gtceu:magmatter_ingot', '1x gtceu:transcendentmetal_ingot'], ['gtceu:spacetime 1000', 'gtceu:primordialmatter 1000'], ['dishanhai:matter_fluid_eternal 1000'], opv, 100, 'dishanhai:wzdf',14],
+        ['ultimate', ['1x gtladditions:creon_ingot', '1x gtladditions:mellion_dust', '1x gtladditions:super_dense_magmatter_plate'], ['gtladditions:star_gate_crystal_slurry 1000', 'gtceu:spatialfluid 1000'], ['dishanhai:matter_fluid_ultimate 1000'], MAX, 100, 'dishanhai:wzyh',15]
     ];
 
     function buildMatterFlowCondensationRecipes(defs) {
@@ -665,7 +677,8 @@ ServerEvents.recipes(function(e) {
                 inputFluids: d[2],
                 outputFluids: d[3],
                 EUt: d[4],
-                duration: d[5]
+                duration: d[5],
+                circuit: d[7]
             };
             if (d[6]) recipe.conditions = ['1x ' + d[6]];
             recipes.push(recipe);
@@ -810,16 +823,33 @@ ServerEvents.recipes(function(e) {
         // 定义需要排除的前缀列表（这些前缀出现在矿物名之前，如 pure_cooperite_dust）
         var excludePrefixes = ['pure_', 'impure_', 'small_', 'tiny_', 'refined_', 'crushed_', 'centrifuged_'];
 
+        // 预热：调用山海 Java 侧公开通用方法 DShanhaiJS.groupItemIdsBySuffix()，一次性把全物品表
+        // 按 _dust/_ingot/_crystal/_gem 后缀扫描并按命名空间分桶（原生 Java 执行，避免下面每个矿石）
+        // 都重新对全物品表做一次正则全量扫描；原来是 O(矿石数 × 全物品数)，现在是 O(全物品数 + 矿石数)
+        var suffixBuckets = Java.loadClass('com.dishanhai.gt_shanhai.api.DShanhaiJS')
+            .groupItemIdsBySuffix(['_dust', '_ingot', '_crystal', '_gem']);
+        var toJsArray = function(javaList) {
+            var arr = [];
+            if (!javaList) return arr;
+            var size = javaList.size();
+            for (var i = 0; i < size; i++) arr.push(String(javaList.get(i)));
+            return arr;
+        };
+
         oreIds.forEach(function(oreId) {
             var match = oreId.match(/([^:]+):(.+)_ore$/);
             if (!match) return;
             var namespace = match[1];
             var mineral = match[2];
 
-            // 宽松正则：匹配同一命名空间下包含矿物名的任意物品
-            var pattern = '^' + namespace + ':.*' + mineral + '.*$';
-            var regex = new RegExp(pattern);
-            var matches = Ingredient.of('/' + regex.source + '/').getItemIds();
+            // 从 Java 侧分桶结果里查表，只在本命名空间候选里按矿物名子串筛选，
+            // 等价于原来的 '^namespace:.*mineral.*$' 正则，但不用再对全物品表重新扫一遍
+            var nsCandidates = toJsArray(suffixBuckets.get(namespace));
+            var matches = nsCandidates.filter(function(id) { return id.indexOf(mineral) !== -1; });
+            var vanillaId = namespace + ':' + mineral;
+            if (namespace === 'minecraft' && matches.indexOf(vanillaId) === -1 && !Item.of(vanillaId, 1).isEmpty()) {
+                matches = matches.concat([vanillaId]);
+            }
 
             // 过滤：排除 _raw / _ore，排除带有排除前缀的物品，且必须是粉/锭/水晶/宝石或原版矿物名
             var filtered = matches.filter(function(id) {
@@ -1014,7 +1044,7 @@ ServerEvents.recipes(function(e) {
         console.error(error);
     }
 
-    safeAddRecipe('element_copying', 'dishanhai:element_copying',() => {
+    safeAddRecipe('element_copying', 'dishanhai:element_copying_astral_array',() => {
         gtr.element_copying('dishanhai:element_copying_astral_array')
             .notConsumable('gtladditions:astral_array')
             .inputFluids('gtladditions:star_gate_crystal_slurry 950',"gtceu:uu_matter 1000")
@@ -1026,137 +1056,82 @@ ServerEvents.recipes(function(e) {
 // ========== 量子化现实重构（终焉时空扭曲）==========
 // 以下配方需要 gt_shanhai 模组注册的配方类型
     if (Platform.isLoaded('gt_shanhai')) {
-        // ========== 苦命鸳鸯 ==========
-        safeAddRecipe('kmyy', 'gt_shanhai:kmyy', () => {
-            gtr.kmyy('gt_shanhai:kmyy')
-                .itemInputs(
-                    "dishanhai:blue_alien",
-                    "dishanhai:long_zui"
-                )
-                .itemOutputs(
-                    "dishanhai:ku_ming_yuan_yang"
-                )
-                .EUt(-114514)
-                .duration(114514)
-
-        },{defaultEnabled:false})
-
-        safeAddRecipe('spacetime_distortion', 'gt_shanhai:quantized_reality_assembly', () => {
-            gtr.spacetime_distortion('gt_shanhai:quantized_reality_assembly')
-                .itemInputs(
-                    '64x gtceu:eternity_ingot',
-                    "64x avaritia:infinity_ingot",
-                    'kubejs:time_dilation_containment_unit',
-                    'kubejs:charged_triplet_neutronium_sphere'
-                )
-                .inputFluids(
-                    'gtceu:spacetime 10000',
-                    'gtceu:uu_matter 10000'
-                )
-                .itemOutputs(
-                    '1x gtladditions:astral_array',
-                    '4x kubejs:contained_kerr_newmann_singularity'
-                )
-                .EUt(MAX)
-                .duration(2400)
-        },{defaultEnabled:false})
-
-
-        // ═══════════════════════════════════════════════════════════════
-        // 量子化现实重构 — 简化配方组（均比原版配方更便宜）
-        // ═══════════════════════════════════════════════════════════════
-
-        // 星门水晶浆液（原版DTPF：16种流体各1M+9种物各4096，MAX*65536EU/t；简化：8物+6流体，MAX→1000mb）
-        safeAddRecipe('spacetime_distortion', 'gt_shanhai:star_gate_crystal_slurry', () => {
-            gtr.spacetime_distortion('gt_shanhai:star_gate_crystal_slurry')
-                .itemInputs('640x kubejs:void_matter', '640x kubejs:temporal_matter', '640x kubejs:omni_matter', '640x kubejs:kinetic_matter', '640x kubejs:dark_matter', '640x kubejs:essentia_matter', '640x kubejs:corporeal_matter', '640x kubejs:amorphous_matter')
-                .inputFluids('gtceu:spacetime 100000', 'gtceu:uu_matter 100000', 'gtceu:cosmic 100000', 'gtceu:miracle 100000', 'gtceu:infinity 100000', 'dishanhai:primal_chaos 100000')
-                .outputFluids('gtladditions:star_gate_crystal_slurry 1000')
-                .EUt(MAX)
-                .duration(1200)
-        })
-
-        // 鱼大（AE2样板：8个中间部件直接合成，比装配线9件+压缩河豚+超胶便宜）
-        safeAddRecipe('spacetime_distortion', 'gt_shanhai:fishbig_easy', () => {
-            gtr.spacetime_distortion('gt_shanhai:fishbig_easy')
-                .itemInputs('1x kubejs:fishbig_hair', '3x kubejs:fishbig_frame', '1x kubejs:fishbig_hade', '1x kubejs:fishbig_lhand', '1x kubejs:fishbig_body', '1x kubejs:fishbig_rhand', '1x kubejs:fishbig_lleg', '1x kubejs:fishbig_rleg')
-                .itemOutputs('1x expatternprovider:fishbig')
-                .EUt(uxv)
-                .duration(200)
-        })
-
-        // 茶 §6§o（AE2样板：heartofthesmogus×4+temporal/dark_matter×67108+compressed_astral_array×16+infinity_bucket×1024+4流体各1B/384M）
-        safeAddRecipe('spacetime_distortion', 'gt_shanhai:ultimate_tea', () => {
-            gtr.spacetime_distortion('gt_shanhai:ultimate_tea')
-                .itemInputs('4x kubejs:heartofthesmogus', '67108x kubejs:temporal_matter', '67108x kubejs:dark_matter', '16x gtladditions:compressed_astral_array', '1024x avaritia:infinity_bucket')
-                .inputFluids('gtceu:miracle 1000000000', 'gtceu:magnetohydrodynamicallyconstrainedstarmatter 1000000000', 'gtladditions:phonon_medium 384000000', 'gtceu:primordialmatter 1000000000')
-                .itemOutputs('1x gtlcore:ultimate_tea')
-                .EUt(MAX)
-                .duration(1200)
-        })
-
-        // 液态磁流体约束恒星物质（原版DTPF：1 nanoswarm+400k plasma+100k exciteddtsc，MAX*960EU/t，25600tick）
-        safeAddRecipe('spacetime_distortion', 'gt_shanhai:magnetohydrodynamicallyconstrainedstarmatter', () => {
-            gtr.spacetime_distortion('gt_shanhai:magnetohydrodynamicallyconstrainedstarmatter')
-                .itemInputs('1x gtceu:eternity_nanoswarm')
-                .inputFluids('gtceu:raw_star_matter_plasma 400000', 'gtceu:exciteddtsc 100000')
-                .outputFluids('gtceu:magnetohydrodynamicallyconstrainedstarmatter 400000')
-                .EUt(MAX)
-                .duration(2400)
-        })
-
-        // 无损声子传输介质（AE2样板：echoite×2+praseodymium×2+metastable_oganesson×2+magneto_resonatic×1+phonon_crystal_solution 1000，UV→1000mb）
-        safeAddRecipe('spacetime_distortion', 'gt_shanhai:phonon_medium', () => {
-            gtr.spacetime_distortion('gt_shanhai:phonon_medium')
-                .itemInputs('2x gtceu:echoite_dust', '2x gtceu:praseodymium_dust', '2x gtceu:metastable_oganesson_dust', '1x gtceu:magneto_resonatic_dust')
-                .inputFluids('gtladditions:phonon_crystal_solution 1000')
-                .outputFluids('gtladditions:phonon_medium 1000')
-                .EUt(uv)
-                .duration(400)
-        })
-
-        // 超级并行控制仓（原版defaultEnabled:false，提供可用的简化替代）
-        safeAddRecipe('spacetime_distortion', 'gt_shanhai:super_parallel_core_easy', () => {
-            gtr.spacetime_distortion('gt_shanhai:super_parallel_core_easy')
-                .itemInputs('1x gtceu:molecular_assembler_matrix', '16x dishanhai:wl_board_eternal')
-                .inputFluids('dishanhai:matter_fluid_ultimate 64000')
-                .itemOutputs('1x gt_shanhai:super_parallel_core')
-                .EUt(MAX)
-                .duration(600)
-        })
-
-        // 黑洞种子（AE2样板：max_emitter×16+uev聚变×16+double_proto_halkonite_plate×32+hypercube×64+4流体各92160，UXV）
-        safeAddRecipe('spacetime_distortion', 'gt_shanhai:black_hole_seed_easy', () => {
-            gtr.spacetime_distortion('gt_shanhai:black_hole_seed_easy')
-                .itemInputs('16x gtlcore:max_emitter', '16x gtceu:uev_compressed_fusion_reactor', '32x gtladditions:double_proto_halkonite_plate', '64x kubejs:hypercube')
-                .inputFluids('gtladditions:creon 92160', 'gtceu:white_dwarf_mtter 92160', 'gtceu:tartarite 92160', 'gtceu:black_dwarf_mtter 92160')
-                .itemOutputs('1x gtladditions:black_hole_seed')
-                .EUt(uxv)
-                .duration(200)
-        })
-
-        // 奇异湮灭燃料棒（原版精密组装：infinity_antimatter_fuel_rod×192+hypercube×64+4流体，UXV级12tick）
-        safeAddRecipe('spacetime_distortion', 'gt_shanhai:strange_annihilation_fuel_rod_easy', () => {
-            gtr.spacetime_distortion('gt_shanhai:strange_annihilation_fuel_rod_easy')
-                .itemInputs('8x kubejs:infinity_antimatter_fuel_rod', '8x kubejs:hypercube')
-                .inputFluids('gtceu:cosmic 144', 'gtceu:magnetohydrodynamicallyconstrainedstarmatter 160', 'gtceu:spacetime 576')
-                .itemOutputs('1x gtladditions:strange_annihilation_fuel_rod')
-                .EUt(uxv)
-                .duration(200)
-        })
-
-        // 压缩星阵（原版：black_hole_seed×144+eternity/spacetime nanoswarm×64+command_block×64+miracle 576k，600tick）
-        safeAddRecipe('spacetime_distortion', 'gt_shanhai:compressed_astral_array_easy', () => {
-            gtr.spacetime_distortion('gt_shanhai:compressed_astral_array_easy')
-                .itemInputs('16x gtladditions:black_hole_seed', '64x gtceu:eternity_nanoswarm', '64x gtceu:spacetime_nanoswarm', '128x gtladditions:astral_array')
-                .inputFluids('gtceu:miracle 576000')
-                .itemOutputs('1x gtladditions:compressed_astral_array')
-                .EUt(MAX)
-                .duration(1200)
-        })
+        // ========== 苦命鸳鸯 + 量子化现实重构简化配方组 ==========
+        // 同样从链式回调改成数据表 + buildRecipe()，减少 Rhino→Java 桥接调用次数（详见上方"电力专区"注释）。
+        var realityRecipes = [
+            { id: 'gt_shanhai:kmyy', type: 'kmyy', defaultEnabled: false,
+                itemInputs: ["dishanhai:blue_alien", "dishanhai:long_zui"],
+                itemOutputs: ["dishanhai:ku_ming_yuan_yang"],
+                EUt: -114514, duration: 114514 },
+            // 量子化现实重构 — 简化配方组（均比原版配方更便宜）
+            { id: 'gt_shanhai:quantized_reality_assembly', type: 'spacetime_distortion', defaultEnabled: false,
+                itemInputs: ['64x gtceu:eternity_ingot', '64x avaritia:infinity_ingot', 'kubejs:time_dilation_containment_unit', 'kubejs:charged_triplet_neutronium_sphere'],
+                inputFluids: ['gtceu:spacetime 10000', 'gtceu:uu_matter 10000'],
+                itemOutputs: ['1x gtladditions:astral_array', '4x kubejs:contained_kerr_newmann_singularity'],
+                EUt: MAX, duration: 2400 },
+            // 星门水晶浆液（原版DTPF：16种流体各1M+9种物各4096，MAX*65536EU/t；简化：8物+6流体，MAX→1000mb）
+            { id: 'gt_shanhai:star_gate_crystal_slurry', type: 'spacetime_distortion',
+                itemInputs: ['640x kubejs:void_matter', '640x kubejs:temporal_matter', '640x kubejs:omni_matter', '640x kubejs:kinetic_matter', '640x kubejs:dark_matter', '640x kubejs:essentia_matter', '640x kubejs:corporeal_matter', '640x kubejs:amorphous_matter'],
+                inputFluids: ['gtceu:spacetime 100000', 'gtceu:uu_matter 100000', 'gtceu:cosmic 100000', 'gtceu:miracle 100000', 'gtceu:infinity 100000', 'dishanhai:primal_chaos 100000'],
+                outputFluids: ['gtladditions:star_gate_crystal_slurry 1000'],
+                EUt: MAX, duration: 1200 },
+            // 鱼大（AE2样板：8个中间部件直接合成，比装配线9件+压缩河豚+超胶便宜）
+            { id: 'gt_shanhai:fishbig_easy', type: 'spacetime_distortion',
+                itemInputs: ['1x kubejs:fishbig_hair', '3x kubejs:fishbig_frame', '1x kubejs:fishbig_hade', '1x kubejs:fishbig_lhand', '1x kubejs:fishbig_body', '1x kubejs:fishbig_rhand', '1x kubejs:fishbig_lleg', '1x kubejs:fishbig_rleg'],
+                itemOutputs: ['1x expatternprovider:fishbig'],
+                EUt: uxv, duration: 200 },
+            // 茶 §6§o（AE2样板：heartofthesmogus×4+temporal/dark_matter×67108+compressed_astral_array×16+infinity_bucket×1024+4流体各1B/384M）
+            { id: 'gt_shanhai:ultimate_tea', type: 'spacetime_distortion',
+                itemInputs: ['4x kubejs:heartofthesmogus', '67108x kubejs:temporal_matter', '67108x kubejs:dark_matter', '16x gtladditions:compressed_astral_array', '1024x avaritia:infinity_bucket'],
+                inputFluids: ['gtceu:miracle 1000000000', 'gtceu:magnetohydrodynamicallyconstrainedstarmatter 1000000000', 'gtladditions:phonon_medium 384000000', 'gtceu:primordialmatter 1000000000'],
+                itemOutputs: ['1x gtlcore:ultimate_tea'],
+                EUt: MAX, duration: 1200 },
+            // 液态磁流体约束恒星物质（原版DTPF：1 nanoswarm+400k plasma+100k exciteddtsc，MAX*960EU/t，25600tick）
+            { id: 'gt_shanhai:magnetohydrodynamicallyconstrainedstarmatter', type: 'spacetime_distortion',
+                itemInputs: ['1x gtceu:eternity_nanoswarm'],
+                inputFluids: ['gtceu:raw_star_matter_plasma 400000', 'gtceu:exciteddtsc 100000'],
+                outputFluids: ['gtceu:magnetohydrodynamicallyconstrainedstarmatter 400000'],
+                EUt: MAX, duration: 2400 },
+            // 无损声子传输介质（AE2样板：echoite×2+praseodymium×2+metastable_oganesson×2+magneto_resonatic×1+phonon_crystal_solution 1000，UV→1000mb）
+            { id: 'gt_shanhai:phonon_medium', type: 'spacetime_distortion',
+                itemInputs: ['2x gtceu:echoite_dust', '2x gtceu:praseodymium_dust', '2x gtceu:metastable_oganesson_dust', '1x gtceu:magneto_resonatic_dust'],
+                inputFluids: ['gtladditions:phonon_crystal_solution 1000'],
+                outputFluids: ['gtladditions:phonon_medium 1000'],
+                EUt: uv, duration: 400 },
+            // 超级并行控制仓（原版defaultEnabled:false，提供可用的简化替代）
+            { id: 'gt_shanhai:super_parallel_core_easy', type: 'spacetime_distortion',
+                itemInputs: ['1x gtceu:molecular_assembler_matrix', '16x dishanhai:wl_board_eternal'],
+                inputFluids: ['dishanhai:matter_fluid_ultimate 64000'],
+                itemOutputs: ['1x gt_shanhai:super_parallel_core'],
+                EUt: MAX, duration: 600 },
+            // 黑洞种子（AE2样板：max_emitter×16+uev聚变×16+double_proto_halkonite_plate×32+hypercube×64+4流体各92160，UXV）
+            { id: 'gt_shanhai:black_hole_seed_easy', type: 'spacetime_distortion',
+                itemInputs: ['16x gtlcore:max_emitter', '16x gtceu:uev_compressed_fusion_reactor', '32x gtladditions:double_proto_halkonite_plate', '64x kubejs:hypercube'],
+                inputFluids: ['gtladditions:creon 92160', 'gtceu:white_dwarf_mtter 92160', 'gtceu:tartarite 92160', 'gtceu:black_dwarf_mtter 92160'],
+                itemOutputs: ['1x gtladditions:black_hole_seed'],
+                EUt: uxv, duration: 200 },
+            // 奇异湮灭燃料棒（原版精密组装：infinity_antimatter_fuel_rod×192+hypercube×64+4流体，UXV级12tick）
+            { id: 'gt_shanhai:strange_annihilation_fuel_rod_easy', type: 'spacetime_distortion',
+                itemInputs: ['8x kubejs:infinity_antimatter_fuel_rod', '8x kubejs:hypercube'],
+                inputFluids: ['gtceu:cosmic 144', 'gtceu:magnetohydrodynamicallyconstrainedstarmatter 160', 'gtceu:spacetime 576'],
+                itemOutputs: ['1x gtladditions:strange_annihilation_fuel_rod'],
+                EUt: uxv, duration: 200 },
+            // 压缩星阵（原版：black_hole_seed×144+eternity/spacetime nanoswarm×64+command_block×64+miracle 576k，600tick）
+            { id: 'gt_shanhai:compressed_astral_array_easy', type: 'spacetime_distortion',
+                itemInputs: ['16x gtladditions:black_hole_seed', '64x gtceu:eternity_nanoswarm', '64x gtceu:spacetime_nanoswarm', '128x gtladditions:astral_array'],
+                inputFluids: ['gtceu:miracle 576000'],
+                itemOutputs: ['1x gtladditions:compressed_astral_array'],
+                EUt: MAX, duration: 1200 }
+        ];
+        realityRecipes.forEach(recipe => {
+            var opts = recipe.defaultEnabled === false ? {defaultEnabled:false} : undefined;
+            safeAddRecipe(recipe.type, recipe.id, () => {
+                buildRecipe(gtr[recipe.type](recipe.id), recipe);
+            }, opts);
+        });
 
         // 真空零点能 — 前期蒸汽发电
-        safeAddRecipe('primordial_power_generator:zero_point_energy', 'gt_shanhai:zero_point_energy', () => {
+        safeAddRecipe('primordial_power_generator', 'zero_point_energy', () => {
             gtr.primordial_power_generator('zero_point_energy')
                 .notConsumable('dishanhai:dark_energy_multiplier')
                 .inputFluids('minecraft:water 100')
@@ -1186,29 +1161,19 @@ ServerEvents.recipes(function(e) {
         })
 
 
-        safeAddRecipe('nebula_siphoning', 'dishanhai:first_light_from_energy', () => {
-            gtr.nebula_siphoning('dishanhai:first_light_from_energy')
-                .circuit(1)
-                .itemOutputs('1x dishanhai:first_light')
-                .EUt(8192)
-                .duration(600)
-        })
-
-        safeAddRecipe('nebula_siphoning', 'dishanhai:light_fluid_extract', () => {
-            gtr.nebula_siphoning('dishanhai:light_fluid_extract')
-                .itemInputs('4x dishanhai:first_light')
-                .outputFluids('dishanhai:light 1000')
-                .EUt(8192)
-                .duration(400)
-        })
-
-        safeAddRecipe('nebula_siphoning', 'dishanhai:photon_synthesis', () => {
-            gtr.nebula_siphoning('dishanhai:photon_synthesis')
-                .inputFluids('dishanhai:light 100')
-                .itemOutputs('1x dishanhai:photon')
-                .EUt(8192)
-                .duration(100)
-        })
+        var nebulaRecipes = [
+            { id: 'dishanhai:first_light_from_energy', type: 'nebula_siphoning',
+                circuit: 1, itemOutputs: ['1x dishanhai:first_light'], EUt: 8192, duration: 600 },
+            { id: 'dishanhai:light_fluid_extract', type: 'nebula_siphoning',
+                itemInputs: ['4x dishanhai:first_light'], outputFluids: ['dishanhai:light 1000'], EUt: 8192, duration: 400 },
+            { id: 'dishanhai:photon_synthesis', type: 'nebula_siphoning',
+                inputFluids: ['dishanhai:light 100'], itemOutputs: ['1x dishanhai:photon'], EUt: 8192, duration: 100 }
+        ];
+        nebulaRecipes.forEach(recipe => {
+            safeAddRecipe(recipe.type, recipe.id, () => {
+                buildRecipe(gtr[recipe.type](recipe.id), recipe);
+            });
+        });
 
 
     }
@@ -1389,7 +1354,7 @@ ServerEvents.recipes(function(e) {
         E: 'minecraft:ender_eye'
     });
 
-    safeAddRecipe('primordial_matter_recombination', 'gt_shanhai:primordial_matter_recombination', () => {
+    safeAddRecipe('primordial_matter_recombination', 'dishanhai:primordial_matter_recombination_', () => {
         gtr.primordial_matter_recombination('dishanhai:primordial_matter_recombination_')
             .itemInputs(
                 '256x kubejs:hui_circuit_1',"128x kubejs:hui_circuit_2","64x kubejs:hui_circuit_3","32x kubejs:hui_circuit_4","64x gtceu:normal_optical_pipe","gtceu:computation_transmitter_hatch","gtceu:computation_receiver_hatch",
@@ -1849,27 +1814,6 @@ ServerEvents.recipes(function(e) {
 
 
 
-    var $ModuleLCond; try { $ModuleLCond = Java.loadClass('com.dishanhai.gt_shanhai.api.ModuleLevelCondition'); } catch(e) {}
-    safeAddRecipe('matter_module_casting', 'dishanhai:wzqs_source', () => {
-        gtr.matter_module_casting('dishanhai:wzqs_source')
-            .itemInputs('64x dishanhai:wzcz2','64x gtceu:uev_machine_hull',
-                '64x gtceu:uev_emitter','64x gtceu:uev_field_generator',
-                '64x gtceu:uev_processor_mainframe','64x gtceu:uev_sensor',
-                '32x gtceu:quantum_star','32x gtladditions:heliothermal_plasma_fabricator',
-                '32x gtladditions:heliophase_leyline_crystallizer',
-                '32x gtladditions:apocalyptic_torsion_quantum_matrix',
-                '16x gtceu:annihilate_generator','16x gtladditions:arcanic_astrograph',
-                '16x dishanhai:dark_energy_multiplier')
-            .inputFluids('gtceu:spacetime 1000000','gtceu:magmatter 1000000',
-                'gtceu:infinity 1000000','dishanhai:matter_fluid_advanced 500000')
-            .itemOutputs('dishanhai:wzqs')
-            .outputFluids('dishanhai:matter_fluid_transition 500000')
-            .addCondition($ModuleLCond !== undefined && $ModuleLCond !== null ? new $ModuleLCond("dishanhai:wzjc", 3) : null)
-            .EUt(UEV)
-            .duration(200);
-
-    });
-
     safeAddRecipe('suprachronal_assembly_line', 'dishanhai:wzcz3', () => {
         gtr.suprachronal_assembly_line('dishanhai:wzcz3')
             .itemInputs('16x gtladditions:forge_of_the_antichrist','64x gtladditions:heliothermal_plasma_fabricator','64x gtladditions:helioflare_power_forge','64x gtladditions:heliofluix_melting_core','64x gtladditions:heliofusion_exoticizer','64x gtladditions:heliophase_leyline_crystallizer','64x gtladditions:space_infinity_integrated_ore_processor','64x gtceu:create_aggregation','64x gtceu:space_elevator','64x gtladditions:arcanic_astrograph','64x gtladditions:apocalyptic_torsion_quantum_matrix','64x gtceu:suprachronal_assembly_line','64x gtladditions:dimensionally_transcendent_chemical_plant','64x gtceu:molecular_assembler_matrix','64x gtceu:atomic_energy_excitation_plant','64x gtceu:annihilate_generator')
@@ -2311,20 +2255,25 @@ ServerEvents.recipes(function(e) {
         error('❌ 猪咪大礼包配方生成失败: ' + err.message);
     }
 
-    // ========== 奇点数据中枢建材存储阵列配方 ==========
-    info('🔧 奇点数据中枢建材存储阵列...');
+   DShanhaiPackRegistry.create("1",
+    ["11008x gtceu:industrial_steam_casing", "6550x gtceu:bronze_machine_casing", "1566x gtceu:bronze_pipe_casing", "357x gtceu:bronze_brick_casing", "249x gtceu:firebricks", "63x gtceu:steam_machine_casing", "36x gtceu:coke_oven_bricks", "16x kubejs:steam_assembly_block", "1x gt_shanhai:primordial_omega_engine"]
+    , "原始终焉引擎建材阵列",
+    ['']
+)
+    .lock("v1.0")
+    .build(); 
     try {
-        var SDAinline = getShanhaiPackNBT('SDAinline');
-        gtr.assembler('dishanhai:singularity_data_hub')
-            .circuit(1)
+        var SDAinline_1 = DShanhaiPackRegistry.get('1').nbt();
+        gtr.assembler('dishanhai:singularity_data_hub_1')
+            .circuit(2)
             .itemInputs('dishanhai:piggy','gtladditions:space_infinity_integrated_ore_processor')
-            .itemOutputs(Item.of('gt_shanhai:super_disk_array', SDAinline))
+            .itemOutputs(Item.of('gt_shanhai:super_disk_array', SDAinline_1))
             .duration(200)
             .EUt(LV);
     } catch(err) {
         error('❌ 配方生成失败: ' + err.message);
     }
-
+/*
     // ========== 集成电路DASDA无限元件包配方 ==========
     const dyeRecipeType_2 = 'assembler';
     const dyeRecipeId_2 = 'dishanhai:infinity_dye_cell_pack_pro_2';
@@ -2356,7 +2305,7 @@ ServerEvents.recipes(function(e) {
         error('❌ 无限元件包配方生成失败: ' + err.message);
         try { DShanhaiRecipeEngine.recordRecipe(dyeRecipeType_2, false, dyeRecipeId_2, err.message); } catch(ignored) {}
     }
-
+*/
     //&& ========== 无限gtceu流体元件包配方（可选）==========
     /*
     const gtceuFluidRecipeType = 'assembler';

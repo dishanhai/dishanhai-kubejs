@@ -1,0 +1,165 @@
+{
+  "uuid": "7119c711-82a9-4111-b010-b09b106e7db0",
+  "entries": [
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"kubejs:module_connector\"}",
+      "amount": "138"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtladditions:gravity_stabilization_casing\"}",
+      "amount": "11532"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtladditions:subspace_corridor_hub_industrial_array\"}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtceu:advanced_computer_casing\"}",
+      "amount": "41"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"kubejs:magic_core\"}",
+      "amount": "15"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"kubejs:restraint_device\"}",
+      "amount": "3"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtlcore:oxidation_resistant_hastelloy_n_mechanical_casing\"}",
+      "amount": "145965"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtlcore:power_core\"}",
+      "amount": "184"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtceu:computer_casing\"}",
+      "amount": "80"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtceu:nonconducting_casing\"}",
+      "amount": "26923"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"kubejs:spacetime_assembly_line_unit\"}",
+      "amount": "9"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"kubejs:spacetime_assembly_line_casing\"}",
+      "amount": "13"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtlcore:super_computation_component\"}",
+      "amount": "9"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"kubejs:dimensional_bridge_casing\"}",
+      "amount": "1610"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtlcore:antifreeze_heatproof_machine_casing\"}",
+      "amount": "15983"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtlcore:iridium_casing\"}",
+      "amount": "165429"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"kubejs:space_elevator_internal_support\"}",
+      "amount": "48837"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtceu:fusion_casing\"}",
+      "amount": "3299"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtceu:computer_heat_vent\"}",
+      "amount": "58"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"kubejs:molecular_coil\"}",
+      "amount": "9"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"kubejs:containment_field_generator\"}",
+      "amount": "4586"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtladditions:extreme_density_casing\"}",
+      "amount": "7552"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtceu:high_power_casing\"}",
+      "amount": "5"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtceu:fusion_glass\"}",
+      "amount": "892"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"kubejs:module_base\"}",
+      "amount": "278"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtceu:plascrete\"}",
+      "amount": "808"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtlcore:compressed_fusion_coil_mk2\"}",
+      "amount": "5136"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtlcore:echo_casing\"}",
+      "amount": "1126"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"kubejs:high_strength_concrete\"}",
+      "amount": "40115"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtlcore:naquadah_alloy_casing\"}",
+      "amount": "6524"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtlcore:sps_casing\"}",
+      "amount": "95"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtlcore:ultimate_stellar_containment_casing\"}",
+      "amount": "1164"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtlcore:dragon_strength_tritanium_casing\"}",
+      "amount": "362"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtlcore:dimensionally_transcendent_casing\"}",
+      "amount": "556"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"kubejs:force_field_glass\"}",
+      "amount": "551"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtlcore:space_elevator_support\"}",
+      "amount": "103818"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtlcore:dimension_injection_casing\"}",
+      "amount": "368"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtceu:high_temperature_smelting_casing\"}",
+      "amount": "58650"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtlcore:enhance_hyper_mechanical_casing\"}",
+      "amount": "1616"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtlcore:hyper_core\"}",
+      "amount": "77"
+    }
+  ]
+}

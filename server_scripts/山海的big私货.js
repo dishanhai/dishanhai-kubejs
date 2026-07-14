@@ -2,77 +2,13 @@
 //API主控制器模块 
 // ========== 山海私货（日志模块） - 完整修复版 ==========
 
-// ——— 目录：保护层 | 核心框架 | API | 配方 | AE包 ———
+// ——— 目录：核心框架 | API | 配方 | AE包 ———
 
 (function() {
 //iife就绪
 // 版本: 2.6 - API控制系统
 
-// ==================== 山海私货 · 基础保护层 ====================
-(function() {
-    'use strict';
-
-    // 环境检测
-    console.log('§6[山海保护层] §a环境检测通过§r');
-
-    // ==================== API冻结与保护 ====================
-    function deepFreeze(obj, visited) {
-        // 替换WeakSet为数组
-        if (!visited) visited = [];
-        if (obj === null || typeof obj !== 'object') return obj;
-        if (visited.indexOf(obj) !== -1) return obj;
-        visited.push(obj);
-        
-        var propNames = Object.getOwnPropertyNames(obj);
-        for (var i = 0; i < propNames.length; i++) {
-            var name = propNames[i];
-            // 跳过以_开头的内部属性，允许它们保持可变状态
-            if (name.charAt(0) === '_') continue;
-            // 跳过需要保持可变的功能对象
-            // 不再需要跳过已删除的保护层属性
-            var value = obj[name];
-            if (value && typeof value === 'object') {
-                deepFreeze(value, visited);
-            }
-        }
-        return Object.freeze(obj);
-    }
-    
-    function sealAPI(apiObj, apiName) {
-        // 设置不可删除、不可重写属性
-        try {
-            Object.defineProperty(global, apiName, {
-                value: apiObj,
-                writable: false,
-                configurable: false,
-                enumerable: true
-            });
-        } catch (e) {
-            // 如果defineProperty失败，至少将API设置为只读属性-
-            global[apiName] = apiObj;
-            console.log('§6[山海保护层] §e警告: ' + apiName + ' 使用备用保护方案§r');
-        }
-        
-        // 深度冻结API对象
-        deepFreeze(apiObj);
-        
-    }
-    
-    // ==================== 导出基础防护API ====================
-    var ShanhaiGuard = {
-        sealAPI: sealAPI,
-        deepFreeze: deepFreeze
-    };
-
-    deepFreeze(ShanhaiGuard);
-    global.__shanhai_guard__ = ShanhaiGuard;
-    global.__shanhai_version__ = '2.8.0';
-
-    console.log('§6[山海保护层] §a基础防护层已加载§r');
-})();
-// ==================== 基础保护层结束 ====================
-
-var Version = '2.7.8(日志系统版本2.7.3)'//主版本与日志系统版本
+var Version = '2.7.9(日志系统版本2.7.3)'//主版本与日志系统版本
 var API_Version = '2.9.1'//api版本
 // 挂载到全局对象，供其他脚本访问
 if (typeof global !== 'undefined') {
@@ -82,16 +18,7 @@ if (typeof global !== 'undefined') {
 
 //var superAEPackItemList = null; 超级AE包物品列表
 
-//  配方去重检测（Rhino 兼容对象表，比 Set 更稳）
-var _registeredCellRecipes = {};
-
-function hasRegisteredCellRecipe(recipeId) {
-    return _registeredCellRecipes[recipeId] === true;
-}
-
-function registerCellRecipe(recipeId) {
-    _registeredCellRecipes[recipeId] = true;
-}
+// 配方去重检测已移交 Java 侧 DShanhaiRecipeEngine.hasRegisteredRecipe/registerRecipe（随 resetRecipeStats() 每次 reload 清空）
 
 var DShanhaiNBTAPIClass = null;
 function getDShanhaiNBTAPI() {
@@ -1850,11 +1777,12 @@ ServerEvents.tags('item', event => {
     info('🗑️ 开始批量删除物品标签...');
     
     const metals = ['steel','aluminum','lead','nickel','iridium','platinum','osmium','invar','bronze','enderium','lumium','brass','diamond','silver','tin','uranium','zinc','copper','iron','gold','dusts','steel','brass_dust','electrum','sulfur','fluorite','charcoal','lithium','iobsidian','lapis','coal','fluorite','vibranium','ruby','sapphire'];
-    const tagTypes = ['forge:ingots','forge:storage_blocks','forge:nuggets','forge:plates','forge:rods','forge:gears','forge:dusts','forge:dyes/yellow'];
+    // 'forge:dyes/yellow' 本身已是叶子标签，不需要（也不应该）再拼金属后缀，单独处理，不参与下面的笛卡尔积
+    const tagTypes = ['forge:ingots','forge:storage_blocks','forge:nuggets','forge:plates','forge:rods','forge:gears','forge:dusts'];
     const Mods = ['mekanism', 'alltheores','allthemodium'];
-    
+
     let removedCount = 0;
-    
+
     metals.forEach(metal => {
         tagTypes.forEach(type => {
             const tag = `${type}/${metal}`;
@@ -1871,7 +1799,19 @@ ServerEvents.tags('item', event => {
             }
         });
     });
-    
+
+    try {
+        event.get('forge:dyes/yellow').getObjectIds().forEach(id => {
+            if (Mods.includes(id.namespace)) {
+                event.remove('forge:dyes/yellow', id);
+                removedCount++;
+                debug(`移除标签: forge:dyes/yellow -> ${id}`);
+            }
+        });
+    } catch(err) {
+        debug(`处理标签 forge:dyes/yellow 时出错: ${err.message}`);
+    }
+
     info(`批量删除完成，共移除 ${removedCount} 个标签条目`);
     timer_batch_item_tags.end();
 });
@@ -2180,7 +2120,7 @@ function addCellAssemblerRecipeCellAPI(recipeId, cellName, itemList, lore, input
     
     try { 
         // 配方去重检查
-        if (_registeredCellRecipes.has(recipeId)) {
+        if (DShanhaiRecipeEngine.hasRegisteredRecipe(recipeId)) {
             warn('[256k Cell API] 配方 ' + recipeId + ' 已存在，跳过注册');
             return false;
         }
@@ -2268,7 +2208,7 @@ function addCellAssemblerRecipeDirect(recipeId, cellName, itemList, lore, inputI
     } 
     try { 
         // 配方去重检查
-        if (_registeredCellRecipes.has(recipeId)) {
+        if (DShanhaiRecipeEngine.hasRegisteredRecipe(recipeId)) {
             warn('[256k Cell API] 配方 ' + recipeId + ' 已存在，跳过注册');
             return false;
         }
@@ -2321,7 +2261,7 @@ function addCellAssemblerRecipeDirect(recipeId, cellName, itemList, lore, inputI
         info(`  电路: ${circuit}, 输入物品: ${inputItems.length}种`); 
         
         // 记录已注册的配方ID
-        _registeredCellRecipes.add(recipeId);
+        DShanhaiRecipeEngine.registerRecipe(recipeId);
         return true; 
     } catch (err) { 
         error(`[256k Cell API] 配方直接注册失败 (${recipeId}): ${err.message}`); 
@@ -2641,137 +2581,8 @@ ServerEvents.loaded(event => {
     // 1. 初始化保护（延迟执行，确保其他脚本已加载）
     event.server.scheduleInTicks(20, function() { initializeProtection(); });
     
-    // ========== 配置持久化修复（已禁用） ==========
-    (function() {
-        return; // 禁用配置持久化修复
+    // ========== 配置持久化修复：已确认长期禁用，整段死代码已删除（原 IIFE 首行即 return），精简解析开销 ==========
 
-
-        function collectRecipeDefaultsFromCollector() {
-            var recipeDefaults = {};
-            var collector = global.shanhaiRecipeCollector || global.shanhaiRecipeInfoCollector;
-            
-            if (!collector || typeof collector !== 'object') {
-                console.log('§e[配置修复] 配方收集器不存在');
-                return null;
-            }
-            
-            var totalKeys = Object.keys(collector).length;
-            console.log('§7[配置修复] 收集器总键数: ' + totalKeys);
-            
-            var count = 0;
-            for (var key in collector) {
-                if (collector.hasOwnProperty(key) && key !== '_statistics') {
-                    var info = collector[key];
-                    // ⚠️ 修改：不要设置默认值，只记录已明确设置的
-                    if (info && typeof info.defaultEnabled !== 'undefined') {
-                        recipeDefaults[key] = info.defaultEnabled === true;
-                        count++;
-                    }
-                    // 如果没有明确设置 defaultEnabled，不添加到默认值列表
-                }
-            }
-            
-            console.log('§a[配置修复] 从收集器获取到 ' + count + ' 个配方默认值');
-            return recipeDefaults;
-        }
-        
-        function syncAllRecipesToConfig(forceOverwrite) {
-            // 忽略 forceOverwrite 参数，永远不覆盖用户配置
-            
-            console.log('§6[配置修复] 开始同步所有配方到配置文件...');
-            
-            if (typeof global !== 'undefined' && global.shanhaiRecipeConfigJustReset === true) {
-                console.log('§e[配置修复] 检测到重置标志，跳过同步');
-                return false;
-            }
-            
-            var allDefaults = collectRecipeDefaultsFromCollector();
-            if (!allDefaults || Object.keys(allDefaults).length === 0) {
-                console.log('§e[配置修复] 收集器为空，无法同步');
-                return false;
-            }
-            
-            var existingConfig = {};
-            try {
-                if (typeof JsonIO !== 'undefined' && typeof JsonIO.read === 'function') {
-                    existingConfig = JsonIO.read(CONFIG_PATH) || {};
-                }
-            } catch (e) { }
-            
-            var finalConfig = {};
-            var addedCount = 0;
-            var skippedCount = 0;
-            
-            // 先复制现有配置（用户设置优先）
-            for (var key in existingConfig) {
-                if (existingConfig.hasOwnProperty(key) && typeof existingConfig[key] === 'boolean') {
-                    finalConfig[key] = existingConfig[key];
-                }
-            }
-            
-            // 只添加缺失的配方（用户未设置过的）
-            for (var key in allDefaults) {
-                if (allDefaults.hasOwnProperty(key)) {
-                    if (finalConfig[key] === undefined) {
-                        finalConfig[key] = allDefaults[key];
-                        addedCount++;
-                        console.log('§7[配置修复] 添加新配方: ' + key + ' = ' + (allDefaults[key] ? '启用' : '禁用'));
-                    } else {
-                        skippedCount++;
-                        // 已存在配置，保留用户设置，不覆盖
-                    }
-                }
-            }
-            
-            console.log('§a[配置修复] 新增 ' + addedCount + ' 个配方，保留 ' + skippedCount + ' 个用户配置');
-            
-            if (addedCount > 0) {
-                saveConfigToFile(finalConfig);
-            } else {
-                console.log('§a[配置修复] 配置已是最新，共 ' + Object.keys(finalConfig).length + ' 个配方');
-            }
-            
-            if (typeof global !== 'undefined') {
-                global.shanhaiRecipeLoadConfig = finalConfig;
-            }
-            
-            return true;
-        }
-        
-        var attempts = 0;
-        var maxAttempts = 30;
-        
-        function trySync(e) {
-            attempts++;
-            console.log('§7[配置修复] 尝试同步配方 (第 ' + attempts + '/' + maxAttempts + ' 次)');
-            
-            var collector = global.shanhaiRecipeCollector || global.shanhaiRecipeInfoCollector;
-            var collectorSize = collector ? Object.keys(collector).filter(function(k) { return k !== '_statistics'; }).length : 0;
-            
-            if (collectorSize > 0) {
-                console.log('§a[配置修复] 收集器已有 ' + collectorSize + ' 个配方');
-                
-                if (global.shanhaiRecipeConfigJustReset === true) {
-                    console.log('§e[配置修复] 检测到重置标志，跳过同步');
-                    delete global.shanhaiRecipeConfigJustReset;
-                    return;
-                }
-                
-                syncAllRecipesToConfig(false);
-            } else if (attempts < maxAttempts) {
-                e.server.scheduleInTicks(60, function() { trySync(e); });
-            } else {
-                console.log('§e[配置修复] 达到最大尝试次数，收集器仍为空');
-            }
-        }
-        
-        console.log('§6[配置修复] 配置持久化修复已加载');
-        event.server.scheduleInTicks(200, function() { trySync(event); });
-        
-
-    })();
-    // ========== 配置持久化修复结束 ==========
-    
     syncStatsToGlobal();
     
     // 导出配方数组到全局对象，供API访问
@@ -2796,25 +2607,6 @@ ServerEvents.loaded(event => {
         info(`§e⚠ 配方控制API已加载 (无版本信息)`);
     } else {
         info(`§e⚠ 配方控制API未加载，配方加载控制将使用默认行为`);
-    }
-    
-    // ==================== 山海私货 · 主脚本保护 ====================
-    if (global.__shanhai_guard__) {
-        var guard = global.__shanhai_guard__;
-
-        // 密封主要API
-        if (global.shanhaiAPI) {
-            guard.sealAPI(global.shanhaiAPI, 'shanhaiAPI');
-            info('§6[山海保护层] §a主API已施加封印保护§r');
-        }
-        if (global.shanhaiRecipeAPI) {
-            guard.sealAPI(global.shanhaiRecipeAPI, 'shanhaiRecipeAPI');
-            info('§6[山海保护层] §a配方API已施加封印保护§r');
-        }
-        if (global.shanhaiRecipeControlAPI) {
-            guard.sealAPI(global.shanhaiRecipeControlAPI, 'shanhaiRecipeControlAPI');
-            info('§6[山海保护层] §a配方控制API已施加封印保护§r');
-        }
     }
     
     info(`§6═══════════════════════════════════════════════════════════§r`);

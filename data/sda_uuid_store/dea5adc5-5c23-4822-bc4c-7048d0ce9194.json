@@ -1,0 +1,29 @@
+{
+  "uuid": "dea5adc5-5c23-4822-bc4c-7048d0ce9194",
+  "entries": [
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gt_shanhai:casing_transcendent\"}",
+      "amount": "303"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gt_shanhai:casing_rhenium\"}",
+      "amount": "67"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gt_shanhai:casing_quantum_glass\"}",
+      "amount": "66"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gt_shanhai:singularity_data_hub\"}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gt_shanhai:casing_molecular\"}",
+      "amount": "232"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gt_shanhai:me_disk_hatch\"}",
+      "amount": "14"
+    }
+  ]
+}

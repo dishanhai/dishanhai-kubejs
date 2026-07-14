@@ -1292,7 +1292,7 @@ e.create('dishanhai:time_reversal_protocol')
             "{bodySilver}寰宇并行核心驱动，裁决限制器稳定，终末之序章引导。{/}",
             "{bodySilver}三者合一——并行不再是资源的分配，而是维度的展开。{/}",
             "{ultimateRainbow}每个配方享有独立的 Long.MAX_VALUE 并行池{/}",
-            "{aurora}线程倍率: ×2,147,483,647{/}"
+            "{aurora}线程倍率: ×9,223,372,036,854,775,807 (Long.MAX_VALUE){/}"
         ]);
 
     // ===== 世线电路板系列（内联样式） =====
@@ -3137,7 +3137,7 @@ var astralConvergenceNexusItems = [
   "9x kubejs:module_base",
   "1x kubejs:module_connector",
   "1x gtladditions:nebula_reaper",
-  "30x gtlcore:space_elevator_mechanical_casing", "9x kubejs:module_base", "1x kubejs:module_connector", "1x gtladditions:astral_convergence_nexus"
+  "30x gtlcore:space_elevator_mechanical_casing", "9x kubejs:module_base", "1x kub  ejs:module_connector", "1x gtladditions:astral_convergence_nexus"
 ];
 
 var newAstralConvergenceNexusItems = _scalePackItemCounts(astralConvergenceNexusItems, 10);
@@ -3194,7 +3194,10 @@ _registerThread("dishanhai:thread_shard_4", 64);
 _registerThread("dishanhai:thread_shard_5", 256);
 _registerThread("dishanhai:thread_shard_6", 1024);
 _registerThread("dishanhai:thread_shard_7", 4096);
-_registerThread("dishanhai:universal_parallel_overdriver", 2147483647);
+// 注册值必须是真正的 Java long（Rhino 数字字面量超过 2^53 会被 double 精度截断），
+// 用 java.lang.Long.MAX_VALUE 才能对上 tooltip 宣称的"Long.MAX_VALUE 并行池"，
+// 之前写的裸字面量 2147483647 其实是 Integer.MAX_VALUE，配方吃到的倍率被钉死在 2^31。
+_registerThread("dishanhai:universal_parallel_overdriver", Java.loadClass("java.lang.Long").MAX_VALUE);
 
 // ========== 导出到 global ==========
 DShanhaiPackRegistry.create("superAE", superAEItems, "超级AE存储阵列", superAELore)
