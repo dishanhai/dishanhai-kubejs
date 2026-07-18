@@ -1,0 +1,41 @@
+{
+  "uuid": "10b424c3-a004-4126-839b-7a7cbb6fe54b",
+  "entries": [
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:i\",id:\"gtceu:zpm_electric_piston\"}}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:i\",id:\"gtceu:zpm_emitter\"}}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:i\",id:\"gtceu:zpm_solar_panel\"}}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:i\",id:\"gtceu:zpm_sensor\"}}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:i\",id:\"gtceu:zpm_robot_arm\"}}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:i\",id:\"gtceu:zpm_electric_motor\"}}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:i\",id:\"gtceu:zpm_field_generator\"}}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:i\",id:\"gtceu:zpm_conveyor_module\"}}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:i\",id:\"gtceu:zpm_electric_pump\"}}}",
+      "amount": "1"
+    }
+  ]
+}

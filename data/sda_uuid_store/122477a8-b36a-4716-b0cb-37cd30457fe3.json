@@ -1,0 +1,13 @@
+{
+  "uuid": "122477a8-b36a-4716-b0cb-37cd30457fe3",
+  "entries": [
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:i\",id:\"gtlcore:power_module\"}}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:i\",id:\"gtlcore:power_module_2\"}}}",
+      "amount": "1"
+    }
+  ]
+}

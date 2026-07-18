@@ -1,0 +1,33 @@
+{
+  "uuid": "1708a1c6-8ca1-4b5b-bbf0-5a3f5b49f671",
+  "entries": [
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:i\",id:\"gtceu:ruthenium_dust\"}}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:i\",id:\"gtceu:rhodium_dust\"}}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:i\",id:\"gtceu:platinum_dust\"}}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:i\",id:\"gtceu:osmium_dust\"}}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:i\",id:\"gtceu:palladium_dust\"}}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:i\",id:\"gtceu:platinum_group_sludge_dust\"}}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:i\",id:\"gtceu:iridium_dust\"}}}",
+      "amount": "1"
+    }
+  ]
+}

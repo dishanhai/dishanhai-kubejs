@@ -1,0 +1,45 @@
+{
+  "uuid": "42904dee-a4f4-43d9-a415-cc0c3dd3938f",
+  "entries": [
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:i\",id:\"gtceu:solar_panel\"}}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:i\",id:\"gtlcore:insanely_max_battery\"}}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:i\",id:\"gtlcore:really_max_battery\"}}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:i\",id:\"gtceu:lapotronic_energy_orb\"}}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:i\",id:\"gtlcore:mega_max_battery\"}}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:i\",id:\"gtceu:energy_cluster\"}}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:i\",id:\"gtceu:lapotronic_energy_orb_cluster\"}}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:i\",id:\"gtlcore:transcendent_max_battery\"}}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:i\",id:\"gtlcore:extremely_max_battery\"}}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:i\",id:\"gtceu:energy_module\"}}}",
+      "amount": "1"
+    }
+  ]
+}

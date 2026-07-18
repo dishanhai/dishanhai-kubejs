@@ -1,0 +1,41 @@
+{
+  "uuid": "ed907c3e-5423-461a-b569-599985ce73d9",
+  "entries": [
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:i\",id:\"gtceu:uv_field_generator\"}}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:i\",id:\"gtceu:uv_emitter\"}}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:i\",id:\"gtceu:uv_electric_pump\"}}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:i\",id:\"gtceu:uv_electric_motor\"}}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:i\",id:\"gtceu:uv_solar_panel\"}}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:i\",id:\"gtceu:uv_sensor\"}}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:i\",id:\"gtceu:uv_conveyor_module\"}}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:i\",id:\"gtceu:uv_robot_arm\"}}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:i\",id:\"gtceu:uv_electric_piston\"}}}",
+      "amount": "1"
+    }
+  ]
+}

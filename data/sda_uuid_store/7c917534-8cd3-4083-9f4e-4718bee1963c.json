@@ -1,0 +1,17 @@
+{
+  "uuid": "7c917534-8cd3-4083-9f4e-4718bee1963c",
+  "entries": [
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:i\",id:\"gtlcore:component_assembly_line_casing_uxv\"}}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:i\",id:\"gtlcore:component_assembly_line_casing_opv\"}}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:i\",id:\"gtlcore:component_assembly_line_casing_max\"}}}",
+      "amount": "1"
+    }
+  ]
+}

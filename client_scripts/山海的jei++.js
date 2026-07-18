@@ -368,10 +368,11 @@ JEIEvents.hideItems(function(e) {
 
 // ========== 超级磁盘阵列 JEI 注册 ==========
 JEIEvents.addItems(function(event) {
-    try {
+    //try {
         event.add(Item.of('gt_shanhai:super_disk_array', '{internalCurrentPower:20000.0d}'));
         event.add(Item.of('gt_shanhai:super_disk_array', '{internalCurrentPower:0.0d}'));
-    } catch(e) { console.error('[山海JEI] 超级磁盘阵列注册失败: ' + e); }
+        event.add('gt_shanhai:wallet');
+    //} catch(e) { console.error('[山海JEI] 超级磁盘阵列注册失败: ' + e); }
 
     try {
         var dl = Ingredient.of('#forge:dyes').getItemIds();
@@ -397,7 +398,6 @@ JEIEvents.addItems(function(event) {
 // 启用NBT识别，确保256k便携物品元件根据NBT独立显示
 JEIEvents.subtypes(function(event) {
     event.useNBT('ae2:portable_item_cell_256k');
-    event.useNBT('gt_shanhai:super_disk_array');
 })
 
 // ========== 256k物品包内容预览功能 ==========
@@ -1312,7 +1312,24 @@ function addLore(textList, lines) {
         'gt_shanhai:primordial_matter_caster',
         'gt_shanhai:primordial_divergence_generator',
         'gt_shanhai:primordial_chaotic_ephemeral_deconstruction_crystallization_furnace',
-        'gt_shanhai:primordial_biological_core'
+        'gt_shanhai:primordial_biological_core',
+        'gt_shanhai:primordial_critical_processing_module',
+        'gt_shanhai:primordial_multidimensional_implosion_core',
+        'gt_shanhai:primordial_supercritical_matter_generation_core',
+        'gt_shanhai:primordial_cosmic_reactor',
+        'gt_shanhai:primordial_molecular_rift_core',
+        'gt_shanhai:primordial_tianqiong_assembly_core',
+        'gt_shanhai:primordial_eternal_smelting_furnace',
+        'gt_shanhai:primordial_worldline_traversal_matrix',
+        'gt_shanhai:primordial_quantum_distortion_matrix',
+        'gt_shanhai:primordial_shaoguang_aggregation_core',
+        'gt_shanhai:primordial_weiyang_reconstruction_module',
+        'gt_shanhai:primordial_engraving_module',
+        'gt_shanhai:primordial_coin_forge',
+        'gt_shanhai:primordial_flame_cracking_kiln',
+        'gt_shanhai:primordial_abyssal_refinery',
+        'gt_shanhai:primordial_cosmic_origin_core',
+        
     ], primordialParallelTableLines, '§7§o按住 SHIFT 查看详细并行表');
 
 TooltipEffectAPI.register("gt_shanhai:taixu_smelting_furnace", ['炉心坍缩为针尖，每一次膨胀都释放一个被折叠的宇宙。',

@@ -8,7 +8,7 @@
 //iife就绪
 // 版本: 2.6 - API控制系统
 
-var Version = '2.7.9(日志系统版本2.7.3)'//主版本与日志系统版本
+var Version = '2.9.1(日志系统版本2.7.3)'//主版本与日志系统版本
 var API_Version = '2.9.1'//api版本
 // 挂载到全局对象，供其他脚本访问
 if (typeof global !== 'undefined') {
@@ -1725,6 +1725,7 @@ ServerEvents.tags('item', e => {
         e.remove('forge:dusts/salt','mekanism:salt');
         e.remove('forge:rods/naquadah_alloy','sgjourney:naquadah_rod');//硅岩棒
         e.remove('forge:ingots/naquadah','sgjourney:naquadah');//武器级硅岩
+        e.remove('forge:dusts/obsidian','mekanism:dust_obsidian')
         e.remove('forge:dyes/yellow','mekanism:dust_sulfur')
         e.add('minecraft:beacon_base_blocks','avaritia:infinity');
         debug('标签修改完成');
@@ -1756,8 +1757,14 @@ ServerEvents.tags('fluid', e => {
         ['forge:hydrogen', 'mekanism:flowing_hydrogen'],
         ['forge:chlorine', 'mekanism:flowing_chlorine'],
         ['forge:lithium','mekanism:flowing_lithium'],
-        ['forge:lithium','mekanism:lithium']
-    ];
+        ['forge:lithium','mekanism:lithium'],
+        ['forge:sulfuric_acid', 'mekanism:flowing_sulfuric_acid'],
+        ['forge:steam', 'mekanism:flowing_steam']
+        //['forge:hydrofluoric_acid', 'mekanism:sulfur_trioxide']
+        //['forge:hydrofluoric_acid', 'mekanism:flowing_sulfur_trioxide']
+        //['forge:hydrofluoric_acid', 'mekanism:flowing_hydrofluoric_acid']
+    ]
+    
     
     removals.forEach(([tag, fluid]) => {
         try {

@@ -1,0 +1,13 @@
+{
+  "uuid": "ceb57480-e8bf-4d61-90a8-8bccad7d3be3",
+  "entries": [
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:i\",id:\"gtlcore:power_module_6\"}}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:i\",id:\"gtlcore:power_module_7\"}}}",
+      "amount": "1"
+    }
+  ]
+}

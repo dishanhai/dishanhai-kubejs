@@ -2,11 +2,11 @@
   "uuid": "1e8b046c-7cf0-49c3-b9d3-5e9f88e2fa7f",
   "entries": [
     {
-      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:i\",id:\"fragile_tool:fragile_mallet\"}}}",
+      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:i\",id:\"fragile_tool:fragile_hammer\"}}}",
       "amount": "1"
     },
     {
-      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:i\",id:\"fragile_tool:fragile_crowbar\"}}}",
+      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:i\",id:\"fragile_tool:fragile_knife\"}}}",
       "amount": "1"
     },
     {
@@ -14,19 +14,7 @@
       "amount": "1"
     },
     {
-      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:i\",id:\"fragile_tool:fragile_mortar\"}}}",
-      "amount": "1"
-    },
-    {
-      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:i\",id:\"fragile_tool:fragile_screwdriver\"}}}",
-      "amount": "1"
-    },
-    {
       "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:i\",id:\"fragile_tool:fragile_file\"}}}",
-      "amount": "1"
-    },
-    {
-      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:i\",id:\"fragile_tool:fragile_knife\"}}}",
       "amount": "1"
     },
     {
@@ -38,7 +26,19 @@
       "amount": "1"
     },
     {
-      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:i\",id:\"fragile_tool:fragile_hammer\"}}}",
+      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:i\",id:\"fragile_tool:fragile_crowbar\"}}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:i\",id:\"fragile_tool:fragile_mallet\"}}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:i\",id:\"fragile_tool:fragile_mortar\"}}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"expatternprovider:infinity_cell\",tag:{record:{\"#c\":\"ae2:i\",id:\"fragile_tool:fragile_screwdriver\"}}}",
       "amount": "1"
     }
   ]

@@ -2381,6 +2381,22 @@ DShanhaiItemTooltipAPI.register('dishanhai:neutronium_coin', [
     '{bodySilver}用于终极交易——据说连重力都能买通{/}',
 ])
 
+e.create('dishanhai:degenerate_rhenium_coin')
+  .displayName('简并态铼GT币')
+  .texture('dishanhai_item:item/degenerate_rhenium_coin')
+DShanhaiItemTooltipAPI.register('dishanhai:degenerate_rhenium_coin', [
+    '{golden}简并态铼GT币{/}',
+    '{bodySilver}以简并态铼压铸而成，币面泛着致密金属特有的冷光，UHV级工程结算通货{/}',
+])
+
+e.create('dishanhai:vibranium_coin')
+  .displayName('振金GT币')
+  .texture('dishanhai_item:item/vibranium_coin')
+DShanhaiItemTooltipAPI.register('dishanhai:vibranium_coin', [
+    '{golden}振金GT币{/}',
+    '{bodySilver}以振金铸成，币体持续吸收又释放着幽紫色的动能余波，UEV级战略物资交易凭证{/}',
+])
+
 e.create('dishanhai:magmatter_coin')
   .displayName('磁物质GT币')
   .texture('dishanhai_item:item/magmatter_coin')
