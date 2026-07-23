@@ -1,0 +1,101 @@
+{
+  "uuid": "55f4fc52-7b4f-4b82-adb8-8e23f994d19e",
+  "entries": [
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:brewery 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (3 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:brewery\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"minecraft:red_mushroom\"},{\"#\":20L,\"#c\":\"ae2:f\",id:\"minecraft:water\"}],out:[{\"#\":20L,\"#c\":\"ae2:f\",id:\"gtceu:biomass\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:brewery 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (3 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:brewery\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"minecraft:brown_mushroom\"},{\"#\":20L,\"#c\":\"ae2:f\",id:\"minecraft:water\"}],out:[{\"#\":20L,\"#c\":\"ae2:f\",id:\"gtceu:biomass\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:brewery 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (3 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:brewery\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"minecraft:cactus\"},{\"#\":20L,\"#c\":\"ae2:f\",id:\"minecraft:water\"}],out:[{\"#\":20L,\"#c\":\"ae2:f\",id:\"gtceu:biomass\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:brewery 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (4 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:brewery\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:soapstone_dust\"},{\"#\":1000L,\"#c\":\"ae2:f\",id:\"gtceu:creosote\"}],out:[{\"#\":1000L,\"#c\":\"ae2:f\",id:\"gtceu:lubricant\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:brewery 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (4 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:brewery\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:tiny_uranium_235_dust\"},{\"#\":1000L,\"#c\":\"ae2:f\",id:\"gtceu:bacterial_sludge\"}],out:[{\"#\":1000L,\"#c\":\"ae2:f\",id:\"gtceu:enriched_bacterial_sludge\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:brewery 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (4 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:brewery\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:uranium_dust\"},{\"#\":1000L,\"#c\":\"ae2:f\",id:\"gtceu:bacterial_sludge\"}],out:[{\"#\":1000L,\"#c\":\"ae2:f\",id:\"gtceu:enriched_bacterial_sludge\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:brewery 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (3 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:brewery\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"minecraft:beetroot\"},{\"#\":20L,\"#c\":\"ae2:f\",id:\"minecraft:water\"}],out:[{\"#\":20L,\"#c\":\"ae2:f\",id:\"gtceu:biomass\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:brewery 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (3 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:brewery\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"minecraft:potato\"},{\"#\":20L,\"#c\":\"ae2:f\",id:\"minecraft:water\"}],out:[{\"#\":20L,\"#c\":\"ae2:f\",id:\"gtceu:biomass\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:brewery 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (4 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:brewery\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:talc_dust\"},{\"#\":1000L,\"#c\":\"ae2:f\",id:\"gtceu:oil\"}],out:[{\"#\":1000L,\"#c\":\"ae2:f\",id:\"gtceu:lubricant\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:brewery 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (4 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:brewery\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"minecraft:redstone\"},{\"#\":1000L,\"#c\":\"ae2:f\",id:\"gtceu:creosote\"}],out:[{\"#\":1000L,\"#c\":\"ae2:f\",id:\"gtceu:lubricant\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:brewery 电路: 0\"}\u0027,\u0027{\"text\":\"电压: HV (480 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:brewery\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:bio_chaff\"},{\"#\":1000L,\"#c\":\"ae2:f\",id:\"gtceu:distilled_water\"}],out:[{\"#\":1000L,\"#c\":\"ae2:f\",id:\"gtceu:bacteria\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:brewery 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (4 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:brewery\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:soapstone_dust\"},{\"#\":1000L,\"#c\":\"ae2:f\",id:\"gtceu:seed_oil\"}],out:[{\"#\":1000L,\"#c\":\"ae2:f\",id:\"gtceu:lubricant\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:brewery 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (4 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:brewery\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:talc_dust\"},{\"#\":1000L,\"#c\":\"ae2:f\",id:\"gtceu:creosote\"}],out:[{\"#\":1000L,\"#c\":\"ae2:f\",id:\"gtceu:lubricant\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:brewery 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ZPM (122880 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:brewery\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"gtceu\",marked:1b,n:\"neutronium_dust\",targetItem:{Count:1b,id:\"gtceu:neutronium_dust\"}}},{\"#\":1000L,\"#c\":\"ae2:f\",id:\"gtceu:grade_7_purified_water\"}],out:[{\"#\":1000L,\"#c\":\"ae2:f\",id:\"gtceu:grade_8_purified_water\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:brewery 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (4 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:brewery\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"minecraft:redstone\"},{\"#\":1000L,\"#c\":\"ae2:f\",id:\"gtceu:seed_oil\"}],out:[{\"#\":1000L,\"#c\":\"ae2:f\",id:\"gtceu:lubricant\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:brewery 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (3 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:brewery\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"minecraft:oak_sapling\"},{\"#\":100L,\"#c\":\"ae2:f\",id:\"minecraft:water\"}],out:[{\"#\":100L,\"#c\":\"ae2:f\",id:\"gtceu:biomass\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:brewery 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (4 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:brewery\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:tiny_naquadria_dust\"},{\"#\":1000L,\"#c\":\"ae2:f\",id:\"gtceu:bacterial_sludge\"}],out:[{\"#\":2000L,\"#c\":\"ae2:f\",id:\"gtceu:enriched_bacterial_sludge\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:brewery 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (4 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:brewery\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"minecraft:redstone\"},{\"#\":1000L,\"#c\":\"ae2:f\",id:\"gtceu:oil\"}],out:[{\"#\":1000L,\"#c\":\"ae2:f\",id:\"gtceu:lubricant\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:brewery 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (4 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:brewery\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:bio_chaff\"},{\"#\":750L,\"#c\":\"ae2:f\",id:\"minecraft:water\"}],out:[{\"#\":750L,\"#c\":\"ae2:f\",id:\"gtceu:biomass\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:brewery 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (4 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:brewery\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:soapstone_dust\"},{\"#\":1000L,\"#c\":\"ae2:f\",id:\"gtceu:oil\"}],out:[{\"#\":1000L,\"#c\":\"ae2:f\",id:\"gtceu:lubricant\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:brewery 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (3 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:brewery\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"minecraft:carrot\"},{\"#\":20L,\"#c\":\"ae2:f\",id:\"minecraft:water\"}],out:[{\"#\":20L,\"#c\":\"ae2:f\",id:\"gtceu:biomass\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:brewery 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (4 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:brewery\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:talc_dust\"},{\"#\":1000L,\"#c\":\"ae2:f\",id:\"gtceu:seed_oil\"}],out:[{\"#\":1000L,\"#c\":\"ae2:f\",id:\"gtceu:lubricant\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:brewery 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (3 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:brewery\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"minecraft:sugar_cane\"},{\"#\":20L,\"#c\":\"ae2:f\",id:\"minecraft:water\"}],out:[{\"#\":20L,\"#c\":\"ae2:f\",id:\"gtceu:biomass\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:brewery 电路: 0\"}\u0027,\u0027{\"text\":\"电压: HV (480 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:brewery\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"kubejs:dragon_cells\"},{\"#\":1000L,\"#c\":\"ae2:f\",id:\"gtceu:sterilized_growth_medium\"}],out:[{\"#\":1000L,\"#c\":\"ae2:f\",id:\"gtceu:dragon_blood\"}]}}",
+      "amount": "1"
+    }
+  ]
+}

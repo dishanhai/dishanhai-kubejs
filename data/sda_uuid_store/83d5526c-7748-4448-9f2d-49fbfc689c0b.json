@@ -1,0 +1,1189 @@
+{
+  "uuid": "83d5526c-7748-4448-9f2d-49fbfc689c0b",
+  "entries": [
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:tennessine_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:tennessine\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: LV (30 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:titanium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:titanium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:enderium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:enderium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:duranium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:duranium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MAX (2147483647 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:magnetohydrodynamicallyconstrainedstarmatter_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:magnetohydrodynamicallyconstrainedstarmatter\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:astatine_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:astatine\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:potassium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:potassium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:copernicium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:copernicium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:polytetrafluoroethylene_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:polytetrafluoroethylene\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: LV (30 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:damascus_steel_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:damascus_steel\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:tartarite_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:tartarite\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:dubnium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:dubnium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:actinium_superhydride_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:actinium_superhydride_plasma\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:samarium_chloride_with_impurities_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:samarium_chloride_with_impurities\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (8 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"minecraft:sand\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:glass\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:einsteinium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:einsteinium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:mar_m_200_steel_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:mar_m_200_steel\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:platinum_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:platinum\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtladditions:creon_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtladditions:creon\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:neptunium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:neptunium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:polyetheretherketone_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:polyetheretherketone\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:oganesson_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:oganesson\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:gallium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:gallium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:indium_gallium_phosphide_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:indium_gallium_phosphide\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:electrum_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:electrum\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:eternity_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:eternity\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: LV (30 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:bismuth_bronze_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:bismuth_bronze\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:praseodymium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:praseodymium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:epoxy_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:epoxy\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:uranium_235_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:uranium_235\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:erbium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:erbium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:trinium_titanium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:trinium_titanium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: LV (30 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:aluminium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:aluminium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:hssg_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:hssg\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:enriched_naquadah_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:enriched_naquadah\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:dysprosium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:dysprosium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:naquadah_alloy_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:naquadah_alloy\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:ice_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:ice\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: OpV (536870912 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:spacetime_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:spacetime\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:hastelloy_n_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:hastelloy_n\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:invar_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:invar\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: LV (30 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:manganese_phosphide_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:manganese_phosphide\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:potin_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:potin\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:vibramantium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:vibramantium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:quantanium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:quantanium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:zirconium_carbide_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:zirconium_carbide\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:nickel_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:nickel\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:protactinium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:protactinium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:wrought_iron_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:wrought_iron\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:thorium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:thorium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:lumiium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:lumiium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:terbium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:terbium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:echo_shard_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:echo_shard\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:black_titanium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:black_titanium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:incoloy_ma_956_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:incoloy_ma_956\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:ytterbium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:ytterbium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: LV (30 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:yttrium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:yttrium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:bronze_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:bronze\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:abyssalalloy_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:abyssalalloy\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:adamantine_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:adamantine\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:zeron_100_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:zeron_100\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:black_dwarf_mtter_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:black_dwarf_mtter\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: LV (30 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:titanium_50_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:titanium_50\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:echoite_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:echoite\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:ruthenium_trinium_americium_neutronate_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:ruthenium_trinium_americium_neutronate\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:yttrium_barium_cuprate_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:yttrium_barium_cuprate\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:brass_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:brass\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:infuscolium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:infuscolium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:lawrencium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:lawrencium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:actinium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:actinium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:europium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:europium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:uranium_rhodium_dinaquadide_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:uranium_rhodium_dinaquadide\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:curium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:curium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:silver_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:silver\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: LV (30 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:stainless_steel_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:stainless_steel\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:rhenium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:rhenium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:hastelloyk_243_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:hastelloyk_243\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:technetium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:technetium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MAX (2147483647 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:magmatter_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:magmatter\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:tungsten_steel_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:tungsten_steel\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:berkelium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:berkelium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:eternal_blue_dream_vein_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:eternal_blue_dream_vein\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:annealed_copper_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:annealed_copper\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:mithril_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:mithril\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:concrete_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:concrete\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:rubidium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:rubidium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:artherium_sn_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:artherium_sn\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:nichrome_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:nichrome\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:hastelloy_n_75_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:hastelloy_n_75\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:tin_alloy_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:tin_alloy\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:tantalloy_61_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:tantalloy_61\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:cosmicneutronium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:cosmicneutronium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:uruium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:uruium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:trinium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:trinium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:silicon_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:silicon\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: LV (30 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:aluminium_bronze_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:aluminium_bronze\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:soldering_alloy_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:soldering_alloy\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:nobelium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:nobelium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:adamantium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:adamantium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:orichalcum_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:orichalcum\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:highurabilityompoundteel_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:highurabilityompoundteel\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:maraging_steel_300_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:maraging_steel_300\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:inconel_625_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:inconel_625\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:moscovium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:moscovium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:reactor_steel_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:reactor_steel\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: LV (30 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:blue_steel_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:blue_steel\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:vanadium_gallium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:vanadium_gallium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:tairitsu_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:tairitsu\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:polybenzimidazole_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:polybenzimidazole\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: LV (30 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:palladium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:palladium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:polyphenylene_sulfide_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:polyphenylene_sulfide\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:hastelloy_c_276_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:hastelloy_c_276\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:celestial_secret_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:celestial_secret\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:samarium_iron_arsenic_oxide_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:samarium_iron_arsenic_oxide\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:titansteel_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:titansteel\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:hypogen_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:hypogen\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:osmiridium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:osmiridium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:magnalium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:magnalium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:uranium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:uranium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:draconium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:draconium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: LV (30 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:red_steel_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:red_steel\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:vibranium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:vibranium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:roentgenium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:roentgenium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: LV (30 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:eglin_steel_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:eglin_steel\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:inconel_792_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:inconel_792\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:celestialtungsten_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:celestialtungsten\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MAX (2147483647 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:magnetohydrodynamicallyconstrainedstarmatter_block\"}],out:[{\"#\":1296L,\"#c\":\"ae2:f\",id:\"gtceu:magnetohydrodynamicallyconstrainedstarmatter\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:calcium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:calcium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: LV (30 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:neodymium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:neodymium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:americium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:americium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:starmetal_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:starmetal\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:woods_glass_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:woods_glass\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: LV (30 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:steel_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:steel\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:superheavy_h_alloy_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:superheavy_h_alloy\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:dalisenite_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:dalisenite\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:pikyonium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:pikyonium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:iron_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:iron\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:black_bronze_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:black_bronze\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: LV (30 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:vanadium_steel_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:vanadium_steel\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:scandium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:scandium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtladditions:proto_halkonite_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtladditions:proto_halkonite\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:ruridit_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtladditions:liquid_ruridit\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:vanadium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:vanadium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:meitnerium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:meitnerium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: LV (30 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:black_steel_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:black_steel\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:molybdenum_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:molybdenum\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:styrene_butadiene_rubber_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:styrene_butadiene_rubber\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:force_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:force\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:silicone_rubber_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:silicone_rubber\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:plutonium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:plutonium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:darmstadtium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:darmstadtium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:antimony_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:antimony\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:chaos_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:chaos\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:battery_alloy_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:battery_alloy\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:tritanium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:tritanium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:samarium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:samarium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:bohrium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:bohrium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:nickel_zinc_ferrite_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:nickel_zinc_ferrite\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:astral_silver_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:astral_silver\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:infinity_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:infinity\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:borosilicate_glass_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:borosilicate_glass\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:lafium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:lafium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:tin_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:tin\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:watertight_steel_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:watertight_steel\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:gold_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:gold\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:hsse_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:hsse\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:carbon_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:carbon\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:phosphorus_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:phosphorus\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: LV (30 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:chromium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:chromium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:polyvinyl_chloride_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:polyvinyl_chloride\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:plutonium_241_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:plutonium_241\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:magnesium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:magnesium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:stellite_100_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:stellite_100\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:naquadria_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:naquadria\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:arsenic_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:arsenic\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:indium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:indium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:fall_king_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:fall_king\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:fluorite_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:fluorite\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:cobalt_brass_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:cobalt_brass\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:enderite_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:enderite\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:tungsten_carbide_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:tungsten_carbide\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:quantum_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:quantum\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:titan_precision_steel_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:titan_precision_steel\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:promethium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:promethium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:germaniumtungstennitride_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:germaniumtungstennitride\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:polyvinyl_butyral_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:polyvinyl_butyral\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:mendelevium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:mendelevium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:ender_eye_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:ender_eye\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:magnesium_diboride_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:magnesium_diboride\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:tanmolyium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:tanmolyium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"minecraft:blaze_powder\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:blaze\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:metastable_oganesson_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:metastable_oganesson\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:hafnium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:hafnium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:rhodium_plated_palladium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:rhodium_plated_palladium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:astraltitanium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:astraltitanium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"minecraft:glowstone_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:glowstone\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:tantalum_carbide_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:tantalum_carbide\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:lead_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:lead\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:sodium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:sodium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: LV (30 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:kanthal_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:kanthal\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:bismuth_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:bismuth\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:glass_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:glass\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:californium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:californium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:rtm_alloy_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:rtm_alloy\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:osmium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:osmium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:fullerene_polymer_matrix_pulp_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:fullerene_polymer_matrix_pulp\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:zinc_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:zinc\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:grisium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:grisium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:draconiumawakened_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:draconiumawakened\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:hastelloy_x_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:hastelloy_x\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:hastelloyx_78_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:hastelloyx_78\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:radium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:radium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:niobium_titanium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:niobium_titanium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:ender_pearl_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:ender_pearl\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:cupronickel_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:cupronickel\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:ruthenium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:ruthenium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:lanthanum_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:lanthanum\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:hikarium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:hikarium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:kevlar_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:kevlar\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:fermium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:fermium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:cobalt_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:cobalt\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:quantumchromodynamically_confined_matter_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:quantumchromodynamically_confined_matter\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:hsss_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:hsss\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:carbon_nanotubes_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:carbon_nanotubes\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:naquadriatictaranium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:naquadriatictaranium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:livermorium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:livermorium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:superheavy_l_alloy_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:superheavy_l_alloy\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:crystalmatrix_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:crystalmatrix\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: LV (30 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:hsla_steel_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:hsla_steel\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:rhodium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:rhodium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:gadolinium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:gadolinium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: LV (30 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:gallium_arsenide_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:gallium_arsenide\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:molybdenum_disilicide_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:molybdenum_disilicide\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:titanium_carbide_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:titanium_carbide\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:red_alloy_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:red_alloy\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:mercury_barium_calcium_cuprate_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:mercury_barium_calcium_cuprate\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:lutetium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:lutetium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:uranium_triplatinum_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:uranium_triplatinum\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:instability_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:instability\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:periodicium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:periodicium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:flerovium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:flerovium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:transcendentmetal_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:transcendentmetal\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:transition_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:transition\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:germanium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:germanium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: LV (30 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:rose_gold_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:rose_gold\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:cerium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:cerium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:fluxed_electrum_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:fluxed_electrum\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:blue_alloy_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:blue_alloy\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:cosmic_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:cosmic\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:tungsten_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:tungsten\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:taranium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:taranium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:sodium_fluorosilicate_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:sodium_fluorosilicate\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:seaborgium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:seaborgium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:neutronium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:neutronium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"minecraft:redstone\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:redstone\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:niobium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:niobium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:legendarium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:legendarium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:polyethylene_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:polyethylene\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:white_dwarf_mtter_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:white_dwarf_mtter\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:enriched_naquadah_trinium_europium_duranide_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:enriched_naquadah_trinium_europium_duranide\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:reinforced_epoxy_resin_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:reinforced_epoxy_resin\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:silicon_carbide_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:silicon_carbide\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:heavy_quark_degenerate_matter_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:heavy_quark_degenerate_matter\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:radox_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:radox\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:naquadah_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:naquadah\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:arceusalloy2b_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:arceusalloy2b\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:zylon_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:zylon\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:titanium_tungsten_carbide_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:titanium_tungsten_carbide\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: LV (30 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:energetic_alloy_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:energetic_alloy\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:indium_tin_barium_titanium_cuprate_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:indium_tin_barium_titanium_cuprate\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:holmium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:holmium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:indalloy_140_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:indalloy_140\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:stellite_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:stellite\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:sunnarium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:sunnarium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:manganese_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:manganese\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:beryllium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:beryllium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:rubber_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:rubber\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:copper_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:copper\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:tantalum_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:tantalum\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:ultimet_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:ultimet\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:vibrant_alloy_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:vibrant_alloy\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:iridium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:iridium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:hassium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:hassium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:thulium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:thulium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:polycaprolactam_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:polycaprolactam\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:rareearth_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:rareearth\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:shirabon_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:shirabon\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:lithium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:lithium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MAX (2013265920 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtladditions:mellion_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtladditions:mellion\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:polonium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:polonium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:nihonium_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:nihonium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:niobium_nitride_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:niobium_nitride\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:wax_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:wax\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:cinobite_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:cinobite\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: LV (30 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:sterling_silver_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:sterling_silver\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:molecular_deconstruction 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:molecular_deconstruction\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:tear_dust\"}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:tear\"}]}}",
+      "amount": "1"
+    }
+  ]
+}

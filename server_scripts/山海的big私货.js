@@ -8,7 +8,7 @@
 //iife就绪
 // 版本: 2.6 - API控制系统
 
-var Version = '2.9.1(日志系统版本2.7.3)'//主版本与日志系统版本
+var Version = '2.9.1.2(日志系统版本2.7.3)'//主版本与日志系统版本
 var API_Version = '2.9.1'//api版本
 // 挂载到全局对象，供其他脚本访问
 if (typeof global !== 'undefined') {
@@ -1738,7 +1738,6 @@ ServerEvents.tags('item', e => {
 
 // ========== 流体标签修改 ==========
 ServerEvents.tags('fluid', e => {
-    var timer_fluid_tags = new Timer('流体标签修改');
     info('💧 开始修改流体标签...');
     
     const removals = [
@@ -1759,10 +1758,10 @@ ServerEvents.tags('fluid', e => {
         ['forge:lithium','mekanism:flowing_lithium'],
         ['forge:lithium','mekanism:lithium'],
         ['forge:sulfuric_acid', 'mekanism:flowing_sulfuric_acid'],
-        ['forge:steam', 'mekanism:flowing_steam']
-        //['forge:hydrofluoric_acid', 'mekanism:sulfur_trioxide']
-        //['forge:hydrofluoric_acid', 'mekanism:flowing_sulfur_trioxide']
-        //['forge:hydrofluoric_acid', 'mekanism:flowing_hydrofluoric_acid']
+        ['forge:steam', 'mekanism:flowing_steam'],
+        ['forge:hydrofluoric_acid', 'mekanism:flowing_hydrofluoric_acid'],
+        ['forge:sulfur_dioxide', 'mekanism:flowing_sulfur_dioxide']
+        
     ]
     
     
@@ -1775,7 +1774,6 @@ ServerEvents.tags('fluid', e => {
         }
     });
     
-    timer_fluid_tags.end();
 });
 
 // ========== 批量物品标签删除 ========== tag删除 彻底移除隐患

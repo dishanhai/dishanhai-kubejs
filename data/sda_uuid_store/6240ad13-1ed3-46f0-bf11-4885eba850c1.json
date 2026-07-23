@@ -1,0 +1,613 @@
+{
+  "uuid": "6240ad13-1ed3-46f0-bf11-4885eba850c1",
+  "entries": [
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: LV (20 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"dishanhai\",marked:1b,n:\"wzcz2\",targetItem:{Count:1b,id:\"dishanhai:wzcz2\"}}},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:wetware_processor_mainframe\"},{\"#\":72L,\"#c\":\"ae2:f\",id:\"minecraft:water\"}],out:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"kubejs:uhv_universal_circuit\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: IV (7680 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:hssg_frame\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:quantum_processor_computer\"},{\"#\":6L,\"#c\":\"ae2:i\",id:\"gtceu:advanced_smd_inductor\"},{\"#\":12L,\"#c\":\"ae2:i\",id:\"gtceu:advanced_smd_capacitor\"},{\"#\":24L,\"#c\":\"ae2:i\",id:\"gtceu:ram_chip\"},{\"#\":48L,\"#c\":\"ae2:i\",id:\"gtceu:annealed_copper_single_wire\"},{\"#\":288L,\"#c\":\"ae2:f\",id:\"gtceu:soldering_alloy\"}],out:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:quantum_processor_mainframe\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: EV (1024 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:fiber_reinforced_printed_circuit_board\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:mpic_chip\"},{\"#\":24L,\"#c\":\"ae2:i\",id:\"gtceu:engraved_lapotron_crystal_chip\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:nano_cpu_chip\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"gtceu:fine_platinum_wire\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:platinum_plate\"},{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:soldering_alloy\"}],out:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:lapotronic_energy_orb\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: EV (1024 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:fiber_reinforced_printed_circuit_board\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:mpic_chip\"},{\"#\":24L,\"#c\":\"ae2:i\",id:\"gtceu:engraved_lapotron_crystal_chip\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:nano_cpu_chip\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"gtceu:fine_platinum_wire\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:platinum_plate\"},{\"#\":288L,\"#c\":\"ae2:f\",id:\"gtceu:tin\"}],out:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:lapotronic_energy_orb\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: HV (480 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:phenolic_printed_circuit_board\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"kubejs:ultimate_control_circuit\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:red_alloy_foil\"},{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:tin\"}],out:[{\"#\":4L,\"#c\":\"ae2:i\",id:\"kubejs:ultima_control_circuit\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:diode\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:capacitor\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:transistor\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"kubejs:imprinted_resonatic_circuit_board\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:magneto_resonatic_gem\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"kubejs:circuit_resonatic_ulv\"},{\"#\":72L,\"#c\":\"ae2:f\",id:\"gtceu:soldering_alloy\"}],out:[{\"#\":4L,\"#c\":\"ae2:i\",id:\"kubejs:circuit_resonatic_lv\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: EV (600 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:epoxy_printed_circuit_board\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:nano_cpu_chip\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:smd_resistor\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:smd_capacitor\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:smd_transistor\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:fine_electrum_wire\"},{\"#\":72L,\"#c\":\"ae2:f\",id:\"gtceu:soldering_alloy\"}],out:[{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:nano_processor\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (60 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:plastic_printed_circuit_board\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:cpu_chip\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:resistor\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:capacitor\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:transistor\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:fine_copper_wire\"},{\"#\":72L,\"#c\":\"ae2:f\",id:\"gtceu:soldering_alloy\"}],out:[{\"#\":3L,\"#c\":\"ae2:i\",id:\"gtceu:microchip_processor\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: IV (2400 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:fiber_reinforced_printed_circuit_board\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:qbit_cpu_chip\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:nano_cpu_chip\"},{\"#\":3L,\"#c\":\"ae2:i\",id:\"gtceu:advanced_smd_capacitor\"},{\"#\":3L,\"#c\":\"ae2:i\",id:\"gtceu:advanced_smd_transistor\"},{\"#\":12L,\"#c\":\"ae2:i\",id:\"gtceu:fine_platinum_wire\"},{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:tin\"}],out:[{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:quantum_processor\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ZPM (122880 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:advanced_smd_diode\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:advanced_smd_capacitor\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:advanced_smd_transistor\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"kubejs:imprinted_resonatic_circuit_board\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:flawless_magneto_resonatic_gem\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"kubejs:circuit_resonatic_iv\"},{\"#\":72L,\"#c\":\"ae2:f\",id:\"gtceu:soldering_alloy\"}],out:[{\"#\":4L,\"#c\":\"ae2:i\",id:\"kubejs:circuit_resonatic_luv\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: LV (20 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"dishanhai\",marked:1b,n:\"wzcz2\",targetItem:{Count:1b,id:\"dishanhai:wzcz2\"}}},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:crystal_processor_mainframe\"},{\"#\":72L,\"#c\":\"ae2:f\",id:\"minecraft:water\"}],out:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"kubejs:uv_universal_circuit\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: IV (2400 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:fiber_reinforced_printed_circuit_board\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:qbit_cpu_chip\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:nano_cpu_chip\"},{\"#\":12L,\"#c\":\"ae2:i\",id:\"gtceu:smd_capacitor\"},{\"#\":12L,\"#c\":\"ae2:i\",id:\"gtceu:smd_transistor\"},{\"#\":12L,\"#c\":\"ae2:i\",id:\"gtceu:fine_platinum_wire\"},{\"#\":72L,\"#c\":\"ae2:f\",id:\"gtceu:soldering_alloy\"}],out:[{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:quantum_processor\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ZPM (38400 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:wetware_printed_circuit_board\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:quantum_processor_mainframe\"},{\"#\":32L,\"#c\":\"ae2:i\",id:\"gtceu:ram_chip\"},{\"#\":64L,\"#c\":\"ae2:i\",id:\"gtceu:nor_memory_chip\"},{\"#\":64L,\"#c\":\"ae2:i\",id:\"gtceu:nand_memory_chip\"},{\"#\":32L,\"#c\":\"ae2:i\",id:\"gtceu:fine_yttrium_barium_cuprate_wire\"},{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:soldering_alloy\"}],out:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:data_module\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: LuV (9600 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:multilayer_fiber_reinforced_printed_circuit_board\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:crystal_processor\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:advanced_smd_inductor\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:advanced_smd_capacitor\"},{\"#\":24L,\"#c\":\"ae2:i\",id:\"gtceu:ram_chip\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"gtceu:fine_niobium_titanium_wire\"},{\"#\":288L,\"#c\":\"ae2:f\",id:\"gtceu:tin\"}],out:[{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:crystal_processor_assembly\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ZPM (38400 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:fiber_reinforced_printed_circuit_board\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:advanced_soc\"},{\"#\":12L,\"#c\":\"ae2:i\",id:\"gtceu:fine_platinum_wire\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:niobium_titanium_bolt\"},{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:tin\"}],out:[{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:quantum_processor\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: HV (480 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:diode\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:capacitor\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:transistor\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"kubejs:imprinted_resonatic_circuit_board\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:magneto_resonatic_gem\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"kubejs:circuit_resonatic_lv\"},{\"#\":72L,\"#c\":\"ae2:f\",id:\"gtceu:soldering_alloy\"}],out:[{\"#\":4L,\"#c\":\"ae2:i\",id:\"kubejs:circuit_resonatic_mv\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: UXV (125829120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"kubejs:cosmic_printed_circuit_board\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtladditions:spacetime_soc\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:fine_hastelloyx_78_wire\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:crystalmatrix_plate\"},{\"#\":288L,\"#c\":\"ae2:f\",id:\"gtceu:super_mutated_living_solder\"}],out:[{\"#\":4L,\"#c\":\"ae2:i\",id:\"kubejs:cosmic_processor\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ZPM (38400 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:wetware_printed_circuit_board\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:quantum_processor_mainframe\"},{\"#\":32L,\"#c\":\"ae2:i\",id:\"gtceu:ram_chip\"},{\"#\":64L,\"#c\":\"ae2:i\",id:\"gtceu:nor_memory_chip\"},{\"#\":64L,\"#c\":\"ae2:i\",id:\"gtceu:nand_memory_chip\"},{\"#\":32L,\"#c\":\"ae2:i\",id:\"gtceu:fine_yttrium_barium_cuprate_wire\"},{\"#\":288L,\"#c\":\"ae2:f\",id:\"gtceu:tin\"}],out:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:data_module\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: EV (1920 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:aluminium_frame\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:nano_processor_computer\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"gtceu:smd_inductor\"},{\"#\":32L,\"#c\":\"ae2:i\",id:\"gtceu:smd_capacitor\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"gtceu:ram_chip\"},{\"#\":32L,\"#c\":\"ae2:i\",id:\"gtceu:annealed_copper_single_wire\"},{\"#\":288L,\"#c\":\"ae2:f\",id:\"gtceu:soldering_alloy\"}],out:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:nano_processor_mainframe\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"gtceu\",marked:1b,n:\"vacuum_tube\",targetItem:{Count:1b,id:\"gtceu:vacuum_tube\"}}},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:steel_plate\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"minecraft:redstone\"},{\"#\":20L,\"#c\":\"ae2:f\",id:\"gtceu:glue\"}],out:[{\"#\":2L,\"#c\":\"ae2:i\",id:\"kubejs:basic_control_circuit\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"gtceu\",marked:1b,n:\"advanced_integrated_circuit\",targetItem:{Count:1b,id:\"gtceu:advanced_integrated_circuit\"}}},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:resin_printed_circuit_board\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"kubejs:elite_control_circuit\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:steel_plate\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:small_obsidian_dust\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:red_alloy_screw\"},{\"#\":20L,\"#c\":\"ae2:f\",id:\"gtceu:glue\"}],out:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"kubejs:ultimate_control_circuit\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (60 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:plastic_printed_circuit_board\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:cpu_chip\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:resistor\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:capacitor\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:transistor\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:fine_copper_wire\"},{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:tin\"}],out:[{\"#\":3L,\"#c\":\"ae2:i\",id:\"gtceu:microchip_processor\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (60 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:plastic_printed_circuit_board\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:cpu_chip\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:resistor\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:capacitor\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:transistor\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:fine_red_alloy_wire\"},{\"#\":72L,\"#c\":\"ae2:f\",id:\"gtceu:soldering_alloy\"}],out:[{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:micro_processor\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: LuV (9600 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:multilayer_fiber_reinforced_printed_circuit_board\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:crystal_processor\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:advanced_smd_inductor\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:advanced_smd_capacitor\"},{\"#\":24L,\"#c\":\"ae2:i\",id:\"gtceu:ram_chip\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"gtceu:fine_niobium_titanium_wire\"},{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:soldering_alloy\"}],out:[{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:crystal_processor_assembly\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: EV (600 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:plastic_printed_circuit_board\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:soc\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:fine_copper_wire\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:tin_bolt\"},{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:tin\"}],out:[{\"#\":6L,\"#c\":\"ae2:i\",id:\"gtceu:microchip_processor\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: IV (7680 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:hssg_frame\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:quantum_processor_computer\"},{\"#\":24L,\"#c\":\"ae2:i\",id:\"gtceu:smd_inductor\"},{\"#\":48L,\"#c\":\"ae2:i\",id:\"gtceu:smd_capacitor\"},{\"#\":24L,\"#c\":\"ae2:i\",id:\"gtceu:ram_chip\"},{\"#\":48L,\"#c\":\"ae2:i\",id:\"gtceu:annealed_copper_single_wire\"},{\"#\":288L,\"#c\":\"ae2:f\",id:\"gtceu:soldering_alloy\"}],out:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:quantum_processor_mainframe\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: IV (2400 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:fiber_reinforced_printed_circuit_board\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:quantum_processor_assembly\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:smd_diode\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:nor_memory_chip\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"gtceu:ram_chip\"},{\"#\":32L,\"#c\":\"ae2:i\",id:\"gtceu:fine_platinum_wire\"},{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:soldering_alloy\"}],out:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:quantum_processor_computer\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ZPM (86000 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:multilayer_fiber_reinforced_printed_circuit_board\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:crystal_soc\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:fine_niobium_titanium_wire\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:yttrium_barium_cuprate_bolt\"},{\"#\":72L,\"#c\":\"ae2:f\",id:\"gtceu:soldering_alloy\"}],out:[{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:crystal_processor\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: UHV (1966080 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"kubejs:bioware_printed_circuit_board\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtladditions:outstanding_soc\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:fine_naquadah_wire\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:quantanium_bolt\"},{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:mutated_living_solder\"}],out:[{\"#\":4L,\"#c\":\"ae2:i\",id:\"kubejs:bioware_processor\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: UHV (1966080 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"kubejs:bioware_printed_circuit_board\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtladditions:outstanding_soc\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:fine_naquadah_wire\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:quantanium_bolt\"},{\"#\":72L,\"#c\":\"ae2:f\",id:\"gtceu:super_mutated_living_solder\"}],out:[{\"#\":4L,\"#c\":\"ae2:i\",id:\"kubejs:bioware_processor\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ZPM (38400 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:wetware_printed_circuit_board\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:wetware_processor\"},{\"#\":6L,\"#c\":\"ae2:i\",id:\"gtceu:advanced_smd_inductor\"},{\"#\":12L,\"#c\":\"ae2:i\",id:\"gtceu:advanced_smd_capacitor\"},{\"#\":24L,\"#c\":\"ae2:i\",id:\"gtceu:ram_chip\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"gtceu:fine_yttrium_barium_cuprate_wire\"},{\"#\":288L,\"#c\":\"ae2:f\",id:\"gtceu:tin\"}],out:[{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:wetware_processor_assembly\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: LV (30 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:phenolic_printed_circuit_board\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:basic_electronic_circuit\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:diode\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:copper_single_wire\"},{\"#\":72L,\"#c\":\"ae2:f\",id:\"gtceu:soldering_alloy\"}],out:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:good_electronic_circuit\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ZPM (122880 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":32L,\"#c\":\"ae2:i\",id:\"gtceu:wetware_circuit_board\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtlcore:electricaly_wired_petri_dish\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:uv_electric_pump\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:luv_sensor\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:nano_processor_mainframe\"},{\"#\":32L,\"#c\":\"ae2:i\",id:\"gtceu:vanadium_gallium_foil\"},{\"#\":72L,\"#c\":\"ae2:f\",id:\"gtceu:soldering_alloy\"}],out:[{\"#\":32L,\"#c\":\"ae2:i\",id:\"kubejs:bioware_circuit_board\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: HV (480 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:aluminium_frame\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:micro_processor_computer\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:inductor\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"gtceu:capacitor\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"gtceu:ram_chip\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"gtceu:annealed_copper_single_wire\"},{\"#\":288L,\"#c\":\"ae2:f\",id:\"gtceu:soldering_alloy\"}],out:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:micro_processor_mainframe\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:plastic_printed_circuit_board\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:micro_processor\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:inductor\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:capacitor\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:ram_chip\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:fine_red_alloy_wire\"},{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:soldering_alloy\"}],out:[{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:micro_processor_assembly\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: LV (20 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"dishanhai\",marked:1b,n:\"wzcz2\",targetItem:{Count:1b,id:\"dishanhai:wzcz2\"}}},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtl_extend:eternalbluedream_opv_processor_maninframe\"},{\"#\":72L,\"#c\":\"ae2:f\",id:\"minecraft:water\"}],out:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"kubejs:opv_universal_circuit\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: EV (600 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:epoxy_printed_circuit_board\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:nano_cpu_chip\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:advanced_smd_resistor\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:advanced_smd_capacitor\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:advanced_smd_transistor\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:fine_electrum_wire\"},{\"#\":72L,\"#c\":\"ae2:f\",id:\"gtceu:soldering_alloy\"}],out:[{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:nano_processor\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: LuV (30720 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":16L,\"#c\":\"ae2:i\",id:\"gtceu:nano_processor_mainframe\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"gtceu:indium_tin_barium_titanium_cuprate_hex_wire\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:luv_field_generator\"},{\"#\":64L,\"#c\":\"ae2:i\",id:\"gtceu:hssg_frame\"},{\"#\":32L,\"#c\":\"ae2:i\",id:\"gtceu:advanced_smd_capacitor\"},{\"#\":32L,\"#c\":\"ae2:i\",id:\"gtceu:advanced_smd_transistor\"},{\"#\":2304L,\"#c\":\"ae2:f\",id:\"gtceu:soldering_alloy\"}],out:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"thetornproductionline:celestial_secret_deducing_module_luv\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: LV (20 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"dishanhai\",marked:1b,n:\"wzcz2\",targetItem:{Count:1b,id:\"dishanhai:wzcz2\"}}},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtl_extend:eternalbluedream_uev_processor_maninframe\"},{\"#\":72L,\"#c\":\"ae2:f\",id:\"minecraft:water\"}],out:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"kubejs:uev_universal_circuit\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: IV (7680 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:fiber_reinforced_printed_circuit_board\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"gtceu:yellow_garnet_plate\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:soc\"},{\"#\":32L,\"#c\":\"ae2:i\",id:\"gtceu:nor_memory_chip\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:aluminium_single_wire\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:aluminium_rotor\"},{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:tin\"}],out:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"kubejs:hui_circuit_1\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: UEV (7864320 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"kubejs:exotic_processing_core\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"kubejs:exotic_ram_chip\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:highly_advanced_soc\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"kubejs:smd_capacitor_exotic\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"kubejs:smd_transistor_exotic\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:fine_cinobite_wire\"},{\"#\":216L,\"#c\":\"ae2:f\",id:\"gtceu:super_mutated_living_solder\"}],out:[{\"#\":4L,\"#c\":\"ae2:i\",id:\"kubejs:exotic_processor\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: UIV (31457280 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"kubejs:cosmic_processing_core\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"kubejs:cosmic_ram_chip\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:highly_advanced_soc\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"kubejs:smd_capacitor_cosmic\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"kubejs:smd_transistor_cosmic\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:fine_cinobite_wire\"},{\"#\":288L,\"#c\":\"ae2:f\",id:\"gtceu:super_mutated_living_solder\"}],out:[{\"#\":4L,\"#c\":\"ae2:i\",id:\"kubejs:cosmic_processor\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: IV (2400 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:fiber_reinforced_printed_circuit_board\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:quantum_processor\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:smd_inductor\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"gtceu:smd_capacitor\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:ram_chip\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"gtceu:fine_platinum_wire\"},{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:soldering_alloy\"}],out:[{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:quantum_processor_assembly\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: UV (150000 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:neuro_processing_unit\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:highly_advanced_soc\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:fine_yttrium_barium_cuprate_wire\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:naquadah_bolt\"},{\"#\":72L,\"#c\":\"ae2:f\",id:\"gtceu:soldering_alloy\"}],out:[{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:wetware_processor\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: EV (1200 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:epoxy_printed_circuit_board\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:advanced_integrated_circuit\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:ram_chip\"},{\"#\":32L,\"#c\":\"ae2:i\",id:\"gtceu:nor_memory_chip\"},{\"#\":64L,\"#c\":\"ae2:i\",id:\"gtceu:nand_memory_chip\"},{\"#\":32L,\"#c\":\"ae2:i\",id:\"gtceu:fine_platinum_wire\"},{\"#\":288L,\"#c\":\"ae2:f\",id:\"gtceu:tin\"}],out:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:data_orb\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ZPM (122880 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":32L,\"#c\":\"ae2:i\",id:\"gtceu:wetware_circuit_board\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtlcore:electricaly_wired_petri_dish\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:uv_electric_pump\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:luv_sensor\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:nano_processor_mainframe\"},{\"#\":32L,\"#c\":\"ae2:i\",id:\"gtceu:vanadium_gallium_foil\"},{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:tin\"}],out:[{\"#\":32L,\"#c\":\"ae2:i\",id:\"kubejs:bioware_circuit_board\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: IV (7680 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:hssg_frame\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:quantum_processor_computer\"},{\"#\":24L,\"#c\":\"ae2:i\",id:\"gtceu:smd_inductor\"},{\"#\":48L,\"#c\":\"ae2:i\",id:\"gtceu:smd_capacitor\"},{\"#\":24L,\"#c\":\"ae2:i\",id:\"gtceu:ram_chip\"},{\"#\":48L,\"#c\":\"ae2:i\",id:\"gtceu:annealed_copper_single_wire\"},{\"#\":576L,\"#c\":\"ae2:f\",id:\"gtceu:tin\"}],out:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:quantum_processor_mainframe\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:plastic_printed_circuit_board\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:micro_processor_assembly\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:diode\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:ram_chip\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"gtceu:fine_electrum_wire\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"gtceu:blue_alloy_bolt\"},{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:soldering_alloy\"}],out:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:micro_processor_computer\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: LV (30 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"gtceu\",marked:1b,n:\"good_electronic_circuit\",targetItem:{Count:1b,id:\"gtceu:good_electronic_circuit\"}}},{\"#\":1L,\"#c\":\"ae2:i\",id:\"minecraft:paper\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"kubejs:advanced_control_circuit\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:wrought_iron_plate\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:small_diamond_dust\"},{\"#\":20L,\"#c\":\"ae2:f\",id:\"gtceu:glue\"}],out:[{\"#\":2L,\"#c\":\"ae2:i\",id:\"kubejs:elite_control_circuit\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: IV (2400 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:fiber_reinforced_printed_circuit_board\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:qbit_cpu_chip\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:nano_cpu_chip\"},{\"#\":12L,\"#c\":\"ae2:i\",id:\"gtceu:smd_capacitor\"},{\"#\":12L,\"#c\":\"ae2:i\",id:\"gtceu:smd_transistor\"},{\"#\":12L,\"#c\":\"ae2:i\",id:\"gtceu:fine_platinum_wire\"},{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:tin\"}],out:[{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:quantum_processor\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: EV (600 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:epoxy_printed_circuit_board\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:nano_processor\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:advanced_smd_inductor\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:advanced_smd_capacitor\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:ram_chip\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"gtceu:fine_electrum_wire\"},{\"#\":288L,\"#c\":\"ae2:f\",id:\"gtceu:tin\"}],out:[{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:nano_processor_assembly\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: LuV (9600 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:multilayer_fiber_reinforced_printed_circuit_board\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:crystal_processor_assembly\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:ram_chip\"},{\"#\":32L,\"#c\":\"ae2:i\",id:\"gtceu:nor_memory_chip\"},{\"#\":64L,\"#c\":\"ae2:i\",id:\"gtceu:nand_memory_chip\"},{\"#\":32L,\"#c\":\"ae2:i\",id:\"gtceu:fine_niobium_titanium_wire\"},{\"#\":288L,\"#c\":\"ae2:f\",id:\"gtceu:tin\"}],out:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:crystal_processor_computer\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: HV (480 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:aluminium_frame\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:micro_processor_computer\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:advanced_smd_inductor\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:advanced_smd_capacitor\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"gtceu:ram_chip\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"gtceu:annealed_copper_single_wire\"},{\"#\":288L,\"#c\":\"ae2:f\",id:\"gtceu:soldering_alloy\"}],out:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:micro_processor_mainframe\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: IV (7680 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":16L,\"#c\":\"ae2:i\",id:\"gtceu:micro_processor_mainframe\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"gtceu:samarium_iron_arsenic_oxide_hex_wire\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:iv_field_generator\"},{\"#\":64L,\"#c\":\"ae2:i\",id:\"gtceu:tungsten_steel_frame\"},{\"#\":32L,\"#c\":\"ae2:i\",id:\"gtceu:advanced_smd_capacitor\"},{\"#\":32L,\"#c\":\"ae2:i\",id:\"gtceu:advanced_smd_transistor\"},{\"#\":2304L,\"#c\":\"ae2:f\",id:\"gtceu:soldering_alloy\"}],out:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"thetornproductionline:celestial_secret_deducing_module_iv\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: UV (491520 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"kubejs:bioware_processing_core\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:qbit_cpu_chip\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:highly_advanced_soc\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"kubejs:smd_capacitor_bioware\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"kubejs:smd_transistor_bioware\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:fine_naquadah_wire\"},{\"#\":72L,\"#c\":\"ae2:f\",id:\"gtceu:super_mutated_living_solder\"}],out:[{\"#\":4L,\"#c\":\"ae2:i\",id:\"kubejs:bioware_processor\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: UV (491520 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:crystal_processor_mainframe\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"gtceu:enriched_naquadah_trinium_europium_duranide_hex_wire\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:uv_field_generator\"},{\"#\":64L,\"#c\":\"ae2:i\",id:\"gtceu:hsss_frame\"},{\"#\":32L,\"#c\":\"ae2:i\",id:\"gtceu:advanced_smd_capacitor\"},{\"#\":32L,\"#c\":\"ae2:i\",id:\"gtceu:advanced_smd_transistor\"},{\"#\":2304L,\"#c\":\"ae2:f\",id:\"gtceu:soldering_alloy\"}],out:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"thetornproductionline:celestial_secret_deducing_module_uv\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: EV (600 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:epoxy_printed_circuit_board\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:nano_processor\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:smd_inductor\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:smd_capacitor\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:ram_chip\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"gtceu:fine_electrum_wire\"},{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:soldering_alloy\"}],out:[{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:nano_processor_assembly\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: LV (16 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"gtceu\",marked:1b,n:\"basic_electronic_circuit\",targetItem:{Count:1b,id:\"gtceu:basic_electronic_circuit\"}}},{\"#\":1L,\"#c\":\"ae2:i\",id:\"kubejs:basic_control_circuit\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:iron_plate\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:red_alloy_dust\"},{\"#\":20L,\"#c\":\"ae2:f\",id:\"gtceu:glue\"}],out:[{\"#\":2L,\"#c\":\"ae2:i\",id:\"kubejs:advanced_control_circuit\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: UEV (7864320 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"kubejs:exotic_processing_core\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"kubejs:exotic_ram_chip\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:highly_advanced_soc\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"kubejs:smd_capacitor_exotic\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"kubejs:smd_transistor_exotic\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:fine_cinobite_wire\"},{\"#\":432L,\"#c\":\"ae2:f\",id:\"gtceu:mutated_living_solder\"}],out:[{\"#\":4L,\"#c\":\"ae2:i\",id:\"kubejs:exotic_processor\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: IV (2400 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:fiber_reinforced_printed_circuit_board\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:quantum_processor_assembly\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:advanced_smd_diode\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:nor_memory_chip\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"gtceu:ram_chip\"},{\"#\":32L,\"#c\":\"ae2:i\",id:\"gtceu:fine_platinum_wire\"},{\"#\":288L,\"#c\":\"ae2:f\",id:\"gtceu:tin\"}],out:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:quantum_processor_computer\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: UV (491520 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"kubejs:bioware_processing_core\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:qbit_cpu_chip\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:highly_advanced_soc\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"kubejs:smd_capacitor_bioware\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"kubejs:smd_transistor_bioware\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:fine_naquadah_wire\"},{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:mutated_living_solder\"}],out:[{\"#\":4L,\"#c\":\"ae2:i\",id:\"kubejs:bioware_processor\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ZPM (38400 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:neuro_processing_unit\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:crystal_cpu\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:nano_cpu_chip\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:advanced_smd_capacitor\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:advanced_smd_transistor\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:fine_yttrium_barium_cuprate_wire\"},{\"#\":72L,\"#c\":\"ae2:f\",id:\"gtceu:soldering_alloy\"}],out:[{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:wetware_processor\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: UV (491520 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":16L,\"#c\":\"ae2:i\",id:\"kubejs:smd_diode_bioware\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"kubejs:smd_capacitor_bioware\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"kubejs:smd_transistor_bioware\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"kubejs:imprinted_resonatic_circuit_board\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:exquisite_magneto_resonatic_gem\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"kubejs:circuit_resonatic_luv\"},{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:mutated_living_solder\"}],out:[{\"#\":4L,\"#c\":\"ae2:i\",id:\"kubejs:circuit_resonatic_zpm\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: UIV (31457280 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"kubejs:exotic_printed_circuit_board\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtladditions:chaos_soc\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:fine_cinobite_wire\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:hastelloyx_78_bolt\"},{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:super_mutated_living_solder\"}],out:[{\"#\":4L,\"#c\":\"ae2:i\",id:\"kubejs:exotic_processor\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: UXV (125829120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":16L,\"#c\":\"ae2:i\",id:\"kubejs:smd_diode_supracausal\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"kubejs:smd_capacitor_supracausal\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"kubejs:smd_transistor_supracausal\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"kubejs:imprinted_resonatic_circuit_board\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:exquisite_magneto_resonatic_gem\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"kubejs:circuit_resonatic_uev\"},{\"#\":360L,\"#c\":\"ae2:f\",id:\"gtceu:super_mutated_living_solder\"}],out:[{\"#\":4L,\"#c\":\"ae2:i\",id:\"kubejs:circuit_resonatic_uiv\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: LV (30 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:tantalum_capacitor\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:resistor\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:inductor\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"kubejs:imprinted_resonatic_circuit_board\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:magneto_resonatic_gem\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:vacuum_tube\"},{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:tin\"}],out:[{\"#\":4L,\"#c\":\"ae2:i\",id:\"kubejs:circuit_resonatic_ulv\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: UXV (125829120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":16L,\"#c\":\"ae2:i\",id:\"kubejs:smd_diode_supracausal\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"kubejs:smd_capacitor_supracausal\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"kubejs:smd_transistor_supracausal\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"kubejs:imprinted_resonatic_circuit_board\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:exquisite_magneto_resonatic_gem\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"kubejs:circuit_resonatic_uev\"},{\"#\":720L,\"#c\":\"ae2:f\",id:\"gtceu:mutated_living_solder\"}],out:[{\"#\":4L,\"#c\":\"ae2:i\",id:\"kubejs:circuit_resonatic_uiv\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: UEV (7864320 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":16L,\"#c\":\"ae2:i\",id:\"kubejs:smd_diode_exotic\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"kubejs:smd_capacitor_exotic\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"kubejs:smd_transistor_exotic\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"kubejs:imprinted_resonatic_circuit_board\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:exquisite_magneto_resonatic_gem\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"kubejs:circuit_resonatic_uv\"},{\"#\":432L,\"#c\":\"ae2:f\",id:\"gtceu:mutated_living_solder\"}],out:[{\"#\":4L,\"#c\":\"ae2:i\",id:\"kubejs:circuit_resonatic_uhv\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: UIV (31457280 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":16L,\"#c\":\"ae2:i\",id:\"kubejs:smd_diode_cosmic\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"kubejs:smd_capacitor_cosmic\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"kubejs:smd_transistor_cosmic\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"kubejs:imprinted_resonatic_circuit_board\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:exquisite_magneto_resonatic_gem\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"kubejs:circuit_resonatic_uhv\"},{\"#\":576L,\"#c\":\"ae2:f\",id:\"gtceu:mutated_living_solder\"}],out:[{\"#\":4L,\"#c\":\"ae2:i\",id:\"kubejs:circuit_resonatic_uev\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: EV (600 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:epoxy_printed_circuit_board\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:nano_cpu_chip\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:advanced_smd_resistor\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:advanced_smd_capacitor\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:advanced_smd_transistor\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:fine_electrum_wire\"},{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:tin\"}],out:[{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:nano_processor\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ZPM (38400 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:wetware_printed_circuit_board\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:wetware_processor\"},{\"#\":6L,\"#c\":\"ae2:i\",id:\"gtceu:advanced_smd_inductor\"},{\"#\":12L,\"#c\":\"ae2:i\",id:\"gtceu:advanced_smd_capacitor\"},{\"#\":24L,\"#c\":\"ae2:i\",id:\"gtceu:ram_chip\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"gtceu:fine_yttrium_barium_cuprate_wire\"},{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:soldering_alloy\"}],out:[{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:wetware_processor_assembly\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: LV (30 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:tantalum_capacitor\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:resistor\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:inductor\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"kubejs:imprinted_resonatic_circuit_board\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:magneto_resonatic_gem\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:vacuum_tube\"},{\"#\":72L,\"#c\":\"ae2:f\",id:\"gtceu:soldering_alloy\"}],out:[{\"#\":4L,\"#c\":\"ae2:i\",id:\"kubejs:circuit_resonatic_ulv\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ZPM (122880 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:advanced_smd_diode\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:advanced_smd_capacitor\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:advanced_smd_transistor\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"kubejs:imprinted_resonatic_circuit_board\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:flawless_magneto_resonatic_gem\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"kubejs:circuit_resonatic_iv\"},{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:tin\"}],out:[{\"#\":4L,\"#c\":\"ae2:i\",id:\"kubejs:circuit_resonatic_luv\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: LV (30 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:good_integrated_circuit\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:ilc_chip\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:ram_chip\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:transistor\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:fine_electrum_wire\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:annealed_copper_bolt\"},{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:tin\"}],out:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:advanced_integrated_circuit\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: LV (16 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:resin_printed_circuit_board\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:ilc_chip\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:resistor\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:diode\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:fine_copper_wire\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:tin_bolt\"},{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:tin\"}],out:[{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:basic_integrated_circuit\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: LV (24 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:phenolic_printed_circuit_board\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:basic_integrated_circuit\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:resistor\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:diode\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:fine_gold_wire\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:silver_bolt\"},{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:tin\"}],out:[{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:good_integrated_circuit\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: EV (600 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:epoxy_printed_circuit_board\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:nano_processor\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:smd_inductor\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:smd_capacitor\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:ram_chip\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"gtceu:fine_electrum_wire\"},{\"#\":288L,\"#c\":\"ae2:f\",id:\"gtceu:tin\"}],out:[{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:nano_processor_assembly\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: IV (2400 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:fiber_reinforced_printed_circuit_board\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:quantum_processor_assembly\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:smd_diode\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:nor_memory_chip\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"gtceu:ram_chip\"},{\"#\":32L,\"#c\":\"ae2:i\",id:\"gtceu:fine_platinum_wire\"},{\"#\":288L,\"#c\":\"ae2:f\",id:\"gtceu:tin\"}],out:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:quantum_processor_computer\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:phenolic_printed_circuit_board\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:simple_soc\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:red_alloy_bolt\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:fine_tin_wire\"},{\"#\":72L,\"#c\":\"ae2:f\",id:\"gtceu:soldering_alloy\"}],out:[{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:nand_chip\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: UEV (7864320 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"kubejs:optical_printed_circuit_board\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtladditions:extraordinary_soc\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:fine_dubnium_wire\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:vibranium_bolt\"},{\"#\":72L,\"#c\":\"ae2:f\",id:\"gtceu:super_mutated_living_solder\"}],out:[{\"#\":4L,\"#c\":\"ae2:i\",id:\"kubejs:optical_processor\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: UEV (7864320 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"kubejs:optical_printed_circuit_board\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtladditions:extraordinary_soc\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:fine_dubnium_wire\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:vibranium_bolt\"},{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:mutated_living_solder\"}],out:[{\"#\":4L,\"#c\":\"ae2:i\",id:\"kubejs:optical_processor\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: LuV (9600 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:multilayer_fiber_reinforced_printed_circuit_board\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:crystal_cpu\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:nano_cpu_chip\"},{\"#\":6L,\"#c\":\"ae2:i\",id:\"gtceu:advanced_smd_capacitor\"},{\"#\":6L,\"#c\":\"ae2:i\",id:\"gtceu:advanced_smd_transistor\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:fine_niobium_titanium_wire\"},{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:tin\"}],out:[{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:crystal_processor\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: HV (480 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:aluminium_frame\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:micro_processor_computer\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:advanced_smd_inductor\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:advanced_smd_capacitor\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"gtceu:ram_chip\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"gtceu:annealed_copper_single_wire\"},{\"#\":576L,\"#c\":\"ae2:f\",id:\"gtceu:tin\"}],out:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:micro_processor_mainframe\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:plastic_printed_circuit_board\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:simple_soc\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:red_alloy_bolt\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:fine_tin_wire\"},{\"#\":72L,\"#c\":\"ae2:f\",id:\"gtceu:soldering_alloy\"}],out:[{\"#\":12L,\"#c\":\"ae2:i\",id:\"gtceu:nand_chip\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: EV (600 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:epoxy_printed_circuit_board\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:nano_processor\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:advanced_smd_inductor\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:advanced_smd_capacitor\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:ram_chip\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"gtceu:fine_electrum_wire\"},{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:soldering_alloy\"}],out:[{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:nano_processor_assembly\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: EV (1920 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:aluminium_frame\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:nano_processor_computer\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:advanced_smd_inductor\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:advanced_smd_capacitor\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"gtceu:ram_chip\"},{\"#\":32L,\"#c\":\"ae2:i\",id:\"gtceu:annealed_copper_single_wire\"},{\"#\":288L,\"#c\":\"ae2:f\",id:\"gtceu:soldering_alloy\"}],out:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:nano_processor_mainframe\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: LV (16 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:resin_printed_circuit_board\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:resistor\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:red_alloy_single_wire\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:vacuum_tube\"},{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:tin\"}],out:[{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:basic_electronic_circuit\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: LV (30 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:phenolic_printed_circuit_board\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:basic_electronic_circuit\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:diode\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:copper_single_wire\"},{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:tin\"}],out:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:good_electronic_circuit\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: LuV (9600 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:epoxy_printed_circuit_board\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:advanced_soc\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:fine_electrum_wire\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:platinum_bolt\"},{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:tin\"}],out:[{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:nano_processor\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: IV (2400 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:fiber_reinforced_printed_circuit_board\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:quantum_processor_assembly\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:advanced_smd_diode\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:nor_memory_chip\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"gtceu:ram_chip\"},{\"#\":32L,\"#c\":\"ae2:i\",id:\"gtceu:fine_platinum_wire\"},{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:soldering_alloy\"}],out:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:quantum_processor_computer\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ZPM (86000 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:multilayer_fiber_reinforced_printed_circuit_board\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:crystal_soc\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:fine_niobium_titanium_wire\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:yttrium_barium_cuprate_bolt\"},{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:tin\"}],out:[{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:crystal_processor\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: IV (2400 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:fiber_reinforced_printed_circuit_board\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:quantum_processor\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:smd_inductor\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"gtceu:smd_capacitor\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:ram_chip\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"gtceu:fine_platinum_wire\"},{\"#\":288L,\"#c\":\"ae2:f\",id:\"gtceu:tin\"}],out:[{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:quantum_processor_assembly\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: HV (480 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:aluminium_frame\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:micro_processor_computer\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:inductor\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"gtceu:capacitor\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"gtceu:ram_chip\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"gtceu:annealed_copper_single_wire\"},{\"#\":576L,\"#c\":\"ae2:f\",id:\"gtceu:tin\"}],out:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:micro_processor_mainframe\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (90 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:plastic_printed_circuit_board\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:cpu_chip\"},{\"#\":32L,\"#c\":\"ae2:i\",id:\"gtceu:nand_memory_chip\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:ram_chip\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"gtceu:fine_red_alloy_wire\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:polyethylene_plate\"},{\"#\":288L,\"#c\":\"ae2:f\",id:\"gtceu:tin\"}],out:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:data_stick\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: UIV (31457280 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":16L,\"#c\":\"ae2:i\",id:\"kubejs:smd_diode_cosmic\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"kubejs:smd_capacitor_cosmic\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"kubejs:smd_transistor_cosmic\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"kubejs:imprinted_resonatic_circuit_board\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:exquisite_magneto_resonatic_gem\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"kubejs:circuit_resonatic_uhv\"},{\"#\":288L,\"#c\":\"ae2:f\",id:\"gtceu:super_mutated_living_solder\"}],out:[{\"#\":4L,\"#c\":\"ae2:i\",id:\"kubejs:circuit_resonatic_uev\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: EV (600 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:epoxy_printed_circuit_board\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:nano_processor_assembly\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:smd_diode\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:nor_memory_chip\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"gtceu:ram_chip\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"gtceu:fine_electrum_wire\"},{\"#\":288L,\"#c\":\"ae2:f\",id:\"gtceu:tin\"}],out:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:nano_processor_computer\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (90 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:plastic_printed_circuit_board\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:cpu_chip\"},{\"#\":32L,\"#c\":\"ae2:i\",id:\"gtceu:nand_memory_chip\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:ram_chip\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"gtceu:fine_red_alloy_wire\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:polyethylene_plate\"},{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:soldering_alloy\"}],out:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:data_stick\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: LuV (30720 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":16L,\"#c\":\"ae2:i\",id:\"gtceu:multilayer_fiber_reinforced_circuit_board\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:petri_dish\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:luv_electric_pump\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:iv_sensor\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:micro_processor_mainframe\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"gtceu:niobium_titanium_foil\"},{\"#\":4000L,\"#c\":\"ae2:f\",id:\"gtceu:sterilized_growth_medium\"}],out:[{\"#\":16L,\"#c\":\"ae2:i\",id:\"gtceu:wetware_circuit_board\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: LuV (9600 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:multilayer_fiber_reinforced_printed_circuit_board\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:crystal_processor_assembly\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:ram_chip\"},{\"#\":32L,\"#c\":\"ae2:i\",id:\"gtceu:nor_memory_chip\"},{\"#\":64L,\"#c\":\"ae2:i\",id:\"gtceu:nand_memory_chip\"},{\"#\":32L,\"#c\":\"ae2:i\",id:\"gtceu:fine_niobium_titanium_wire\"},{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:soldering_alloy\"}],out:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:crystal_processor_computer\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: EV (600 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:epoxy_printed_circuit_board\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:nano_processor_assembly\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:smd_diode\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:nor_memory_chip\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"gtceu:ram_chip\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"gtceu:fine_electrum_wire\"},{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:soldering_alloy\"}],out:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:nano_processor_computer\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: IV (2400 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:plastic_printed_circuit_board\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:soc\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:fine_red_alloy_wire\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:annealed_copper_bolt\"},{\"#\":72L,\"#c\":\"ae2:f\",id:\"gtceu:soldering_alloy\"}],out:[{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:micro_processor\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: LuV (30720 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:advanced_smd_diode\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:advanced_smd_capacitor\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:advanced_smd_transistor\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"kubejs:imprinted_resonatic_circuit_board\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:flawless_magneto_resonatic_gem\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"kubejs:circuit_resonatic_ev\"},{\"#\":72L,\"#c\":\"ae2:f\",id:\"gtceu:soldering_alloy\"}],out:[{\"#\":4L,\"#c\":\"ae2:i\",id:\"kubejs:circuit_resonatic_iv\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: UIV (31457280 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"kubejs:cosmic_processing_core\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"kubejs:cosmic_ram_chip\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:highly_advanced_soc\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"kubejs:smd_capacitor_cosmic\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"kubejs:smd_transistor_cosmic\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:fine_cinobite_wire\"},{\"#\":576L,\"#c\":\"ae2:f\",id:\"gtceu:mutated_living_solder\"}],out:[{\"#\":4L,\"#c\":\"ae2:i\",id:\"kubejs:cosmic_processor\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ZPM (38400 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:neuro_processing_unit\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:crystal_cpu\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:nano_cpu_chip\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:advanced_smd_capacitor\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:advanced_smd_transistor\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:fine_yttrium_barium_cuprate_wire\"},{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:tin\"}],out:[{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:wetware_processor\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: UXV (125829120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"kubejs:supracausal_processing_core\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"kubejs:supracausal_ram_chip\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"kubejs:cosmic_processing_unit_core\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"kubejs:microwormhole_generator\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"kubejs:manifold_oscillatory_power_cell\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:crystalmatrix_plate\"},{\"#\":720L,\"#c\":\"ae2:f\",id:\"gtceu:mutated_living_solder\"}],out:[{\"#\":2L,\"#c\":\"ae2:i\",id:\"kubejs:supracausal_processor\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ZPM (80000 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:wetware_printed_circuit_board\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"gtceu:stem_cells\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:polybenzimidazole_small_fluid_pipe\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:electrum_plate\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"gtceu:silicone_rubber_foil\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:hsse_bolt\"},{\"#\":250L,\"#c\":\"ae2:f\",id:\"gtceu:sterilized_growth_medium\"}],out:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:neuro_processing_unit\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: UEV (7864320 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":16L,\"#c\":\"ae2:i\",id:\"kubejs:smd_diode_exotic\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"kubejs:smd_capacitor_exotic\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"kubejs:smd_transistor_exotic\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"kubejs:imprinted_resonatic_circuit_board\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:exquisite_magneto_resonatic_gem\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"kubejs:circuit_resonatic_uv\"},{\"#\":216L,\"#c\":\"ae2:f\",id:\"gtceu:super_mutated_living_solder\"}],out:[{\"#\":4L,\"#c\":\"ae2:i\",id:\"kubejs:circuit_resonatic_uhv\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: IV (7680 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:hssg_frame\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:quantum_processor_computer\"},{\"#\":6L,\"#c\":\"ae2:i\",id:\"gtceu:advanced_smd_inductor\"},{\"#\":12L,\"#c\":\"ae2:i\",id:\"gtceu:advanced_smd_capacitor\"},{\"#\":24L,\"#c\":\"ae2:i\",id:\"gtceu:ram_chip\"},{\"#\":48L,\"#c\":\"ae2:i\",id:\"gtceu:annealed_copper_single_wire\"},{\"#\":576L,\"#c\":\"ae2:f\",id:\"gtceu:tin\"}],out:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:quantum_processor_mainframe\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: LV (24 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:phenolic_printed_circuit_board\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:basic_integrated_circuit\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:resistor\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:diode\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:fine_gold_wire\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:silver_bolt\"},{\"#\":72L,\"#c\":\"ae2:f\",id:\"gtceu:soldering_alloy\"}],out:[{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:good_integrated_circuit\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:phenolic_printed_circuit_board\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:simple_soc\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:red_alloy_bolt\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:fine_tin_wire\"},{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:tin\"}],out:[{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:nand_chip\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:plastic_printed_circuit_board\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:micro_processor_assembly\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:diode\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:ram_chip\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"gtceu:fine_electrum_wire\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"gtceu:blue_alloy_bolt\"},{\"#\":288L,\"#c\":\"ae2:f\",id:\"gtceu:tin\"}],out:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:micro_processor_computer\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: LV (20 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"dishanhai\",marked:1b,n:\"wzcz2\",targetItem:{Count:1b,id:\"dishanhai:wzcz2\"}}},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtl_extend:eternalbluedream_uiv_processor_maninframe\"},{\"#\":72L,\"#c\":\"ae2:f\",id:\"minecraft:water\"}],out:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"kubejs:uiv_universal_circuit\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: UHV (1966080 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":16L,\"#c\":\"ae2:i\",id:\"kubejs:smd_diode_optical\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"kubejs:smd_capacitor_optical\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"kubejs:smd_transistor_optical\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"kubejs:imprinted_resonatic_circuit_board\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:exquisite_magneto_resonatic_gem\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"kubejs:circuit_resonatic_zpm\"},{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:super_mutated_living_solder\"}],out:[{\"#\":4L,\"#c\":\"ae2:i\",id:\"kubejs:circuit_resonatic_uv\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: IV (2400 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:fiber_reinforced_printed_circuit_board\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:quantum_processor\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:advanced_smd_inductor\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:advanced_smd_capacitor\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:ram_chip\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"gtceu:fine_platinum_wire\"},{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:soldering_alloy\"}],out:[{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:quantum_processor_assembly\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: IV (2400 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:fiber_reinforced_printed_circuit_board\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:qbit_cpu_chip\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:nano_cpu_chip\"},{\"#\":3L,\"#c\":\"ae2:i\",id:\"gtceu:advanced_smd_capacitor\"},{\"#\":3L,\"#c\":\"ae2:i\",id:\"gtceu:advanced_smd_transistor\"},{\"#\":12L,\"#c\":\"ae2:i\",id:\"gtceu:fine_platinum_wire\"},{\"#\":72L,\"#c\":\"ae2:f\",id:\"gtceu:soldering_alloy\"}],out:[{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:quantum_processor\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ZPM (38400 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:fiber_reinforced_printed_circuit_board\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:advanced_soc\"},{\"#\":12L,\"#c\":\"ae2:i\",id:\"gtceu:fine_platinum_wire\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:niobium_titanium_bolt\"},{\"#\":72L,\"#c\":\"ae2:f\",id:\"gtceu:soldering_alloy\"}],out:[{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:quantum_processor\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: UV (491520 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":16L,\"#c\":\"ae2:i\",id:\"kubejs:smd_diode_bioware\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"kubejs:smd_capacitor_bioware\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"kubejs:smd_transistor_bioware\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"kubejs:imprinted_resonatic_circuit_board\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:exquisite_magneto_resonatic_gem\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"kubejs:circuit_resonatic_luv\"},{\"#\":72L,\"#c\":\"ae2:f\",id:\"gtceu:super_mutated_living_solder\"}],out:[{\"#\":4L,\"#c\":\"ae2:i\",id:\"kubejs:circuit_resonatic_zpm\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: LuV (9600 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:epoxy_printed_circuit_board\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:advanced_soc\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:fine_electrum_wire\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:platinum_bolt\"},{\"#\":72L,\"#c\":\"ae2:f\",id:\"gtceu:soldering_alloy\"}],out:[{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:nano_processor\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: UHV (1966080 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"kubejs:optical_processing_core\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"kubejs:optical_ram_chip\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:highly_advanced_soc\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"kubejs:smd_capacitor_optical\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"kubejs:smd_transistor_optical\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:fine_dubnium_wire\"},{\"#\":288L,\"#c\":\"ae2:f\",id:\"gtceu:mutated_living_solder\"}],out:[{\"#\":4L,\"#c\":\"ae2:i\",id:\"kubejs:optical_processor\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: UHV (1966080 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"kubejs:optical_processing_core\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"kubejs:optical_ram_chip\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:highly_advanced_soc\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"kubejs:smd_capacitor_optical\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"kubejs:smd_transistor_optical\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:fine_dubnium_wire\"},{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:super_mutated_living_solder\"}],out:[{\"#\":4L,\"#c\":\"ae2:i\",id:\"kubejs:optical_processor\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: EV (600 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:epoxy_printed_circuit_board\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:nano_cpu_chip\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:smd_resistor\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:smd_capacitor\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:smd_transistor\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:fine_electrum_wire\"},{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:tin\"}],out:[{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:nano_processor\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ZPM (122880 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":16L,\"#c\":\"ae2:i\",id:\"gtceu:quantum_processor_mainframe\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"gtceu:uranium_rhodium_dinaquadide_hex_wire\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:zpm_field_generator\"},{\"#\":64L,\"#c\":\"ae2:i\",id:\"gtceu:hsse_frame\"},{\"#\":32L,\"#c\":\"ae2:i\",id:\"gtceu:advanced_smd_capacitor\"},{\"#\":32L,\"#c\":\"ae2:i\",id:\"gtceu:advanced_smd_transistor\"},{\"#\":2304L,\"#c\":\"ae2:f\",id:\"gtceu:soldering_alloy\"}],out:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"thetornproductionline:celestial_secret_deducing_module_zpm\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: UHV (1966080 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":16L,\"#c\":\"ae2:i\",id:\"kubejs:smd_diode_optical\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"kubejs:smd_capacitor_optical\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"kubejs:smd_transistor_optical\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"kubejs:imprinted_resonatic_circuit_board\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:exquisite_magneto_resonatic_gem\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"kubejs:circuit_resonatic_zpm\"},{\"#\":288L,\"#c\":\"ae2:f\",id:\"gtceu:mutated_living_solder\"}],out:[{\"#\":4L,\"#c\":\"ae2:i\",id:\"kubejs:circuit_resonatic_uv\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: HV (480 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:diode\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:capacitor\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:transistor\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"kubejs:imprinted_resonatic_circuit_board\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:magneto_resonatic_gem\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"kubejs:circuit_resonatic_lv\"},{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:tin\"}],out:[{\"#\":4L,\"#c\":\"ae2:i\",id:\"kubejs:circuit_resonatic_mv\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:diode\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:capacitor\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:transistor\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"kubejs:imprinted_resonatic_circuit_board\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:magneto_resonatic_gem\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"kubejs:circuit_resonatic_ulv\"},{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:tin\"}],out:[{\"#\":4L,\"#c\":\"ae2:i\",id:\"kubejs:circuit_resonatic_lv\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: IV (7680 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:smd_diode\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:smd_capacitor\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:smd_transistor\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"kubejs:imprinted_resonatic_circuit_board\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:flawless_magneto_resonatic_gem\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"kubejs:circuit_resonatic_hv\"},{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:tin\"}],out:[{\"#\":4L,\"#c\":\"ae2:i\",id:\"kubejs:circuit_resonatic_ev\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: LuV (30720 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:advanced_smd_diode\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:advanced_smd_capacitor\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:advanced_smd_transistor\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"kubejs:imprinted_resonatic_circuit_board\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:flawless_magneto_resonatic_gem\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"kubejs:circuit_resonatic_ev\"},{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:tin\"}],out:[{\"#\":4L,\"#c\":\"ae2:i\",id:\"kubejs:circuit_resonatic_iv\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: EV (1920 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:smd_diode\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:smd_capacitor\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:smd_transistor\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"kubejs:imprinted_resonatic_circuit_board\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:flawless_magneto_resonatic_gem\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"kubejs:circuit_resonatic_mv\"},{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:tin\"}],out:[{\"#\":4L,\"#c\":\"ae2:i\",id:\"kubejs:circuit_resonatic_hv\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: LV (20 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"dishanhai\",marked:1b,n:\"wzcz2\",targetItem:{Count:1b,id:\"dishanhai:wzcz2\"}}},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtl_extend:eternalbluedream_max_processor_maninframe\"},{\"#\":72L,\"#c\":\"ae2:f\",id:\"minecraft:water\"}],out:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"kubejs:max_universal_circuit\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: EV (1920 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:aluminium_frame\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:nano_processor_computer\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"gtceu:smd_inductor\"},{\"#\":32L,\"#c\":\"ae2:i\",id:\"gtceu:smd_capacitor\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"gtceu:ram_chip\"},{\"#\":32L,\"#c\":\"ae2:i\",id:\"gtceu:annealed_copper_single_wire\"},{\"#\":576L,\"#c\":\"ae2:f\",id:\"gtceu:tin\"}],out:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:nano_processor_mainframe\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: EV (1200 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:epoxy_printed_circuit_board\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:advanced_integrated_circuit\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:ram_chip\"},{\"#\":32L,\"#c\":\"ae2:i\",id:\"gtceu:nor_memory_chip\"},{\"#\":64L,\"#c\":\"ae2:i\",id:\"gtceu:nand_memory_chip\"},{\"#\":32L,\"#c\":\"ae2:i\",id:\"gtceu:fine_platinum_wire\"},{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:soldering_alloy\"}],out:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:data_orb\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: IV (7680 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:smd_diode\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:smd_capacitor\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:smd_transistor\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"kubejs:imprinted_resonatic_circuit_board\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:flawless_magneto_resonatic_gem\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"kubejs:circuit_resonatic_hv\"},{\"#\":72L,\"#c\":\"ae2:f\",id:\"gtceu:soldering_alloy\"}],out:[{\"#\":4L,\"#c\":\"ae2:i\",id:\"kubejs:circuit_resonatic_ev\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: LV (16 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:resin_printed_circuit_board\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:ilc_chip\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:resistor\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:diode\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:fine_copper_wire\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:tin_bolt\"},{\"#\":72L,\"#c\":\"ae2:f\",id:\"gtceu:soldering_alloy\"}],out:[{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:basic_integrated_circuit\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: LV (16 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:resin_printed_circuit_board\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:resistor\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:red_alloy_single_wire\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:vacuum_tube\"},{\"#\":72L,\"#c\":\"ae2:f\",id:\"gtceu:soldering_alloy\"}],out:[{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:basic_electronic_circuit\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: IV (2400 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:fiber_reinforced_printed_circuit_board\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:quantum_processor\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:advanced_smd_inductor\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:advanced_smd_capacitor\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:ram_chip\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"gtceu:fine_platinum_wire\"},{\"#\":288L,\"#c\":\"ae2:f\",id:\"gtceu:tin\"}],out:[{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:quantum_processor_assembly\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: LuV (9600 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:multilayer_fiber_reinforced_printed_circuit_board\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:crystal_cpu\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:nano_cpu_chip\"},{\"#\":6L,\"#c\":\"ae2:i\",id:\"gtceu:advanced_smd_capacitor\"},{\"#\":6L,\"#c\":\"ae2:i\",id:\"gtceu:advanced_smd_transistor\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:fine_niobium_titanium_wire\"},{\"#\":72L,\"#c\":\"ae2:f\",id:\"gtceu:soldering_alloy\"}],out:[{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:crystal_processor\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: EV (600 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:plastic_printed_circuit_board\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:soc\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:fine_copper_wire\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:tin_bolt\"},{\"#\":72L,\"#c\":\"ae2:f\",id:\"gtceu:soldering_alloy\"}],out:[{\"#\":6L,\"#c\":\"ae2:i\",id:\"gtceu:microchip_processor\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: LV (30 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:good_integrated_circuit\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:ilc_chip\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:ram_chip\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:transistor\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:fine_electrum_wire\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:annealed_copper_bolt\"},{\"#\":72L,\"#c\":\"ae2:f\",id:\"gtceu:soldering_alloy\"}],out:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:advanced_integrated_circuit\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: UV (150000 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:neuro_processing_unit\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:highly_advanced_soc\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:fine_yttrium_barium_cuprate_wire\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:naquadah_bolt\"},{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:tin\"}],out:[{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:wetware_processor\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: EV (600 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:epoxy_printed_circuit_board\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:nano_processor_assembly\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:advanced_smd_diode\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:nor_memory_chip\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"gtceu:ram_chip\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"gtceu:fine_electrum_wire\"},{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:soldering_alloy\"}],out:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:nano_processor_computer\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:plastic_printed_circuit_board\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:micro_processor\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:inductor\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:capacitor\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:ram_chip\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:fine_red_alloy_wire\"},{\"#\":288L,\"#c\":\"ae2:f\",id:\"gtceu:tin\"}],out:[{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:micro_processor_assembly\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: EV (600 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:epoxy_printed_circuit_board\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:nano_processor_assembly\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:advanced_smd_diode\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:nor_memory_chip\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"gtceu:ram_chip\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"gtceu:fine_electrum_wire\"},{\"#\":288L,\"#c\":\"ae2:f\",id:\"gtceu:tin\"}],out:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:nano_processor_computer\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:plastic_printed_circuit_board\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:simple_soc\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:red_alloy_bolt\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:fine_tin_wire\"},{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:tin\"}],out:[{\"#\":12L,\"#c\":\"ae2:i\",id:\"gtceu:nand_chip\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: IV (2400 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:plastic_printed_circuit_board\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:soc\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:fine_red_alloy_wire\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:annealed_copper_bolt\"},{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:tin\"}],out:[{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:micro_processor\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: HV (480 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:phenolic_printed_circuit_board\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"kubejs:ultimate_control_circuit\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:red_alloy_foil\"},{\"#\":72L,\"#c\":\"ae2:f\",id:\"gtceu:soldering_alloy\"}],out:[{\"#\":4L,\"#c\":\"ae2:i\",id:\"kubejs:ultima_control_circuit\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: EV (1920 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:smd_diode\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:smd_capacitor\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:smd_transistor\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"kubejs:imprinted_resonatic_circuit_board\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:flawless_magneto_resonatic_gem\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"kubejs:circuit_resonatic_mv\"},{\"#\":72L,\"#c\":\"ae2:f\",id:\"gtceu:soldering_alloy\"}],out:[{\"#\":4L,\"#c\":\"ae2:i\",id:\"kubejs:circuit_resonatic_hv\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: EV (1920 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:aluminium_frame\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:nano_processor_computer\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:advanced_smd_inductor\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:advanced_smd_capacitor\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"gtceu:ram_chip\"},{\"#\":32L,\"#c\":\"ae2:i\",id:\"gtceu:annealed_copper_single_wire\"},{\"#\":576L,\"#c\":\"ae2:f\",id:\"gtceu:tin\"}],out:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:nano_processor_mainframe\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: OpV (503316480 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"kubejs:supracausal_printed_circuit_board\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtladditions:primary_soc\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:hypogen_double_wire\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:draconiumawakened_plate\"},{\"#\":360L,\"#c\":\"ae2:f\",id:\"gtceu:super_mutated_living_solder\"}],out:[{\"#\":4L,\"#c\":\"ae2:i\",id:\"kubejs:supracausal_processor\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: MV (60 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:plastic_printed_circuit_board\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:cpu_chip\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:resistor\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:capacitor\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:transistor\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:fine_red_alloy_wire\"},{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:tin\"}],out:[{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:micro_processor\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: IV (7680 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:fiber_reinforced_printed_circuit_board\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"gtceu:yellow_garnet_plate\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:soc\"},{\"#\":32L,\"#c\":\"ae2:i\",id:\"gtceu:nor_memory_chip\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:aluminium_single_wire\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:aluminium_rotor\"},{\"#\":72L,\"#c\":\"ae2:f\",id:\"gtceu:soldering_alloy\"}],out:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"kubejs:hui_circuit_1\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: UXV (125829120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"kubejs:supracausal_processing_core\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"kubejs:supracausal_ram_chip\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"kubejs:cosmic_processing_unit_core\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"kubejs:microwormhole_generator\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"kubejs:manifold_oscillatory_power_cell\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:crystalmatrix_plate\"},{\"#\":360L,\"#c\":\"ae2:f\",id:\"gtceu:super_mutated_living_solder\"}],out:[{\"#\":2L,\"#c\":\"ae2:i\",id:\"kubejs:supracausal_processor\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:circuit_assembler 电路: 0\"}\u0027,\u0027{\"text\":\"电压: LV (20 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:circuit_assembler\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"dishanhai\",marked:1b,n:\"wzcz2\",targetItem:{Count:1b,id:\"dishanhai:wzcz2\"}}},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtl_extend:eternalbluedream_uxv_processor_maninframe\"},{\"#\":72L,\"#c\":\"ae2:f\",id:\"minecraft:water\"}],out:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"kubejs:uxv_universal_circuit\"}]}}",
+      "amount": "1"
+    }
+  ]
+}
