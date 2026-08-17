@@ -8,8 +8,8 @@
 //iife就绪
 // 版本: 2.6 - API控制系统
 
-var Version = '2.9.1.2(日志系统版本2.7.3)'//主版本与日志系统版本
-var API_Version = '2.9.1'//api版本
+var Version = '3.0.4(日志系统版本2.7.3)'//主版本与日志系统版本
+var API_Version = '3.0.4'//api版本
 // 挂载到全局对象，供其他脚本访问
 if (typeof global !== 'undefined') {
     global.shanhaiVersion = Version;

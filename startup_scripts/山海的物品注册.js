@@ -1842,7 +1842,6 @@ e.create('dishanhai:time_reversal_protocol')
     }
 
 
-
     // ===== 逐光系列（五阶） =====
     try {
         e.create('dishanhai:first_light')
@@ -1939,7 +1938,8 @@ e.create('dishanhai:time_reversal_protocol')
         "{bodySilver}所有可能性的汇聚之处。{/}",
         "{magic}在这条曲线上，一切皆有可能，一切皆已注定。{/}"
        ]);
-    // ===== 测试物品 =====
+/* 
+       // ===== 测试物品 =====
     try {
         e.create('dishanhai:test_item')
             .displayName('&$ultimate-测试物品')
@@ -1952,7 +1952,7 @@ e.create('dishanhai:time_reversal_protocol')
     } catch(e) {
         console.error('[山海] 测试物品注册失败: ' + e);
     }
-
+*/
     // ===== 黑洞遏制场种子/坍缩器 =====
     e.create('dishanhai:bhd_hyper_seed')
         .texture('dishanhai_item:item/hyperstable_black_hole_seed')
@@ -1971,7 +1971,7 @@ e.create('dishanhai:time_reversal_protocol')
         '{golden}放入亚稳态黑洞遏制场的输入总线以关闭黑洞',
         '{aqua}关闭后稳定度和时空消耗会重置',
     ]);
-
+/*
     e.create('dishanhai:hyperdimensional_calibration_matrix')
         .texture('dishanhai_item:item/hyperdimensional_calibration_matrix')
         .displayName('超维校准矩阵')
@@ -2043,7 +2043,7 @@ TooltipAPI.register('dishanhai:misaligned_quark_emission_catalyst', [
     '{golden}非对齐夸克释放催化剂',
     '{bodySilver}使用前需要重新对齐',
 ])
-
+*/
 e.create('dishanhai:dog_coins')
 .displayName('Doge币')
 .texture('dishanhai_item:item/dog_coins')
@@ -2057,7 +2057,7 @@ TooltipAPI.register('dishanhai:dog_coins', [
     '',
     '{bodySilver}kabosu(doge原型)-在2024年5月24日离开了Doge网络-致哀',
 ])
-
+/*
 e.create('dishanhai:hydrogen_ion')
 .displayName('氢离子')
 .texture('dishanhai_item:item/hydrogen_ion')
@@ -2290,7 +2290,7 @@ DShanhaiItemTooltipAPI.register('dishanhai:eta_meson', [
     '{bodySilver}电中性赝标介子，含 u、d、s 夸克的叠加态{/}',
     '{bodySilver}质量较π介子大，与 U(1)ₐ 反常有关{/}',
 ])
-
+*/
 e.create('dishanhai:unknown_particle')
   .displayName('未知粒子')
   .texture('dishanhai_item:item/unknown_particle').tag('dishanhai:particles')
@@ -2501,7 +2501,35 @@ DShanhaiItemTooltipAPI.register('dishanhai:stupid_coin', [
     '{bodySilver}纯纯的蠢民币，没有价值{/}',
 ])
 
+// ===== GT币光环渲染（Avaritia 风格 · 山海署名）=====
+// 需要 gt_shanhai.jar 含 Halo 渲染器（2026-07-26 起）。
+// 样式: halo=底暈 / ring=冕环 / eclipse=halo+ring 日食 / rays=旋转星芒，可 "+" 组合
+// makeHalo(id, 颜色) | makeHalo(id, 样式, 底暈色, 环芒色)
+// makeHaloEx(id, 样式, 底暈色, 环芒色, 直径倍数, 呼吸脉冲, 周期ms, 星芒转速rev/s)
+// 设计原则：光环是价值的标志，仅 UEV 级以上高阶币有光环，低阶币保持素面
+DShanhaiJS.makeHalo('dishanhai:vibranium_coin', '#7B2BFF')                                                    // 振金：幽紫动能余波
+DShanhaiJS.makeHalo('dishanhai:magmatter_coin', 'eclipse', '#050507', '#FF7A1A')                              // 磁物质：黑体吞光+磁约束熔缘（日食）
+DShanhaiJS.makeHalo('dishanhai:magnetohydrodynamicallyconstrainedstarmatter_coin', 'halo+rays', '#3FA9FF', '#CFEFFF') // 磁流体恒星：等离子蓝白星芒
+DShanhaiJS.makeHalo('dishanhai:primordialmatter_coin', '#8FD8FF')                                             // 流体本源：创世前的蓝白星流
+DShanhaiJS.makeHalo('dishanhai:spacetime_coin', 'eclipse', '#14042B', '#B45CFF')                              // 时空：暗紫日食，闪烁于过去与未来之间
+DShanhaiJS.makeHaloEx('dishanhai:transcendentmetal_coin', 'halo+rays', '#2B0A33', '#FF3CE1', 1.55, true, 1400, -0.03) // 超维度：星芒逆旋=立体相位偏移
+// 宇宙GT币不走此系统：其模型用 Re-Avaritia 的 avaritia:cosmic 星空 shader（BEWLR），保留原效果
+DShanhaiJS.makeHaloEx('dishanhai:neutron_coin', 'halo', '#E8F4FF', '#E8F4FF', 1.3, true, 700, 0)              // 宇宙中子：脉冲星急促呼吸
+DShanhaiJS.makeHaloEx('dishanhai:eternity_coin', 'eclipse+rays', '#1E0640', '#66FFB2', 1.55, true, 2600, 0.015) // 永恒：紫绿星涡缓旋不息
+DShanhaiJS.makeHaloEx('dishanhai:chaos_coin', 'halo+rays', '#101010', '#FFFFFF', 1.5, true, 900, 0.08)        // 混沌：不可名状白色星痕乱旋
+DShanhaiJS.makeHaloEx('dishanhai:star_gate_crystal_slurry_coin', 'eclipse', 'rainbow', 'rainbow', 1.5, true, 1400, 0) // 星门水晶浆：彩虹晶辉循环
+DShanhaiJS.makeHaloEx('dishanhai:infinite_coin', 'halo+rays', '#FFFFFF', '#FFFFFF', 1.7, true, 1800, 0.04)    // 无尽：致敬 Avaritia 的纯白爆芒
+DShanhaiJS.makeHaloEx('dishanhai:coin_secondary', 'eclipse', '#000000', '#2A2A2A', 1.4, false, 1400, 0)       // 虚无：死寂静止黑暈
 
+// ===== 不稳定抖动（需 2026-07-27 起的 gt_shanhai.jar；可与光环叠加，同一物品分别调用即自动合并）=====
+// makeShake(id, 模式, 幅度) | makeShakeEx(id, 模式, 幅度, 周期ms, 色差幅度)
+// 模式: quiver=平滑高频颤抖 / glitch=故障跳位（离散瞬跳+失稳尖峰，尖峰时光环同步炸开）
+DShanhaiJS.makeShakeEx('dishanhai:chaos_coin', 'glitch', 0.035, 110, 0.055)          // 混沌：癫痫式狂跳+强红青撕裂
+DShanhaiJS.makeShakeEx('dishanhai:spacetime_coin', 'glitch', 0.018, 150, 0.03)       // 时空：低频闪跳，在两个瞬间之间瞬移
+DShanhaiJS.makeShake('dishanhai:transcendentmetal_coin', 'quiver', 0.02)             // 超维度：相位失稳高频颤动+色差残影
+DShanhaiJS.makeShakeEx('dishanhai:neutron_coin', 'quiver', 0.012, 60, 0)             // 宇宙中子：极高频微颤（纯振动，无色差）
+
+/*
 e.create('dishanhai:sadbapycat_token')
   .displayName('SadBapyCat 代币')
   .texture('dishanhai_item:item/sadbapycat_token')
@@ -2511,7 +2539,7 @@ DShanhaiItemTooltipAPI.register('dishanhai:sadbapycat_token', [
     '{bodySilver}一只悲伤小猫遗留的纪念币，没有实际价值{/}',
     '{bodySilver}但谁又忍心丢弃它呢？{/}',
 ])
-
+*/
 e.create('dishanhai:naan')
   .displayName('馕')
   .texture('dishanhai_item:item/naan')

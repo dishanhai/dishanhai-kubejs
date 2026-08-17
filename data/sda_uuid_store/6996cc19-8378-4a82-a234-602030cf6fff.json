@@ -1,0 +1,77 @@
+{
+  "uuid": "6996cc19-8378-4a82-a234-602030cf6fff",
+  "entries": [
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtlcore:degenerate_rhenium_constrained_casing\"}",
+      "amount": "188"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"kubejs:high_strength_concrete\"}",
+      "amount": "1222"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"kubejs:containment_field_generator\"}",
+      "amount": "227"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"kubejs:speeding_pipe\"}",
+      "amount": "242"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"kubejs:space_elevator_internal_support\"}",
+      "amount": "138"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtceu:plascrete\"}",
+      "amount": "992"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtlcore:spacetimebendingcore\"}",
+      "amount": "142"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtlcore:spacetimecontinuumripper\"}",
+      "amount": "45"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtlcore:dimensionally_transcendent_casing\"}",
+      "amount": "2260"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"kubejs:dimensional_bridge_casing\"}",
+      "amount": "1546"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtladditions:gravity_stabilization_casing\"}",
+      "amount": "138"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtlcore:molecular_casing\"}",
+      "amount": "208"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtceu:high_power_casing\"}",
+      "amount": "193"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"gtlcore:rhenium_reinforced_energy_glass\"}",
+      "amount": "161"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"kubejs:hollow_casing\"}",
+      "amount": "266"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"kubejs:dimensional_stability_casing\"}",
+      "amount": "146"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"kubejs:annihilate_core\"}",
+      "amount": "150"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"kubejs:magic_core\"}",
+      "amount": "260"
+    }
+  ]
+}

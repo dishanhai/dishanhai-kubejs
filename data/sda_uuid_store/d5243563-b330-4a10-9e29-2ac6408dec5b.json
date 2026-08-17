@@ -1,0 +1,657 @@
+{
+  "uuid": "d5243563-b330-4a10-9e29-2ac6408dec5b",
+  "entries": [
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 2\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:copper_dust\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:silver_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:2}}],out:[{\"#\":720L,\"#c\":\"ae2:f\",id:\"gtceu:sterling_silver\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 6\"}\u0027,\u0027{\"text\":\"电压: UV (491520 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":12L,\"#c\":\"ae2:i\",id:\"gtceu:tungsten_steel_dust\"},{\"#\":9L,\"#c\":\"ae2:i\",id:\"gtceu:hsss_dust\"},{\"#\":6L,\"#c\":\"ae2:i\",id:\"gtceu:hssg_dust\"},{\"#\":3L,\"#c\":\"ae2:i\",id:\"gtceu:ruridit_dust\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:magneto_resonatic_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:plutonium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:6}}],out:[{\"#\":4752L,\"#c\":\"ae2:f\",id:\"gtceu:highurabilityompoundteel\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 2\"}\u0027,\u0027{\"text\":\"电压: HV (480 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:silicon_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:carbon_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:2}}],out:[{\"#\":288L,\"#c\":\"ae2:f\",id:\"gtceu:silicon_carbide\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 5\"}\u0027,\u0027{\"text\":\"电压: IV (7680 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":12L,\"#c\":\"ae2:i\",id:\"gtceu:tin_dust\"},{\"#\":7L,\"#c\":\"ae2:i\",id:\"gtceu:actinium_dust\"},{\"#\":5L,\"#c\":\"ae2:i\",id:\"gtceu:enriched_naquadah_trinium_europium_duranide_dust\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:caesium_dust\"},{\"#\":3L,\"#c\":\"ae2:i\",id:\"gtceu:osmiridium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:5}}],out:[{\"#\":4464L,\"#c\":\"ae2:f\",id:\"gtceu:artherium_sn\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 5\"}\u0027,\u0027{\"text\":\"电压: LV (16 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:copper_dust\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"minecraft:redstone\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:5}}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:red_alloy\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 0\"}\u0027,\u0027{\"text\":\"电压: LuV (30720 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"gtceu\",marked:1b,n:\"zpm_fusion_reactor\",targetItem:{Count:1b,id:\"gtceu:zpm_fusion_reactor\"}}},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"thetornproductionline\",marked:1b,n:\"fusion_process_module\",targetItem:{Count:1b,id:\"thetornproductionline:fusion_process_module\"}}},{\"#\":4096L,\"#c\":\"ae2:f\",id:\"gtceu:titanium\"},{\"#\":4096L,\"#c\":\"ae2:f\",id:\"gtceu:duranium\"}],out:[{\"#\":2048L,\"#c\":\"ae2:f\",id:\"gtceu:tritanium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 20\"}\u0027,\u0027{\"text\":\"电压: MV (128 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:20}},{\"#\":1L,\"#c\":\"ae2:i\",id:\"minecraft:iron_ingot\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:carbon_dust\"}],out:[{\"#\":444L,\"#c\":\"ae2:f\",id:\"gtceu:wrought_iron\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 5\"}\u0027,\u0027{\"text\":\"电压: EV (1920 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":10L,\"#c\":\"ae2:i\",id:\"gtceu:iron_dust\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:nickel_dust\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:tungsten_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:niobium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:cobalt_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:5}}],out:[{\"#\":2304L,\"#c\":\"ae2:f\",id:\"gtceu:zeron_100\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 0\"}\u0027,\u0027{\"text\":\"电压: OpV (425829120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":11L,\"#c\":\"ae2:i\",id:\"gtceu:tritanium_dust\"},{\"#\":11L,\"#c\":\"ae2:i\",id:\"gtceu:rubidium_dust\"},{\"#\":7L,\"#c\":\"ae2:i\",id:\"gtceu:highurabilityompoundteel_dust\"},{\"#\":13L,\"#c\":\"ae2:i\",id:\"gtceu:tartarite_dust\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:jasper_dust\"},{\"#\":13L,\"#c\":\"ae2:i\",id:\"avaritia:infinity_catalyst\"},{\"#\":5000L,\"#c\":\"ae2:f\",id:\"gtceu:dimensionallytranscendentresidue\"}],out:[{\"#\":7200L,\"#c\":\"ae2:f\",id:\"gtladditions:mellion\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 10\"}\u0027,\u0027{\"text\":\"电压: UV (491520 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":5L,\"#c\":\"ae2:i\",id:\"gtceu:stainless_steel_dust\"},{\"#\":5L,\"#c\":\"ae2:i\",id:\"gtceu:tungsten_carbide_dust\"},{\"#\":5L,\"#c\":\"ae2:i\",id:\"gtceu:nichrome_dust\"},{\"#\":5L,\"#c\":\"ae2:i\",id:\"gtceu:bronze_dust\"},{\"#\":5L,\"#c\":\"ae2:i\",id:\"gtceu:incoloy_ma_956_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:iodine_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:germanium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:hafnium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:10}},{\"#\":1000L,\"#c\":\"ae2:f\",id:\"gtceu:radon\"},{\"#\":1000L,\"#c\":\"ae2:f\",id:\"gtceu:barnarda_air\"}],out:[{\"#\":4320L,\"#c\":\"ae2:f\",id:\"gtceu:abyssalalloy\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 6\"}\u0027,\u0027{\"text\":\"电压: ZPM (122880 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:tungsten_dust\"},{\"#\":7L,\"#c\":\"ae2:i\",id:\"gtceu:naquadria_dust\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:trinium_dust\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:carbon_dust\"},{\"#\":3L,\"#c\":\"ae2:i\",id:\"gtceu:vanadium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:plutonium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:6}}],out:[{\"#\":3888L,\"#c\":\"ae2:f\",id:\"gtceu:tairitsu\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 7\"}\u0027,\u0027{\"text\":\"电压: IV (7680 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":3L,\"#c\":\"ae2:i\",id:\"gtceu:erbium_dust\"},{\"#\":10L,\"#c\":\"ae2:i\",id:\"gtceu:tungsten_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:naquadah_dust\"},{\"#\":9L,\"#c\":\"ae2:i\",id:\"gtceu:niobium_titanium_dust\"},{\"#\":7L,\"#c\":\"ae2:i\",id:\"gtceu:quantanium_dust\"},{\"#\":14L,\"#c\":\"ae2:i\",id:\"gtceu:rhodium_plated_palladium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:tanmolyium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:7}}],out:[{\"#\":6480L,\"#c\":\"ae2:f\",id:\"gtceu:dalisenite\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 2\"}\u0027,\u0027{\"text\":\"电压: EV (1920 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:uranium_dust\"},{\"#\":3L,\"#c\":\"ae2:i\",id:\"gtceu:platinum_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:2}}],out:[{\"#\":576L,\"#c\":\"ae2:f\",id:\"gtceu:uranium_triplatinum\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 5\"}\u0027,\u0027{\"text\":\"电压: EV (1920 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":7L,\"#c\":\"ae2:i\",id:\"gtceu:iron_dust\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:aluminium_dust\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:nickel_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:chromium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:sulfur_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:5}}],out:[{\"#\":2160L,\"#c\":\"ae2:f\",id:\"gtceu:watertight_steel\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 0\"}\u0027,\u0027{\"text\":\"电压: LuV (16384 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"gtceu\",marked:1b,n:\"zpm_fusion_reactor\",targetItem:{Count:1b,id:\"gtceu:zpm_fusion_reactor\"}}},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"thetornproductionline\",marked:1b,n:\"fusion_process_module\",targetItem:{Count:1b,id:\"thetornproductionline:fusion_process_module\"}}},{\"#\":2048L,\"#c\":\"ae2:f\",id:\"gtceu:beryllium\"},{\"#\":48000L,\"#c\":\"ae2:f\",id:\"gtceu:deuterium\"}],out:[{\"#\":16000L,\"#c\":\"ae2:f\",id:\"gtceu:nitrogen_plasma\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 2\"}\u0027,\u0027{\"text\":\"电压: HV (480 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:nickel_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:chromium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:2}}],out:[{\"#\":720L,\"#c\":\"ae2:f\",id:\"gtceu:nichrome\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 2\"}\u0027,\u0027{\"text\":\"电压: UXV (125829120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:vibranium_dust\"},{\"#\":3L,\"#c\":\"ae2:i\",id:\"gtceu:adamantium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:2}}],out:[{\"#\":576L,\"#c\":\"ae2:f\",id:\"gtceu:vibramantium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 7\"}\u0027,\u0027{\"text\":\"电压: UHV (1966080 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:titanium_tungsten_carbide_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:plutonium_241_dust\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:einsteinium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:rhenium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:erbium_dust\"},{\"#\":3L,\"#c\":\"ae2:i\",id:\"gtceu:jasper_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:7}},{\"#\":1000L,\"#c\":\"ae2:f\",id:\"gtceu:uu_amplifier\"}],out:[{\"#\":1872L,\"#c\":\"ae2:f\",id:\"gtceu:titansteel\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 4\"}\u0027,\u0027{\"text\":\"电压: LV (16 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":3L,\"#c\":\"ae2:i\",id:\"gtceu:copper_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:zinc_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:4}}],out:[{\"#\":576L,\"#c\":\"ae2:f\",id:\"gtceu:brass\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 4\"}\u0027,\u0027{\"text\":\"电压: EV (1920 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":9L,\"#c\":\"ae2:i\",id:\"gtceu:cobalt_dust\"},{\"#\":9L,\"#c\":\"ae2:i\",id:\"gtceu:chromium_dust\"},{\"#\":5L,\"#c\":\"ae2:i\",id:\"gtceu:manganese_dust\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:titanium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:4}}],out:[{\"#\":3600L,\"#c\":\"ae2:f\",id:\"gtceu:stellite\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 8\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:8}},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:carbon_dust\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:sulfur_dust\"}],out:[{\"#\":1000L,\"#c\":\"ae2:f\",id:\"gtceu:carbon_disulfide\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 11\"}\u0027,\u0027{\"text\":\"电压: UXV (134217728 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:naquadriatictaranium_dust\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:trinium_dust\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:duranium_dust\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:orichalcum_dust\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:mithril_dust\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:tritanium_dust\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:adamantine_dust\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:vibranium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:11}},{\"#\":1000L,\"#c\":\"ae2:f\",id:\"gtceu:neutronium\"},{\"#\":1000L,\"#c\":\"ae2:f\",id:\"gtceu:heavy_lepton_mixture\"},{\"#\":288L,\"#c\":\"ae2:f\",id:\"gtceu:adamantium\"}],out:[{\"#\":2304L,\"#c\":\"ae2:f\",id:\"gtceu:legendarium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 6\"}\u0027,\u0027{\"text\":\"电压: EV (1920 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":12L,\"#c\":\"ae2:i\",id:\"gtceu:nickel_dust\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:molybdenum_dust\"},{\"#\":7L,\"#c\":\"ae2:i\",id:\"gtceu:chromium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:tungsten_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:cobalt_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:copper_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:6}}],out:[{\"#\":4320L,\"#c\":\"ae2:f\",id:\"gtceu:hastelloy_c_276\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 3\"}\u0027,\u0027{\"text\":\"电压: UHV (1966080 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":18L,\"#c\":\"ae2:i\",id:\"gtceu:lumiium_dust\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:silver_dust\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:sunnarium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:3}}],out:[{\"#\":4320L,\"#c\":\"ae2:f\",id:\"gtceu:hikarium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ZPM (122880 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"gtceu\",marked:1b,n:\"uhv_fusion_reactor\",targetItem:{Count:1b,id:\"gtceu:uhv_fusion_reactor\"}}},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"thetornproductionline\",marked:1b,n:\"fusion_process_module\",targetItem:{Count:1b,id:\"thetornproductionline:fusion_process_module\"}}},{\"#\":4096L,\"#c\":\"ae2:f\",id:\"gtceu:thorium\"},{\"#\":4096L,\"#c\":\"ae2:f\",id:\"gtceu:iron\"}],out:[{\"#\":4096L,\"#c\":\"ae2:f\",id:\"gtceu:livermorium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 21\"}\u0027,\u0027{\"text\":\"电压: UHV (1966080 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":64L,\"#c\":\"ae2:i\",id:\"gtceu:quantum_star\"},{\"#\":64L,\"#c\":\"ae2:i\",id:\"gtceu:quantum_eye\"},{\"#\":64L,\"#c\":\"ae2:i\",id:\"gtceu:mithril_dust\"},{\"#\":64L,\"#c\":\"ae2:i\",id:\"gtceu:gadolinium_dust\"},{\"#\":64L,\"#c\":\"ae2:i\",id:\"minecraft:netherite_scrap\"},{\"#\":64L,\"#c\":\"ae2:i\",id:\"ae2:fluix_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:21}},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"thetornproductionline\",marked:1b,n:\"neutron_activator_module\",targetItem:{Count:1b,id:\"thetornproductionline:neutron_activator_module\"}}},{\"#\":16000L,\"#c\":\"ae2:f\",id:\"gtceu:neon\"}],out:[{\"#\":1000L,\"#c\":\"ae2:f\",id:\"gtceu:quantanium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 8\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:rutherfordium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:dubnium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:seaborgium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:bohrium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:hassium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:meitnerium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:darmstadtium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:roentgenium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:8}}],out:[{\"#\":1152L,\"#c\":\"ae2:f\",id:\"gtceu:superheavy_l_alloy\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 2\"}\u0027,\u0027{\"text\":\"电压: EV (1920 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":3L,\"#c\":\"ae2:i\",id:\"gtceu:vanadium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:gallium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:2}}],out:[{\"#\":576L,\"#c\":\"ae2:f\",id:\"gtceu:vanadium_gallium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 2\"}\u0027,\u0027{\"text\":\"电压: HV (480 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:tungsten_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:carbon_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:2}}],out:[{\"#\":288L,\"#c\":\"ae2:f\",id:\"gtceu:tungsten_carbide\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 4\"}\u0027,\u0027{\"text\":\"电压: EV (1920 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:iron_dust\"},{\"#\":3L,\"#c\":\"ae2:i\",id:\"gtceu:chromium_dust\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:tungsten_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:molybdenum_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:4}}],out:[{\"#\":1440L,\"#c\":\"ae2:f\",id:\"gtceu:stellite_100\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 4\"}\u0027,\u0027{\"text\":\"电压: LV (16 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":3L,\"#c\":\"ae2:i\",id:\"gtceu:copper_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:tin_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:4}}],out:[{\"#\":576L,\"#c\":\"ae2:f\",id:\"gtceu:bronze\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 0\"}\u0027,\u0027{\"text\":\"电压: EV (1920 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":32L,\"#c\":\"ae2:i\",id:\"gtceu:silver_dust\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:infused_gold_dust\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:iron_dust\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"gtceu:lapis_dust\"},{\"#\":1000L,\"#c\":\"ae2:f\",id:\"gtceu:distilled_water\"}],out:[{\"#\":6912L,\"#c\":\"ae2:f\",id:\"gtceu:astral_silver\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 4\"}\u0027,\u0027{\"text\":\"电压: HV (480 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":6L,\"#c\":\"ae2:i\",id:\"gtceu:iron_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:chromium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:manganese_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:nickel_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:4}}],out:[{\"#\":1296L,\"#c\":\"ae2:f\",id:\"gtceu:stainless_steel\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ZPM (65536 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"gtceu\",marked:1b,n:\"uhv_fusion_reactor\",targetItem:{Count:1b,id:\"gtceu:uhv_fusion_reactor\"}}},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"thetornproductionline\",marked:1b,n:\"fusion_process_module\",targetItem:{Count:1b,id:\"thetornproductionline:fusion_process_module\"}}},{\"#\":8192L,\"#c\":\"ae2:f\",id:\"gtceu:calcium\"},{\"#\":8192L,\"#c\":\"ae2:f\",id:\"gtceu:plutonium\"}],out:[{\"#\":8192L,\"#c\":\"ae2:f\",id:\"gtceu:seaborgium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 4\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:nickel_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:niobium_dust\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:aluminium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:nichrome_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:4}}],out:[{\"#\":864L,\"#c\":\"ae2:f\",id:\"gtceu:inconel_792\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 0\"}\u0027,\u0027{\"text\":\"电压: LuV (30720 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"gtceu\",marked:1b,n:\"zpm_fusion_reactor\",targetItem:{Count:1b,id:\"gtceu:zpm_fusion_reactor\"}}},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"thetornproductionline\",marked:1b,n:\"fusion_process_module\",targetItem:{Count:1b,id:\"thetornproductionline:fusion_process_module\"}}},{\"#\":4096L,\"#c\":\"ae2:f\",id:\"gtceu:arsenic\"},{\"#\":2048L,\"#c\":\"ae2:f\",id:\"gtceu:ruthenium\"}],out:[{\"#\":2048L,\"#c\":\"ae2:f\",id:\"gtceu:darmstadtium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 2\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:manganese_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:phosphorus_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:2}}],out:[{\"#\":288L,\"#c\":\"ae2:f\",id:\"gtceu:manganese_phosphide\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 3\"}\u0027,\u0027{\"text\":\"电压: UHV (1966080 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:transition_1_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:transition_2_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:transition_3_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:3}}],out:[{\"#\":432L,\"#c\":\"ae2:f\",id:\"gtceu:transition\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 5\"}\u0027,\u0027{\"text\":\"电压: MAX (2147483647 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":40L,\"#c\":\"ae2:i\",id:\"gtceu:fermium_dust\"},{\"#\":40L,\"#c\":\"ae2:i\",id:\"gtceu:thorium_dust\"},{\"#\":40L,\"#c\":\"ae2:i\",id:\"gtceu:calcium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:5}},{\"#\":2304L,\"#c\":\"ae2:f\",id:\"gtceu:celestialtungsten\"},{\"#\":2736L,\"#c\":\"ae2:f\",id:\"gtceu:dimensionallytranscendentresidue\"}],out:[{\"#\":1000L,\"#c\":\"ae2:f\",id:\"gtladditions:creon\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 4\"}\u0027,\u0027{\"text\":\"电压: HV (480 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":5L,\"#c\":\"ae2:i\",id:\"gtceu:cobalt_dust\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:chromium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:nickel_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:molybdenum_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:4}}],out:[{\"#\":1296L,\"#c\":\"ae2:f\",id:\"gtceu:ultimet\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 0\"}\u0027,\u0027{\"text\":\"电压: UHV (1966080 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"gtceu\",marked:1b,n:\"uv_fusion_reactor\",targetItem:{Count:1b,id:\"gtceu:uv_fusion_reactor\"}}},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"thetornproductionline\",marked:1b,n:\"fusion_process_module\",targetItem:{Count:1b,id:\"thetornproductionline:fusion_process_module\"}}},{\"#\":2048L,\"#c\":\"ae2:f\",id:\"gtceu:lutetium\"},{\"#\":2048L,\"#c\":\"ae2:f\",id:\"gtceu:vanadium\"}],out:[{\"#\":2048L,\"#c\":\"ae2:f\",id:\"gtceu:plutonium_241_plasma\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 2\"}\u0027,\u0027{\"text\":\"电压: EV (1920 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:titanium_carbide_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:tungsten_carbide_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:2}}],out:[{\"#\":432L,\"#c\":\"ae2:f\",id:\"gtceu:titanium_tungsten_carbide\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 2\"}\u0027,\u0027{\"text\":\"电压: HV (480 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:magnesium_dust\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:boron_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:2}}],out:[{\"#\":432L,\"#c\":\"ae2:f\",id:\"gtceu:magnesium_diboride\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 2\"}\u0027,\u0027{\"text\":\"电压: UIV (31457280 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:trinium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:titanium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:2}}],out:[{\"#\":432L,\"#c\":\"ae2:f\",id:\"gtceu:trinium_titanium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 5\"}\u0027,\u0027{\"text\":\"电压: EV (1920 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":15L,\"#c\":\"ae2:i\",id:\"gtceu:nickel_dust\"},{\"#\":9L,\"#c\":\"ae2:i\",id:\"gtceu:molybdenum_dust\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:chromium_dust\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:titanium_dust\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:erbium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:5}}],out:[{\"#\":4608L,\"#c\":\"ae2:f\",id:\"gtceu:hastelloy_n_75\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 3\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:sterling_silver_dust\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:tin_alloy_dust\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:luminessence_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:3}}],out:[{\"#\":1152L,\"#c\":\"ae2:f\",id:\"gtceu:lumiium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 3\"}\u0027,\u0027{\"text\":\"电压: LuV (30720 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:naquadah_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:osmiridium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:trinium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:3}}],out:[{\"#\":576L,\"#c\":\"ae2:f\",id:\"gtceu:naquadah_alloy\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 0\"}\u0027,\u0027{\"text\":\"电压: OpV (503320000 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:transcendentmetal_dust\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:tairitsu_dust\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:tartarite_dust\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:titan_precision_steel_dust\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:eternity_dust\"},{\"#\":576L,\"#c\":\"ae2:f\",id:\"gtceu:dimensionallytranscendentresidue\"}],out:[{\"#\":1152L,\"#c\":\"ae2:f\",id:\"gtladditions:proto_halkonite\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 9\"}\u0027,\u0027{\"text\":\"电压: LV (16 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":7L,\"#c\":\"ae2:i\",id:\"gtceu:brass_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:aluminium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:cobalt_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:9}}],out:[{\"#\":1296L,\"#c\":\"ae2:f\",id:\"gtceu:cobalt_brass\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 5\"}\u0027,\u0027{\"text\":\"电压: UIV (33554432 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:force_dust\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:titanium_dust\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:cobalt_dust\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:copper_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:5}},{\"#\":1000L,\"#c\":\"ae2:f\",id:\"gtceu:tritium\"}],out:[{\"#\":1000L,\"#c\":\"ae2:f\",id:\"gtceu:astraltitanium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 8\"}\u0027,\u0027{\"text\":\"电压: UXV (125829120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":5L,\"#c\":\"ae2:i\",id:\"gtceu:hastelloyx_78_dust\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:niobium_nitride_dust\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:tritanium_dust\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:tungsten_carbide_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:promethium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:mendelevium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:praseodymium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:holmium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:8}}],out:[{\"#\":2736L,\"#c\":\"ae2:f\",id:\"gtceu:hastelloyk_243\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 5\"}\u0027,\u0027{\"text\":\"电压: EV (1920 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":16L,\"#c\":\"ae2:i\",id:\"gtceu:iron_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:titanium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:aluminium_dust\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:nickel_dust\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:cobalt_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:5}}],out:[{\"#\":3456L,\"#c\":\"ae2:f\",id:\"gtceu:maraging_steel_300\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 6\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:iron_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:kanthal_dust\"},{\"#\":5L,\"#c\":\"ae2:i\",id:\"gtceu:invar_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:sulfur_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:silicon_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:carbon_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:6}}],out:[{\"#\":1872L,\"#c\":\"ae2:f\",id:\"gtceu:eglin_steel\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 0\"}\u0027,\u0027{\"text\":\"电压: LuV (24578 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"gtceu\",marked:1b,n:\"luv_fusion_reactor\",targetItem:{Count:1b,id:\"gtceu:luv_fusion_reactor\"}}},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"thetornproductionline\",marked:1b,n:\"fusion_process_module\",targetItem:{Count:1b,id:\"thetornproductionline:fusion_process_module\"}}},{\"#\":2048L,\"#c\":\"ae2:f\",id:\"gtceu:silver\"},{\"#\":2048L,\"#c\":\"ae2:f\",id:\"gtceu:copper\"}],out:[{\"#\":2048L,\"#c\":\"ae2:f\",id:\"gtceu:osmium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 0\"}\u0027,\u0027{\"text\":\"电压: UHV (1048576 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"gtceu\",marked:1b,n:\"uhv_fusion_reactor\",targetItem:{Count:1b,id:\"gtceu:uhv_fusion_reactor\"}}},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"thetornproductionline\",marked:1b,n:\"fusion_process_module\",targetItem:{Count:1b,id:\"thetornproductionline:fusion_process_module\"}}},{\"#\":16000L,\"#c\":\"ae2:f\",id:\"gtceu:taranium_enriched_liquid_helium_3\"},{\"#\":16000L,\"#c\":\"ae2:f\",id:\"gtceu:hydrogen\"}],out:[{\"#\":16000L,\"#c\":\"ae2:f\",id:\"gtceu:taranium_rich_liquid_helium_4_plasma\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 0\"}\u0027,\u0027{\"text\":\"电压: UV (491520 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"gtceu\",marked:1b,n:\"uhv_fusion_reactor\",targetItem:{Count:1b,id:\"gtceu:uhv_fusion_reactor\"}}},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"thetornproductionline\",marked:1b,n:\"fusion_process_module\",targetItem:{Count:1b,id:\"thetornproductionline:fusion_process_module\"}}},{\"#\":4096L,\"#c\":\"ae2:f\",id:\"gtceu:scandium_titanium_50_mixture\"},{\"#\":32000L,\"#c\":\"ae2:f\",id:\"gtceu:radon\"}],out:[{\"#\":4096L,\"#c\":\"ae2:f\",id:\"gtceu:metastable_hassium_plasma\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 4\"}\u0027,\u0027{\"text\":\"电压: HV (480 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":15L,\"#c\":\"ae2:i\",id:\"gtceu:iron_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:niobium_dust\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:vanadium_dust\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:carbon_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:4}}],out:[{\"#\":3168L,\"#c\":\"ae2:f\",id:\"gtceu:reactor_steel\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 8\"}\u0027,\u0027{\"text\":\"电压: EV (1920 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":15L,\"#c\":\"ae2:i\",id:\"gtceu:stellite_dust\"},{\"#\":3L,\"#c\":\"ae2:i\",id:\"gtceu:quantanium_dust\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:jasper_dust\"},{\"#\":5L,\"#c\":\"ae2:i\",id:\"gtceu:gallium_dust\"},{\"#\":5L,\"#c\":\"ae2:i\",id:\"gtceu:americium_dust\"},{\"#\":5L,\"#c\":\"ae2:i\",id:\"gtceu:palladium_dust\"},{\"#\":5L,\"#c\":\"ae2:i\",id:\"gtceu:germanium_dust\"},{\"#\":5L,\"#c\":\"ae2:i\",id:\"gtceu:silicon_carbide_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:8}}],out:[{\"#\":6480L,\"#c\":\"ae2:f\",id:\"gtceu:quantum\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 4\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:yttrium_dust\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:barium_dust\"},{\"#\":3L,\"#c\":\"ae2:i\",id:\"gtceu:copper_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:4}},{\"#\":7000L,\"#c\":\"ae2:f\",id:\"gtceu:oxygen\"}],out:[{\"#\":1872L,\"#c\":\"ae2:f\",id:\"gtceu:yttrium_barium_cuprate\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 0\"}\u0027,\u0027{\"text\":\"电压: IV (4096 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"gtceu\",marked:1b,n:\"zpm_fusion_reactor\",targetItem:{Count:1b,id:\"gtceu:zpm_fusion_reactor\"}}},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"thetornproductionline\",marked:1b,n:\"fusion_process_module\",targetItem:{Count:1b,id:\"thetornproductionline:fusion_process_module\"}}},{\"#\":2048L,\"#c\":\"ae2:f\",id:\"gtceu:carbon\"},{\"#\":16000L,\"#c\":\"ae2:f\",id:\"gtceu:helium_3\"}],out:[{\"#\":16000L,\"#c\":\"ae2:f\",id:\"gtceu:oxygen_plasma\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 0\"}\u0027,\u0027{\"text\":\"电压: LuV (30720 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"gtceu\",marked:1b,n:\"uv_fusion_reactor\",targetItem:{Count:1b,id:\"gtceu:uv_fusion_reactor\"}}},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"thetornproductionline\",marked:1b,n:\"fusion_process_module\",targetItem:{Count:1b,id:\"thetornproductionline:fusion_process_module\"}}},{\"#\":2048L,\"#c\":\"ae2:f\",id:\"gtceu:potassium\"},{\"#\":16000L,\"#c\":\"ae2:f\",id:\"gtceu:fluorine\"}],out:[{\"#\":2048L,\"#c\":\"ae2:f\",id:\"gtceu:nickel_plasma\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 2\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:aluminium_dust\"},{\"#\":6L,\"#c\":\"ae2:i\",id:\"gtceu:bronze_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:2}}],out:[{\"#\":1008L,\"#c\":\"ae2:f\",id:\"gtceu:aluminium_bronze\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 0\"}\u0027,\u0027{\"text\":\"电压: LuV (24576 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"gtceu\",marked:1b,n:\"luv_fusion_reactor\",targetItem:{Count:1b,id:\"gtceu:luv_fusion_reactor\"}}},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"thetornproductionline\",marked:1b,n:\"fusion_process_module\",targetItem:{Count:1b,id:\"thetornproductionline:fusion_process_module\"}}},{\"#\":2048L,\"#c\":\"ae2:f\",id:\"gtceu:gold\"},{\"#\":2048L,\"#c\":\"ae2:f\",id:\"gtceu:aluminium\"}],out:[{\"#\":2048L,\"#c\":\"ae2:f\",id:\"gtceu:uranium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 0\"}\u0027,\u0027{\"text\":\"电压: UV (491520 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"gtceu\",marked:1b,n:\"uhv_fusion_reactor\",targetItem:{Count:1b,id:\"gtceu:uhv_fusion_reactor\"}}},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"thetornproductionline\",marked:1b,n:\"fusion_process_module\",targetItem:{Count:1b,id:\"thetornproductionline:fusion_process_module\"}}},{\"#\":2048L,\"#c\":\"ae2:f\",id:\"gtceu:oganesson_breeding_base\"},{\"#\":2048L,\"#c\":\"ae2:f\",id:\"gtceu:dysprosium\"}],out:[{\"#\":16000L,\"#c\":\"ae2:f\",id:\"gtceu:hot_oganesson\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 2\"}\u0027,\u0027{\"text\":\"电压: EV (960 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:ruthenium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:iridium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:2}}],out:[{\"#\":432L,\"#c\":\"ae2:f\",id:\"gtceu:ruridit\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 2\"}\u0027,\u0027{\"text\":\"电压: EV (1920 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:steel_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:tungsten_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:2}}],out:[{\"#\":288L,\"#c\":\"ae2:f\",id:\"gtceu:tungsten_steel\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 2\"}\u0027,\u0027{\"text\":\"电压: LV (16 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:iron_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:tin_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:2}}],out:[{\"#\":288L,\"#c\":\"ae2:f\",id:\"gtceu:tin_alloy\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ZPM (122880 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"gtceu\",marked:1b,n:\"uv_fusion_reactor\",targetItem:{Count:1b,id:\"gtceu:uv_fusion_reactor\"}}},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"thetornproductionline\",marked:1b,n:\"fusion_process_module\",targetItem:{Count:1b,id:\"thetornproductionline:fusion_process_module\"}}},{\"#\":18432L,\"#c\":\"ae2:f\",id:\"gtceu:berkelium\"},{\"#\":147456L,\"#c\":\"ae2:f\",id:\"gtceu:potassium\"}],out:[{\"#\":18432L,\"#c\":\"ae2:f\",id:\"gtceu:mithril_plasma\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 0\"}\u0027,\u0027{\"text\":\"电压: LuV (24576 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"gtceu\",marked:1b,n:\"zpm_fusion_reactor\",targetItem:{Count:1b,id:\"gtceu:zpm_fusion_reactor\"}}},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"thetornproductionline\",marked:1b,n:\"fusion_process_module\",targetItem:{Count:1b,id:\"thetornproductionline:fusion_process_module\"}}},{\"#\":2048L,\"#c\":\"ae2:f\",id:\"gtceu:carbon\"},{\"#\":2048L,\"#c\":\"ae2:f\",id:\"gtceu:magnesium\"}],out:[{\"#\":16000L,\"#c\":\"ae2:f\",id:\"gtceu:argon_plasma\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ZPM (49152 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"gtceu\",marked:1b,n:\"zpm_fusion_reactor\",targetItem:{Count:1b,id:\"gtceu:zpm_fusion_reactor\"}}},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"thetornproductionline\",marked:1b,n:\"fusion_process_module\",targetItem:{Count:1b,id:\"thetornproductionline:fusion_process_module\"}}},{\"#\":16000L,\"#c\":\"ae2:f\",id:\"gtceu:krypton\"},{\"#\":2048L,\"#c\":\"ae2:f\",id:\"gtceu:cerium\"}],out:[{\"#\":2048L,\"#c\":\"ae2:f\",id:\"gtceu:plutonium_241\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 4\"}\u0027,\u0027{\"text\":\"电压: HV (480 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:rose_gold_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:brass_dust\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:steel_dust\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:black_steel_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:4}}],out:[{\"#\":1152L,\"#c\":\"ae2:f\",id:\"gtceu:blue_steel\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 2\"}\u0027,\u0027{\"text\":\"电压: EV (1920 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:molybdenum_dust\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:silicon_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:2}}],out:[{\"#\":432L,\"#c\":\"ae2:f\",id:\"gtceu:molybdenum_disilicide\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 3\"}\u0027,\u0027{\"text\":\"电压: LV (16 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:iron_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:nickel_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:3}}],out:[{\"#\":432L,\"#c\":\"ae2:f\",id:\"gtceu:invar\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 5\"}\u0027,\u0027{\"text\":\"电压: LV (16 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:silver_dust\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:electrotine_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:5}}],out:[{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:blue_alloy\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 0\"}\u0027,\u0027{\"text\":\"电压: LuV (16384 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"gtceu\",marked:1b,n:\"luv_fusion_reactor\",targetItem:{Count:1b,id:\"gtceu:luv_fusion_reactor\"}}},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"thetornproductionline\",marked:1b,n:\"fusion_process_module\",targetItem:{Count:1b,id:\"thetornproductionline:fusion_process_module\"}}},{\"#\":2048L,\"#c\":\"ae2:f\",id:\"gtceu:gallium\"},{\"#\":16000L,\"#c\":\"ae2:f\",id:\"gtceu:radon\"}],out:[{\"#\":2048L,\"#c\":\"ae2:f\",id:\"gtceu:duranium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 6\"}\u0027,\u0027{\"text\":\"电压: IV (7680 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:indium_dust\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:tin_dust\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:barium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:titanium_dust\"},{\"#\":7L,\"#c\":\"ae2:i\",id:\"gtceu:copper_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:6}},{\"#\":14000L,\"#c\":\"ae2:f\",id:\"gtceu:oxygen\"}],out:[{\"#\":2304L,\"#c\":\"ae2:f\",id:\"gtceu:indium_tin_barium_titanium_cuprate\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 3\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:gold_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:silver_dust\"},{\"#\":3L,\"#c\":\"ae2:i\",id:\"gtceu:copper_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:3}}],out:[{\"#\":720L,\"#c\":\"ae2:f\",id:\"gtceu:black_bronze\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 3\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:bismuth_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:zinc_dust\"},{\"#\":3L,\"#c\":\"ae2:i\",id:\"gtceu:copper_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:3}}],out:[{\"#\":720L,\"#c\":\"ae2:f\",id:\"gtceu:bismuth_bronze\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 8\"}\u0027,\u0027{\"text\":\"电压: LV (16 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":7L,\"#c\":\"ae2:i\",id:\"gtceu:glass_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:boron_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:8}}],out:[{\"#\":1152L,\"#c\":\"ae2:f\",id:\"gtceu:borosilicate_glass\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 0\"}\u0027,\u0027{\"text\":\"电压: UXV (134217728 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"kubejs:quantum_chromodynamic_charge\"},{\"#\":1000L,\"#c\":\"ae2:f\",id:\"gtceu:draconium\"}],out:[{\"#\":1000L,\"#c\":\"ae2:f\",id:\"gtceu:draconiumawakened\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 8\"}\u0027,\u0027{\"text\":\"电压: UEV (7864320 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":10L,\"#c\":\"ae2:i\",id:\"gtceu:naquadah_alloy_dust\"},{\"#\":5L,\"#c\":\"ae2:i\",id:\"gtceu:rhenium_dust\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:naquadria_dust\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:tritanium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:tungsten_carbide_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:promethium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:mendelevium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:praseodymium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:8}}],out:[{\"#\":3888L,\"#c\":\"ae2:f\",id:\"gtceu:hastelloyx_78\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 3\"}\u0027,\u0027{\"text\":\"电压: LV (16 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:magnesium_dust\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:aluminium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:3}}],out:[{\"#\":432L,\"#c\":\"ae2:f\",id:\"gtceu:magnalium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 0\"}\u0027,\u0027{\"text\":\"电压: UHV (1966080 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"gtceu\",marked:1b,n:\"uev_fusion_reactor\",targetItem:{Count:1b,id:\"gtceu:uev_fusion_reactor\"}}},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"thetornproductionline\",marked:1b,n:\"fusion_process_module\",targetItem:{Count:1b,id:\"thetornproductionline:fusion_process_module\"}}},{\"#\":2048L,\"#c\":\"ae2:f\",id:\"gtceu:vibranium_unstable\"},{\"#\":2048L,\"#c\":\"ae2:f\",id:\"gtceu:adamantium\"}],out:[{\"#\":2048L,\"#c\":\"ae2:f\",id:\"gtceu:vibranium_plasma\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 10\"}\u0027,\u0027{\"text\":\"电压: LV (16 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":6L,\"#c\":\"ae2:i\",id:\"gtceu:tin_dust\"},{\"#\":3L,\"#c\":\"ae2:i\",id:\"gtceu:lead_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:antimony_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:10}}],out:[{\"#\":1440L,\"#c\":\"ae2:f\",id:\"gtceu:soldering_alloy\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ZPM (122880 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"gtceu\",marked:1b,n:\"uv_fusion_reactor\",targetItem:{Count:1b,id:\"gtceu:uv_fusion_reactor\"}}},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"thetornproductionline\",marked:1b,n:\"fusion_process_module\",targetItem:{Count:1b,id:\"thetornproductionline:fusion_process_module\"}}},{\"#\":18432L,\"#c\":\"ae2:f\",id:\"gtceu:einsteinium\"},{\"#\":147456L,\"#c\":\"ae2:f\",id:\"gtceu:sodium\"}],out:[{\"#\":18432L,\"#c\":\"ae2:f\",id:\"gtceu:orichalcum_plasma\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 0\"}\u0027,\u0027{\"text\":\"电压: LuV (30720 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"gtceu\",marked:1b,n:\"zpm_fusion_reactor\",targetItem:{Count:1b,id:\"gtceu:zpm_fusion_reactor\"}}},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"thetornproductionline\",marked:1b,n:\"fusion_process_module\",targetItem:{Count:1b,id:\"thetornproductionline:fusion_process_module\"}}},{\"#\":2048L,\"#c\":\"ae2:f\",id:\"gtceu:gold\"},{\"#\":2048L,\"#c\":\"ae2:f\",id:\"gtceu:mercury\"}],out:[{\"#\":16000L,\"#c\":\"ae2:f\",id:\"gtceu:radon\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ZPM (98304 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"gtceu\",marked:1b,n:\"uv_fusion_reactor\",targetItem:{Count:1b,id:\"gtceu:uv_fusion_reactor\"}}},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"thetornproductionline\",marked:1b,n:\"fusion_process_module\",targetItem:{Count:1b,id:\"thetornproductionline:fusion_process_module\"}}},{\"#\":16384L,\"#c\":\"ae2:f\",id:\"gtceu:americium\"},{\"#\":16384L,\"#c\":\"ae2:f\",id:\"gtceu:naquadria\"}],out:[{\"#\":4096L,\"#c\":\"ae2:f\",id:\"gtceu:neutronium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 0\"}\u0027,\u0027{\"text\":\"电压: IV (4096 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"gtceu\",marked:1b,n:\"luv_fusion_reactor\",targetItem:{Count:1b,id:\"gtceu:luv_fusion_reactor\"}}},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"thetornproductionline\",marked:1b,n:\"fusion_process_module\",targetItem:{Count:1b,id:\"thetornproductionline:fusion_process_module\"}}},{\"#\":16000L,\"#c\":\"ae2:f\",id:\"gtceu:deuterium\"},{\"#\":16000L,\"#c\":\"ae2:f\",id:\"gtceu:tritium\"}],out:[{\"#\":16000L,\"#c\":\"ae2:f\",id:\"gtceu:helium_plasma\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 9\"}\u0027,\u0027{\"text\":\"电压: UEV (7864320 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:metalloid_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:poor_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:transition_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:alkaline_earth_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:rareearth_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:alkaline_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:actinoids_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:9}},{\"#\":1000L,\"#c\":\"ae2:f\",id:\"gtceu:not_found\"},{\"#\":1000L,\"#c\":\"ae2:f\",id:\"gtceu:noble_gas\"}],out:[{\"#\":1296L,\"#c\":\"ae2:f\",id:\"gtceu:periodicium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 0\"}\u0027,\u0027{\"text\":\"电压: IV (7680 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"gtceu\",marked:1b,n:\"luv_fusion_reactor\",targetItem:{Count:1b,id:\"gtceu:luv_fusion_reactor\"}}},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"thetornproductionline\",marked:1b,n:\"fusion_process_module\",targetItem:{Count:1b,id:\"thetornproductionline:fusion_process_module\"}}},{\"#\":2048L,\"#c\":\"ae2:f\",id:\"gtceu:lanthanum\"},{\"#\":2048L,\"#c\":\"ae2:f\",id:\"gtceu:silicon\"}],out:[{\"#\":2048L,\"#c\":\"ae2:f\",id:\"gtceu:lutetium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 1\"}\u0027,\u0027{\"text\":\"电压: ULV (7 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:indium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:gallium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:phosphorus_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:1}}],out:[{\"#\":432L,\"#c\":\"ae2:f\",id:\"gtceu:indium_gallium_phosphide\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 0\"}\u0027,\u0027{\"text\":\"电压: IV (7680 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"gtceu\",marked:1b,n:\"uv_fusion_reactor\",targetItem:{Count:1b,id:\"gtceu:uv_fusion_reactor\"}}},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"thetornproductionline\",marked:1b,n:\"fusion_process_module\",targetItem:{Count:1b,id:\"thetornproductionline:fusion_process_module\"}}},{\"#\":2048L,\"#c\":\"ae2:f\",id:\"gtceu:silicon\"},{\"#\":2048L,\"#c\":\"ae2:f\",id:\"gtceu:magnesium\"}],out:[{\"#\":2048L,\"#c\":\"ae2:f\",id:\"gtceu:iron_plasma\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 6\"}\u0027,\u0027{\"text\":\"电压: EV (1920 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:nickel_dust\"},{\"#\":3L,\"#c\":\"ae2:i\",id:\"gtceu:iron_dust\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:tungsten_dust\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:molybdenum_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:chromium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:niobium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:6}}],out:[{\"#\":2736L,\"#c\":\"ae2:f\",id:\"gtceu:hastelloy_x\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 7\"}\u0027,\u0027{\"text\":\"电压: IV (7680 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:niobium_dust\"},{\"#\":9L,\"#c\":\"ae2:i\",id:\"gtceu:chromium_dust\"},{\"#\":5L,\"#c\":\"ae2:i\",id:\"gtceu:aluminium_dust\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:titanium_dust\"},{\"#\":10L,\"#c\":\"ae2:i\",id:\"gtceu:cobalt_dust\"},{\"#\":13L,\"#c\":\"ae2:i\",id:\"gtceu:tungsten_dust\"},{\"#\":18L,\"#c\":\"ae2:i\",id:\"gtceu:nickel_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:7}}],out:[{\"#\":8496L,\"#c\":\"ae2:f\",id:\"gtceu:mar_m_200_steel\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 4\"}\u0027,\u0027{\"text\":\"电压: EV (1920 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":5L,\"#c\":\"ae2:i\",id:\"gtceu:tungsten_steel_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:chromium_dust\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:molybdenum_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:vanadium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:4}}],out:[{\"#\":1296L,\"#c\":\"ae2:f\",id:\"gtceu:hssg\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 8\"}\u0027,\u0027{\"text\":\"电压: UEV (7864320 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":3L,\"#c\":\"ae2:i\",id:\"gtceu:enderium_dust\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:ender_pearl_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:manganese_phosphide_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:magnesium_diboride_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:mercury_barium_calcium_cuprate_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:uranium_triplatinum_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:samarium_iron_arsenic_oxide_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:indium_tin_barium_titanium_cuprate_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:8}}],out:[{\"#\":1584L,\"#c\":\"ae2:f\",id:\"gtceu:enderite\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 4\"}\u0027,\u0027{\"text\":\"电压: LuV (30720 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":13L,\"#c\":\"ae2:i\",id:\"gtceu:tantalum_dust\"},{\"#\":12L,\"#c\":\"ae2:i\",id:\"gtceu:tungsten_dust\"},{\"#\":6L,\"#c\":\"ae2:i\",id:\"gtceu:titanium_dust\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:yttrium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:4}}],out:[{\"#\":5040L,\"#c\":\"ae2:f\",id:\"gtceu:tantalloy_61\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 7\"}\u0027,\u0027{\"text\":\"电压: ZPM (122880 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":3L,\"#c\":\"ae2:i\",id:\"gtceu:trinium_dust\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:maraging_steel_300_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:orichalcum_dust\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:nether_star_dust\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:tungsten_steel_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:osmiridium_dust\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:strontium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:7}}],out:[{\"#\":2160L,\"#c\":\"ae2:f\",id:\"gtceu:arceusalloy2b\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 2\"}\u0027,\u0027{\"text\":\"电压: IV (7680 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":3L,\"#c\":\"ae2:i\",id:\"gtceu:palladium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:rhodium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:2}}],out:[{\"#\":576L,\"#c\":\"ae2:f\",id:\"gtceu:rhodium_plated_palladium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 5\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:ruthenium_dust\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:trinium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:americium_dust\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:neutronium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:5}},{\"#\":8000L,\"#c\":\"ae2:f\",id:\"gtceu:oxygen\"}],out:[{\"#\":2016L,\"#c\":\"ae2:f\",id:\"gtceu:ruthenium_trinium_americium_neutronate\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 30\"}\u0027,\u0027{\"text\":\"电压: UHV (1966080 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:30}},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"gtceu\",marked:1b,n:\"neutron_activator\",targetItem:{Count:1b,id:\"gtceu:neutron_activator\"}}},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:quantum_star\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:quantum_eye\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"gtceu:mithril_dust\"},{\"#\":16L,\"#c\":\"ae2:i\",id:\"gtceu:gadolinium_dust\"},{\"#\":64L,\"#c\":\"ae2:i\",id:\"minecraft:netherite_scrap\"},{\"#\":64L,\"#c\":\"ae2:i\",id:\"ae2:fluix_dust\"},{\"#\":10000L,\"#c\":\"ae2:f\",id:\"gtceu:neon\"}],out:[{\"#\":10000L,\"#c\":\"ae2:f\",id:\"gtceu:quantanium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 2\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:arsenic_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:gallium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:2}}],out:[{\"#\":288L,\"#c\":\"ae2:f\",id:\"gtceu:gallium_arsenide\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 6\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":9L,\"#c\":\"ae2:i\",id:\"gtceu:titanium_dust\"},{\"#\":9L,\"#c\":\"ae2:i\",id:\"gtceu:carbon_dust\"},{\"#\":9L,\"#c\":\"ae2:i\",id:\"gtceu:potassium_dust\"},{\"#\":9L,\"#c\":\"ae2:i\",id:\"gtceu:lithium_dust\"},{\"#\":9L,\"#c\":\"ae2:i\",id:\"gtceu:sulfur_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:6}},{\"#\":5000L,\"#c\":\"ae2:f\",id:\"gtceu:hydrogen\"}],out:[{\"#\":7200L,\"#c\":\"ae2:f\",id:\"gtceu:grisium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 8\"}\u0027,\u0027{\"text\":\"电压: EV (1920 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:soldering_alloy_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:infused_gold_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:naquadah_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:astral_silver_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:red_steel_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:blue_steel_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:sterling_silver_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:rose_gold_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:8}}],out:[{\"#\":1152L,\"#c\":\"ae2:f\",id:\"gtceu:fluxed_electrum\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 5\"}\u0027,\u0027{\"text\":\"电压: EV (1920 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:iridium_dust\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:molybdenum_dust\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:chromium_dust\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:titanium_dust\"},{\"#\":15L,\"#c\":\"ae2:i\",id:\"gtceu:nickel_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:5}}],out:[{\"#\":3600L,\"#c\":\"ae2:f\",id:\"gtceu:hastelloy_n\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 5\"}\u0027,\u0027{\"text\":\"电压: EV (1920 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":5L,\"#c\":\"ae2:i\",id:\"gtceu:titanium_dust\"},{\"#\":5L,\"#c\":\"ae2:i\",id:\"gtceu:molybdenum_dust\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:vanadium_dust\"},{\"#\":3L,\"#c\":\"ae2:i\",id:\"gtceu:chromium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:aluminium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:5}}],out:[{\"#\":2304L,\"#c\":\"ae2:f\",id:\"gtceu:tanmolyium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 2\"}\u0027,\u0027{\"text\":\"电压: HV (480 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:energetic_alloy_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:ender_pearl_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:2}}],out:[{\"#\":288L,\"#c\":\"ae2:f\",id:\"gtceu:vibrant_alloy\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 2\"}\u0027,\u0027{\"text\":\"电压: HV (480 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:niobium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:titanium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:2}}],out:[{\"#\":288L,\"#c\":\"ae2:f\",id:\"gtceu:niobium_titanium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 15\"}\u0027,\u0027{\"text\":\"电压: MV (128 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:15}},{\"#\":1L,\"#c\":\"ae2:i\",id:\"minecraft:iron_ingot\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:coal_dust\"}],out:[{\"#\":444L,\"#c\":\"ae2:f\",id:\"gtceu:steel\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ZPM (49152 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"gtceu\",marked:1b,n:\"zpm_fusion_reactor\",targetItem:{Count:1b,id:\"gtceu:zpm_fusion_reactor\"}}},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"thetornproductionline\",marked:1b,n:\"fusion_process_module\",targetItem:{Count:1b,id:\"thetornproductionline:fusion_process_module\"}}},{\"#\":4096L,\"#c\":\"ae2:f\",id:\"gtceu:lutetium\"},{\"#\":4096L,\"#c\":\"ae2:f\",id:\"gtceu:chromium\"}],out:[{\"#\":4096L,\"#c\":\"ae2:f\",id:\"gtceu:americium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 2\"}\u0027,\u0027{\"text\":\"电压: EV (1920 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:zirconium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:carbon_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:2}}],out:[{\"#\":288L,\"#c\":\"ae2:f\",id:\"gtceu:zirconium_carbide\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ZPM (49152 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"gtceu\",marked:1b,n:\"luv_fusion_reactor\",targetItem:{Count:1b,id:\"gtceu:luv_fusion_reactor\"}}},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"thetornproductionline\",marked:1b,n:\"fusion_process_module\",targetItem:{Count:1b,id:\"thetornproductionline:fusion_process_module\"}}},{\"#\":16000L,\"#c\":\"ae2:f\",id:\"gtceu:xenon\"},{\"#\":2048L,\"#c\":\"ae2:f\",id:\"gtceu:zinc\"}],out:[{\"#\":2048L,\"#c\":\"ae2:f\",id:\"gtceu:plutonium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 4\"}\u0027,\u0027{\"text\":\"电压: EV (1920 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:vanadium_steel_dust\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:manganese_dust\"},{\"#\":5L,\"#c\":\"ae2:i\",id:\"gtceu:aluminium_dust\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:yttrium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:4}}],out:[{\"#\":1872L,\"#c\":\"ae2:f\",id:\"gtceu:incoloy_ma_956\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 4\"}\u0027,\u0027{\"text\":\"电压: HV (480 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:invar_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:vanadium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:titanium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:molybdenum_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:4}}],out:[{\"#\":720L,\"#c\":\"ae2:f\",id:\"gtceu:hsla_steel\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 4\"}\u0027,\u0027{\"text\":\"电压: UHV (1966080 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:scandium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:yttrium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:lanthanoids_1_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:lanthanoids_2_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:4}}],out:[{\"#\":576L,\"#c\":\"ae2:f\",id:\"gtceu:rareearth\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 7\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:copernicium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:nihonium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:flerovium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:moscovium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:livermorium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:tennessine_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:oganesson_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:7}}],out:[{\"#\":1008L,\"#c\":\"ae2:f\",id:\"gtceu:superheavy_h_alloy\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 2\"}\u0027,\u0027{\"text\":\"电压: LuV (30720 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":3L,\"#c\":\"ae2:i\",id:\"gtceu:iridium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:osmium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:2}}],out:[{\"#\":576L,\"#c\":\"ae2:f\",id:\"gtceu:osmiridium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 3\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:vanadium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:chromium_dust\"},{\"#\":7L,\"#c\":\"ae2:i\",id:\"gtceu:steel_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:3}}],out:[{\"#\":1296L,\"#c\":\"ae2:f\",id:\"gtceu:vanadium_steel\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 3\"}\u0027,\u0027{\"text\":\"电压: LuV (30720 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":3L,\"#c\":\"ae2:i\",id:\"gtceu:germanium_dust\"},{\"#\":3L,\"#c\":\"ae2:i\",id:\"gtceu:tungsten_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:3}},{\"#\":10000L,\"#c\":\"ae2:f\",id:\"gtceu:nitrogen\"}],out:[{\"#\":2304L,\"#c\":\"ae2:f\",id:\"gtceu:germaniumtungstennitride\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 3\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:nickel_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:black_bronze_dust\"},{\"#\":3L,\"#c\":\"ae2:i\",id:\"gtceu:steel_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:3}}],out:[{\"#\":720L,\"#c\":\"ae2:f\",id:\"gtceu:black_steel\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 9\"}\u0027,\u0027{\"text\":\"电压: LV (16 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":6L,\"#c\":\"ae2:i\",id:\"gtceu:copper_dust\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:tin_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:lead_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:9}}],out:[{\"#\":1296L,\"#c\":\"ae2:f\",id:\"gtceu:potin\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 0\"}\u0027,\u0027{\"text\":\"电压: LuV (24576 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"gtceu\",marked:1b,n:\"zpm_fusion_reactor\",targetItem:{Count:1b,id:\"gtceu:zpm_fusion_reactor\"}}},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"thetornproductionline\",marked:1b,n:\"fusion_process_module\",targetItem:{Count:1b,id:\"thetornproductionline:fusion_process_module\"}}},{\"#\":18432L,\"#c\":\"ae2:f\",id:\"gtceu:silver\"},{\"#\":18432L,\"#c\":\"ae2:f\",id:\"gtceu:lithium\"}],out:[{\"#\":18432L,\"#c\":\"ae2:f\",id:\"gtceu:indium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 4\"}\u0027,\u0027{\"text\":\"电压: EV (1920 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":6L,\"#c\":\"ae2:i\",id:\"gtceu:hssg_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:cobalt_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:manganese_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:silicon_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:4}}],out:[{\"#\":1296L,\"#c\":\"ae2:f\",id:\"gtceu:hsse\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 1\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:niobium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:1}},{\"#\":1000L,\"#c\":\"ae2:f\",id:\"gtceu:nitrogen\"}],out:[{\"#\":288L,\"#c\":\"ae2:f\",id:\"gtceu:niobium_nitride\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 7\"}\u0027,\u0027{\"text\":\"电压: EV (1920 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:hastelloy_n_dust\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:naquadah_dust\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:samarium_dust\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:tungsten_dust\"},{\"#\":6L,\"#c\":\"ae2:i\",id:\"gtceu:aluminium_dust\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:nickel_dust\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:carbon_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:7}}],out:[{\"#\":4032L,\"#c\":\"ae2:f\",id:\"gtceu:lafium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 5\"}\u0027,\u0027{\"text\":\"电压: HV (480 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:barium_dust\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:calcium_dust\"},{\"#\":3L,\"#c\":\"ae2:i\",id:\"gtceu:copper_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:5}},{\"#\":1000L,\"#c\":\"ae2:f\",id:\"gtceu:mercury\"},{\"#\":8000L,\"#c\":\"ae2:f\",id:\"gtceu:oxygen\"}],out:[{\"#\":2304L,\"#c\":\"ae2:f\",id:\"gtceu:mercury_barium_calcium_cuprate\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 5\"}\u0027,\u0027{\"text\":\"电压: UV (491520 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":3L,\"#c\":\"ae2:i\",id:\"gtceu:titansteel_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:ytterbium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:perditio_crystal_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:earth_crystal_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:ignis_crystal_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:5}}],out:[{\"#\":1008L,\"#c\":\"ae2:f\",id:\"gtceu:titan_precision_steel\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 3\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:gold_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"minecraft:redstone\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"minecraft:glowstone_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:3}}],out:[{\"#\":576L,\"#c\":\"ae2:f\",id:\"gtceu:energetic_alloy\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 0\"}\u0027,\u0027{\"text\":\"电压: UEV (7864320 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"gtceu\",marked:1b,n:\"uev_fusion_reactor\",targetItem:{Count:1b,id:\"gtceu:uev_fusion_reactor\"}}},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"thetornproductionline\",marked:1b,n:\"fusion_process_module\",targetItem:{Count:1b,id:\"thetornproductionline:fusion_process_module\"}}},{\"#\":256000L,\"#c\":\"ae2:f\",id:\"gtceu:crystalmatrix\"},{\"#\":128000L,\"#c\":\"ae2:f\",id:\"gtceu:cosmicneutronium\"}],out:[{\"#\":8192L,\"#c\":\"ae2:f\",id:\"gtceu:infinity\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 3\"}\u0027,\u0027{\"text\":\"电压: IV (7680 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:uranium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:rhodium_dust\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:naquadah_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:3}}],out:[{\"#\":576L,\"#c\":\"ae2:f\",id:\"gtceu:uranium_rhodium_dinaquadide\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 3\"}\u0027,\u0027{\"text\":\"电压: HV (480 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:iron_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:aluminium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:chromium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:3}}],out:[{\"#\":432L,\"#c\":\"ae2:f\",id:\"gtceu:kanthal\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 3\"}\u0027,\u0027{\"text\":\"电压: EV (1920 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:ruthenium_dust\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:tungsten_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:molybdenum_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:3}}],out:[{\"#\":1008L,\"#c\":\"ae2:f\",id:\"gtceu:rtm_alloy\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 2\"}\u0027,\u0027{\"text\":\"电压: EV (1920 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:tantalum_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:carbon_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:2}}],out:[{\"#\":288L,\"#c\":\"ae2:f\",id:\"gtceu:tantalum_carbide\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 4\"}\u0027,\u0027{\"text\":\"电压: HV (480 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:sterling_silver_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:bismuth_bronze_dust\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:steel_dust\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:black_steel_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:4}}],out:[{\"#\":1152L,\"#c\":\"ae2:f\",id:\"gtceu:red_steel\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 8\"}\u0027,\u0027{\"text\":\"电压: UIV (31457280 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:zeron_100_dust\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:naquadria_dust\"},{\"#\":3L,\"#c\":\"ae2:i\",id:\"gtceu:terbium_dust\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:aluminium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:tin_dust\"},{\"#\":6L,\"#c\":\"ae2:i\",id:\"gtceu:titanium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:osmiridium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:8}},{\"#\":1000L,\"#c\":\"ae2:f\",id:\"gtceu:mercury\"}],out:[{\"#\":3744L,\"#c\":\"ae2:f\",id:\"gtceu:cinobite\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 2\"}\u0027,\u0027{\"text\":\"电压: LV (16 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:copper_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:nickel_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:2}}],out:[{\"#\":288L,\"#c\":\"ae2:f\",id:\"gtceu:cupronickel\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 2\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:copper_dust\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:gold_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:2}}],out:[{\"#\":720L,\"#c\":\"ae2:f\",id:\"gtceu:rose_gold\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 0\"}\u0027,\u0027{\"text\":\"电压: UV (262144 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"gtceu\",marked:1b,n:\"uhv_fusion_reactor\",targetItem:{Count:1b,id:\"gtceu:uhv_fusion_reactor\"}}},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"thetornproductionline\",marked:1b,n:\"fusion_process_module\",targetItem:{Count:1b,id:\"thetornproductionline:fusion_process_module\"}}},{\"#\":2048L,\"#c\":\"ae2:f\",id:\"gtceu:lead\"},{\"#\":2048L,\"#c\":\"ae2:f\",id:\"gtceu:bromine\"}],out:[{\"#\":2048L,\"#c\":\"ae2:f\",id:\"gtceu:tennessine\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 5\"}\u0027,\u0027{\"text\":\"电压: LV (16 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:lead_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:antimony_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:5}}],out:[{\"#\":720L,\"#c\":\"ae2:f\",id:\"gtceu:battery_alloy\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 5\"}\u0027,\u0027{\"text\":\"电压: EV (1920 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":47L,\"#c\":\"ae2:i\",id:\"gtceu:bismuth_dust\"},{\"#\":25L,\"#c\":\"ae2:i\",id:\"gtceu:lead_dust\"},{\"#\":13L,\"#c\":\"ae2:i\",id:\"gtceu:tin_dust\"},{\"#\":10L,\"#c\":\"ae2:i\",id:\"gtceu:cadmium_dust\"},{\"#\":5L,\"#c\":\"ae2:i\",id:\"gtceu:indium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:5}}],out:[{\"#\":14400L,\"#c\":\"ae2:f\",id:\"gtceu:indalloy_140\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 6\"}\u0027,\u0027{\"text\":\"电压: UIV (33554432 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:titan_precision_steel_dust\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:americium_dust\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:tartarite_dust\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:tungsten_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:6}},{\"#\":144L,\"#c\":\"ae2:f\",id:\"gtceu:astraltitanium\"},{\"#\":1000L,\"#c\":\"ae2:f\",id:\"gtceu:xenon\"}],out:[{\"#\":1000L,\"#c\":\"ae2:f\",id:\"gtceu:celestialtungsten\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 5\"}\u0027,\u0027{\"text\":\"电压: UXV (125829120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":15L,\"#c\":\"ae2:i\",id:\"gtceu:magneto_resonatic_dust\"},{\"#\":47L,\"#c\":\"ae2:i\",id:\"gtceu:metastable_oganesson_dust\"},{\"#\":35L,\"#c\":\"ae2:i\",id:\"gtceu:praseodymium_dust\"},{\"#\":60L,\"#c\":\"ae2:i\",id:\"gtceu:echoite_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:5}},{\"#\":4000L,\"#c\":\"ae2:f\",id:\"gtladditions:phonon_crystal_solution\"}],out:[{\"#\":1000L,\"#c\":\"ae2:f\",id:\"gtladditions:phonon_medium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 6\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:nickel_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:zinc_dust\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:iron_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:6}},{\"#\":8000L,\"#c\":\"ae2:f\",id:\"gtceu:oxygen\"}],out:[{\"#\":864L,\"#c\":\"ae2:f\",id:\"gtceu:nickel_zinc_ferrite\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ZPM (65536 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"gtceu\",marked:1b,n:\"uhv_fusion_reactor\",targetItem:{Count:1b,id:\"gtceu:uhv_fusion_reactor\"}}},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"thetornproductionline\",marked:1b,n:\"fusion_process_module\",targetItem:{Count:1b,id:\"thetornproductionline:fusion_process_module\"}}},{\"#\":8192L,\"#c\":\"ae2:f\",id:\"gtceu:europium\"},{\"#\":32000L,\"#c\":\"ae2:f\",id:\"gtceu:neon\"}],out:[{\"#\":8192L,\"#c\":\"ae2:f\",id:\"gtceu:dubnium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 2\"}\u0027,\u0027{\"text\":\"电压: EV (1920 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:titanium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:carbon_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:2}}],out:[{\"#\":288L,\"#c\":\"ae2:f\",id:\"gtceu:titanium_carbide\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 5\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:lithium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:cobalt_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:platinum_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:erbium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:5}},{\"#\":1000L,\"#c\":\"ae2:f\",id:\"gtceu:helium\"}],out:[{\"#\":720L,\"#c\":\"ae2:f\",id:\"gtceu:fall_king\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 8\"}\u0027,\u0027{\"text\":\"电压: ZPM (122880 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:inconel_792_dust\"},{\"#\":5L,\"#c\":\"ae2:i\",id:\"gtceu:eglin_steel_dust\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:enriched_naquadah_dust\"},{\"#\":3L,\"#c\":\"ae2:i\",id:\"gtceu:cerium_dust\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:antimony_dust\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:platinum_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:ytterbium_dust\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:tungsten_steel_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:8}}],out:[{\"#\":4176L,\"#c\":\"ae2:f\",id:\"gtceu:pikyonium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 9\"}\u0027,\u0027{\"text\":\"电压: UXV (125829120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":26L,\"#c\":\"ae2:i\",id:\"gtceu:titanium_dust\"},{\"#\":6L,\"#c\":\"ae2:i\",id:\"gtceu:lanthanum_dust\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:tungsten_dust\"},{\"#\":3L,\"#c\":\"ae2:i\",id:\"gtceu:cobalt_dust\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:manganese_dust\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:phosphorus_dust\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:palladium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:niobium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:9}},{\"#\":5000L,\"#c\":\"ae2:f\",id:\"gtceu:argon\"}],out:[{\"#\":7344L,\"#c\":\"ae2:f\",id:\"gtceu:black_titanium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 4\"}\u0027,\u0027{\"text\":\"电压: EV (1920 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:samarium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:iron_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:arsenic_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:4}},{\"#\":1000L,\"#c\":\"ae2:f\",id:\"gtceu:oxygen\"}],out:[{\"#\":576L,\"#c\":\"ae2:f\",id:\"gtceu:samarium_iron_arsenic_oxide\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 6\"}\u0027,\u0027{\"text\":\"电压: UIV (33554432 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:orichalcum_dust\"},{\"#\":6L,\"#c\":\"ae2:i\",id:\"gtceu:antimony_dust\"},{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:iron_dust\"},{\"#\":24L,\"#c\":\"ae2:i\",id:\"gtceu:bloodstone_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:6}},{\"#\":1000L,\"#c\":\"ae2:f\",id:\"gtceu:mercury\"},{\"#\":1024L,\"#c\":\"ae2:f\",id:\"gtceu:tin\"}],out:[{\"#\":2304L,\"#c\":\"ae2:f\",id:\"gtceu:adamantium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 2\"}\u0027,\u0027{\"text\":\"电压: LV (16 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:gold_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:silver_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:2}}],out:[{\"#\":288L,\"#c\":\"ae2:f\",id:\"gtceu:electrum\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 2\"}\u0027,\u0027{\"text\":\"电压: UXV (125829120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:naquadria_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:taranium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:2}}],out:[{\"#\":288L,\"#c\":\"ae2:f\",id:\"gtceu:naquadriatictaranium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 0\"}\u0027,\u0027{\"text\":\"电压: LuV (24576 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"gtceu\",marked:1b,n:\"luv_fusion_reactor\",targetItem:{Count:1b,id:\"gtceu:luv_fusion_reactor\"}}},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"thetornproductionline\",marked:1b,n:\"fusion_process_module\",targetItem:{Count:1b,id:\"thetornproductionline:fusion_process_module\"}}},{\"#\":2048L,\"#c\":\"ae2:f\",id:\"gtceu:neodymium\"},{\"#\":48000L,\"#c\":\"ae2:f\",id:\"gtceu:hydrogen\"}],out:[{\"#\":2048L,\"#c\":\"ae2:f\",id:\"gtceu:europium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 0\"}\u0027,\u0027{\"text\":\"电压: LuV (24576 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"gtceu\",marked:1b,n:\"luv_fusion_reactor\",targetItem:{Count:1b,id:\"gtceu:luv_fusion_reactor\"}}},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"thetornproductionline\",marked:1b,n:\"fusion_process_module\",targetItem:{Count:1b,id:\"thetornproductionline:fusion_process_module\"}}},{\"#\":16000L,\"#c\":\"ae2:f\",id:\"gtceu:mercury\"},{\"#\":2048L,\"#c\":\"ae2:f\",id:\"gtceu:magnesium\"}],out:[{\"#\":2048L,\"#c\":\"ae2:f\",id:\"gtceu:uranium_235\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ZPM (122880 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"gtceu\",marked:1b,n:\"uhv_fusion_reactor\",targetItem:{Count:1b,id:\"gtceu:uhv_fusion_reactor\"}}},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"thetornproductionline\",marked:1b,n:\"fusion_process_module\",targetItem:{Count:1b,id:\"thetornproductionline:fusion_process_module\"}}},{\"#\":4096L,\"#c\":\"ae2:f\",id:\"gtceu:calcium\"},{\"#\":4096L,\"#c\":\"ae2:f\",id:\"gtceu:curium\"}],out:[{\"#\":4096L,\"#c\":\"ae2:f\",id:\"gtceu:moscovium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 7\"}\u0027,\u0027{\"text\":\"电压: IV (7680 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":8L,\"#c\":\"ae2:i\",id:\"gtceu:nickel_dust\"},{\"#\":6L,\"#c\":\"ae2:i\",id:\"gtceu:chromium_dust\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:molybdenum_dust\"},{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:niobium_dust\"},{\"#\":3L,\"#c\":\"ae2:i\",id:\"gtceu:titanium_dust\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:iron_dust\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:aluminium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:7}}],out:[{\"#\":4176L,\"#c\":\"ae2:f\",id:\"gtceu:inconel_625\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 0\"}\u0027,\u0027{\"text\":\"电压: LuV (24576 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"gtceu\",marked:1b,n:\"luv_fusion_reactor\",targetItem:{Count:1b,id:\"gtceu:luv_fusion_reactor\"}}},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"thetornproductionline\",marked:1b,n:\"fusion_process_module\",targetItem:{Count:1b,id:\"thetornproductionline:fusion_process_module\"}}},{\"#\":16000L,\"#c\":\"ae2:f\",id:\"gtceu:hydrogen\"},{\"#\":2048L,\"#c\":\"ae2:f\",id:\"gtceu:vanadium\"}],out:[{\"#\":2048L,\"#c\":\"ae2:f\",id:\"gtceu:chromium\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 0\"}\u0027,\u0027{\"text\":\"电压: UEV (7864320 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"gtceu\",marked:1b,n:\"uev_fusion_reactor\",targetItem:{Count:1b,id:\"gtceu:uev_fusion_reactor\"}}},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"thetornproductionline\",marked:1b,n:\"fusion_process_module\",targetItem:{Count:1b,id:\"thetornproductionline:fusion_process_module\"}}},{\"#\":16000L,\"#c\":\"ae2:f\",id:\"gtceu:draconium\"},{\"#\":16000L,\"#c\":\"ae2:f\",id:\"gtceu:quantumchromodynamically_confined_matter\"}],out:[{\"#\":16000L,\"#c\":\"ae2:f\",id:\"gtceu:draconiumawakened_plasma\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 3\"}\u0027,\u0027{\"text\":\"电压: EV (1920 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":6L,\"#c\":\"ae2:i\",id:\"gtceu:hssg_dust\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:iridium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:osmium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:3}}],out:[{\"#\":1296L,\"#c\":\"ae2:f\",id:\"gtceu:hsss\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ZPM (65536 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"gtceu\",marked:1b,n:\"uv_fusion_reactor\",targetItem:{Count:1b,id:\"gtceu:uv_fusion_reactor\"}}},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"thetornproductionline\",marked:1b,n:\"fusion_process_module\",targetItem:{Count:1b,id:\"thetornproductionline:fusion_process_module\"}}},{\"#\":2048L,\"#c\":\"ae2:f\",id:\"gtceu:europium\"},{\"#\":2048L,\"#c\":\"ae2:f\",id:\"gtceu:arsenic\"}],out:[{\"#\":2048L,\"#c\":\"ae2:f\",id:\"gtceu:silver_plasma\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 0\"}\u0027,\u0027{\"text\":\"电压: ZPM (49152 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"gtceu\",marked:1b,n:\"uv_fusion_reactor\",targetItem:{Count:1b,id:\"gtceu:uv_fusion_reactor\"}}},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gt_shanhai:virtual_item_provider\",tag:{m:\"thetornproductionline\",marked:1b,n:\"fusion_process_module\",targetItem:{Count:1b,id:\"thetornproductionline:fusion_process_module\"}}},{\"#\":2048L,\"#c\":\"ae2:f\",id:\"gtceu:enriched_naquadah\"},{\"#\":16000L,\"#c\":\"ae2:f\",id:\"gtceu:radon\"}],out:[{\"#\":512L,\"#c\":\"ae2:f\",id:\"gtceu:naquadria\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 4\"}\u0027,\u0027{\"text\":\"电压: MV (120 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":6L,\"#c\":\"ae2:i\",id:\"gtceu:soda_ash_dust\"},{\"#\":3L,\"#c\":\"ae2:i\",id:\"gtceu:silicon_dioxide_dust\"},{\"#\":3L,\"#c\":\"ae2:i\",id:\"gtceu:garnierite_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:barium_sulfide_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:4}}],out:[{\"#\":1872L,\"#c\":\"ae2:f\",id:\"gtceu:woods_glass\"}]}}",
+      "amount": "1"
+    },
+    {
+      "key": "{\"#c\":\"ae2:i\",id:\"ae2:processing_pattern\",tag:{display:{Lore:[\u0027{\"text\":\"配方类型: gtceu:alloy_blast_smelter 电路: 4\"}\u0027,\u0027{\"text\":\"电压: LuV (30720 EU/t)\"}\u0027]},gt_shanhai_recipe_type:\"gtceu:alloy_blast_smelter\",gt_shanhai_recipe_type_authoritative:1b,in:[{\"#\":4L,\"#c\":\"ae2:i\",id:\"gtceu:enriched_naquadah_dust\"},{\"#\":3L,\"#c\":\"ae2:i\",id:\"gtceu:trinium_dust\"},{\"#\":2L,\"#c\":\"ae2:i\",id:\"gtceu:europium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:duranium_dust\"},{\"#\":1L,\"#c\":\"ae2:i\",id:\"gtceu:programmed_circuit\",tag:{Configuration:4}}],out:[{\"#\":1440L,\"#c\":\"ae2:f\",id:\"gtceu:enriched_naquadah_trinium_europium_duranide\"}]}}",
+      "amount": "1"
+    }
+  ]
+}
